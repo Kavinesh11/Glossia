@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ISL : Avatar Page</title>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <meta http-equiv="Access-Control-Allow-Methods" content="GET">
+  <link rel="stylesheet" href="css/cwasa.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="avatar_files/allcsa.js"></script>
+  <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+  <style>
+    .divCtrlPanel {
+      display: none !important;
+    }
+  </style>
+</head>
+
+<body onload="CWASA.init();">
+  <div class="container" id="avatar_wrapper" style="display:none;">
+    <div class="row">
+
+
+      <div class="col-md-6">
+        <div class="CWASAPanel av0" align="center">
+          <div class="divAv av0">
+            <canvas class="canvasAv av0" ondragstart="return false" width="374" height="403"></canvas>
+          </div>
+        </div>
+        <div id="currentWord" class="alert alert-warning"></div>
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/hindiconvert.js"></script>
+  <script>
+    var SigmlData = [];
+    var lookup = {};
+    var playbackGeneration = 0;
+    var dictionaryReady = false;
+    var pendingText = null;
+
+    // Function to get URL parameters
+    function getUrlParameter(name) {
+      name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+      var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+      var results = regex.exec(location.search);
+      return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    }
+
+    // Function to play avatar animation
+    function playAvatarText(text) {
+      if (!text) return;
+
+      playbackGeneration++;
+      const generation = playbackGeneration;
+      var words = text.replace(/[\u200B-\u200D\uFEFF]/g, '').trim().split(/\s+/);
+
+      function playSiGML(sign) {
+        if (typeof CWASA !== 'undefined' && typeof CWASA.playSiGMLText === 'function') {
+          CWASA.playSiGMLText(sign, 0);
+        }
+      }
+
+      function playNext(i) {
+        if (generation !== playbackGeneration) return;
+        if (i >= words.length) {
+          setTimeout(() => $("#currentWord").text(""), 2000);
+          return;
+        }
+
+        var word = words[i].toLowerCase();
+        if (lookup[word]) {
+          playSiGML(lookup[word]);
+          setTimeout(() => playNext(i + 1), 2000);
+        } else {
+          let chars = word.split('');
+          let charIndex = 0;
+
+          function playChar() {
+            if (generation !== playbackGeneration) return;
+            if (charIndex >= chars.length) {
+              playNext(i + 1);
+              return;
+            }
+
+            let char = chars[charIndex];
+            if (lookup[char]) {
+              playSiGML(lookup[char]);
+              setTimeout(() => {
+                charIndex++;
+                playChar();
+              }, 1000);
+            } else {
+              charIndex++;
+              playChar();
+            }
+          }
+
+          playChar();
+        }
+      }
+
+      playNext(0);
+    }
+
+    $(document).ready(function () {
+      window.addEventListener('message', function (event) {
+        if (event.origin !== window.location.origin || !event.data || event.data.type !== 'PLAY_TEXT') return;
+        if (!dictionaryReady) {
+          pendingText = event.data.text;
+          return;
+        }
+        playAvatarText(event.data.text);
+      });
+
+      const waitForAvatar = setInterval(function () {
+        if (typeof TUavatarLoaded !== 'undefined' && TUavatarLoaded) {
+          clearInterval(waitForAvatar);
+          $("#avatar_wrapper").show();
+          $("divCtrlPanel").hide();
+          if (window.opener && !window.opener.closed) {
+            window.opener.postMessage({ type: 'AVATAR_READY' }, window.location.origin);
+          }
+          
+          // Check for URL parameter and auto-play
+          const urlText = getUrlParameter('text');
+          if (urlText) {
+            $("#engtext").val(urlText);
+            setTimeout(() => {
+              playAvatarText(urlText);
+            }, 1000); // Give a moment for everything to load
+          } else {
+            $("#urlInfo").show();
+          }
+        }
+      }, 500);
+
+      // Load SiGML JSON
+      $.getJSON("SignFiles/sigmlData.json", function (data) {
+        SigmlData = data;
+        for (let i = 0; i < data.length; i++) {
+          lookup[data[i].w.toLowerCase()] = data[i].s;
+        }
+        dictionaryReady = true;
+        if (pendingText) {
+          const text = pendingText;
+          pendingText = null;
+          playAvatarText(text);
+        }
+      });
+
+      // Manual play button
+      $("#playeng").click(function () {
+        var text = $("#engtext").val().trim();
+        playAvatarText(text);
+      });
+
+      // Auto play button (replays current text)
+      $("#autoplay").click(function () {
+        var text = $("#engtext").val().trim();
+        if (!text) {
+          const urlText = getUrlParameter('text');
+          if (urlText) {
+            text = urlText;
+            $("#engtext").val(text);
+          }
+        }
+        playAvatarText(text);
+      });
+    });
+  </script>
+</body>
+</html>
