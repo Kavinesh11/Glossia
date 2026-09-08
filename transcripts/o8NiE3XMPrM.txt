@@ -1,0 +1,3707 @@
+Transcript for YouTube video: o8NiE3XMPrM
+--------------------------------------------------
+
+[2.0s - 5.5s] [MOUSE CLICKING]
+[7.5s - 11.0s] [MUSIC PLAYING]
+[71.8s - 73.4s] - This town ain't
+seen nothing yet.
+[73.4s - 76.5s] [NEW RADICALS, "YOU GET WHAT YOU
+GIVE"]
+[141.1s - 143.7s] [APPLAUSE, CHEERING]
+[150.3s - 151.6s] SUNDAR PICHAI: Wow, cool video.
+[151.6s - 154.4s] Looks like the team has
+been having some fun.
+[154.4s - 155.5s] Hello, everyone.
+[155.5s - 156.4s] Good morning.
+[156.4s - 157.3s] Welcome to Google I/O.
+[157.3s - 160.3s] [APPLAUSE, CHEERING]
+[163.2s - 166.1s] So good to see everyone
+here in Shoreline.
+[166.1s - 170.2s] And hello to everyone joining
+virtually around the world.
+[170.2s - 174.0s] I learned that today is
+the start of Gemini season.
+[174.0s - 175.9s] I'm not really sure
+what the big deal is.
+[175.9s - 180.0s] Every day is Gemini
+season here at Google.
+[180.0s - 182.3s] Normally, you wouldn't
+have heard much from us
+[182.3s - 186.2s] in the weeks leading up to I/O.
+That's because we'd be saving
+[186.2s - 188.9s] our best models for this stage.
+[188.9s - 191.0s] But in our Gemini
+era, we are just
+[191.0s - 193.9s] as likely to ship our
+most intelligent model
+[193.9s - 197.9s] on a random Tuesday in March
+or a really cool breakthrough
+[197.9s - 201.0s] like AlphaEvolve
+just a week before.
+[201.0s - 204.2s] We want to get our best
+models into your hands
+[204.2s - 206.8s] and our products ASAP.
+[206.8s - 210.8s] And so we are shipping
+faster than ever.
+[210.8s - 213.5s] We have announced over a
+dozen models and research
+[213.5s - 216.8s] breakthroughs and
+released over 20 major AI
+[216.8s - 221.0s] products and features,
+all since the last I/O.
+[221.1s - 224.9s] I'm particularly excited about
+the rapid model progress.
+[224.9s - 228.2s] You can see the step
+function change here.
+[228.2s - 230.9s] Elo scores, one
+measure of progress,
+[230.9s - 234.3s] are up more than 300 points
+since the first generation
+[234.3s - 235.5s] of Gemini Pro.
+[235.5s - 240.5s] And today, Gemini 2.5 Pro
+sweeps the LMArena leaderboard
+[240.5s - 241.8s] in all categories.
+[241.8s - 244.9s] [APPLAUSE, CHEERING]
+[249.6s - 252.7s] It is state of the art
+on many, many benchmarks.
+[252.7s - 255.9s] And we have also made
+rapid progress in coding.
+[255.9s - 260.1s] Our updated 2.5 Pro reached
+number one on WebDev Arena,
+[260.1s - 265.2s] and now surpasses the previous
+version by 140 Elo points.
+[265.2s - 268.5s] It's getting a lot of love
+across the top coding platforms,
+[268.5s - 270.1s] thanks to all of you.
+[270.1s - 273.6s] On Cursor, the leading
+AI code editor,
+[273.6s - 276.8s] Gemini is the fastest
+growing model of the year,
+[276.8s - 279.2s] producing hundreds
+of thousands of lines
+[279.1s - 282.8s] of accepted code
+every single minute.
+[282.8s - 286.7s] Now, this last milestone might
+be the most impressive, at least
+[286.7s - 288.1s] in some circles.
+[288.1s - 291.7s] A couple of weeks ago, Gemini
+completed "Pokémon Blue."
+[291.7s - 295.0s] [APPLAUSE, CHEERING]
+[296.0s - 299.5s] It earned all eight badges,
+traveled to Victory Road,
+[299.5s - 302.5s] defeated the Elite
+Four, and the champion,
+[302.5s - 307.6s] bringing us one step closer
+to achieving API, Artificial
+[307.6s - 308.6s] Pokemon Intelligence.
+[308.6s - 311.8s] [APPLAUSE, CHEERING]
+[314.2s - 316.2s] All of this progress
+is enabled by
+[316.2s - 318.0s] our world-leading
+infrastructure,
+[318.0s - 321.3s] the foundation of our
+full stack approach to AI.
+[321.3s - 324.1s] Our seventh generation
+TPU, Ironwood,
+[324.1s - 328.8s] is the first design to power
+thinking and inference at scale.
+[328.8s - 332.5s] It delivers 10x the performance
+over the previous generation
+[332.5s - 338.3s] and packs an incredible 42.5
+exaflops of compute per pod.
+[338.3s - 339.4s] Just amazing.
+[339.4s - 342.7s] And it's coming to Google Cloud
+customers later this year.
+[342.7s - 345.8s] [APPLAUSE]
+[346.7s - 350.0s] Our infrastructure
+strength down to the TPU
+[350.0s - 354.1s] is what helps us deliver
+dramatically faster models.
+[354.1s - 356.9s] Of the top models on
+the LMArena leaderboard,
+[356.9s - 361.1s] Gemini holds the top three
+spots for highest output tokens
+[361.1s - 365.7s] generated per second, all while
+model prices are coming down
+[365.7s - 367.4s] significantly.
+[367.4s - 370.6s] There's a hard trade off
+between price and performance,
+[370.6s - 374.0s] yet over and over, we've
+been able to deliver the best
+[373.9s - 377.2s] models at the most
+effective price point.
+[377.2s - 380.1s] Not only is Google leading
+this parade of frontier,
+[380.1s - 383.2s] we have fundamentally
+shifted the frontier itself.
+[383.2s - 387.3s] The result, more intelligence
+available for everyone,
+[387.3s - 388.7s] everywhere.
+[388.7s - 392.6s] And the world is responding and
+adopting AI faster than ever
+[392.6s - 394.0s] before.
+[394.0s - 396.2s] It's one marker of progress.
+[396.2s - 401.7s] This time last year, we were
+processing 9.7 trillion tokens
+[401.7s - 404.9s] a month across our
+products and APIs.
+[404.9s - 409.5s] Now we are processing 480
+trillion monthly tokens.
+[409.5s - 412.9s] That's about a 50x
+increase in just a year.
+[412.9s - 416.0s] [APPLAUSE]
+[418.8s - 421.0s] We're also seeing
+a wave of adoption
+[421.0s - 423.5s] across our developer AI tools.
+[423.5s - 427.8s] Today, over 7 million developers
+have built with the Gemini API
+[427.8s - 430.9s] across both Google AI
+Studio and Vertex AI,
+[430.9s - 437.4s] over 5x growth since last I/O.
+And Gemini usage on Vertex AI is
+[437.4s - 440.6s] up more than 40 times
+since last year.
+[440.6s - 443.7s] AI adoption is increasing
+across our products.
+[443.7s - 448.1s] The Gemini app now has over 400
+million monthly active users.
+[448.1s - 451.9s] We are seeing strong growth
+and engagement, particularly
+[451.9s - 453.6s] with 2.5 models.
+[453.6s - 457.0s] For those using 2.5
+Pro in the Gemini app,
+[457.0s - 459.8s] usage has gone up 45%.
+[459.8s - 463.9s] You will hear a lot more
+about the Gemini app later.
+[463.9s - 466.7s] We are also seeing incredible
+momentum in Search.
+[466.7s - 471.4s] Today, AI Overviews have
+more than 1.5 billion users
+[471.4s - 472.8s] every month.
+[472.8s - 476.8s] That means Google Search
+is bringing generative AI
+[476.8s - 480.6s] to more people than any
+other product in the world.
+[480.6s - 484.1s] And along with AI
+Overviews, AI Mode
+[484.1s - 486.5s] is the next big step for search.
+[486.5s - 489.7s] You'll hear more
+about this later.
+[489.7s - 493.0s] What all this progress
+means is that we
+[493.0s - 496.0s] are in a new phase of
+the AI platform shift,
+[496.0s - 500.2s] where decades of research are
+becoming reality for people
+[500.2s - 502.0s] all over the world.
+[502.0s - 506.3s] I want to share three examples
+of how research is transforming
+[506.3s - 507.8s] our products today--
+[507.8s - 512.5s] projects Starline,
+Astra, and Mariner.
+[512.5s - 516.1s] We debuted project Starline,
+our breakthrough 3D video
+[516.1s - 518.8s] technology, at I/O
+a few years back.
+[518.8s - 521.6s] The goal was to create a feeling
+of being in the same room
+[521.6s - 524.8s] as someone, even if
+you were far apart.
+[524.8s - 527.2s] We've continued to make
+technical advances,
+[527.2s - 530.6s] and today we are ready to
+announce our next chapter.
+[530.6s - 536.0s] Introducing Google Beam, a new
+AI first video communications
+[536.0s - 537.4s] platform.
+[537.4s - 542.6s] Beam uses a new state of the
+art video model to transform 2D
+[542.6s - 546.9s] video streams into a
+realistic 3D experience.
+[546.9s - 550.4s] Behind the scenes, an
+array of six cameras
+[550.4s - 552.7s] captures you from
+different angles.
+[552.7s - 556.9s] And with AI, we can merge
+these video streams together
+[556.9s - 560.1s] and render you on a
+3D lightfield display,
+[560.1s - 564.3s] with near perfect head tracking
+down to the millimeter and at 60
+[564.3s - 567.4s] frames per second,
+all in real time.
+[567.4s - 571.8s] The result, a much more
+natural and deeply immersive
+[571.8s - 573.6s] conversational experience.
+[573.6s - 577.0s] We are so excited to bring
+this technology to others.
+[577.0s - 580.9s] In collaboration with HP,
+the first Google Beam devices
+[580.9s - 586.1s] will be available for early
+customers later this year.
+[586.1s - 588.9s] HP will have a lot more to
+share a few weeks from now.
+[588.9s - 589.7s] Stay tuned.
+[589.7s - 593.0s] [APPLAUSE, CHEERING]
+[596.8s - 600.2s] Over the years, we've been
+bringing underlying technology
+[600.2s - 602.6s] from Starline into Google Meet.
+[602.6s - 605.4s] That includes real-time
+speech translation
+[605.4s - 608.0s] to help break down
+language barriers.
+[608.0s - 611.3s] Here's an example of
+how this could be useful
+[611.3s - 614.4s] when booking a vacation
+rental in South America
+[614.5s - 616.1s] and you don't
+speak the language.
+[616.1s - 617.7s] Let's take a look.
+[617.7s - 619.2s] [VIDEO PLAYBACK]
+[619.2s - 620.6s] - Hi, Camilla.
+[620.6s - 622.4s] Let me turn on
+speech translation.
+[625.2s - 627.2s] It's nice to
+finally talk to you.
+[627.2s - 629.8s] - [NON-ENGLISH SPEECH]
+[631.4s - 634.3s] - [NON-ENGLISH SPEECH]
+[634.3s - 635.8s] - You're going to
+have a lot of fun,
+[635.8s - 638.4s] and I think you're going
+to love visiting the city.
+[638.4s - 640.4s] The house is in a
+very nice neighborhood
+[640.4s - 642.8s] and overlooks the mountains.
+[642.8s - 644.3s] - That sounds wonderful.
+[644.3s - 644.9s] Is the house--
+[644.9s - 646.9s] - [NON-ENGLISH SPEECH]
+[650.4s - 653.2s] - [NON-ENGLISH SPEECH]
+[653.2s - 657.0s] - There's a bus nearby, but I
+would recommend renting a car
+[657.0s - 660.7s] so you can visit the
+nature and enjoy it.
+[660.7s - 664.6s] - That sounds great
+[NON-ENGLISH SPEECH]
+[664.6s - 666.1s] [END PLAYBACK]
+[666.1s - 672.0s] [APPLAUSE]
+[672.0s - 673.5s] SUNDAR PICHAI: You
+can see how well
+[673.5s - 676.2s] it matches the speaker's
+tone, patterns,
+[676.2s - 678.8s] and even their expressions.
+[678.8s - 681.6s] We are even closer to
+having a natural and free
+[681.6s - 684.5s] flowing conversation
+across languages.
+[684.5s - 687.6s] And today, we are introducing
+this real-time speech
+[687.6s - 690.3s] translation directly
+in Google Meet.
+[690.3s - 692.7s] English and Spanish
+translation is now
+[692.7s - 697.6s] available for subscribers,
+with more languages rolling out
+[697.6s - 699.4s] in the next few weeks.
+[699.4s - 702.5s] And real-time translation
+will be coming to Enterprises
+[702.5s - 703.3s] later this year.
+[703.3s - 706.5s] [APPLAUSE]
+[710.4s - 713.6s] Another early research project
+that debuted on the I/O stage
+[713.6s - 715.4s] was Project Astro.
+[715.4s - 717.5s] It explores the
+future capabilities
+[717.5s - 721.1s] of a universal AI assistant
+that can understand
+[721.1s - 722.6s] the world around you.
+[722.6s - 724.9s] We are starting to bring
+it to our products.
+[724.9s - 728.1s] Today, Gemini Live has
+project Astro's camera
+[728.1s - 730.8s] and screen sharing
+capabilities so you can
+[730.8s - 732.9s] talk about anything you see.
+[732.9s - 735.4s] People are using
+it in so many ways,
+[735.4s - 737.6s] whether practicing
+for a job interview
+[737.6s - 739.6s] or training for a marathon.
+[739.6s - 741.5s] We've been appreciating
+the feedback
+[741.5s - 745.7s] from our trusted testers and
+some who are a little less
+[745.7s - 746.4s] trusted.
+[746.4s - 747.0s] Take a look.
+[747.0s - 748.2s] [VIDEO PLAYBACK]
+[750.3s - 752.4s] - That's a pretty
+nice convertible.
+[752.4s - 754.6s] - I think you might have
+mistaken the garbage
+[754.6s - 756.2s] truck for a convertible.
+[756.2s - 758.1s] Is there anything else
+I can help you with?
+[758.1s - 760.5s] - What's this skinny building
+doing in my neighborhood?
+[760.5s - 763.3s] - It's a street
+light, not a building.
+[763.3s - 765.5s] - Why are these
+palm trees so short?
+[765.5s - 767.1s] I'm worried about them.
+[767.1s - 768.3s] - They're not short.
+[768.3s - 770.4s] They're actually pretty tall.
+[770.4s - 772.2s] - Sick convertible.
+[772.1s - 774.1s] - Garbage truck again.
+[774.1s - 775.6s] Anything else?
+[775.6s - 779.0s] - Why do people keep
+delivering packages to my lawn?
+[779.0s - 780.3s] - It's not a package.
+[780.3s - 781.8s] It's a utility box.
+[781.8s - 785.6s] - Why is this person
+following me wherever I walk?
+[785.6s - 787.1s] - No one's following you.
+[787.1s - 788.4s] That's just your shadow.
+[788.4s - 789.8s] [END PLAYBACK]
+[790.3s - 793.8s] [APPLAUSE, CHEERING]
+[796.9s - 799.0s] SUNDAR PICHAI: Gemini is
+pretty good at telling you
+[799.0s - 801.2s] when you're wrong.
+[801.2s - 803.4s] We are rolling this
+out to everyone
+[803.4s - 806.6s] on Android and iOS
+starting today.
+[806.6s - 810.0s] [APPLAUSE, CHEERING]
+[814.0s - 818.3s] Next, we also have our research
+prototype Project Mariner.
+[818.3s - 823.2s] It's an agent that can interact
+with the web and get stuff done.
+[823.2s - 825.3s] Stepping back, we
+think of agents
+[825.3s - 828.5s] as systems that combine the
+intelligence of advanced AI
+[828.5s - 831.1s] models with access to tools.
+[831.1s - 835.3s] They can take actions on your
+behalf and under your control.
+[835.3s - 839.0s] Computer use is an important
+agentic capability.
+[839.0s - 842.2s] It's what enables agents to
+interact with and operate
+[842.2s - 845.3s] browsers and other software.
+[845.3s - 847.8s] Project Mariner was
+an early step forward
+[847.8s - 850.2s] in testing computer-use
+capabilities.
+[850.2s - 853.9s] We released it as an early
+research prototype in December,
+[853.9s - 856.4s] and we have made a
+lot of progress since.
+[856.4s - 859.7s] First, we are
+introducing multitasking,
+[859.7s - 864.1s] and it can now oversee up
+to 10 simultaneous tasks.
+[864.1s - 867.6s] Second, it's using a feature
+called Teach and repeat.
+[867.6s - 870.6s] This is where you can
+show it a task once
+[870.5s - 874.6s] and it learns a plan for
+similar tasks in the future.
+[874.6s - 876.4s] We are bringing
+project Mariner's
+[876.4s - 881.8s] computer-use capabilities to
+developers via the Gemini API.
+[881.8s - 885.7s] Trusted testers, like
+Automation Anywhere and UiPath,
+[885.7s - 888.1s] are already starting
+to build with it,
+[888.1s - 892.0s] and it will be available
+more broadly this summer.
+[892.0s - 893.9s] Computer-use is
+part of a broader
+[893.9s - 897.1s] set of tools we will need to
+build for an agent ecosystem
+[897.1s - 900.7s] to flourish, like an open
+Agent2Agent protocols
+[900.7s - 903.1s] so that agents can
+talk to each other.
+[903.1s - 905.5s] We launched this at Cloud
+Next, with the support
+[905.5s - 908.4s] of over 60 technology
+partners, and hope
+[908.4s - 910.1s] to see that number grow.
+[910.1s - 914.2s] Then there is the model context
+protocol introduced by Anthropic
+[914.2s - 917.0s] so agents can access
+other services.
+[917.0s - 920.9s] And today, we are excited to
+announce that our Gemini SDK is
+[920.9s - 923.6s] now compatible with MCP tools.
+[923.6s - 926.9s] [APPLAUSE]
+[929.2s - 931.4s] These technologies
+will work together
+[931.4s - 933.8s] to make agents even more useful.
+[933.8s - 937.7s] And we are starting to bring
+agentic capabilities to Chrome,
+[937.7s - 940.1s] Search, and the Gemini app.
+[940.1s - 943.2s] Let me show you what we are
+excited about in the Gemini app.
+[943.2s - 945.6s] We call it Agent Mode.
+[945.6s - 948.0s] Say you want to find
+an apartment for you
+[948.0s - 950.0s] and two roommates in Austin.
+[950.0s - 953.2s] You've each got a budget
+of $1,200 a month.
+[953.2s - 957.2s] You want a washer/dryer, or
+at least a laundromat nearby.
+[957.1s - 960.3s] Normally, you'd have to
+spend a lot of time scrolling
+[960.3s - 962.0s] through endless listings.
+[962.0s - 966.9s] Using Agent Mode, the Gemini app
+goes to work behind the scenes.
+[966.9s - 969.5s] It finds listings
+from sites like Zillow
+[969.5s - 973.1s] that match your criteria
+and uses Project Mariner,
+[973.1s - 976.4s] when needed, to adjust
+very specific filters.
+[976.4s - 978.6s] If there's an apartment
+you want to check out,
+[978.6s - 982.2s] Gemini uses MCP to
+access the listings
+[982.2s - 985.1s] and even schedule a
+tour on your behalf.
+[985.0s - 988.3s] And it'll keep browsing for
+new listings for as long
+[988.3s - 991.4s] as you need, freeing
+up to do the stuff you
+[991.4s - 994.4s] want to do, like plan
+the housewarming party.
+[994.4s - 997.9s] It's great for companies like
+Zillow bringing in new customers
+[997.9s - 1000.1s] and improving conversion rates.
+[1000.1s - 1003.6s] An experimental version of the
+Agent Mode in the Gemini app
+[1003.6s - 1006.6s] will be coming soon
+to subscribers.
+[1006.6s - 1009.6s] This is a new and
+emerging area, and we
+[1009.6s - 1012.1s] are excited to explore
+how best to bring
+[1012.1s - 1017.5s] the benefits of agents to users
+and the ecosystem more broadly.
+[1017.5s - 1020.5s] The best way we can bring
+research into reality
+[1020.5s - 1024.4s] is to make it really
+useful in your own reality.
+[1024.4s - 1028.6s] That's where personalization
+will be really powerful.
+[1028.6s - 1031.2s] We are working to bring
+this to life with something
+[1031.2s - 1033.6s] we call personal context.
+[1033.6s - 1036.1s] With your permission,
+Gemini models
+[1036.1s - 1039.4s] can use relevant context
+across your Google apps
+[1039.4s - 1042.7s] in a way that is private,
+transparent, and fully
+[1042.7s - 1044.1s] under your control.
+[1044.1s - 1047.1s] Let me show you an
+example in Gmail.
+[1047.2s - 1050.7s] You might be familiar with our
+AI-powered Smart Reply features.
+[1050.7s - 1052.6s] It's amazing how
+popular they are.
+[1052.6s - 1057.1s] Now imagine if those responses
+could sound like you.
+[1057.1s - 1061.1s] That's the idea behind
+Personalized Smart Replies.
+[1061.2s - 1065.3s] Let's say my friend wrote
+to me looking for advice.
+[1065.3s - 1068.4s] He's taking a road trip
+to Utah, and he remembers
+[1068.4s - 1070.5s] I did this trip before.
+[1070.5s - 1072.5s] Now, if I'm being
+honest, I would probably
+[1072.5s - 1075.0s] reply something
+short and unhelpful.
+[1075.0s - 1076.8s] Sorry, Felix.
+[1076.8s - 1079.0s] But with Personalized
+Smart Replies,
+[1079.0s - 1080.9s] I can be a better friend.
+[1080.9s - 1086.1s] That's because Gemini can do
+almost all the work for me,
+[1086.1s - 1089.2s] looking up my notes
+and drive, scanning
+[1089.2s - 1092.0s] past emails for
+reservations, and finding
+[1092.0s - 1096.7s] my itinerary in Google Docs,
+trip to Zion National Park.
+[1096.7s - 1100.6s] Gemini matches my typical
+greetings from past emails,
+[1100.6s - 1105.7s] captures my tone, style,
+and favorite word choices,
+[1105.7s - 1109.1s] and then it automatically
+generates a reply.
+[1109.1s - 1112.4s] I love how it included details
+like keeping driving time
+[1112.4s - 1116.6s] under five hours per day, and
+it uses my favorite adjective,
+[1116.6s - 1119.1s] exciting.
+[1119.1s - 1120.2s] Looks great!
+[1120.2s - 1124.2s] Maybe you want to make a couple
+of changes to it and hit Send.
+[1124.2s - 1127.8s] This will be available in Gmail
+this summer for subscribers.
+[1127.8s - 1130.9s] [APPLAUSE, CHEERING]
+[1133.7s - 1136.4s] And you can imagine how
+helpful personal contacts
+[1136.4s - 1141.6s] will be across Search,
+Docs, Gemini, and more.
+[1141.6s - 1145.0s] Today, I've talked about
+intelligence, agents,
+[1145.0s - 1146.8s] and personalization.
+[1146.8s - 1150.1s] These are a few of the frontiers
+where we will make progress.
+[1150.1s - 1153.8s] And you'll hear more examples
+throughout the keynote.
+[1153.8s - 1155.5s] But first, I want
+to invite someone
+[1155.5s - 1158.0s] who can share more about
+the intelligence driving
+[1158.0s - 1159.8s] our future innovation.
+[1159.8s - 1162.9s] Last year, I introduced
+him as Sir Demis.
+[1162.9s - 1167.6s] This year, we can add Nobel
+laureate to his list of titles.
+[1167.6s - 1168.6s] Come on out, Demis.
+[1168.6s - 1171.7s] [MUSIC PLAYING]
+[1183.2s - 1184.4s] DEMIS HASSABIS: Hey, everyone.
+[1184.4s - 1185.9s] It's really great
+to be back here
+[1185.9s - 1190.5s] at I/O. We're living through a
+remarkable moment in history,
+[1190.5s - 1194.8s] where AI is making possible
+an amazing new future.
+[1194.8s - 1198.2s] It's been a year of
+relentless progress for us.
+[1198.2s - 1202.9s] As Sundar said, people love
+interacting with Gemini 2.5.
+[1202.9s - 1204.9s] We've seen you
+vibe code with it,
+[1204.9s - 1207.7s] building games and
+apps in a single shot.
+[1207.7s - 1210.2s] You've used its vast reasoning
+powers on everything,
+[1210.2s - 1214.0s] from unpacking scientific papers
+to understanding YouTube videos.
+[1214.0s - 1216.8s] And you've told us how
+collaborative, insightful,
+[1216.8s - 1220.2s] and genuinely helpful
+you found using Gemini.
+[1220.2s - 1223.4s] It's so exciting for us to see
+the awesome things you've all
+[1223.4s - 1226.3s] been doing and building with it.
+[1226.3s - 1229.9s] Gemini 2.5 Pro is our most
+intelligent model ever
+[1229.9s - 1232.8s] and the best foundation
+model in the world.
+[1232.8s - 1236.9s] Just two weeks ago, we shipped
+a preview of an updated 2.5 Pro
+[1236.9s - 1238.3s] so you could get
+your hands on it
+[1238.3s - 1241.3s] and start building
+with it right away.
+[1241.3s - 1243.8s] We've been really impressed
+by what you've created,
+[1243.8s - 1247.6s] from turning sketches into
+interactive apps to simulating
+[1247.6s - 1250.2s] entire 3D cities.
+[1250.2s - 1255.4s] The new 2.5 Pro tops the popular
+coding leaderboard WebDev Arena.
+[1255.4s - 1258.8s] And now that it incorporates
+LearnLM, our family of models
+[1258.8s - 1261.7s] built with educational
+experts, 2.5 Pro
+[1261.7s - 1264.5s] is also the leading
+model for learning.
+[1264.5s - 1270.4s] And it's number one across all
+the leaderboards on LMArena.
+[1270.4s - 1274.6s] Gemini Flash is our most
+efficient workhorse model.
+[1274.6s - 1277.0s] It's been incredibly
+popular with developers who
+[1277.0s - 1280.0s] love its speed and low cost.
+[1280.0s - 1283.0s] Today, I'm thrilled to announce
+that we're releasing an updated
+[1283.0s - 1285.1s] version of 2.5 Flash.
+[1285.1s - 1288.6s] The new Flash is better
+in nearly every dimension,
+[1288.6s - 1291.8s] improving across key
+benchmarks for reasoning, code,
+[1291.8s - 1293.6s] and long context.
+[1293.6s - 1300.2s] In fact, it's second only to 2.5
+Pro on the LMArena leaderboard.
+[1300.2s - 1302.4s] I'm excited to say
+that Flash will
+[1302.4s - 1305.8s] be generally available in early
+June, with Pro soon after.
+[1305.8s - 1309.1s] [APPLAUSE, CHEERING]
+[1312.6s - 1315.8s] We're making final adjustments
+based on your feedback,
+[1315.8s - 1318.0s] but you can go try
+out the preview now
+[1318.0s - 1322.8s] in AI Studio, Vertex
+AI, and Gemini app.
+[1322.8s - 1325.5s] As always, we're looking to
+push the state of the art
+[1325.5s - 1328.5s] relentlessly forward, and
+we're excited about our latest
+[1328.5s - 1330.0s] research advances.
+[1330.0s - 1333.0s] To tell you more, I'd like to
+welcome Tulsee to the stage,
+[1333.0s - 1335.2s] but first, let's take
+a look at what you're
+[1335.2s - 1336.7s] building with Gemini today.
+[1336.7s - 1338.1s] [VIDEO PLAYBACK]
+[1338.1s - 1341.6s] [MUSIC PLAYING]
+[1375.6s - 1378.6s] - Can you make a bunch
+of confetti circles
+[1378.6s - 1381.4s] explode out of my mouse?
+[1381.4s - 1382.5s] - I've updated the sketch.
+[1390.6s - 1393.0s] - OK, what should we build next?
+[1393.0s - 1395.3s] - OK, here's another
+30 ideas for you.
+[1399.8s - 1401.3s] [END PLAYBACK]
+[1401.3s - 1404.7s] [APPLAUSE, CHEERING]
+[1414.6s - 1416.1s] TULSEE DOSHI: Thanks, Demis.
+[1416.1s - 1418.8s] I'm so excited to share
+the improvements we're
+[1418.8s - 1422.3s] creating to make it easier
+for developers like all of you
+[1422.3s - 1426.9s] to build with Gemini 2.5,
+all based on your feedback,
+[1426.9s - 1430.4s] with improved capabilities,
+enhanced security
+[1430.4s - 1436.2s] and transparency, better cost
+efficiency, and more control.
+[1436.2s - 1441.0s] First, in addition to the new
+2.5 Flash that Demis mentioned,
+[1441.0s - 1445.4s] we are also introducing new
+previews for text to speech.
+[1445.4s - 1449.5s] These now have a first of its
+kind multi-speaker support
+[1449.5s - 1454.6s] for two voices built
+on Native Audio Output.
+[1454.6s - 1456.0s] [AUDIO PLAYBACK]
+[1456.0s - 1458.0s] - This means the
+model can converse
+[1458.0s - 1460.4s] in more expressive ways.
+[1460.4s - 1464.9s] It can capture the really
+subtle nuances of how we speak.
+[1464.9s - 1468.2s] (WHISPERS) It can even
+seamlessly switch to a whisper,
+[1468.2s - 1468.9s] like this.
+[1468.9s - 1470.1s] [END PLAYBACK]
+[1470.6s - 1473.6s] TULSEE DOSHI: This works
+in over 24 languages,
+[1473.6s - 1477.8s] and it can easily go
+between languages.
+[1477.8s - 1478.5s] [AUDIO PLAYBACK]
+[1478.5s - 1483.9s] - So the model can begin
+speaking in English, but then--
+[1483.9s - 1490.1s] [NON-ENGLISH SPEECH]
+--and switch back,
+[1490.1s - 1491.7s] all with the same voice.
+[1491.7s - 1492.4s] [END BLAYBACK]
+[1492.4s - 1494.2s] TULSEE DOSHI: That's
+pretty awesome, right?
+[1494.2s - 1497.4s] [APPLAUSE]
+[1500.7s - 1504.5s] You can use this text-to-speech
+capability starting today
+[1504.5s - 1506.3s] in the Gemini API.
+[1506.3s - 1509.1s] [APPLAUSE, CHEERING]
+[1511.0s - 1515.2s] The Live API will also
+have a 2.5 Flash preview
+[1515.2s - 1519.1s] version of Native Audio
+dialogue later today.
+[1519.1s - 1522.6s] So you can directly build
+conversational experiences
+[1522.6s - 1524.7s] with a more natural Gemini.
+[1524.7s - 1527.5s] It's even able to distinguish
+between the speaker
+[1527.5s - 1528.8s] and background voices.
+[1528.8s - 1531.0s] So it knows when to respond.
+[1531.0s - 1532.6s] And Logan and
+Paige will show you
+[1532.6s - 1535.4s] more in the developer keynote.
+[1535.4s - 1538.3s] Second, we've
+strengthened protections
+[1538.3s - 1541.5s] against security threats like
+indirect prompt injections.
+[1541.5s - 1546.6s] So Gemini 2.5 is our
+most secure model yet.
+[1546.6s - 1550.0s] And in both 2.5 Pro
+and Flash, we're
+[1550.0s - 1555.0s] including thought summaries via
+the Gemini API and Vertex AI.
+[1555.0s - 1558.3s] Thought summaries take
+the model's raw thoughts
+[1558.3s - 1561.9s] and organize them into a
+clear format with headers,
+[1561.9s - 1564.8s] key details, and information
+about model actions
+[1564.8s - 1566.2s] like tool calls.
+[1566.2s - 1568.5s] This gives you
+increased transparency
+[1568.5s - 1570.4s] for what the model
+is thinking, which
+[1570.4s - 1574.1s] is especially useful for
+high-latency tasks while also
+[1574.1s - 1577.7s] just being easy to
+debug and consume.
+[1577.7s - 1580.2s] You also asked us
+for more efficiency.
+[1580.2s - 1584.0s] So today's 2.5 Flash
+is even more efficient,
+[1584.0s - 1585.9s] reducing the number
+of tokens the model
+[1585.9s - 1588.6s] needs to use for the
+same performance,
+[1588.6s - 1593.8s] resulting in 22% efficiency
+gains on our evals.
+[1593.8s - 1597.9s] Finally, we launched 2.5
+Flash with thinking budgets
+[1597.9s - 1601.7s] to give you control over cost
+and latency versus quality.
+[1601.7s - 1604.0s] And the response was great.
+[1604.0s - 1606.0s] So we're bringing
+thinking budgets
+[1606.0s - 1609.5s] to 2.5 Pro, which will roll
+out in the coming weeks,
+[1609.5s - 1612.5s] along with our generally
+available model.
+[1612.5s - 1614.3s] With thinking
+budgets, you can have
+[1614.3s - 1616.1s] more control over
+how many tokens
+[1616.1s - 1618.7s] the model uses to think
+before it responds,
+[1618.7s - 1622.5s] or you can simply turn it off.
+[1622.5s - 1626.4s] Now, as you heard from
+Demis, Gemini 2.5 Pro
+[1626.4s - 1628.2s] is incredible at coding.
+[1628.2s - 1631.9s] So now let me show you how
+you can take any idea you have
+[1631.9s - 1634.6s] and bring it to life.
+[1634.6s - 1636.8s] So if you've ever
+been to the American
+[1636.8s - 1639.2s] Museum of Natural
+History in New York City,
+[1639.2s - 1642.0s] it has a set of
+amazing exhibits.
+[1642.0s - 1645.2s] So to bring that to you
+today, I got 2.5 Pro
+[1645.2s - 1648.5s] to code me a simple web
+app in Google AI Studio
+[1648.5s - 1651.1s] to share some photos
+and learn more.
+[1651.1s - 1655.2s] So here's what I have
+so far, but I want
+[1655.2s - 1657.1s] to make it more interactive.
+[1657.1s - 1661.7s] And I'm still brainstorming the
+design, but I've got some ideas.
+[1661.7s - 1664.3s] You've seen something
+like this before.
+[1664.3s - 1667.8s] Someone comes to you with
+a brilliant idea scratched
+[1667.8s - 1669.1s] on a napkin.
+[1669.1s - 1672.7s] As a PM, I'm often this someone.
+[1672.7s - 1676.6s] Now, standard two-dimensional
+web design is one thing,
+[1676.6s - 1679.5s] but I wanted to make it 3D.
+[1679.5s - 1682.8s] And I learned that jumping
+into 3D isn't easy.
+[1682.8s - 1686.1s] It requires learning about
+all kinds of new things--
+[1686.1s - 1691.5s] setting up a scene,
+camera, lighting, and more.
+[1691.5s - 1694.8s] Luckily for me,
+2.5 Pro can help.
+[1694.8s - 1698.7s] So here, what I'm
+going to do is I
+[1698.7s - 1704.8s] am going to add the image I
+just showed you of the sphere,
+[1704.8s - 1708.9s] and I'm going to add in a prompt
+that asks 2.5 Pro to update
+[1708.9s - 1711.4s] my code based on the image.
+[1711.4s - 1713.8s] So we'll let 2.5
+Pro get to work.
+[1713.8s - 1716.5s] And as you can see,
+it's starting to think,
+[1716.5s - 1719.0s] and it's going ahead
+and creating a plan
+[1719.0s - 1720.6s] based on what I asked for.
+[1720.6s - 1724.3s] And it'll apply it to
+my existing code base.
+[1724.3s - 1728.3s] Because Gemini is multimodal,
+it can understand the abstract
+[1728.3s - 1731.8s] sphere sketch and code
+beautiful 3D animations,
+[1731.8s - 1734.7s] applying them to
+my existing app.
+[1734.7s - 1736.7s] So this takes about two minutes.
+[1736.7s - 1738.5s] So for the purpose
+of time, we're
+[1738.5s - 1740.5s] going to do this
+baking-show style.
+[1740.5s - 1742.5s] And I'm going to
+jump to another tab
+[1742.5s - 1745.5s] that I ran right before this
+keynote, with the same prompts.
+[1745.5s - 1749.0s] And here's what
+Gemini generates.
+[1749.0s - 1749.5s] Whoa!
+[1749.5s - 1752.6s] [APPLAUSE]
+[1756.8s - 1761.1s] We went from that rough
+sketch directly to code,
+[1761.1s - 1763.6s] updating multiple of my files.
+[1763.6s - 1766.7s] And actually, you can see
+it thought for 37 seconds.
+[1766.7s - 1769.7s] And you can see the changes
+it thought through and then
+[1769.7s - 1770.2s] the files.
+[1770.2s - 1771.5s] It updated.
+[1771.5s - 1773.7s] We did all of this in AI Studio.
+[1773.7s - 1776.0s] So once I finished
+prototyping, I
+[1776.0s - 1780.5s] can simply deploy the code
+along with my Gemini API key.
+[1780.5s - 1784.6s] So here's our final
+app in Chrome.
+[1784.7s - 1788.0s] Look at these animations.
+[1788.0s - 1792.1s] And I didn't need to have
+advanced knowledge of Three.js
+[1792.1s - 1796.5s] libraries or figure out the
+complex 3D math to build this.
+[1796.5s - 1799.8s] I know it would have taken
+forever to do this by hand,
+[1799.8s - 1802.7s] and instead, I was able
+to create this just
+[1802.7s - 1805.2s] based on a sketch.
+[1805.2s - 1808.8s] I can make this experience
+even richer with multimodality.
+[1808.8s - 1813.1s] So I used 2.5 Flash to add
+a question to each photo,
+[1813.2s - 1817.1s] inviting you to learn
+a little more about it.
+[1817.1s - 1820.4s] But what if it talked?
+[1820.4s - 1824.0s] That's where Gemini's
+Native Audio comes in.
+[1824.0s - 1824.7s] [AUDIO PLAYBACK]
+[1824.7s - 1826.0s] - That's a pangolin.
+[1826.0s - 1828.5s] And its scales are
+made of keratin, just
+[1828.5s - 1829.4s] like your fingernails.
+[1829.4s - 1830.3s] [END PLAYBACK]
+[1830.8s - 1831.7s] TULSEE DOSHI: Wow.
+[1831.7s - 1833.5s] Now we're talking.
+[1833.5s - 1836.8s] You can hear how you can
+add expressive audio right
+[1836.8s - 1838.3s] into your apps.
+[1838.3s - 1841.6s] And before I share more,
+I'll leave this demo
+[1841.6s - 1845.5s] with another fun layout that
+2.5 Pro coded just for us.
+[1848.9s - 1852.3s] [APPLAUSE]
+[1855.8s - 1857.8s] We've put the starter
+code for anyone
+[1857.8s - 1860.4s] to build on top of this
+demo in Google AI Studio,
+[1860.4s - 1862.5s] so go try it out.
+[1862.5s - 1867.2s] And this is just one example
+of how Gemini 2.5 is changing
+[1867.2s - 1869.2s] how we build, and
+how you can leverage
+[1869.2s - 1873.2s] the incredible capabilities
+to integrate vision, speech,
+[1873.2s - 1876.4s] and coding into your
+own applications.
+[1876.4s - 1880.9s] 2.5 Pro is available on
+your favorite IDE platforms
+[1880.8s - 1886.5s] and in Google products like
+Android Studio, Firebase Studio,
+[1886.5s - 1890.2s] Gemini Code Assist, and
+our asynchronous coding
+[1890.2s - 1891.3s] agent, Jules.
+[1891.3s - 1893.9s] [APPLAUSE]
+[1898.4s - 1901.8s] Just submit a task, and
+Jules takes care of the rest,
+[1901.8s - 1904.5s] fixing bugs, making updates.
+[1904.5s - 1908.6s] It integrates with GitHub
+and works on its own.
+[1908.6s - 1911.7s] Jules can tackle complex
+tasks in large code bases that
+[1911.7s - 1913.9s] used to take hours,
+like updating
+[1913.9s - 1916.2s] an older version of Node.js.
+[1916.2s - 1921.3s] It can plan the steps, modify
+files, and more in minutes.
+[1921.3s - 1923.5s] So today, I'm
+delighted to announce
+[1923.5s - 1925.5s] that Jules is now
+in public beta,
+[1925.5s - 1928.2s] so anyone can sign
+up at Jules Google.
+[1928.2s - 1931.6s] [APPLAUSE]
+[1935.0s - 1937.3s] And like Demis
+said, we're always
+[1937.3s - 1940.1s] innovating on new approaches
+to improve our models,
+[1940.1s - 1943.5s] including making them more
+efficient and performant.
+[1943.5s - 1946.5s] We first revolutionized
+image and video generation
+[1946.5s - 1949.3s] by pioneering
+diffusion techniques.
+[1949.3s - 1952.1s] A diffusion model learns
+to generate outputs
+[1952.1s - 1954.9s] by refining noise step by step.
+[1954.9s - 1957.5s] Today, we're bringing
+the power of diffusion
+[1957.5s - 1961.1s] to text with our
+newest research model.
+[1961.1s - 1963.8s] This helps it excel
+at tasks like editing,
+[1963.8s - 1966.5s] including in the context
+of math and code.
+[1966.5s - 1969.3s] Because it doesn't just
+generate left to right,
+[1969.3s - 1971.5s] it can iterate on a
+solution very quickly
+[1971.5s - 1975.8s] and error correct during
+the generation process.
+[1975.8s - 1979.8s] Gemini Diffusion is a state
+of the art experimental text
+[1979.8s - 1983.3s] diffusion model that leverages
+this parallel generation
+[1983.3s - 1986.5s] to achieve extremely
+low latency.
+[1986.5s - 1989.4s] For example, the version
+of Gemini Diffusion
+[1989.4s - 1993.0s] we're releasing today
+generates five times faster
+[1993.0s - 1996.4s] than even 2.0 Flash-Lite,
+our fastest model
+[1996.4s - 2000.1s] so far, while matching
+its coding performance.
+[2000.1s - 2002.0s] So take this math example.
+[2002.0s - 2002.8s] Ready?
+[2002.8s - 2005.4s] Go.
+[2005.4s - 2007.8s] If you blinked, you missed it.
+[2007.8s - 2011.1s] [APPLAUSE]
+[2013.4s - 2017.6s] Now, earlier we sped things
+up, but this time, we're
+[2017.6s - 2019.1s] going to slow it
+down a little bit.
+[2023.7s - 2026.3s] Pretty cool to see the
+process of how the model gets
+[2026.3s - 2028.8s] to the answer of 39.
+[2028.8s - 2032.0s] This model is currently
+testing with a small group.
+[2032.0s - 2034.9s] And we'll continue our work
+on different approaches,
+[2034.9s - 2037.5s] lowering latency in all
+of our Gemini models
+[2037.5s - 2041.7s] with a faster 2.5
+Flash-Lite coming soon.
+[2041.7s - 2045.7s] And now, for more on the future
+of Gemini, back to you, Demis.
+[2045.7s - 2049.4s] [MUSIC PLAYING, APPLAUSE]
+[2054.2s - 2055.6s] DEMIS HASSABIS: Thanks, Tulsee.
+[2055.6s - 2058.4s] We've been busy exploring
+the frontiers of thinking
+[2058.4s - 2061.6s] capabilities in Gemini 2.5.
+[2061.6s - 2064.2s] As we know from our
+experience with AlphaGo,
+[2064.2s - 2068.9s] responses improve when we give
+these models more time to think.
+[2068.9s - 2072.2s] Today, we're making
+2.5 Pro even better
+[2072.2s - 2074.9s] by introducing a new
+mode we're calling
+[2074.9s - 2079.2s] Deep Think It pushes model
+performance to its limits,
+[2079.2s - 2081.4s] delivering
+groundbreaking results.
+[2081.4s - 2084.6s] Deep Think uses our latest
+cutting-edge research
+[2084.6s - 2089.0s] in thinking and reasoning,
+including parallel techniques.
+[2089.0s - 2092.3s] So far, we've seen
+incredible performance.
+[2092.3s - 2096.2s] It gets an impressive
+score on USAMO 2025,
+[2096.2s - 2099.0s] currently one of the
+hardest math benchmarks.
+[2099.0s - 2102.0s] It leads on LiveCodeBench,
+a difficult benchmark
+[2102.0s - 2104.5s] for competition level coding.
+[2104.5s - 2107.1s] And since Gemini has
+been natively multimodal
+[2107.1s - 2109.7s] from the start, it's no
+surprise that it also
+[2109.7s - 2115.0s] excels on the main benchmark
+measuring this, MMMU.
+[2115.0s - 2116.7s] Because we're
+defining the frontier
+[2116.7s - 2120.0s] with 2.5 Pro Deep Think,
+we're taking a little bit
+[2120.0s - 2123.4s] of extra time to conduct more
+frontier safety evaluations
+[2123.4s - 2126.1s] and get further input
+from safety experts.
+[2126.1s - 2128.0s] As part of that,
+we're going to make
+[2128.0s - 2131.3s] it available to trusted
+testers via the Gemini API
+[2131.3s - 2135.0s] to get their feedback before
+making it widely available.
+[2135.0s - 2139.2s] You'll hear more about our plans
+for 2.5 Pro Deep Think from Josh
+[2139.2s - 2141.9s] later today.
+[2141.9s - 2145.3s] Over the past decade, we've
+laid a lot of the foundations
+[2145.3s - 2149.7s] for the modern AI era, from
+our pioneering work inventing
+[2149.7s - 2152.6s] the transformers architecture,
+which today underpins
+[2152.6s - 2156.6s] all large language models,
+to agent systems like AlphaGo
+[2156.6s - 2157.8s] and AlphaZero.
+[2157.8s - 2161.0s] We continue to double down
+on the breadth and depth
+[2161.0s - 2164.0s] of our fundamental
+research to invent
+[2163.9s - 2165.5s] the next big
+breakthroughs that are
+[2165.5s - 2169.5s] needed for artificial
+general intelligence.
+[2169.5s - 2173.8s] Gemini is already the best
+multimodal foundation model,
+[2173.8s - 2176.5s] but we're working hard
+to extend it to become
+[2176.5s - 2178.9s] what we call a world model.
+[2178.9s - 2181.5s] That is a model that can
+make plans and imagine
+[2181.5s - 2184.7s] new experiences by simulating
+aspects of the world,
+[2184.7s - 2187.3s] just like the brain does.
+[2187.3s - 2189.8s] This is something I've
+always been passionate about,
+[2189.8s - 2192.6s] having thought about virtual
+worlds since my early days,
+[2192.6s - 2197.0s] developing AI for simulation
+games like "Theme Park."
+[2197.0s - 2199.7s] We've been taking strides in
+this direction for a while
+[2199.7s - 2202.4s] through our pioneering work,
+training agents to master
+[2202.4s - 2206.6s] complex games like "Go" and
+"StarCraft," to most recently,
+[2206.6s - 2210.1s] our Genie 2 model, capable
+of generating 3D-simulated
+[2210.1s - 2213.3s] environments that you can
+interact with just from a single
+[2213.3s - 2215.7s] image prompt.
+[2215.7s - 2218.2s] You can already see these
+capabilities emerging
+[2218.2s - 2221.0s] in the way Gemini can use its
+world knowledge and reasoning
+[2221.0s - 2223.4s] to represent things in nature.
+[2223.4s - 2226.5s] And in Veo, our state
+of the art video model,
+[2226.5s - 2228.8s] which has a deep understanding
+of intuitive physics,
+[2228.8s - 2232.9s] like how gravity, light,
+and materials behave.
+[2232.9s - 2236.0s] It's really incredible how
+well Veo maintains accuracy
+[2236.0s - 2239.0s] and consistency across frames.
+[2239.0s - 2241.3s] It knows what to do even
+when the prompts get
+[2241.3s - 2247.3s] a little creative, like this
+person made out of life rafts.
+[2247.3s - 2249.4s] Understanding the
+physical environment
+[2249.4s - 2251.7s] will also be critical
+for robotics.
+[2251.7s - 2254.1s] AI systems will
+need world models
+[2254.1s - 2257.4s] to operate effectively
+in the real world.
+[2257.4s - 2260.7s] We fine tuned a specialized
+model, Gemini Robotics,
+[2260.7s - 2264.0s] that teaches robots to do
+useful things like grasp,
+[2264.0s - 2268.2s] follow instructions, and adjust
+to novel tasks on the fly.
+[2268.2s - 2270.3s] For those of you here
+today, you can play around
+[2270.3s - 2273.8s] with the robots
+in the AI Sandbox.
+[2273.8s - 2277.3s] [APPLAUSE, CHEERING]
+[2279.3s - 2283.2s] Making Gemini a full-world model
+is a critical step in unlocking
+[2283.2s - 2288.0s] a new kind of AI, one that's
+helpful in your everyday life,
+[2288.0s - 2290.4s] that's intelligent and
+understands the context
+[2290.4s - 2293.6s] you're in and that can plan
+and take action on your behalf
+[2293.6s - 2295.5s] across any device.
+[2295.5s - 2298.6s] This is our ultimate
+vision for the Gemini app,
+[2298.6s - 2303.5s] to transform it into a universal
+AI assistant, an AI that's
+[2303.5s - 2306.4s] personal, proactive,
+and powerful,
+[2306.4s - 2310.2s] and one of our key milestones
+on the road to AGI.
+[2310.2s - 2312.2s] This starts with the
+capabilities we first
+[2312.2s - 2314.7s] explored last year
+in Project Astra,
+[2314.7s - 2318.7s] such as video understanding,
+screen sharing, and memory.
+[2318.7s - 2321.7s] Over the past year, we've
+been integrating capabilities
+[2321.7s - 2326.7s] like these into Gemini Live for
+more people to experience today.
+[2326.7s - 2329.6s] Of course, we continue to
+relentlessly improve and explore
+[2329.6s - 2332.0s] new innovations at the frontier.
+[2332.0s - 2334.5s] For example, we've
+upgraded voice output
+[2334.5s - 2336.8s] to be more natural
+with Native Audio.
+[2336.8s - 2340.1s] We've improved memory and
+added computer control.
+[2340.1s - 2341.7s] Let's take a look.
+[2341.7s - 2342.4s] [VIDEO PLAYBACK]
+[2342.4s - 2344.1s] - I'm here with the
+latest research prototype
+[2344.1s - 2345.6s] of Project Astra,
+and we're going
+[2345.6s - 2347.2s] to see how it can
+help me fix my bike.
+[2347.2s - 2349.8s] [MUSIC PLAYING]
+[2350.7s - 2354.0s] Hey, go online and look for
+a user's manual for a Huffy
+[2354.0s - 2356.1s] mountain bike.
+[2356.1s - 2358.1s] - I have found a
+user manual for you.
+[2358.1s - 2359.7s] What would you like
+to know about it?
+[2359.7s - 2360.5s] - OK, cool.
+[2360.5s - 2363.4s] Now scroll until you find
+the section about the brakes.
+[2363.4s - 2364.3s] - Sure thing.
+[2364.3s - 2366.1s] Looking for that page now.
+[2366.1s - 2368.4s] - I think I stripped this screw.
+[2368.4s - 2371.5s] Can you go on YouTube and find
+a video for how to fix that?
+[2371.5s - 2372.4s] - Of course.
+[2372.4s - 2373.7s] I'm opening YouTube now.
+[2376.8s - 2378.4s] This looks like a good video.
+[2378.4s - 2380.6s] - Place a rubber band over
+the head of the screw--
+[2380.6s - 2381.1s] - Oh, nice.
+[2381.1s - 2381.8s] Nice.
+[2381.8s - 2383.9s] Can you go through my
+emails with the bike shop
+[2383.9s - 2386.5s] and find which size
+hex nut I need?
+[2386.5s - 2387.3s] - Sure.
+[2387.3s - 2389.7s] According to the email
+from Bicycle Habitat,
+[2389.7s - 2392.5s] you need a 3/8 inch hex
+nut for your sprocket.
+[2392.5s - 2394.8s] I've highlighted the
+correct bin for you.
+[2394.8s - 2397.9s] - It seems like I need
+a spare tension screw.
+[2397.9s - 2399.4s] Can you call the
+nearest bike shop
+[2399.4s - 2400.8s] and see what they have in stock?
+[2400.8s - 2401.4s] - Yep.
+[2401.4s - 2402.6s] Calling them now.
+[2402.6s - 2404.7s] I'll get back to you with
+what they have in stock.
+[2404.7s - 2406.7s] - I think my brake
+pads are wearing down.
+[2406.7s - 2408.6s] Can you check the manual
+again and see if it
+[2408.6s - 2409.8s] talks about them anywhere?
+[2409.8s - 2412.4s] - According to the manual,
+if you look on page 24--
+[2412.3s - 2415.1s] - Hey, do you want to get lunch?
+[2415.1s - 2415.7s] - Yeah.
+[2415.7s - 2417.5s] Give me five minutes.
+[2417.5s - 2419.3s] Can you finish what
+you were saying?
+[2419.3s - 2423.7s] - As I was saying, if you
+look on page 24, section 2,
+[2423.7s - 2425.8s] you'll see how to
+replace the brake pads.
+[2425.8s - 2428.1s] - Hey, any updates on that call?
+[2428.1s - 2428.7s] - Yep.
+[2428.7s - 2430.4s] I just got off
+with the bike shop.
+[2430.4s - 2432.8s] They confirmed they have
+your tension screw in stock.
+[2432.8s - 2434.9s] Would you like me to
+place a pickup order?
+[2434.9s - 2437.5s] - Could you show me some
+examples of dog baskets
+[2437.4s - 2438.6s] I could put on my bike?
+[2438.6s - 2439.1s] - Sure.
+[2439.1s - 2440.2s] I can help you with that.
+[2440.2s - 2442.3s] Just give me a moment.
+[2442.3s - 2443.8s] Here are some options.
+[2443.8s - 2448.2s] I think Zuka would look
+really great in these.
+[2448.2s - 2449.7s] [END PLAYBACK]
+[2450.2s - 2453.6s] [APPLAUSE, CHEERING]
+[2456.6s - 2458.4s] DEMIS HASSABIS: A
+universal AI assistant
+[2458.4s - 2460.9s] will perform everyday
+tasks for us.
+[2460.9s - 2463.1s] It will take care
+of mundane admin
+[2463.1s - 2466.1s] and surface delightful,
+new recommendations,
+[2466.1s - 2469.5s] making us more productive
+and enriching our lives.
+[2469.5s - 2472.0s] We're gathering feedback
+about these new capabilities
+[2472.0s - 2474.4s] now from trusted
+testers and working
+[2474.4s - 2477.6s] to bring them to Gemini Live,
+new experiences in Search,
+[2477.6s - 2481.1s] and the Live API for developers,
+as well as new form factors
+[2481.1s - 2483.7s] like Android XR glasses.
+[2483.7s - 2487.4s] You'll hear more on
+this later today.
+[2487.4s - 2489.3s] My entire career,
+at its core, has
+[2489.3s - 2492.4s] been about using AI to advance
+knowledge and accelerate
+[2492.4s - 2494.2s] scientific discovery.
+[2494.2s - 2496.4s] At Google DeepMind,
+we've been applying
+[2496.4s - 2500.4s] AI across almost every branch
+of science for a long time.
+[2500.4s - 2503.1s] In just the past year, we've
+made some huge breakthroughs
+[2503.1s - 2507.8s] in a wide range of areas, from
+mathematics to life sciences.
+[2507.8s - 2511.3s] We've built AlphaProof that can
+solve Math Olympiad problems
+[2511.3s - 2514.6s] at the silver medal
+level, coscientists that
+[2514.6s - 2516.0s] can collaborate
+with researchers,
+[2516.0s - 2518.9s] helping them develop and
+test novel hypotheses.
+[2518.9s - 2521.5s] And we've just
+released AlphaEvolve,
+[2521.5s - 2523.5s] which can discover new
+scientific knowledge
+[2523.5s - 2527.0s] and speed up AI training itself.
+[2527.0s - 2530.2s] In the life sciences, we've
+built AMIE, a research
+[2530.2s - 2531.5s] system that could
+help clinicians
+[2531.5s - 2535.7s] with medical diagnoses,
+AlphaFold 3, which can predict
+[2535.7s - 2539.3s] the structure and interactions
+of all of life's molecules,
+[2539.3s - 2542.4s] And Isomorphic Labs, which
+builds on our AlphaFold
+[2542.4s - 2547.1s] work to revolutionize the
+drug discovery process with AI
+[2547.1s - 2551.3s] and will one day help to
+solve many global diseases.
+[2551.3s - 2553.7s] In just a few, short
+years, AlphaFold
+[2553.7s - 2557.0s] has already had a massive impact
+in the scientific community.
+[2557.0s - 2560.4s] It's become a standard tool for
+biology and medical research,
+[2560.4s - 2563.5s] with over 2.5 million
+researchers worldwide using it
+[2563.5s - 2565.8s] in their critical work.
+[2565.8s - 2568.7s] As we continue to make
+progress towards AGI,
+[2568.7s - 2571.1s] I've always believed,
+if done safely
+[2571.1s - 2573.3s] and responsibly, it
+has the potential
+[2573.3s - 2575.3s] to accelerate
+scientific discovery
+[2575.3s - 2580.0s] and be the most beneficial
+technology ever invented.
+[2580.0s - 2583.3s] [APPLAUSE, CHEERING]
+[2586.2s - 2588.8s] Taking a step back,
+it's amazing to me
+[2588.8s - 2592.4s] that even just a few years
+ago, the frontier technology
+[2592.4s - 2596.6s] you're seeing today would have
+seemed nothing short of magic.
+[2596.6s - 2599.1s] It's exciting to see these
+technologies powering
+[2599.1s - 2602.2s] new experiences in products
+like Search and Gemini,
+[2602.2s - 2605.7s] and also coming together to help
+people in their daily lives.
+[2605.7s - 2607.8s] For example, we
+recently partnered
+[2607.8s - 2610.4s] with Aira, a company
+that assists people
+[2610.4s - 2612.4s] in the blind and
+low-vision community
+[2612.4s - 2615.6s] to navigate the world by
+connecting them via video
+[2615.6s - 2618.2s] to human visual interpreters.
+[2618.2s - 2621.7s] Using Astra technology, we built
+a prototype to help more people
+[2621.7s - 2624.7s] have access to this
+type of assistance.
+[2624.7s - 2626.9s] We're getting ongoing
+feedback from users,
+[2626.9s - 2629.9s] while Aira's interpreters
+are actively supervising
+[2629.9s - 2633.0s] for safety and reliability.
+[2633.0s - 2636.3s] [APPLAUSE, CHEERING]
+[2637.8s - 2641.1s] With this and all our
+groundbreaking work,
+[2641.1s - 2644.3s] we're building AI that's
+more personal, proactive,
+[2644.3s - 2647.1s] and powerful,
+enriching our lives,
+[2647.1s - 2649.4s] advancing the pace of
+scientific progress,
+[2649.4s - 2654.8s] and ushering in a new golden
+age of discovery and wonder.
+[2654.8s - 2657.2s] [VIDEO PLAYBACK]
+[2658.2s - 2662.1s] - I remember as a child playing
+till it got dark outside
+[2662.1s - 2664.1s] to make sure I could
+still play guitar
+[2664.1s - 2667.7s] without being able to see.
+[2667.7s - 2670.0s] I was diagnosed with
+retinitis pigmentosa
+[2670.0s - 2672.1s] when I was probably
+about four years old.
+[2672.1s - 2676.1s] My vision is actively
+deteriorating,
+[2676.1s - 2678.2s] but music has been
+something that I
+[2678.2s - 2686.1s] can continue to do with the
+closing in of my visual reality.
+[2686.1s - 2689.6s] I feel free when
+I'm playing music.
+[2689.6s - 2692.9s] If Project Astra can help
+me be more independent,
+[2692.8s - 2695.1s] it would be the
+greatest thing ever.
+[2695.1s - 2697.7s] [MUSIC PLAYING]
+[2699.0s - 2701.3s] Touring, for example,
+I love it because I
+[2701.3s - 2704.3s] get to go out and go to
+places I've never been before
+[2704.3s - 2706.2s] and meet new people,
+but it definitely
+[2706.2s - 2708.2s] is becoming more difficult.
+[2708.2s - 2709.2s] - Hello there.
+[2709.2s - 2709.9s] - Hello.
+[2709.9s - 2714.3s] Can you tell me what you
+see in this green room
+[2714.3s - 2716.2s] while I scan around?
+[2716.2s - 2719.0s] - I see a sign on the wall in
+the direction you're facing.
+[2719.0s - 2722.3s] The sign says, Wi-Fi
+network, The Gray Eagle.
+[2722.3s - 2724.5s] And the password is LIVEMUSIC.
+[2724.5s - 2725.7s] - Thank you very much.
+[2725.7s - 2728.3s] Can you help me locate
+a microphone stand?
+[2728.3s - 2729.6s] - Sure, I can help with that.
+[2729.6s - 2731.6s] Do you mind if I turn
+on the flashlight?
+[2731.6s - 2734.1s] - Yes, please.
+[2734.1s - 2736.6s] - I see a wall with
+several coiled cables
+[2736.6s - 2739.2s] and what look like mic
+stands towards the top right
+[2739.2s - 2739.8s] in the video.
+[2742.5s - 2746.0s] - The most powerful thing I
+can do is to get on stage,
+[2746.1s - 2748.0s] pick up my guitar, and play.
+[2748.0s - 2750.3s] Helps people
+understand that there's
+[2750.3s - 2754.8s] more than just blind or not
+blind, disability and ability.
+[2754.8s - 2760.1s] If Project Astra could help me
+along the way, I'm all for it.
+[2760.1s - 2761.5s] - Have a great
+time at your show.
+[2761.5s - 2762.8s] [END PLAYBACK]
+[2763.3s - 2766.7s] [APPLAUSE]
+[2770.9s - 2772.3s] SUNDAR PICHAI: Thanks, Demis.
+[2772.3s - 2775.5s] It's amazing to see the
+possibilities for Project Astra
+[2775.5s - 2777.8s] to help with accessibility.
+[2777.8s - 2782.2s] It's another exciting example of
+how AI is advancing our timeless
+[2782.2s - 2785.5s] mission to organize
+the world's information
+[2785.5s - 2788.6s] and make it universally
+accessible and useful.
+[2788.6s - 2792.4s] No product embodies our mission
+more than Google Search.
+[2792.4s - 2796.9s] It's the reason we started
+investing in AI decades ago
+[2796.9s - 2800.3s] and how we can deliver
+its benefits at the scale
+[2800.3s - 2802.3s] of human curiosity.
+[2802.3s - 2804.7s] Our Gemini models
+are helping to make
+[2804.7s - 2809.4s] Google Search more intelligent,
+agentic, and personalized.
+[2809.4s - 2813.3s] One great example of
+progress is our AI Overviews.
+[2813.3s - 2815.7s] Since launching
+at I/O last year,
+[2815.7s - 2818.4s] they have scaled up to
+over 1.5 billion users
+[2818.4s - 2822.3s] every month in more than 200
+countries and territories.
+[2822.3s - 2824.9s] As people use AI
+Overviews, we see
+[2824.9s - 2826.8s] they are happier
+with their results,
+[2826.8s - 2828.9s] and they search more often.
+[2828.9s - 2832.3s] In our biggest markets,
+like the US and India,
+[2832.3s - 2836.6s] AI Overviews are driving
+over 10% growth in the types
+[2836.6s - 2838.6s] of queries that show them.
+[2838.6s - 2842.0s] What's particularly
+exciting is that this growth
+[2842.0s - 2844.0s] increases over time.
+[2844.0s - 2846.1s] It's one of the most
+successful launches
+[2846.1s - 2850.8s] in search in the past decade.
+[2850.8s - 2854.2s] [APPLAUSE]
+[2856.2s - 2858.5s] AI Overviews are also
+one of the strongest
+[2858.5s - 2861.9s] drivers of growth for visual
+searches in Google Lens.
+[2861.9s - 2866.3s] Lens grew 65% year over
+year, with more than 100
+[2866.3s - 2869.4s] billion visual searches
+already this year.
+[2869.4s - 2871.8s] So people are
+asking more queries,
+[2871.8s - 2874.9s] and they're also asking
+more complex queries.
+[2874.8s - 2878.7s] With our latest Gemini
+models, our AI Overviews
+[2878.7s - 2880.9s] are at the quality
+and accuracy you've
+[2880.9s - 2885.4s] come to expect from search and
+are the fastest in the industry.
+[2885.4s - 2888.8s] For those who want an
+end-to-end AI Search experience,
+[2888.8s - 2892.5s] we are introducing
+an all new AI Mode.
+[2892.5s - 2895.4s] It's a total
+reimagining of Search.
+[2895.4s - 2897.7s] With more advanced
+reasoning, you
+[2897.7s - 2903.1s] can ask AI Mode longer and
+more complex queries like this.
+[2903.1s - 2907.2s] In fact, users have been
+asking much longer queries,
+[2907.2s - 2910.3s] two to three times the length
+of traditional searches.
+[2910.3s - 2914.0s] And you can go further
+with follow-up questions.
+[2914.0s - 2919.2s] All of this is available today
+as a new tab right in Search.
+[2919.2s - 2922.0s] I've been using it a lot,
+and it's completely changed
+[2922.0s - 2923.3s] how I use search.
+[2923.3s - 2927.0s] And I'm excited to share that
+AI Mode is coming to everyone
+[2927.0s - 2929.0s] in the US starting today.
+[2929.1s - 2932.4s] [APPLAUSE, CHEERING]
+[2935.9s - 2939.0s] AI mode is where we will first
+bring our frontier capabilities
+[2939.1s - 2940.0s] into Search.
+[2940.0s - 2944.8s] And starting this week, Gemini
+2.5, our most intelligent model
+[2944.8s - 2947.0s] series, is coming to Search.
+[2947.0s - 2949.7s] To share a whole lot
+more, here's Liz.
+[2949.7s - 2952.6s] [MUSIC PLAYING, APPLAUSE]
+[2961.9s - 2963.3s] LIZ REID: Thanks, Sundar.
+[2963.3s - 2966.6s] In just one year, there's
+been a profound shift
+[2966.6s - 2969.0s] in how people are using Search.
+[2969.0s - 2971.8s] For years, people
+have come to Google
+[2971.8s - 2974.4s] to ask questions like this.
+[2974.4s - 2976.8s] And now, they're
+also asking questions
+[2976.8s - 2979.3s] that look more like this.
+[2979.3s - 2982.8s] They're asking longer
+questions, harder ones,
+[2982.8s - 2986.6s] and as you just heard from
+Sundar, lots more of them.
+[2986.6s - 2989.0s] They're experiencing what
+AI powered search can
+[2989.0s - 2992.2s] do, as we bring together
+our Gemini model's
+[2992.2s - 2994.5s] advanced capabilities
+with Search's
+[2994.5s - 2997.3s] unparalleled understanding
+of the web and the world's
+[2997.3s - 2998.9s] information.
+[2998.9s - 3001.8s] Today, you'll see how
+you can ask anything.
+[3001.8s - 3006.0s] And a more intelligent,
+agentic, and personalized search
+[3006.0s - 3008.2s] will take on your
+toughest questions
+[3008.2s - 3010.8s] and help you get stuff done.
+[3010.8s - 3013.4s] This is the future
+of Google Search,
+[3013.4s - 3017.8s] a search that goes beyond
+information, to intelligence.
+[3017.8s - 3020.2s] And you're starting to see
+this come to life already
+[3020.2s - 3021.7s] with AI Overviews.
+[3021.7s - 3025.4s] And AI Mode takes this
+to the next level.
+[3025.4s - 3030.7s] AI Mode is Search transformed,
+with Gemini 2.5 at its core.
+[3030.7s - 3033.2s] It's our most
+powerful AI search,
+[3033.2s - 3036.4s] able to tackle any question.
+[3036.4s - 3038.8s] And as Sundar announced,
+we're excited to start
+[3038.8s - 3042.8s] rolling out AI Mode for everyone
+in the US, starting today.
+[3042.8s - 3046.3s] [APPLAUSE]
+[3049.8s - 3052.8s] You'll find it as a new tab
+directly in search or right
+[3052.8s - 3054.7s] from your search bar.
+[3054.7s - 3058.5s] AI Mode will be loaded up with
+all of our best AI features
+[3058.5s - 3062.2s] and capabilities, but
+it's even more than that.
+[3062.2s - 3065.3s] It's a glimpse of
+what's to come.
+[3065.3s - 3068.4s] Over time, we'll graduate
+many of AI Mode's
+[3068.4s - 3070.2s] cutting-edge features
+and capabilities
+[3070.2s - 3073.5s] directly into the core
+search experience.
+[3073.5s - 3076.8s] That starts today, as we bring
+the same models that power
+[3076.8s - 3079.8s] AI Mode to power AI Overviews.
+[3079.8s - 3082.1s] So you can bring your
+hardest questions
+[3082.1s - 3084.6s] right to the search box.
+[3084.6s - 3086.9s] Today we'll give you
+a tour of AI Mode,
+[3086.9s - 3090.2s] and you'll see how it works and
+how it's getting even better,
+[3090.2s - 3094.4s] with personal context, deeper
+research, complex analysis
+[3094.4s - 3098.1s] and visualization, live
+multimodality, and new ways
+[3098.1s - 3099.4s] to shop.
+[3099.4s - 3102.6s] Now, that's a lot because
+AI Mode can do a lot.
+[3102.6s - 3104.9s] So let's dive in.
+[3104.9s - 3108.9s] First, with AI mode, you can
+ask whatever is on your mind.
+[3108.9s - 3112.2s] And as you can see here,
+Search gets to work.
+[3112.2s - 3115.5s] It generates your response,
+putting everything together
+[3115.5s - 3118.7s] for you, including links
+to content and creators
+[3118.7s - 3120.8s] you might not have
+otherwise discovered,
+[3120.8s - 3124.1s] and merchants and businesses,
+with useful information
+[3124.1s - 3125.8s] like ratings.
+[3125.8s - 3128.2s] Search uses AI to
+dynamically adapt
+[3128.2s - 3131.8s] the entire UI, the
+combination of text,
+[3131.8s - 3136.9s] images, links, even this
+map just for your question.
+[3136.9s - 3139.8s] And you can follow
+up conversationally.
+[3139.8s - 3142.8s] Now, AI Mode isn't just
+giving you information,
+[3142.8s - 3147.4s] it's bringing a whole new level
+of intelligence to search.
+[3147.4s - 3149.1s] What makes this
+possible is something
+[3149.1s - 3152.1s] we call our query
+fanout technique.
+[3152.1s - 3155.0s] Now, under the hood, Search
+recognizes when a question
+[3155.0s - 3157.1s] needs advanced reasoning.
+[3157.1s - 3159.4s] It calls on our custom
+version of Gemini
+[3159.4s - 3162.2s] to break the question
+into different subtopics,
+[3162.2s - 3164.0s] and it issues a
+multitude of queries
+[3164.0s - 3166.6s] simultaneously on your behalf.
+[3166.6s - 3169.3s] It searches across
+the entire web,
+[3169.3s - 3172.6s] going way deeper than
+a traditional search.
+[3172.6s - 3176.0s] And it taps into all of our data
+sets of real-time information,
+[3176.0s - 3179.0s] like the knowledge graph,
+the shopping graph,
+[3179.0s - 3181.9s] and in this case,
+local data, including
+[3181.9s - 3184.9s] insights from our Maps
+community of over 500
+[3184.9s - 3187.2s] million contributors.
+[3187.2s - 3189.1s] Search pulls
+together a response,
+[3189.1s - 3192.0s] and it checks its work to make
+sure it meets our high bar
+[3192.1s - 3193.9s] for information quality.
+[3193.9s - 3197.3s] And if it detects any gaps,
+it issues even more searches
+[3197.3s - 3199.5s] to fill them in.
+[3199.5s - 3201.1s] That means, with
+AI Mode, you get
+[3201.1s - 3203.7s] all of this from
+just a single search.
+[3203.7s - 3206.6s] And you get it fast.
+[3206.7s - 3209.1s] Now, let's take a look at
+what's coming next to AI Mode,
+[3209.1s - 3211.5s] starting in labs.
+[3211.5s - 3214.7s] Soon, AI Mode will be able
+to make your responses even
+[3214.7s - 3218.0s] more helpful, with
+personalized suggestions based
+[3218.0s - 3220.0s] on your past searches.
+[3220.0s - 3222.7s] You can also opt in to
+connect other Google apps,
+[3222.7s - 3224.8s] starting with Gmail.
+[3224.8s - 3227.2s] We call this personal context.
+[3227.2s - 3231.1s] And you'll see when AI mode
+is bringing yours in to help.
+[3231.1s - 3233.5s] So now, based on your
+recent restaurant bookings
+[3233.5s - 3237.2s] and searches, it gets that
+you prefer outdoor seating.
+[3237.2s - 3240.0s] And since you subscribe to
+those gallery newsletters,
+[3240.0s - 3242.2s] it suggests some cool
+art exhibits to check out
+[3242.2s - 3244.2s] while you're in town.
+[3244.2s - 3247.9s] But that's not all, because your
+flight and hotel confirmations
+[3247.9s - 3249.2s] are in your inbox.
+[3249.2s - 3251.6s] You get event ideas that sync
+up with when you'll actually
+[3251.6s - 3255.9s] be in Nashville, with many
+nearby where you're staying.
+[3255.9s - 3258.4s] You can see how personal
+contacts in AI Mode
+[3258.4s - 3262.4s] make search really yours, with
+recommendations customized just
+[3262.4s - 3263.7s] for you.
+[3263.7s - 3265.8s] Now, this is always
+under your control,
+[3265.8s - 3269.6s] and you can choose to connect
+or disconnect at any time.
+[3269.6s - 3273.8s] Personal context is coming
+to AI Mode this summer.
+[3273.8s - 3277.2s] [APPLAUSE, CHEERING]
+[3280.6s - 3282.5s] Next, for questions
+when you want
+[3282.5s - 3284.8s] an even more thorough
+response, we're
+[3284.8s - 3288.4s] bringing deep research
+capabilities into AI Mode.
+[3288.4s - 3292.1s] You already come to search
+today to really unpack a topic,
+[3292.1s - 3295.7s] but this brings it to a much
+deeper level, so much so
+[3295.7s - 3298.6s] that we're calling
+this Deep Search.
+[3298.6s - 3301.2s] Deep Search uses the same
+query fanout technique
+[3301.2s - 3303.8s] you just heard about,
+but multiplied.
+[3303.8s - 3306.2s] It can issue dozens
+or even hundreds
+[3306.2s - 3308.3s] of searches on your behalf.
+[3308.3s - 3311.8s] It reasons across all those
+disparate pieces of information
+[3311.8s - 3314.6s] to create an expert level,
+fully-sighted report
+[3314.6s - 3316.8s] in just minutes.
+[3316.8s - 3318.5s] It includes links to
+the web throughout,
+[3318.5s - 3322.4s] so you can easily
+explore and take action.
+[3322.4s - 3326.0s] Now, that's a core part of how
+we've built AI Mode overall
+[3326.0s - 3329.0s] and how we've always
+thought about AI in Search.
+[3329.0s - 3332.3s] Because we believe AI will
+be the most powerful engine
+[3332.3s - 3335.5s] for discovery that
+the web has ever seen,
+[3335.5s - 3337.4s] helping people
+discover even more
+[3337.4s - 3339.7s] of what the web has
+to offer and find
+[3339.7s - 3343.2s] incredible, hyper
+relevant content.
+[3343.2s - 3344.6s] You're starting
+to see how search
+[3344.7s - 3346.3s] is becoming more intelligent.
+[3346.3s - 3348.2s] And we've got more to show you.
+[3348.2s - 3350.2s] So I'll hand it
+over to Rajan, who
+[3350.2s - 3351.7s] will share how AI
+Mode is helping
+[3351.7s - 3355.4s] analyze complex data for
+one of his passions, sports.
+[3355.4s - 3358.7s] [MUSIC PLAYING, APPLAUSE]
+[3366.8s - 3368.4s] RAJAN PATEL: Thanks, Liz.
+[3368.4s - 3371.4s] OK, so I'm a huge baseball fan.
+[3371.4s - 3373.2s] And lately there's
+been a lot of buzz
+[3373.2s - 3375.3s] about these new torpedo bats.
+[3375.3s - 3377.3s] If you don't follow
+baseball, it's
+[3377.3s - 3380.3s] a new bat design where more
+of the weight of the bat
+[3380.3s - 3381.9s] is in the sweet spot.
+[3381.9s - 3384.2s] As you can see,
+I've been digging in
+[3384.2s - 3387.0s] on whether it's making a
+real impact on the game.
+[3387.0s - 3390.1s] And now, I'm wondering
+what the numbers say.
+[3390.1s - 3393.5s] So I'll ask, show the
+batting average and on base
+[3393.5s - 3397.3s] percentage for this season and
+last for notable players who
+[3397.3s - 3399.5s] currently use a torpedo bat.
+[3399.5s - 3400.5s] Think about it.
+[3400.5s - 3403.3s] There are so many
+parts to that question.
+[3403.3s - 3406.6s] Search needs to understand
+who the notable players are,
+[3406.6s - 3410.7s] which ones are using torpedo
+bats, and their stats.
+[3410.7s - 3413.2s] I get this helpful
+response, including
+[3413.2s - 3415.6s] this easy-to-read table.
+[3415.6s - 3418.4s] And I know that this
+is fresh and accurate
+[3418.4s - 3422.6s] since it uses our sports data
+that's continuously updated down
+[3422.6s - 3424.3s] to the last strike.
+[3424.3s - 3427.1s] Search even brings
+in important context,
+[3427.1s - 3430.4s] like that it's still
+early in the season.
+[3430.4s - 3433.5s] I can follow up and ask,
+how many home runs have
+[3433.5s - 3435.4s] these players hit this season?
+[3435.4s - 3438.9s] And just like that,
+I get this graph.
+[3438.9s - 3440.8s] This goes back to
+what Liz mentioned
+[3440.8s - 3443.2s] about AI Mode
+dynamically generating
+[3443.2s - 3446.2s] the right UI for each response.
+[3446.2s - 3448.2s] Search figured out
+that the best way
+[3448.2s - 3452.8s] to present this information
+is a graph, and it created it.
+[3452.8s - 3457.3s] It's like having my very own
+sports analyst right in Search.
+[3457.3s - 3460.1s] Complex analysis and
+data visualization
+[3460.1s - 3463.7s] is coming this summer for
+sports and financial questions.
+[3463.7s - 3466.9s] [APPLAUSE]
+[3471.2s - 3473.5s] So all this talk
+about baseball made
+[3473.5s - 3475.4s] me want to get
+closer to the game,
+[3475.4s - 3480.3s] like at the next game close,
+but finding the perfect tickets
+[3480.3s - 3481.7s] can be a chore.
+[3481.7s - 3484.7s] So I'm excited to
+share that we're
+[3484.7s - 3488.5s] bringing Project Mariner's
+agentic capabilities into AI
+[3488.5s - 3489.6s] Mode.
+[3489.6s - 3491.9s] You've already seen
+how AI mode is becoming
+[3491.9s - 3494.1s] more intelligent
+and personalized,
+[3494.1s - 3497.8s] and here's where you start to
+see Search getting more agentic.
+[3497.8s - 3501.2s] Search can take work
+off my plate while still
+[3501.2s - 3502.8s] under my control.
+[3502.8s - 3507.1s] I'll say, find two affordable
+tickets for this Saturday's Reds
+[3507.1s - 3509.4s] game in the lower level.
+[3509.4s - 3513.1s] Search kicks off a query fanout,
+looking across several sites
+[3513.2s - 3516.1s] to analyze hundreds of
+potential ticket options,
+[3516.1s - 3518.8s] doing the tedious work
+of filling in forms
+[3518.8s - 3521.9s] with all the
+criteria I asked for.
+[3521.9s - 3525.7s] And it puts it all together,
+reasoning across the results
+[3525.7s - 3528.6s] to analyze real time
+pricing and inventory.
+[3528.6s - 3533.0s] Then, right here, task complete.
+[3533.0s - 3536.5s] I get great ticket options
+with helpful context.
+[3536.5s - 3539.5s] So I can make an
+informed decision.
+[3539.5s - 3541.8s] Looks like these seats
+have a good view and at
+[3541.8s - 3543.5s] a reasonable price.
+[3543.5s - 3545.9s] Search helps me skip
+a bunch of steps,
+[3545.9s - 3549.0s] linking me right to
+finish checking out.
+[3549.0s - 3550.8s] Tickets secured.
+[3550.8s - 3554.3s] [APPLAUSE]
+[3558.2s - 3560.0s] Search will help
+with tasks like this
+[3560.0s - 3562.9s] soon, starting with
+event tickets, restaurant
+[3562.8s - 3567.9s] reservations, and appointments
+for local services.
+[3567.9s - 3571.5s] Next, let's talk
+about multimodality.
+[3571.5s - 3574.2s] We've been blazing the
+trail for multimodal search
+[3574.2s - 3576.7s] since before it was
+really even a thing.
+[3576.7s - 3581.0s] We introduced Google Lens on
+this very stage back in 2017.
+[3581.0s - 3584.6s] And since then, we've made
+it even easier to search
+[3584.6s - 3586.0s] what you see.
+[3586.0s - 3589.2s] Snap a picture with Google Lens,
+or simply circle the search,
+[3589.2s - 3592.4s] and you can get an AI
+overview instantly.
+[3592.4s - 3595.9s] Like Sundar mentioned,
+Visual Search is on fire.
+[3595.9s - 3600.0s] And today, I'm excited to
+share that Lens has over 1.5
+[3600.0s - 3602.2s] billion users every month.
+[3602.2s - 3605.5s] [APPLAUSE]
+[3607.9s - 3611.6s] Now, we're taking the next
+big leap in multimodality
+[3611.6s - 3616.9s] by bringing Project Astra's
+live capabilities into AI Mode.
+[3616.9s - 3618.6s] Think about all
+those questions that
+[3618.6s - 3621.7s] are so much simpler to just
+talk through and actually
+[3621.7s - 3626.5s] show what you mean, like a DIY
+home repair, a tricky school
+[3626.5s - 3628.8s] assignment, or
+learning a new skill.
+[3628.8s - 3630.9s] We call this Search Live.
+[3630.9s - 3634.8s] And now, using your camera,
+Search can see what you see
+[3634.8s - 3636.8s] and give you helpful
+information as you
+[3636.8s - 3639.3s] go back and forth in real time.
+[3639.3s - 3642.9s] It's like hopping on a
+video call with Search.
+[3642.9s - 3646.4s] I have three kids, and they
+ask about a million questions
+[3646.4s - 3647.2s] a minute.
+[3647.2s - 3650.0s] And with summer right
+around the corner, the team
+[3650.0s - 3653.4s] and I decided to put Search
+Live to the ultimate test,
+[3653.4s - 3657.7s] helping us and our kids,
+tackle something new.
+[3657.7s - 3662.1s] We recorded at home with our
+families just this past weekend.
+[3662.1s - 3663.0s] Let's take a look.
+[3663.0s - 3664.2s] [VIDEO PLAYBACK]
+[3664.2s - 3667.0s] - It looks like you're about
+to do a fun science experiment.
+[3667.0s - 3667.8s] - All right.
+[3667.8s - 3668.4s] Ready, Anja?
+[3668.4s - 3669.2s] Ready, Addy?
+[3669.2s - 3669.8s] - Yep.
+[3669.8s - 3670.6s] - OK.
+[3670.6s - 3672.4s] - Are you ready for
+your science experiment?
+[3672.4s - 3673.2s] - Yeah.
+[3673.2s - 3675.7s] - Can you guess which
+experiment I'm trying to do?
+[3675.7s - 3678.4s] I have hydrogen peroxide,
+and dish soap, and yeast.
+[3678.4s - 3680.5s] - You're likely going to
+make elephant toothpaste.
+[3680.5s - 3683.1s] - I know which one of these
+strawberries is ready to eat.
+[3683.1s - 3685.4s] - I'm trying to get
+this remote to work.
+[3685.4s - 3687.8s] - It looks like someone is
+ready to get their hands dirty
+[3687.8s - 3689.4s] and plant a green bean seedling.
+[3689.4s - 3691.4s] Pop it to about 50
+pounds per square inch,
+[3691.4s - 3693.2s] but don't go over 90 PSI.
+[3693.2s - 3694.8s] - I mixed the baking soda.
+[3694.8s - 3695.7s] What do I do next?
+[3695.7s - 3697.6s] - It looks like someone
+tried dipping a finger
+[3697.6s - 3698.7s] into the cinnamon water.
+[3698.7s - 3701.0s] - What should I do to make
+this even more impressive?
+[3700.9s - 3703.0s] - You could try using
+a different catalyst.
+[3703.0s - 3705.7s] Potassium iodide
+is a good option.
+[3705.7s - 3707.2s] - Whoa, why is it doing that?
+[3707.2s - 3709.6s] - A ripe strawberry will
+also have a sweet smell.
+[3709.6s - 3712.4s] The green leaves at the top
+should look fresh and vibrant.
+[3712.4s - 3714.4s] - The chemical
+reaction is going well.
+[3714.4s - 3715.3s] - This is awesome.
+[3715.3s - 3715.9s] Thanks.
+[3715.9s - 3716.7s] - Whoa.
+[3716.7s - 3717.4s] - Whoa.
+[3717.4s - 3718.4s] - Can we do it again?
+[3718.4s - 3718.9s] - Go.
+[3721.4s - 3722.2s] - Oh, boy.
+[3722.2s - 3724.6s] How do I get strawberry
+stains out of her shirt?
+[3724.6s - 3727.6s] - Try using a mix of 1
+tablespoon white vinegar, half
+[3727.6s - 3729.2s] a teaspoon liquid
+laundry detergent.
+[3729.2s - 3730.6s] [END PLAYBACK]
+[3731.1s - 3734.5s] [MUSIC PLAYING, APPLAUSE]
+[3743.7s - 3745.4s] VIDHYA SRINIVASAN:
+With AI Mode, we
+[3745.4s - 3748.2s] are bringing a new
+level of intelligence
+[3748.2s - 3750.7s] to help you shop with Google.
+[3750.7s - 3754.6s] As you heard earlier, AI
+Mode brings in information
+[3754.6s - 3757.8s] from the web and
+our real-time data.
+[3757.8s - 3761.7s] In this case, that means you get
+the visual inspiration of Google
+[3761.7s - 3766.6s] Images and the world's most
+comprehensive set of products
+[3766.6s - 3771.7s] and retailers from our shopping
+graph, which has over 50 billion
+[3771.7s - 3775.5s] product listings that
+get constantly updated.
+[3775.5s - 3778.3s] Let me show you how
+this comes together.
+[3778.3s - 3782.5s] So I have been on the hunt for
+a new rug for my living room.
+[3782.5s - 3788.0s] I'll say, I have a light gray
+couch, and I'm looking for a rug
+[3788.0s - 3790.0s] to brighten the room.
+[3790.0s - 3793.6s] What I need first is
+visual inspiration.
+[3793.6s - 3797.5s] Search dynamically
+generates a browsable mosaic
+[3797.5s - 3800.6s] of images and some
+shoppable products
+[3800.6s - 3803.8s] personalized just for me.
+[3803.8s - 3807.4s] I see rugs from some of my
+go-to brands and some more
+[3807.4s - 3811.5s] modern options, since I often
+search for things in that style.
+[3811.5s - 3815.4s] Now, these are nice,
+but I know most of them
+[3815.4s - 3819.0s] wouldn't survive
+a day in my home.
+[3819.0s - 3825.0s] So I'll add, I have
+four active kids
+[3825.0s - 3828.0s] and they like to
+have friends over.
+[3828.0s - 3832.1s] Search understands this
+involves plenty of messes.
+[3832.1s - 3835.6s] It recommends a low
+pile and washable rug
+[3835.6s - 3838.7s] made from durable materials,
+along with some products
+[3838.7s - 3840.6s] that I can shop.
+[3840.6s - 3842.6s] But I don't know
+a lot about rugs.
+[3842.6s - 3846.3s] So luckily, Search points
+out some things to consider.
+[3846.3s - 3849.9s] And with helpful
+follow ups like these,
+[3849.9s - 3856.0s] taking a few days of research
+down to just a few minutes.
+[3856.0s - 3860.7s] You can imagine how helpful
+this new experience in AI Mode
+[3860.7s - 3863.4s] will be for all of
+your shopping needs.
+[3863.4s - 3867.8s] Speaking of, I want a few
+new dresses for summer.
+[3867.8s - 3870.9s] Search gave me
+some great options,
+[3870.9s - 3876.7s] but now, I'm faced with the
+classic online shopping dilemma.
+[3876.7s - 3881.9s] I have no clue how these
+styles will look on me.
+[3881.9s - 3885.2s] So we are introducing
+a new try-on feature
+[3885.2s - 3889.0s] that will help you virtually
+try on clothes so you
+[3889.0s - 3892.8s] get a feel for how
+styles might look on you.
+[3892.8s - 3894.4s] Let me show you a live demo.
+[3897.2s - 3902.9s] So I looked at many dresses,
+and I really like this blue one.
+[3902.9s - 3905.6s] I click on this
+button to try it on.
+[3905.6s - 3908.3s] It asked me to upload
+a picture, which
+[3908.3s - 3910.6s] takes me to my camera roll.
+[3910.6s - 3912.3s] I have many pictures here.
+[3912.3s - 3915.9s] I'm going to pick one that is
+full length and a clear view
+[3915.9s - 3916.7s] of me.
+[3916.7s - 3919.5s] And off it goes.
+[3919.5s - 3921.8s] While it's processing,
+I'll show you what's
+[3921.8s - 3924.1s] happening behind the scenes.
+[3924.1s - 3927.5s] To create a try-on experience
+that works at scale,
+[3927.5s - 3930.6s] we need a deep understanding
+of the human body
+[3930.6s - 3932.8s] and how clothing looks on it.
+[3932.8s - 3936.5s] To do this, we built a
+custom image generation
+[3936.5s - 3939.9s] model specifically
+trained for fashion.
+[3939.9s - 3940.5s] Wow.
+[3940.5s - 3941.2s] And it's back.
+[3941.2s - 3944.5s] [APPLAUSE, CHEERING]
+[3949.9s - 3953.5s] I have to say, I love a
+live demo when it works.
+[3956.3s - 3957.0s] All right.
+[3957.0s - 3958.3s] More on how it works.
+[3958.3s - 3961.8s] It brings in advanced
+3D shape understanding,
+[3961.8s - 3965.2s] which allows us to perceive
+perceived shapes and depths more
+[3965.2s - 3969.1s] accurately, helping us better
+visualize the human body.
+[3969.1s - 3972.2s] Our try-on experience
+works with your photo.
+[3972.2s - 3974.8s] It's not some pre-captured
+image or a model
+[3974.8s - 3976.4s] that doesn't look like you.
+[3976.4s - 3978.6s] And then, when it
+comes to clothes
+[3978.6s - 3981.1s] that you're interested
+in, the AI model
+[3981.1s - 3985.4s] is able to show how this
+material will fold, and stretch,
+[3985.4s - 3988.0s] and drape on people.
+[3988.0s - 3990.2s] This technology
+is the most state
+[3990.2s - 3992.3s] of the art in the
+industry at scale.
+[3992.3s - 3996.6s] And it allows us to visualize
+how billions of apparel products
+[3996.6s - 3999.1s] look on a wide
+variety of people.
+[3999.1s - 4001.7s] And you can see it here
+how it really gives me
+[4001.7s - 4005.2s] a feel for how this
+dress might look on me.
+[4005.2s - 4005.9s] All right.
+[4005.9s - 4007.8s] So I'm now set on the dress.
+[4007.8s - 4011.4s] And Search can help me find
+it at the price that I want
+[4011.4s - 4015.3s] and buy it for me with our
+new agentic checkout feature.
+[4015.3s - 4018.2s] So let me get back
+here to the dress.
+[4018.2s - 4022.8s] And I'm going to click
+this thing to track price.
+[4022.8s - 4025.3s] I pick my size.
+[4025.3s - 4027.2s] Then I have to set
+a target price.
+[4027.2s - 4030.8s] I'm going to set
+it to about $50.
+[4030.8s - 4034.1s] And tracking is happening.
+[4034.1s - 4036.9s] Search will now
+continuously check websites
+[4036.9s - 4039.0s] where the dress is
+available and then
+[4039.0s - 4041.2s] let me know if the price drops.
+[4041.2s - 4044.9s] So now let's switch out
+of our live demo mode,
+[4044.9s - 4047.7s] and then I'm going to
+sprinkle some I/O magic.
+[4047.7s - 4050.6s] And let's assume the
+price is now dropped.
+[4050.6s - 4055.6s] When that happens, I get a
+notification just like this.
+[4055.6s - 4058.6s] And if I want to buy,
+my checkout agent
+[4058.6s - 4062.2s] will add the right size
+and color to my cart.
+[4062.2s - 4066.1s] I can choose to review all my
+payment and shipping information
+[4066.2s - 4069.3s] or just let the agent
+just buy it for me.
+[4069.3s - 4072.8s] [APPLAUSE, CHEERING]
+[4078.2s - 4081.5s] With just one tap,
+Search security
+[4081.6s - 4083.7s] buys it for me with Google Pay.
+[4083.7s - 4087.0s] And of course, all of this
+happened under my guidance,
+[4087.0s - 4090.9s] from inspiration to purchase.
+[4090.9s - 4094.3s] Our new intelligent
+capabilities bring the best
+[4094.3s - 4098.5s] of shopping together with the
+best of AI right here in Search.
+[4098.5s - 4102.0s] Our new visual shopping and
+agentic checkout features
+[4101.9s - 4103.9s] are rolling out in
+the coming months,
+[4103.9s - 4108.5s] and you can start trying on
+looks in labs beginning today.
+[4108.5s - 4111.8s] [APPLAUSE, CHEERING]
+[4116.1s - 4117.7s] And now back to you, Liz.
+[4117.7s - 4121.1s] [MUSIC PLAYING]
+[4125.9s - 4127.2s] LIZ REID: Thanks, Vidhya.
+[4127.2s - 4131.0s] As Sundar mentioned, this all
+gets an even bigger upgrade
+[4131.0s - 4135.7s] later this week, when we bring
+a custom version of Gemini 2.5
+[4135.7s - 4139.1s] to both AI Overviews
+and AI Mode.
+[4139.1s - 4143.1s] This is the next frontier
+of Google Search, where
+[4143.1s - 4145.4s] AI Overviews bring
+the helpfulness of AI
+[4145.4s - 4149.1s] to everyone in the
+main search experience.
+[4149.1s - 4151.2s] And as you've seen
+today, AI Mode
+[4151.2s - 4154.1s] is a totally
+reimagined AI Search,
+[4154.1s - 4158.3s] with all our most cutting-edge
+AI features and capabilities.
+[4158.3s - 4160.8s] We couldn't be more
+excited about this chapter
+[4160.8s - 4164.8s] of Google Search, where
+you can truly ask anything.
+[4164.8s - 4167.7s] And we mean anything.
+[4167.7s - 4170.4s] Your simplest and your
+hardest questions,
+[4170.4s - 4174.1s] your deepest research, your
+personalized shopping needs,
+[4174.1s - 4177.1s] your just-take-it-off-my-plate
+tasks,
+[4177.1s - 4181.1s] all you have to do is ask.
+[4181.1s - 4182.3s] [VIDEO PLAYBACK]
+[4182.3s - 4184.1s] [MUSIC PLAYING]
+[4206.9s - 4208.7s] - What else should I
+do to make it stronger?
+[4208.7s - 4209.9s] - To make it stronger.
+[4209.9s - 4212.4s] Consider adding more
+triangles to the design.
+[4212.4s - 4214.7s] [MUSIC PLAYING]
+[4264.2s - 4265.6s] [END PLAYBACK]
+[4267.6s - 4271.0s] [MUSIC PLAYING, APPLAUSE]
+[4277.8s - 4279.6s] JOSH WOODWARD: For
+years, people have
+[4279.6s - 4282.5s] pursued building an AI
+assistant that doesn't just
+[4282.5s - 4286.6s] respond but understands,
+one that doesn't just
+[4286.6s - 4291.3s] wait but anticipate, a truly
+universal assistant that
+[4291.3s - 4292.8s] empowers you.
+[4292.8s - 4296.7s] And today, we're taking a new
+step forward to that future.
+[4296.6s - 4299.8s] And we're using the
+Gemini app to get there.
+[4299.9s - 4305.1s] Our goal is to make Gemini
+the most personal, proactive,
+[4305.1s - 4307.4s] and powerful AI assistant.
+[4307.4s - 4311.0s] And it starts with
+being personal.
+[4311.0s - 4314.5s] What if your AI assistant
+was truly yours, truly
+[4314.5s - 4318.8s] yours, an assistant that
+learns you, your preferences,
+[4318.8s - 4321.4s] your projects,
+your world, and you
+[4321.4s - 4323.6s] are always in the driver's seat?
+[4323.6s - 4327.2s] And with your permission, you
+could share relevant Google
+[4327.2s - 4331.0s] information with it, making
+it an extension of you.
+[4331.0s - 4333.8s] We call this personal context.
+[4333.8s - 4335.4s] And we've already
+made it possible
+[4335.4s - 4338.0s] for you to connect your
+search history with Gemini,
+[4338.1s - 4341.7s] so it can understand that you've
+searched for recipes in the past
+[4341.6s - 4344.4s] and craft responses like this.
+[4344.4s - 4348.2s] Starting soon, you'll be able to
+add even more personal context
+[4348.2s - 4350.8s] from across Google to Gemini.
+[4350.8s - 4353.5s] So it will be uniquely helpful.
+[4353.5s - 4356.3s] You can choose to turn
+this on, and you'll always
+[4356.3s - 4358.1s] be in control of the experience.
+[4358.1s - 4360.2s] You can view and
+manage your information
+[4360.2s - 4362.0s] as well as connect
+and disconnect
+[4362.0s - 4363.7s] different Google apps.
+[4363.7s - 4366.7s] This level of
+personalization gives you
+[4366.7s - 4371.8s] a more proactive AI assistant,
+and this changes a lot.
+[4371.8s - 4374.8s] See, today, most AI is reactive.
+[4374.8s - 4377.2s] You ask, it answers.
+[4377.2s - 4379.6s] But what if it could
+see what's coming
+[4379.6s - 4383.5s] and help you prepare
+even before you ask?
+[4383.5s - 4385.1s] Imagine you're a student.
+[4385.1s - 4387.1s] You've got a big
+physics exam looming.
+[4387.1s - 4389.2s] And instead of
+scrambling, Gemini
+[4389.2s - 4391.8s] sees it on your
+calendar a week out.
+[4391.8s - 4393.8s] But it doesn't just remind you.
+[4393.8s - 4397.3s] It comes with personalized
+quizzes crafted
+[4397.3s - 4399.8s] from your materials, notes
+from your professor, even
+[4399.8s - 4401.9s] photos, handwritten notes.
+[4401.9s - 4403.7s] That's not just helpful.
+[4403.7s - 4406.1s] It's going to feel like magic.
+[4406.1s - 4408.2s] And imagine the
+step beyond that,
+[4408.2s - 4412.8s] where Gemini can go off and make
+custom explainer videos based
+[4412.8s - 4417.4s] on your interests so you can
+understand a topic better.
+[4417.4s - 4420.5s] In this case, Gemini knows
+that I'm into cycling,
+[4420.5s - 4423.9s] so it explains this concept
+of thermodynamics to me using
+[4423.9s - 4426.3s] an analogy I'll understand.
+[4426.3s - 4428.7s] This is where we're
+headed with Gemini.
+[4428.6s - 4432.5s] And it's all possible because
+of the powerful capabilities
+[4432.5s - 4434.6s] and the underlying model.
+[4434.6s - 4437.4s] Last month, we shipped
+our latest 2.5 Pro model
+[4437.4s - 4438.6s] in the Gemini app.
+[4438.6s - 4441.7s] And it wasn't just an upgrade,
+it was a leap forward.
+[4441.7s - 4444.9s] People are doing extraordinary
+things in the app.
+[4444.9s - 4446.6s] They're not just vibe coding.
+[4446.6s - 4448.9s] They're inventing
+entire games and making
+[4448.9s - 4451.3s] fully-featured
+websites in minutes.
+[4451.3s - 4454.2s] They're thinking
+things into existence.
+[4454.2s - 4457.3s] And it's fun to write
+software for the first time
+[4457.3s - 4459.5s] or create a video
+with our Veo model,
+[4459.5s - 4461.4s] to generate and edit images.
+[4461.4s - 4463.6s] It's a new superpower
+for everyone.
+[4463.6s - 4465.5s] And so these three Ps--
+[4465.5s - 4469.7s] personal, proactive,
+and powerful--
+[4469.7s - 4472.1s] these are the frontiers
+of AI assistants.
+[4472.1s - 4475.3s] And thanks to 2.5 Pro,
+we're making big strides
+[4475.3s - 4477.3s] across all three.
+[4477.3s - 4480.4s] So let's talk more about how
+all this is coming together
+[4480.4s - 4482.4s] to life in the Gemini app.
+[4482.4s - 4484.6s] We're launching
+five things today.
+[4484.6s - 4487.6s] First, let's talk
+about Gemini Live.
+[4487.6s - 4491.1s] People are blown away by
+how interactive and natural
+[4491.1s - 4492.5s] the conversations are.
+[4492.5s - 4494.7s] And it works in
+over 45 languages,
+[4494.7s - 4496.8s] more than 150 countries.
+[4496.8s - 4499.5s] It's so intuitive, so engaging.
+[4499.5s - 4502.5s] The conversations, in
+fact, are five times longer
+[4502.5s - 4504.9s] than the text
+conversations in the app.
+[4504.9s - 4507.2s] And I can tell you from
+personal experience,
+[4507.2s - 4509.9s] it's great for talking
+through things on the drive
+[4509.9s - 4511.9s] into work in the morning.
+[4511.9s - 4514.0s] Now, as Sundar
+mentioned, Gemini Live
+[4514.0s - 4517.2s] now includes camera and
+screen sharing, both of which
+[4517.2s - 4518.3s] are incredible.
+[4518.3s - 4521.4s] All of it is rolling out free
+of charge in the Gemini app
+[4521.4s - 4523.2s] on Android and iOS today.
+[4523.2s - 4526.6s] [APPLAUSE, CHEERING]
+[4529.6s - 4531.2s] And in the coming
+weeks, you'll be
+[4531.1s - 4534.1s] able to connect Gemini Live
+to some of your favorite apps,
+[4534.1s - 4537.0s] like Calendar,
+Maps, Keep, Tasks.
+[4537.0s - 4539.5s] So soon, you can just
+point your camera
+[4539.5s - 4542.5s] and ask it to add an
+invite to your calendar,
+[4542.5s - 4543.7s] and it'll be done.
+[4543.7s - 4546.9s] Or if you need to decipher
+your roommate's handwriting
+[4546.9s - 4549.0s] for the shopping
+list, Gemini Live
+[4549.0s - 4552.8s] can turn those scribbles into
+a neat list in Google Keep.
+[4552.8s - 4556.2s] Our Gemini Live
+roadmap is overflowing
+[4556.2s - 4557.5s] with exciting things.
+[4557.5s - 4560.0s] They're all being
+prototyped in Project Astra,
+[4560.0s - 4561.6s] like you saw earlier.
+[4561.6s - 4564.5s] And as those ideas mature,
+we'll graduate them
+[4564.5s - 4567.3s] into Gemini Live for everyone.
+[4567.3s - 4570.5s] And since Gemini and Android
+work so closely together,
+[4570.5s - 4573.8s] many of those experiences
+will work great on Android
+[4573.8s - 4576.0s] across the entire ecosystem.
+[4576.0s - 4578.1s] So stay tuned for more.
+[4578.1s - 4578.8s] All right.
+[4578.9s - 4581.1s] Real-time interaction
+is amazing,
+[4581.1s - 4585.7s] but sometimes, you need to go
+deep, unravel something complex.
+[4585.7s - 4588.2s] This is where Deep
+Research comes in.
+[4588.2s - 4590.7s] Starting today, Deep
+Research will now
+[4590.7s - 4594.7s] let you upload your own files to
+guide the research agent, which
+[4594.7s - 4597.3s] is one of the
+top-requested features.
+[4597.3s - 4601.6s] And soon, we'll let you research
+across Google Drive and Gmail,
+[4601.6s - 4605.0s] so you can easily pull in
+information from there too.
+[4605.0s - 4608.4s] So let's say you have this
+incredible, detailed report.
+[4608.4s - 4610.8s] In this case, it's about
+the science of comets
+[4610.8s - 4613.1s] moving throughout space.
+[4613.1s - 4616.0s] How do you get all that
+brilliance distilled down
+[4616.0s - 4618.5s] into something
+digestible, engaging,
+[4618.5s - 4620.3s] something you can share?
+[4620.3s - 4622.4s] This is where Canvas comes in.
+[4622.4s - 4625.9s] It's Gemini's interactive
+space for cocreation.
+[4625.9s - 4629.7s] Canvas will now let you
+transform that report with one
+[4629.7s - 4632.3s] tap into all kinds
+of new things,
+[4632.3s - 4636.4s] like a dynamic web page, an
+infographic, a helpful quiz,
+[4636.4s - 4639.5s] even a custom podcast
+in 45 languages.
+[4639.5s - 4641.8s] But if you want
+to go further, you
+[4641.8s - 4644.3s] can vibe code all
+sorts of amazing things
+[4644.3s - 4647.5s] in Canvas, with as much
+back and forth as you want.
+[4647.5s - 4650.5s] You can get exactly the
+experience you're looking for.
+[4650.5s - 4653.2s] Check out this interactive
+comet simulation
+[4653.2s - 4654.9s] that one of our
+Googlers made just
+[4654.9s - 4657.2s] by describing what
+they wanted to build,
+[4657.2s - 4660.8s] and collaborating with
+Gemini to get it just right.
+[4660.8s - 4663.0s] And as you can share
+apps like this,
+[4663.1s - 4665.9s] others can easily jump in
+and view it, and modify it,
+[4665.9s - 4667.3s] and remix it.
+[4667.3s - 4670.8s] This is the power to
+transform anything,
+[4670.8s - 4674.7s] and it's a whole new
+way to use Gemini.
+[4674.7s - 4678.0s] There's another new way you
+can use Gemini today, too.
+[4678.1s - 4681.7s] We're introducing
+Gemini in Chrome.
+[4681.7s - 4685.0s] This will be your AI assistant
+that's there for you as you
+[4685.0s - 4687.5s] browse the web on your desktop.
+[4687.5s - 4690.3s] The amazing part is
+that you can use this.
+[4690.3s - 4692.6s] And it understands the
+context of the page
+[4692.6s - 4694.8s] that you're on automatically.
+[4694.8s - 4697.8s] So if you have a question,
+it can be answered.
+[4697.8s - 4701.5s] I especially love it for
+comparing reviews on long pages,
+[4701.5s - 4703.7s] like this camping website.
+[4703.7s - 4705.9s] We're starting to roll
+out Gemini in Chrome
+[4705.9s - 4710.4s] this week to Gemini
+subscribers in the US.
+[4710.4s - 4713.9s] [APPLAUSE, CHEERING]
+[4716.4s - 4717.1s] All right.
+[4717.1s - 4718.2s] We've taken some quizzes.
+[4718.2s - 4719.5s] We've talked to Gemini Live.
+[4719.6s - 4721.7s] We've learned about
+comets and in campsites.
+[4721.7s - 4723.9s] Now it's time to
+create some things.
+[4723.9s - 4728.1s] Starting today, we're bringing
+our latest and most capable
+[4728.1s - 4731.9s] image generation model
+into the Gemini app.
+[4731.9s - 4735.5s] It's called Imagen 4, and
+it's a big leap forward.
+[4735.5s - 4738.8s] [APPLAUSE, CHEERING]
+[4740.2s - 4745.3s] The images are richer, with more
+nuanced colors and fine grained
+[4745.3s - 4748.5s] details, the shadows
+in the different shots,
+[4748.5s - 4751.4s] the water droplets that
+come through in the photos.
+[4751.4s - 4754.0s] I've spent a lot of time
+around these models.
+[4754.0s - 4757.5s] And I can say this model,
+and the progression
+[4757.5s - 4761.6s] has gone from good
+to great to stunning.
+[4761.6s - 4766.2s] And Imagen 4 is so much
+better at text and topography.
+[4766.2s - 4768.4s] In the past, you might
+have created something
+[4768.4s - 4771.2s] that looked good,
+but adding words
+[4771.2s - 4773.3s] didn't always work just right.
+[4773.3s - 4774.7s] So check this out.
+[4774.7s - 4777.8s] Maybe I want to create a
+poster for a music festival.
+[4777.8s - 4780.1s] We'll make the Chrome
+Dino the big headliner.
+[4780.1s - 4783.9s] Imagen 4 doesn't just get
+the text and spelling right.
+[4783.9s - 4786.6s] It's actually making
+creative choices,
+[4786.6s - 4789.4s] like using dinosaur
+bones in the font,
+[4789.4s - 4792.2s] or figuring out the
+spacing, the font size,
+[4792.2s - 4795.3s] the layout that makes it
+look like this great poster.
+[4795.3s - 4797.5s] So the image quality is higher.
+[4797.5s - 4798.8s] The speed is faster.
+[4798.9s - 4800.3s] The text is better.
+[4800.3s - 4802.6s] All of this lets
+you make posters,
+[4802.6s - 4805.3s] party invites,
+and anything else.
+[4805.3s - 4808.2s] And with Gemini's
+native image generation,
+[4808.2s - 4811.9s] you can easily edit these
+images too, right in the app.
+[4811.9s - 4816.2s] We've also made a super
+fast variant of Imagen 4.
+[4816.2s - 4818.4s] We can't wait for you
+to get your hands on it.
+[4818.4s - 4822.5s] In fact, it's 10 times faster
+than our previous model,
+[4822.5s - 4826.2s] so you can iterate through
+many ideas quickly.
+[4826.2s - 4826.8s] All right.
+[4826.8s - 4828.9s] I want to show you
+one last thing.
+[4828.9s - 4831.6s] Images are incredible,
+but sometimes you
+[4831.6s - 4835.5s] need motion and sound
+to tell the whole story.
+[4835.5s - 4838.7s] Last December, Veo
+2 came out, and it
+[4838.7s - 4842.2s] redefined video generation
+for the industry.
+[4842.2s - 4845.8s] And if you saw Demi's sizzling
+onions post yesterday,
+[4845.8s - 4848.5s] you know that we've been
+cooking something else.
+[4848.5s - 4852.8s] Today, I'm excited to announce
+our new state of the art
+[4852.8s - 4854.6s] model, Veo 3.
+[4854.6s - 4857.9s] [APPLAUSE, CHEERING]
+[4861.7s - 4864.7s] And like a lot of other things
+you've heard about from stage
+[4864.7s - 4866.7s] today, it's available today.
+[4866.7s - 4869.8s] [APPLAUSE, CHEERING]
+[4871.8s - 4874.4s] The visual quality
+is even better.
+[4874.4s - 4877.8s] Its understanding of
+physics is stronger,
+[4877.8s - 4879.5s] but here's the leap forward.
+[4879.5s - 4883.8s] Veo 3 comes with Native
+Audio generation.
+[4883.9s - 4884.9s] That means--
+[4884.9s - 4886.8s] [APPLAUSE]
+[4886.8s - 4889.5s] --that means that
+Veo 3 can generate
+[4889.5s - 4894.4s] sound effects, background
+sounds, and dialogue.
+[4894.4s - 4898.3s] Now you prompt it and
+your characters can speak.
+[4898.3s - 4901.8s] Here's a wise old owl and
+a nervous young badger
+[4901.8s - 4903.0s] in the forest.
+[4903.0s - 4903.8s] Take a listen.
+[4903.8s - 4905.1s] [VIDEO PLAYBACK]
+[4906.6s - 4909.5s] [MUSIC PLAYING]
+[4913.9s - 4916.6s] - They left behind a ball today.
+[4916.6s - 4918.9s] It bounced higher
+than I can jump.
+[4918.9s - 4921.5s] - Oh, what manner
+of magic is that?
+[4928.9s - 4930.4s] [END PLAYBACK]
+[4934.9s - 4936.3s] JOSH WOODWARD:
+Pretty cool, right?
+[4936.3s - 4939.1s] Veo added not just the
+sounds of the forest
+[4939.1s - 4940.8s] but also the dialogue.
+[4940.8s - 4943.9s] We're entering a
+new era of creation,
+[4943.9s - 4946.9s] with combined audio
+and video generation
+[4946.9s - 4948.8s] that's incredibly realistic.
+[4948.9s - 4951.4s] The quality is so good.
+[4951.4s - 4956.7s] It feels like you're there
+on the boat with this guy.
+[4956.7s - 4957.4s] [VIDEO PLAYBACK]
+[4957.4s - 4961.7s] - This ocean, it's a force,
+a wild, untamed might.
+[4961.7s - 4965.0s] And she commands your oar
+with every breaking light.
+[4965.0s - 4966.4s] [END PLAYBACK]
+[4966.9s - 4970.3s] [APPLAUSE]
+[4972.8s - 4975.1s] JOSH WOODWARD: The
+photorealistic generation,
+[4975.1s - 4978.4s] the emotion, the
+movement of his mouth,
+[4978.4s - 4981.4s] and the ocean in the
+background-- it's incredible
+[4981.4s - 4986.4s] how fast Veo continues to evolve
+as a powerful, creative tool.
+[4986.4s - 4988.9s] And we've been working
+closely with the film industry
+[4988.9s - 4992.5s] to imagine what's possible
+with Veo and to get this right.
+[4992.5s - 4995.8s] And you'll hear more about
+that in a few minutes.
+[4995.8s - 4998.2s] So that's what's
+happening around Gemini.
+[4998.2s - 5001.1s] Starting today, Gemini
+Live capabilities
+[5001.1s - 5004.9s] are free and rolling out
+across Android and iOS.
+[5004.9s - 5008.3s] Deep Research and Canvas are
+getting their biggest updates
+[5008.3s - 5009.2s] yet.
+[5009.2s - 5012.5s] There's a new agent mode
+coming for multi-step actions
+[5012.5s - 5014.0s] that you heard about earlier.
+[5014.0s - 5016.1s] We're introducing
+Gemini in Chrome
+[5016.1s - 5017.9s] to help you navigate the web.
+[5017.9s - 5021.1s] And you can create
+stunning images and videos
+[5021.1s - 5025.2s] with sound using the new
+Imagen 4 and Veo 3 models.
+[5025.2s - 5028.0s] It's all coming together
+in the Gemini app,
+[5028.0s - 5032.3s] as we work to deliver the
+most personal, proactive,
+[5032.3s - 5035.1s] and powerful AI assistant.
+[5035.1s - 5037.6s] And now, to go into
+more detail about how
+[5037.6s - 5040.9s] these generative models are
+unlocking creative expression,
+[5040.9s - 5041.6s] here's Jason.
+[5041.6s - 5044.9s] [MUSIC PLAYING, APPLAUSE]
+[5052.3s - 5054.1s] JASON BALDRIDGE: Thanks, Josh.
+[5054.1s - 5058.4s] Whether you're a creator,
+a musician, or a filmmaker,
+[5058.4s - 5062.4s] generative media is expanding
+the boundaries of creativity
+[5062.4s - 5064.6s] by working closely with
+the artistic community
+[5064.6s - 5066.6s] since the very
+beginning, we continue
+[5066.6s - 5070.6s] to build technology that
+empowers their creative process.
+[5070.6s - 5072.9s] For example, we
+worked with musicians
+[5072.9s - 5075.4s] to develop Music AI Sandbox.
+[5075.4s - 5077.6s] It's a tool for
+professionals to explore
+[5077.6s - 5080.6s] the possibilities of our
+generative music model, Lyria,
+[5080.6s - 5082.2s] in their work.
+[5082.2s - 5085.2s] Let's watch a clip starring
+the legendary Grammy Award
+[5085.2s - 5087.9s] Winning Singer and
+Composer, Shanka Mahadevan,
+[5087.9s - 5090.8s] putting Music AI Sandbox
+and Lyria to use.
+[5090.8s - 5091.8s] [VIDEO PLAYBACK]
+[5092.3s - 5096.2s] - I'm Shanka Mahadevan, and
+I'm a music composer, singer,
+[5096.2s - 5098.1s] producer, and a happy man.
+[5098.1s - 5099.8s] [LAUGHS]
+[5101.0s - 5102.9s] Working with Sandbox is great.
+[5102.9s - 5107.4s] We inputted our requirement,
+and it gave us a bed.
+[5107.4s - 5110.2s] We used that bed and we
+came up with this song.
+[5110.2s - 5112.7s] [VOCALIZING]
+[5114.5s - 5117.6s] For a musician, but it's
+such an inspiring tool.
+[5117.6s - 5120.5s] You open a door and you see,
+hey, there's another room there.
+[5120.5s - 5123.3s] And then you open one more door,
+and you see one more room there.
+[5123.3s - 5124.8s] So that's what AI does.
+[5124.8s - 5127.9s] [NON-ENGLISH SINGING]
+[5147.2s - 5148.6s] [END PLAYBACK]
+[5148.6s - 5150.8s] [APPLAUSE]
+[5151.3s - 5152.4s] JASON BALDRIDGE: Amazing.
+[5156.1s - 5158.5s] We recently launched
+Lyria 2, which
+[5158.6s - 5162.1s] can generate high-fidelity music
+and professional grade audio.
+[5162.1s - 5166.9s] The music is melodious, with
+vocals in solos and choirs.
+[5166.9s - 5169.8s] As you hear, it makes
+expressive and rich music.
+[5169.8s - 5171.3s] [VIDEO PLAYBACK]
+[5171.3s - 5174.7s] [MUSIC PLAYING]
+[5182.0s - 5183.4s] [END PLAYBACK]
+[5183.4s - 5186.3s] [APPLAUSE]
+[5187.3s - 5189.1s] JASON BALDRIDGE: Lyria
+2 is available today
+[5189.1s - 5193.2s] for enterprises, YouTube
+creators, and musicians.
+[5193.2s - 5195.7s] This focus on collaboration
+carries over not just
+[5195.7s - 5198.0s] into what we build but how.
+[5198.0s - 5201.4s] Right now, it's not easy
+for people or organizations
+[5201.4s - 5204.0s] to detect AI-generated images.
+[5204.0s - 5207.1s] This will become only more
+true as technology improves
+[5207.1s - 5212.2s] and the music, audio, images,
+and videos become more lifelike.
+[5212.2s - 5216.1s] So we're continuing to
+innovate in this space.
+[5216.1s - 5218.5s] Two years ago, we
+pioneered SynthID,
+[5218.5s - 5222.3s] which embeds invisible
+watermarks into generated media.
+[5222.3s - 5226.0s] To date, over 10 billion
+pieces of content
+[5226.0s - 5227.8s] have been watermarked.
+[5227.8s - 5229.9s] We're also expanding
+our partnerships
+[5229.9s - 5232.9s] to ensure that more content
+is watermarked with SynthID,
+[5232.9s - 5236.4s] and that more organizations
+can detect it too.
+[5236.4s - 5240.4s] Finally, we're also making it
+easier to detect the watermark.
+[5240.4s - 5242.9s] Our new SynthID
+detector can identify
+[5242.9s - 5246.1s] if an image, audio
+track, text, or video has
+[5246.1s - 5249.1s] SynthID in it, whether it's
+in the whole piece or even
+[5249.1s - 5250.8s] just a part.
+[5250.8s - 5254.5s] We're starting to roll this
+out to early testers today.
+[5254.5s - 5257.8s] [APPLAUSE]
+[5260.1s - 5261.9s] Our collaboration
+efforts have also
+[5261.9s - 5264.9s] helped us explore Veo
+as a filmmaking tool.
+[5264.9s - 5267.8s] Recently, we teamed up
+with visionary director,
+[5267.8s - 5271.2s] Darren Aronofsky, and his new
+storytelling venture, Primordial
+[5271.2s - 5273.2s] Soup, to shape
+Veo's capabilities
+[5273.2s - 5275.0s] to meet the needs
+of storytellers,
+[5275.0s - 5278.5s] putting artists in the
+driver's seat of innovation.
+[5278.5s - 5281.5s] Together, we are putting the
+world's best video generation
+[5281.5s - 5283.6s] model into the hands
+of top filmmakers
+[5283.6s - 5285.4s] to push the boundaries
+of technology
+[5285.4s - 5289.5s] as a tool for more creative
+and emotional storytelling.
+[5289.5s - 5293.1s] The first of the partnership's
+three short films is Director
+[5293.1s - 5295.4s] Eliza McNitt's "Ancestra."
+[5295.4s - 5297.8s] Let's take a peek.
+[5297.8s - 5299.2s] [VIDEO PLAYBACK]
+[5299.2s - 5302.2s] - Film has always been
+this deeply human act
+[5302.2s - 5304.8s] of connecting people with
+each other's stories,
+[5304.8s - 5309.2s] and it has the ability to
+rip us out of our experience
+[5309.2s - 5311.6s] and take us on another journey.
+[5311.6s - 5314.0s] I don't think that ever changes.
+[5314.0s - 5317.3s] - This is a story that
+traverses the entire history
+[5317.3s - 5321.2s] of the universe, but
+it's really about a mom
+[5321.2s - 5323.1s] and what happens
+when her child is
+[5323.1s - 5325.4s] born with a hole in her heart.
+[5325.4s - 5328.4s] We filmed really
+emotional performances
+[5328.4s - 5334.0s] but then generated video, we
+could never capture otherwise.
+[5334.0s - 5338.1s] I want the baby to be
+holding the mother's finger.
+[5338.1s - 5339.6s] - Just the bliss
+of the two of them.
+[5339.6s - 5341.6s] - Yeah.
+[5341.6s - 5345.1s] Veo is a generative video
+model, but to me, it's
+[5345.1s - 5347.4s] another lens through
+which I get to imagine
+[5347.4s - 5349.5s] the universe around me.
+[5349.5s - 5351.9s] - It's been incredibly
+interesting to see
+[5351.9s - 5354.8s] the strengths of these models,
+the limits of the models,
+[5354.8s - 5359.5s] and try to shape them to
+make storytelling tools.
+[5359.5s - 5361.3s] - To be honest, I never
+thought about telling
+[5361.3s - 5365.2s] the story of the day I
+was born, but here we are.
+[5371.6s - 5373.2s] - This was supposed
+to be a checkup.
+[5373.2s - 5375.4s] - Crash C-section.
+[5375.4s - 5376.4s] - Baby's in distress.
+[5376.4s - 5377.5s] - We need help here.
+[5377.5s - 5378.5s] - We need to go.
+[5378.5s - 5379.7s] - Is my baby going to be OK?
+[5379.7s - 5381.3s] - We're going to do
+everything we can.
+[5381.3s - 5382.7s] - Am I going to be OK?
+[5382.7s - 5386.5s] - For every creature
+that came before you,
+[5386.5s - 5391.2s] from every star that died
+so that you could begin.
+[5402.7s - 5404.1s] [END PLAYBACK]
+[5404.1s - 5406.0s] [APPLAUSE, CHEERING]
+[5408.7s - 5410.1s] JASON BALDRIDGE:
+Incredible work.
+[5410.1s - 5413.4s] [APPLAUSE, CHEERING]
+[5417.4s - 5420.3s] Eliza combined live action
+performance with Veo viewer
+[5420.4s - 5423.5s] generated video, like
+the microscopic worlds,
+[5423.5s - 5427.6s] the cosmic events, and
+herself as a newborn.
+[5427.6s - 5430.4s] This approach opened up
+completely new storytelling
+[5430.4s - 5433.9s] possibilities, empowering
+Eliza to bring cinematic scale
+[5433.9s - 5437.7s] and emotion to a
+deeply personal story.
+[5437.7s - 5440.9s] This partnership also helped
+shape Veo's capabilities
+[5440.9s - 5444.1s] to meet the needs of
+storytellers like Eliza.
+[5444.1s - 5446.9s] We built new capabilities
+for filmmakers.
+[5446.9s - 5449.8s] So when you're making a video,
+it will use ingredients you give
+[5449.8s - 5452.8s] it-- characters,
+scenes, or styles--
+[5452.8s - 5454.8s] and keep them consistent.
+[5454.8s - 5458.8s] Or you can direct Veo, giving
+it precise camera instructions
+[5458.8s - 5462.2s] and have it shoot
+along a specific path.
+[5462.2s - 5464.7s] These capabilities
+help filmmakers fluidly
+[5464.7s - 5467.8s] express their ideas with Veo.
+[5467.8s - 5470.6s] We then took things
+one step further.
+[5470.6s - 5473.0s] To tell you more, let's
+get Josh back out here.
+[5473.0s - 5476.1s] [MUSIC PLAYING, APPLAUSE]
+[5480.9s - 5482.7s] JOSH WOODWARD: Thanks, Jason.
+[5482.7s - 5485.5s] Based on our collaboration
+with the creative community,
+[5485.4s - 5488.8s] we've been building a
+new AI filmmaking tool
+[5488.8s - 5493.7s] for creatives, one that combines
+the best of Veo, Imagen,
+[5493.7s - 5499.5s] and Gemini, a tool built
+for creatives by creatives.
+[5499.5s - 5501.9s] It's inspired by
+that magical feeling
+[5501.9s - 5505.0s] you get when you get lost in
+the creative zone and time
+[5505.0s - 5506.3s] slows down.
+[5506.3s - 5508.2s] We're calling it Flow.
+[5508.2s - 5510.3s] And it's launching today.
+[5510.3s - 5511.7s] Let me show you how it works.
+[5511.7s - 5514.0s] [APPLAUSE, CHEERING]
+[5514.0s - 5516.5s] Let's drop into a
+project I'm working on.
+[5516.5s - 5519.8s] Our hero, the grandpa,
+is building a flying car
+[5519.8s - 5522.0s] with help from a
+feathered friend.
+[5522.0s - 5526.0s] These are my ingredients--
+the old man and his car.
+[5526.0s - 5529.6s] We make it easy to upload
+your own images into the tool,
+[5529.6s - 5532.4s] or you can generate them
+on the fly using Imagen,
+[5532.4s - 5534.1s] which is built right in.
+[5534.1s - 5539.2s] We can create a custom gold gear
+shift just by describing it.
+[5539.2s - 5540.3s] There it is.
+[5540.3s - 5541.6s] Pretty cool.
+[5541.6s - 5546.0s] Next, you can start to assemble
+all of those clips together.
+[5546.0s - 5548.2s] With a single prompt,
+you can describe
+[5548.2s - 5552.2s] what you want, including
+very precise camera controls.
+[5552.2s - 5555.4s] Flow puts everything in place.
+[5555.4s - 5558.2s] And I can keep iterating
+in the scene builder.
+[5558.2s - 5560.4s] Now, here's where it
+gets really exciting.
+[5560.4s - 5563.2s] If I want to capture the
+next shot of the scene,
+[5563.2s - 5566.9s] I can just hit the plus icon
+to create the next shot.
+[5566.9s - 5569.9s] I can describe what I
+want to happen next,
+[5569.9s - 5572.8s] like adding a 10-foot tall
+chicken in the back seat,
+[5572.8s - 5574.9s] and Flow will do the rest.
+[5574.9s - 5578.5s] The character consistency,
+the scene consistency,
+[5578.5s - 5579.7s] it just works.
+[5579.7s - 5583.4s] And if something isn't, oh,
+quite right, no problem.
+[5583.4s - 5586.5s] You can just go back in,
+like any other video tool,
+[5586.5s - 5589.4s] and trim it up if it's
+not working for you.
+[5589.4s - 5592.8s] But Flow works in the
+other direction as well.
+[5592.8s - 5595.7s] It lets you extend a clip too.
+[5595.7s - 5599.9s] So I can get the perfect ending
+that I've been working towards.
+[5599.9s - 5603.6s] Once I've got all the clips I
+need, I can download the files.
+[5603.6s - 5606.8s] I can bring them into my
+favorite editing software,
+[5606.8s - 5611.3s] add some music from Lyria,
+and now the old man finally
+[5611.3s - 5613.2s] has his flying car.
+[5613.2s - 5614.7s] [VIDEO PLAYBACK]
+[5617.2s - 5620.7s] [MUSIC PLAYING]
+[5630.7s - 5632.2s] [END PLAYBACK]
+[5632.7s - 5635.7s] [APPLAUSE]
+[5635.9s - 5637.1s] JOSH WOODWARD: Pretty awesome.
+[5637.1s - 5637.9s] Pretty awesome.
+[5637.9s - 5640.7s] I want you to hear just a few
+words from a few of our AI
+[5640.7s - 5644.3s] filmmakers who we've been
+working with to shape Flow,
+[5644.4s - 5646.8s] how they describe
+how it feels using it
+[5646.8s - 5648.8s] and how they're
+making it even better.
+[5648.8s - 5650.4s] Let's take a watch.
+[5650.4s - 5651.8s] [VIDEO PLAYBACK]
+[5653.1s - 5655.5s] - I don't know if I'm
+on the right path,
+[5655.5s - 5657.7s] but I'm trying to find it.
+[5657.7s - 5664.4s] I'm questioning, searching,
+and then something shifts.
+[5664.4s - 5666.0s] And I'm not trying anymore.
+[5666.0s - 5666.8s] I'm just doing.
+[5669.6s - 5675.2s] And all of the pieces
+start falling into place.
+[5679.4s - 5682.2s] - It all feels pretty
+clear in my head.
+[5682.2s - 5686.6s] I see these flashes
+of possibilities,
+[5686.6s - 5689.6s] almost like I'm traveling
+through dimensions.
+[5689.6s - 5692.1s] - I'm looking down at
+myself and my characters
+[5692.1s - 5694.7s] in these different
+worlds, and it's almost
+[5694.7s - 5696.4s] coming to life on
+their own, even
+[5696.4s - 5699.8s] though I know I'm in
+control of that narrative.
+[5699.8s - 5702.7s] It feels like it's almost
+building upon itself
+[5702.7s - 5705.5s] at some point.
+[5705.6s - 5711.1s] You could have an infinite
+amount of endings to your story.
+[5711.1s - 5716.0s] - So the work isn't built
+brick by brick by brick.
+[5716.0s - 5720.5s] It blooms like a
+spontaneous garden.
+[5720.5s - 5726.0s] It grows naturally, fully
+vibrant and complete.
+[5726.0s - 5729.2s] - I'm not forcing it.
+[5729.2s - 5731.1s] I'm just finding it.
+[5731.1s - 5734.0s] And that's when I know
+I'm in the right place.
+[5734.0s - 5737.4s] [MUSIC PLAYING]
+[5746.9s - 5747.8s] [END PLAYBACK]
+[5747.8s - 5751.2s] [APPLAUSE, CHEERING]
+[5754.5s - 5756.8s] JOSH WOODWARD: So amazing to
+hear those filmmakers talk
+[5756.8s - 5760.7s] about bringing their incredible
+visions to life and that feeling
+[5760.7s - 5763.4s] of building, of creating,
+that's exactly what
+[5763.4s - 5765.7s] we want to put in
+your hands today.
+[5765.7s - 5768.6s] So I'm excited to share
+that we're upgrading.
+[5768.6s - 5771.5s] And two AI subscription
+plans today.
+[5771.5s - 5777.5s] We will have Google AI Pro
+and all new Google AI Ultra.
+[5777.5s - 5781.0s] With the Pro Plan, which is
+going to be available globally,
+[5781.0s - 5783.3s] you'll get a full
+suite of AI products,
+[5783.3s - 5786.6s] with higher rate limits and
+special features compared
+[5786.6s - 5787.9s] to the free version.
+[5787.9s - 5790.7s] This includes the Pro
+version of the Gemini app
+[5790.7s - 5794.1s] that was formerly known
+as Gemini Advanced.
+[5794.1s - 5796.5s] Then there's the Ultra plan.
+[5796.5s - 5800.7s] It's for the trailblazers,
+the pioneers, those of you
+[5800.7s - 5803.7s] who want cutting-edge
+AI from Google.
+[5803.7s - 5808.5s] The plan comes with the highest
+rate limits, the earliest access
+[5808.5s - 5811.6s] to new features and
+products from across Google.
+[5811.6s - 5815.0s] It's available in the US
+today, and we'll be rolling it
+[5815.0s - 5816.7s] out globally soon.
+[5816.7s - 5821.7s] You can think of this Ultra plan
+as your VIP pass for Google AI.
+[5821.7s - 5823.8s] So if you're an
+Ultra subscriber,
+[5823.8s - 5828.1s] you'll get huge rate limits
+and access to that 2.5 Pro
+[5828.1s - 5831.2s] Deep Think mode in the
+Gemini app when it's ready.
+[5831.2s - 5836.4s] You'll get access to Flow
+with Veo 3 available today.
+[5836.4s - 5839.9s] And it also comes with YouTube
+Premium and a massive amount
+[5839.9s - 5841.1s] of storage.
+[5841.1s - 5843.9s] We can't wait to
+see what you build,
+[5843.9s - 5848.0s] create, and discover with
+these new Google AI plans.
+[5848.0s - 5851.4s] And now to give you
+a look ahead into how
+[5851.4s - 5854.3s] AI is interacting with
+the physical world,
+[5854.3s - 5855.8s] please welcome up Shahram.
+[5855.8s - 5859.2s] [MUSIC PLAYING, APPLAUSE]
+[5870.2s - 5871.6s] SHAHRAM IZADI: Hi everyone!
+[5871.6s - 5876.4s] There's so many exciting things
+happening in Android right now.
+[5876.4s - 5880.5s] It's the platform where
+you see the future first.
+[5880.5s - 5883.3s] Just last week at
+the Android show,
+[5883.4s - 5887.3s] we unveiled a bold new
+design and major updates
+[5887.3s - 5891.0s] to Android 16 and Wear OS 6.
+[5891.0s - 5895.8s] And of course, Android is the
+best place to experience AI.
+[5895.8s - 5898.8s] Many of the Gemini
+breakthroughs you saw today
+[5898.8s - 5901.6s] are coming soon to Android.
+[5901.6s - 5905.7s] You can already access Gemini
+instantly from the Power button.
+[5905.7s - 5910.0s] It understands your context
+and is ready to help.
+[5910.0s - 5912.9s] But Android is powering
+more than your phone.
+[5912.9s - 5916.3s] It's an entire
+ecosystem of devices.
+[5916.3s - 5919.3s] In the coming months,
+we're bringing Gemini
+[5919.3s - 5925.0s] to your watch, your car's
+dashboard, even your TV.
+[5925.0s - 5928.8s] So wherever you are, you
+have a helpful AI assistant
+[5928.8s - 5931.4s] to make your life easier.
+[5931.4s - 5934.1s] But what about
+emerging form factors
+[5934.1s - 5939.1s] that could let you experience
+an AI assistant in new ways?
+[5939.1s - 5942.6s] That's exactly why we're
+building Android XR.
+[5942.6s - 5945.7s] [APPLAUSE, CHEERING]
+[5950.1s - 5954.2s] It's the first Android platform
+built in the Gemini era,
+[5954.2s - 5958.1s] and it supports a broad spectrum
+of devices for different use
+[5958.1s - 5963.9s] cases, from headsets to glasses
+and everything in between.
+[5963.9s - 5967.4s] We believe there's not a
+one size fits all for XR,
+[5967.4s - 5970.9s] and you'll use different
+devices throughout your day.
+[5970.9s - 5974.9s] For example, for watching
+movies, playing games,
+[5974.9s - 5979.3s] or getting work done, you'll
+want an immersive headset.
+[5979.3s - 5981.5s] But when you're
+on the go, you'll
+[5981.5s - 5983.9s] want lightweight glasses
+that can give you
+[5983.9s - 5987.7s] timely information without
+reaching for your phone.
+[5987.7s - 5991.9s] We built Android XR together
+as one team with Samsung
+[5991.9s - 5995.7s] and optimized it for
+Snapdragon with Qualcomm.
+[5995.7s - 5999.8s] Since releasing the Android XR
+developer preview last year,
+[5999.8s - 6003.2s] hundreds of developers are
+building for the platform.
+[6003.2s - 6008.5s] We're also reimagining all your
+favorite Google apps for XR.
+[6008.5s - 6010.4s] And its Android, after all.
+[6010.4s - 6013.9s] So your mobile and
+tablet apps work too.
+[6013.9s - 6016.7s] Now, today I want
+to share how Gemini
+[6016.7s - 6020.6s] transforms the way you
+experience both headsets
+[6020.6s - 6022.4s] and glasses.
+[6022.4s - 6025.4s] On these devices,
+your AI assistant
+[6025.4s - 6027.7s] understands your
+context and intent
+[6027.7s - 6031.6s] in richer ways to help
+you throughout your day.
+[6031.6s - 6034.6s] Let's start with
+Gemini on headsets.
+[6034.6s - 6039.3s] This is Samsung's Project
+Moohan, the first Android XR
+[6039.3s - 6040.1s] device.
+[6040.1s - 6043.4s] [APPLAUSE, CHEERING]
+[6046.8s - 6049.3s] Moohan gives you
+an infinite screen
+[6049.3s - 6053.0s] to explore your apps
+with Gemini by your side.
+[6053.0s - 6056.2s] With Google Maps in
+XR, you can teleport
+[6056.2s - 6061.2s] anywhere in the world simply by
+asking Gemini to take you there.
+[6061.2s - 6063.7s] You can talk with
+your AI assistant
+[6063.7s - 6068.4s] about anything you see, and have
+it pull up videos and websites
+[6068.4s - 6070.7s] about what you're exploring.
+[6070.7s - 6073.7s] So many of us dream
+about sitting front row
+[6073.7s - 6075.7s] to watch our favorite team.
+[6075.7s - 6078.8s] Imagine watching them
+play in the MLB app
+[6078.8s - 6081.8s] as if you were right
+there in the stadium,
+[6081.8s - 6086.4s] while chatting with Gemini
+about player and game stats.
+[6086.4s - 6090.3s] Samsung's Project Moohan will
+be available for purchase
+[6090.3s - 6092.4s] later this year.
+[6092.4s - 6096.5s] We can't wait for you to
+try it for yourselves.
+[6096.5s - 6101.1s] Now, let's turn our
+attention to glasses.
+[6101.1s - 6105.7s] As you know, we've been building
+glasses for over 10 years.
+[6105.7s - 6108.0s] And we've never stopped.
+[6108.0s - 6112.2s] Glasses with Android XR are
+lightweight and designed
+[6112.2s - 6116.9s] for all day wear, even though
+they're packed with technology.
+[6116.9s - 6120.6s] A camera and microphones
+give Gemini the ability
+[6120.6s - 6123.2s] to see and hear the world.
+[6123.2s - 6128.1s] Speakers let you listen to the
+AI, play music, or take calls.
+[6128.1s - 6131.2s] And an optional in-lens
+display privately
+[6131.2s - 6135.4s] shows you helpful information
+just when you need it.
+[6135.4s - 6137.6s] These glasses work
+with your phone,
+[6137.6s - 6141.7s] giving you access to your apps
+while keeping your hands free.
+[6141.7s - 6146.2s] All this makes glasses a
+natural form factor for AI,
+[6146.2s - 6150.3s] bringing the power of Gemini
+right to where you are.
+[6150.3s - 6154.4s] So unlike Clark Kent,
+you can get superpowers
+[6154.4s - 6157.7s] when you put your glasses on.
+[6157.7s - 6158.8s] OK.
+[6158.8s - 6162.3s] Who's up for seeing an early
+demo of Android XR glasses?
+[6162.3s - 6165.7s] [APPLAUSE, CHEERING]
+[6167.7s - 6172.2s] Let's see how they work in
+the most hectic environment
+[6172.2s - 6173.5s] possible right now.
+[6173.5s - 6178.3s] Backstage at I/O, our very
+own superwoman, Nishida,
+[6178.3s - 6182.0s] is back there to show us how
+these glasses work for real.
+[6182.0s - 6184.8s] Let me send her a text
+now, and let's get started.
+[6187.7s - 6188.9s] [VIDEO PLAYBACK]
+[6188.9s - 6190.3s] - Hey, everyone.
+[6190.3s - 6193.2s] Right now, you should be
+seeing exactly what I'm
+[6193.2s - 6196.3s] seeing through the lens
+of my Android XR glasses,
+[6196.3s - 6198.5s] like my delicious
+coffee over here
+[6198.5s - 6200.7s] and that text from
+Shahram that just came in.
+[6200.7s - 6203.7s] Let's see what he said.
+[6203.7s - 6204.4s] All right.
+[6204.4s - 6206.0s] It's definitely show time.
+[6206.0s - 6209.8s] So I'm going to launch
+Gemini and get us going.
+[6209.8s - 6211.4s] Send Shahram a text
+that I'm getting
+[6211.4s - 6214.0s] started and silence my
+notifications, please.
+[6216.6s - 6218.6s] - OK, I've sent
+that message to him
+[6218.6s - 6221.2s] and muted all your
+notifications.
+[6221.2s - 6223.2s] - Perfect.
+[6223.2s - 6223.7s] - Oh.
+[6223.7s - 6224.3s] Hey, Nishtha!
+[6224.3s - 6225.2s] - Hey, Dieter.
+[6225.1s - 6226.7s] - I see the lights
+on your glasses.
+[6226.7s - 6229.0s] So I think it's safe to say
+that we're live right now?
+[6229.0s - 6231.7s] - Yes, we're officially
+on with the I/O crew.
+[6231.7s - 6232.4s] - Hey, everybody.
+[6232.4s - 6234.3s] It is pretty great to
+see I/O from this angle.
+[6234.4s - 6235.9s] Nishtha, you promised
+me I could get
+[6235.9s - 6237.7s] my own pair of
+Android XR glasses
+[6237.7s - 6239.3s] if I helped out back here.
+[6239.3s - 6240.9s] So what do you say?
+[6240.9s - 6241.7s] - Of course.
+[6241.7s - 6243.9s] Let's get coffee after this, and
+I'll bring you those glasses.
+[6243.9s - 6244.9s] - Awesome.
+We'll see you then.
+[6244.9s - 6245.4s] Good luck.
+[6245.4s - 6246.4s] - Thank you.
+[6246.4s - 6250.3s] As you all can see, there's
+a ton going on backstage.
+[6250.3s - 6252.8s] And is that pro basketball
+player, Giannis,
+[6252.8s - 6254.5s] wearing our glasses?
+[6254.5s - 6255.8s] - I love it.
+[6255.8s - 6258.9s] It frees up both of my
+hands for double high fives.
+[6258.9s - 6260.4s] - Nice.
+[6260.4s - 6263.4s] Let me keep showing you guys
+what these glasses can do.
+[6263.4s - 6266.7s] I've been curious about
+this photo wall all day.
+[6266.7s - 6270.1s] Like what band is
+this and how are they
+[6270.1s - 6271.2s] connected to this place?
+[6278.4s - 6280.4s] [AUDIO SKIPPING]
+[6282.0s - 6284.0s] - --Shoreline Amphitheatre,
+which are often seen
+[6284.0s - 6286.0s] as homecoming
+shows for the band.
+[6286.0s - 6287.1s] - No way.
+[6287.1s - 6289.6s] Can you show me a photo of one
+of their performances here?
+[6292.6s - 6294.0s] - Sure, here's one.
+[6294.0s - 6295.9s] Want me to play
+one of their songs?
+[6295.9s - 6296.8s] - I'd love that.
+[6296.8s - 6298.7s] I can listen while I
+make my way to the stage.
+[6302.4s - 6303.3s] - Right.
+[6303.3s - 6305.7s] Here's "Under the Aurora"
+by Counting Crows.
+[6305.7s - 6306.7s] [END PLAYBACK]
+[6307.1s - 6307.9s] SHAHRAM IZADI: OK.
+[6307.9s - 6310.2s] Who's ready to
+see these glasses?
+[6310.2s - 6311.0s] Here comes Nishtha.
+[6313.7s - 6315.0s] Welcome, Nishtha.
+[6315.0s - 6316.2s] NISHTHA BHATIA: Hey, everyone.
+[6316.2s - 6318.6s] [APPLAUSE]
+[6318.8s - 6320.2s] SHAHRAM IZADI:
+Thanks for that star
+[6320.2s - 6321.9s] studded behind the scenes look.
+[6321.9s - 6324.4s] By the way, do you want to book
+that coffee with Dieter now?
+[6324.4s - 6325.3s] NISHTHA BHATIA: Yes.
+[6325.3s - 6328.5s] The crew actually gave me some
+awesome coffee backstage, so let
+[6328.5s - 6330.8s] me try something fun.
+[6330.8s - 6333.6s] Gemini, what was the
+name of the coffee
+[6333.6s - 6335.1s] shop on the cup I had earlier?
+[6337.7s - 6339.7s] GEMINI: Mhm, that might
+have been Bloomsgiving.
+[6339.7s - 6341.8s] From what I can tell,
+it's a vibrant coffee shop
+[6341.8s - 6342.8s] on Castro Street.
+[6342.8s - 6344.0s] NISHTHA BHATIA: Great memory.
+[6344.0s - 6347.2s] [APPLAUSE]
+[6350.5s - 6353.0s] Can you show me the
+photos of that cafe?
+[6353.0s - 6354.3s] I want to check out the vibes.
+[6357.0s - 6357.9s] GEMINI: Definitely.
+[6357.9s - 6360.1s] Do these photos from Maps help?
+[6360.1s - 6361.6s] DIETER BOHN: Oh,
+I know that spot.
+[6361.6s - 6365.4s] It's a flower shop as well as a
+coffee shop, but it is downtown.
+[6365.4s - 6366.3s] NISHTHA BHATIA: OK.
+[6366.3s - 6368.4s] Gemini, Show me what it
+would take to walk here.
+[6371.6s - 6374.2s] GEMINI: Getting
+those directions now.
+[6374.2s - 6376.0s] It'll take you about an hour.
+[6376.0s - 6377.6s] NISHTHA BHATIA: OK.
+[6377.6s - 6379.3s] I can get some steps in.
+[6379.3s - 6383.2s] And these heads-up directions
+and a full 3D map should make it
+[6383.2s - 6384.1s] super easy.
+[6384.1s - 6387.5s] [APPLAUSE, CHEERING]
+[6393.5s - 6397.7s] Go ahead and send Dieter an
+invite for that cafe and to get
+[6397.7s - 6399.0s] coffee at 3:00 PM today.
+[6402.7s - 6404.3s] GEMINI: I'll send
+out that invite now.
+[6404.3s - 6406.2s] Enjoy the coffee.
+[6406.2s - 6407.6s] SHAHRAM IZADI: As
+you saw, Gemini
+[6407.6s - 6411.2s] helped Nishtha search what
+she sees, remember details
+[6411.2s - 6416.1s] like the coffee cup, book
+an event, even navigate,
+[6416.1s - 6419.8s] all without taking her
+phone out of her pocket.
+[6419.8s - 6423.1s] I'm even wearing the
+glasses right now, too.
+[6423.1s - 6425.0s] They're my personal
+teleprompter,
+[6425.0s - 6426.6s] and I have prescription lenses.
+[6426.6s - 6428.2s] So I can see you all.
+[6428.2s - 6431.2s] OK, Nishtha, this is a
+big moment for glasses.
+[6431.2s - 6432.0s] Let's capture it.
+[6432.0s - 6432.9s] NISHTHA BHATIA: Yes.
+[6432.9s - 6434.8s] Get ready for a quick
+photo, everyone.
+[6434.9s - 6438.9s] And let's bring out our star.
+[6438.9s - 6440.5s] SHAHRAM IZADI:
+Here comes Dieter.
+[6440.5s - 6442.3s] [APPLAUSE, CHEERING]
+[6442.3s - 6443.4s] NISHTHA BHATIA: All right.
+[6443.4s - 6443.9s] Gemini--
+[6443.9s - 6445.2s] SHARHAM IZADI: Dieter, join us.
+[6445.2s - 6446.8s] NISHTHA BHATIA:
+--take a photo for me.
+[6446.8s - 6450.0s] [APPLAUSE, CHEERING]
+[6455.8s - 6458.0s] All right, Gemini,
+take a photo for me
+[6458.0s - 6459.8s] and add it to my favorites.
+[6466.8s - 6468.2s] SHAHRAM IZADI:
+That looks amazing.
+[6468.2s - 6471.5s] [APPLAUSE, CHEERING]
+[6476.4s - 6478.5s] I'm completely starstruck.
+[6478.5s - 6480.9s] OK, one last thing.
+[6480.9s - 6484.6s] Sundar showed what's possible
+with live chat translation
+[6484.6s - 6485.5s] earlier.
+[6485.4s - 6488.6s] Let's see what that's
+like on glasses.
+[6488.6s - 6494.2s] This is a very risky demo, but
+we're going to give it a shot.
+[6494.2s - 6497.5s] Nishtha and I are going to speak
+to each other in our mother
+[6497.5s - 6498.2s] tongues.
+[6498.2s - 6499.8s] Nishtha is going to speak Hindi.
+[6499.8s - 6503.1s] I'm going to speak
+Farsi, very poorly.
+[6503.1s - 6507.2s] And you'll see the feed from
+both of our glasses back here.
+[6507.2s - 6509.4s] And so you can all follow along.
+[6509.4s - 6513.0s] We'll show an English
+translation in real time.
+[6513.0s - 6513.9s] OK?
+[6513.9s - 6515.8s] Let's give it a shot.
+[6515.8s - 6518.1s] Fingers crossed.
+[6518.1s - 6520.9s] [NON-ENGLISH SPEECH]
+[6530.9s - 6533.5s] - [NON-ENGLISH SPEECH]
+[6539.9s - 6542.1s] - [NON-ENGLISH SPEECH]
+[6556.0s - 6558.6s] See, we said it's a risky demo.
+[6558.6s - 6561.6s] [APPLAUSE, CHEERING]
+[6565.7s - 6566.6s] Thank you.
+[6566.6s - 6567.7s] NISHTHA BHATIA: Thank you.
+[6567.7s - 6569.0s] SHAHRAM IZADI:
+Thank you so much.
+[6569.0s - 6572.1s] [APPLAUSE, CHEERING]
+[6578.5s - 6581.5s] Thank you, Nishtha, for that
+awesome tour of Android XR
+[6581.5s - 6582.0s] glasses.
+[6587.1s - 6590.1s] We're so excited about
+the possibilities.
+[6590.1s - 6593.3s] When you have an incredibly
+helpful AI assistant
+[6593.3s - 6596.4s] by your side, with these
+Android XR devices.
+[6596.4s - 6597.8s] But that's not all.
+[6597.8s - 6601.8s] We're taking our partnership
+with Samsung to the next level
+[6601.8s - 6607.2s] by extending Android XR
+beyond headsets to glasses.
+[6607.2s - 6610.8s] We're creating the software
+and reference hardware platform
+[6610.8s - 6616.2s] to enable the ecosystem to build
+great glasses alongside us.
+[6616.2s - 6618.4s] Our glasses
+prototypes are already
+[6618.4s - 6620.4s] being used by trusted testers.
+[6620.4s - 6624.2s] And you'll be able to start
+developing for glasses later
+[6624.2s - 6625.7s] this year.
+[6625.7s - 6628.7s] Now, we know that these
+need to be stylish
+[6628.7s - 6631.9s] glasses that you'll
+want to wear all day.
+[6631.9s - 6635.3s] That's why I'm excited
+to announce today
+[6635.4s - 6640.5s] that Gentle Monster and Warby
+Parker will be the first eyewear
+[6640.5s - 6643.2s] partners to build
+glasses with Android XR.
+[6643.2s - 6646.5s] [APPLAUSE, CHEERING]
+[6651.4s - 6653.7s] We want you to be
+able to wear glasses
+[6653.7s - 6656.1s] that match your personal taste.
+[6656.1s - 6657.9s] This is just a start.
+[6657.9s - 6661.4s] I can't wait for you to try
+Android XR for yourself.
+[6661.4s - 6664.4s] And we'll have lots more to
+share in the months ahead.
+[6664.4s - 6665.7s] Thank you so much!
+[6665.7s - 6669.1s] [MUSIC PLAYING, APPLAUSE]
+[6681.4s - 6683.9s] SUNDAR PICHAI: Those XR
+glasses are amazing--
+[6683.9s - 6688.8s] research to reality literally
+right in front of our eyes.
+[6688.8s - 6691.1s] So we are nearing
+the end of the show.
+[6691.1s - 6695.1s] Today you've heard a lot
+about Elo scores, benchmarks,
+[6695.1s - 6697.1s] and state of the
+art performance.
+[6697.1s - 6699.4s] But I know there's one
+metric you've all been
+[6699.4s - 6702.7s] waiting for, our AI counter.
+[6702.7s - 6707.2s] So let's take a look at
+one last leaderboard.
+[6707.2s - 6711.3s] Looks like, I guess,
+we have a new entrant.
+[6711.3s - 6717.5s] Gemini takes the
+lead, coming in at 95.
+[6717.5s - 6718.6s] Very exhilarating.
+[6718.6s - 6721.9s] [APPLAUSE, CHEERING]
+[6722.9s - 6725.2s] On a more serious
+note, here's everything
+[6725.2s - 6729.8s] we've announced today, from new
+launches and product expansions
+[6729.8s - 6732.6s] to glimmers of what's to come.
+[6732.6s - 6736.9s] The opportunity with AI is
+truly as big as it gets.
+[6736.9s - 6740.3s] And it will be up to this
+wave of developers, technology
+[6740.3s - 6743.8s] builders to make sure
+its benefits reach
+[6743.8s - 6746.0s] as many people as possible.
+[6746.0s - 6749.4s] I want to leave you with a
+few examples that inspire me.
+[6749.4s - 6751.8s] The first is top
+of mind for those
+[6751.8s - 6755.8s] who live here in California and
+so many places around the world.
+[6755.8s - 6759.8s] So many of us know someone who
+has been affected by wildfires.
+[6759.8s - 6762.1s] They can start
+suddenly and grow out
+[6762.1s - 6764.0s] of control in a
+matter of minutes.
+[6764.0s - 6767.8s] Speed and precision can
+make all the difference.
+[6767.8s - 6770.6s] Together, with an amazing
+group of partners,
+[6770.6s - 6772.9s] we are building
+something called FireSat.
+[6772.9s - 6775.2s] It's a constellation
+of satellites
+[6775.2s - 6778.8s] that use multispectral
+satellite imagery and AI,
+[6778.8s - 6782.2s] aiming to provide near
+real-time insights.
+[6782.2s - 6784.0s] Just look at the resolution.
+[6784.0s - 6788.3s] It can detect fires as
+small as 270 square feet,
+[6788.3s - 6791.1s] about the size of
+a one-car garage.
+[6791.1s - 6793.6s] Our first satellite
+is in orbit now.
+[6793.6s - 6796.5s] When fully operational,
+imagery will
+[6796.5s - 6800.6s] be updated with a much greater
+frequency, down from every 12
+[6800.6s - 6803.0s] hours today to every 20 minutes.
+[6803.0s - 6806.3s] [APPLAUSE, CHEERING]
+[6811.6s - 6815.2s] Speed is also of the essence
+in other kinds of emergencies.
+[6815.2s - 6817.7s] During Hurricane Helene, Wing--
+[6817.7s - 6820.3s] in partnership with
+Walmart and the Red Cross--
+[6820.3s - 6823.6s] provided relief efforts
+with drone deliveries.
+[6823.6s - 6827.6s] Supported by AI, we were able to
+deliver critical items like food
+[6827.6s - 6831.6s] and medicine to a YMCA shelter
+in North Carolina based
+[6831.6s - 6833.2s] on real-time needs.
+[6833.2s - 6836.1s] We can imagine how this
+could be helpful in disaster
+[6836.1s - 6839.0s] relief in other communities,
+and we are actively
+[6839.0s - 6841.0s] working to scale up.
+[6841.0s - 6845.2s] These are examples of ways AI
+is helping society right now.
+[6845.2s - 6847.2s] It's especially
+inspiring to think
+[6847.2s - 6850.5s] about the research of today
+that will become reality
+[6850.5s - 6853.2s] in a few short
+years, whether it's
+[6853.2s - 6856.3s] building the next generation
+of helpful robots,
+[6856.3s - 6859.9s] finding treatments for the
+world's deadliest diseases,
+[6859.9s - 6863.5s] advancing error-corrected
+quantum computers,
+[6863.5s - 6867.4s] or delivering fully autonomous
+vehicles that can safely bring
+[6867.4s - 6869.6s] you anywhere you want to go.
+[6869.6s - 6871.7s] All of this is
+very much possible
+[6871.7s - 6873.9s] within not decades, but years.
+[6873.9s - 6875.4s] It's amazing.
+[6875.4s - 6877.7s] This opportunity
+to improve lives
+[6877.7s - 6879.8s] is not something I
+take for granted.
+[6879.8s - 6882.8s] And the recent experience
+brought that home for me.
+[6882.8s - 6885.6s] I was in San Francisco
+with my parents.
+[6885.6s - 6888.3s] The first thing they wanted
+to do was to ride in a Waymo,
+[6888.3s - 6890.7s] like a lot of other tourists.
+[6890.6s - 6892.6s] I had taken Waymos before.
+[6892.6s - 6895.0s] But watching my father,
+who was in his 80s,
+[6895.0s - 6897.9s] in the front seat
+be totally amazed,
+[6897.9s - 6901.4s] I saw the progress
+in a whole new light.
+[6901.4s - 6904.0s] It was a reminder of
+how incredible the power
+[6904.0s - 6908.6s] of technology is to inspire
+to all and to move us forward.
+[6908.6s - 6911.5s] And I can't wait to see
+what amazing things will
+[6911.5s - 6912.5s] build together next.
+[6912.5s - 6913.4s] Thank you.
+[6913.4s - 6916.6s] [APPLAUSE, CHEERING]
+[6919.8s - 6920.7s] [VIDEO PLAYBACK]
+[6921.2s - 6924.5s] [MUSIC PLAYING]
+[6925.8s - 6929.0s] - I see infinite
+possibilities with Flow.
+[6929.0s - 6931.6s] - What manner of magic is that?
+[6931.6s - 6933.9s] - AI Mode is the biggest
+revolution since the Search
+[6933.9s - 6935.1s] Engine was invented.
+[6935.1s - 6937.8s] - You tell Gemini exactly
+what you want built
+[6937.8s - 6939.4s] and it builds it for you.
+[6939.4s - 6940.4s] - No.
+[6940.4s - 6944.7s] - Coding with Gemini
+2.5 Pro, it is awesome.
+[6944.7s - 6947.4s] - Project Mariner is going to
+change how we use our browsers.
+[6947.4s - 6950.3s] - It's an AI agent that
+gets things done for you.
+[6950.3s - 6953.5s] - NotebookLM Mindmaps
+completely transforms learning.
+[6953.5s - 6956.4s] - Why is this person
+following me wherever I walk?
+[6956.4s - 6958.0s] - That's just your shadow.
+[6958.0s - 6961.3s] - Wait, you're
+going to turn right.
+[6961.3s - 6964.2s] - AI's completely changing
+how we fight fires.
+[6964.2s - 6967.7s] - Generative media is expanding
+the boundaries of creativity.
+[6967.7s - 6969.4s] - It was magic the
+first time I saw this.
+[6969.4s - 6970.8s] - This isn't just another tool.
+[6970.8s - 6971.7s] - It's a game changer.
+[6971.7s - 6973.5s] - This is just like,
+mind blowing to me.
+[6973.5s - 6975.3s] - The potential is
+almost limitless.
+[6978.8s - 6979.7s] [END PLAYBACK]
+[6988.1s - 6991.4s] [MUSIC PLAYING]

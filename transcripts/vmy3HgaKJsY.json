@@ -1,0 +1,2592 @@
+[
+  {
+    "text": "Hello all, my name is Kuresh Naik and uh",
+    "start": 0.8,
+    "duration": 4.479
+  },
+  {
+    "text": "welcome to my YouTube channel. So guys,",
+    "start": 2.879,
+    "duration": 4.161
+  },
+  {
+    "text": "today in this particular video I'm going",
+    "start": 5.279,
+    "duration": 4.161
+  },
+  {
+    "text": "to discuss about this amazing topic uh",
+    "start": 7.04,
+    "duration": 4.24
+  },
+  {
+    "text": "to make you understand the differences",
+    "start": 9.44,
+    "duration": 5.119
+  },
+  {
+    "text": "between langin versus langraph. Now I've",
+    "start": 11.28,
+    "duration": 5.12
+  },
+  {
+    "text": "been making similar kind of videos from",
+    "start": 14.559,
+    "duration": 4.161
+  },
+  {
+    "text": "past couple of weeks uh or from past",
+    "start": 16.4,
+    "duration": 5.76
+  },
+  {
+    "text": "month and here our main aim is to make",
+    "start": 18.72,
+    "duration": 6.16
+  },
+  {
+    "text": "our fundamentals quite stronger. Let's",
+    "start": 22.16,
+    "duration": 4.24
+  },
+  {
+    "text": "say that if I ask you a question in an",
+    "start": 24.88,
+    "duration": 2.96
+  },
+  {
+    "text": "interview when should we probably go",
+    "start": 26.4,
+    "duration": 3.76
+  },
+  {
+    "text": "ahead and use langraph or what is the",
+    "start": 27.84,
+    "duration": 4.559
+  },
+  {
+    "text": "differences between lang and lang graph",
+    "start": 30.16,
+    "duration": 4.16
+  },
+  {
+    "text": "what would you probably try to explain",
+    "start": 32.399,
+    "duration": 3.84
+  },
+  {
+    "text": "just write down in the comment section",
+    "start": 34.32,
+    "duration": 4.399
+  },
+  {
+    "text": "before seeing the specific video and",
+    "start": 36.239,
+    "duration": 4.081
+  },
+  {
+    "text": "then after you write down the comment",
+    "start": 38.719,
+    "duration": 3.441
+  },
+  {
+    "text": "right just go through this entire video",
+    "start": 40.32,
+    "duration": 4.0
+  },
+  {
+    "text": "and then try to see that how many things",
+    "start": 42.16,
+    "duration": 4.64
+  },
+  {
+    "text": "that I've actually told does it matches",
+    "start": 44.32,
+    "duration": 4.32
+  },
+  {
+    "text": "with all the information that you have",
+    "start": 46.8,
+    "duration": 4.8
+  },
+  {
+    "text": "right so please make sure to do that but",
+    "start": 48.64,
+    "duration": 4.88
+  },
+  {
+    "text": "in this video we are going to have a",
+    "start": 51.6,
+    "duration": 3.84
+  },
+  {
+    "text": "detailed discussion between lang chain",
+    "start": 53.52,
+    "duration": 5.359
+  },
+  {
+    "text": "versus lang graph. Um trust me just",
+    "start": 55.44,
+    "duration": 4.959
+  },
+  {
+    "text": "watch the till the end you will",
+    "start": 58.879,
+    "duration": 4.401
+  },
+  {
+    "text": "definitely learn a lot many things. Now",
+    "start": 60.399,
+    "duration": 5.361
+  },
+  {
+    "text": "uh if I talk about lang chain you know",
+    "start": 63.28,
+    "duration": 5.28
+  },
+  {
+    "text": "and I hope it is one of the most popular",
+    "start": 65.76,
+    "duration": 5.039
+  },
+  {
+    "text": "framework which is basically used to",
+    "start": 68.56,
+    "duration": 4.4
+  },
+  {
+    "text": "create generative AI application. So",
+    "start": 70.799,
+    "duration": 3.68
+  },
+  {
+    "text": "first of all we will just go ahead and",
+    "start": 72.96,
+    "duration": 3.44
+  },
+  {
+    "text": "talk about langchain. So let's go ahead",
+    "start": 74.479,
+    "duration": 4.801
+  },
+  {
+    "text": "and write it down over here like",
+    "start": 76.4,
+    "duration": 5.52
+  },
+  {
+    "text": "langchain.",
+    "start": 79.28,
+    "duration": 5.44
+  },
+  {
+    "text": "Now if I talk about langchain in lang",
+    "start": 81.92,
+    "duration": 5.199
+  },
+  {
+    "text": "chain obviously this is this langchain",
+    "start": 84.72,
+    "duration": 6.48
+  },
+  {
+    "text": "is basically used to create if I",
+    "start": 87.119,
+    "duration": 7.441
+  },
+  {
+    "text": "probably say it is used to create llm",
+    "start": 91.2,
+    "duration": 4.919
+  },
+  {
+    "text": "powered",
+    "start": 94.56,
+    "duration": 4.519
+  },
+  {
+    "text": "application llm",
+    "start": 96.119,
+    "duration": 5.881
+  },
+  {
+    "text": "powered chatbot assistant it can be it",
+    "start": 99.079,
+    "duration": 5.761
+  },
+  {
+    "text": "can be an application or generative AI",
+    "start": 102.0,
+    "duration": 5.84
+  },
+  {
+    "text": "application okay now when I say LLM",
+    "start": 104.84,
+    "duration": 4.52
+  },
+  {
+    "text": "powered that basically means anything",
+    "start": 107.84,
+    "duration": 3.12
+  },
+  {
+    "text": "that you create whether you create a",
+    "start": 109.36,
+    "duration": 4.399
+  },
+  {
+    "text": "chatbot Whether you create a simple app",
+    "start": 110.96,
+    "duration": 4.96
+  },
+  {
+    "text": "or whether you create any kind of",
+    "start": 113.759,
+    "duration": 3.921
+  },
+  {
+    "text": "application right at the end of the day",
+    "start": 115.92,
+    "duration": 3.799
+  },
+  {
+    "text": "you are specifically using",
+    "start": 117.68,
+    "duration": 6.399
+  },
+  {
+    "text": "LLMs right on top of this LLMs there are",
+    "start": 119.719,
+    "duration": 7.241
+  },
+  {
+    "text": "multiple things that can be used here",
+    "start": 124.079,
+    "duration": 6.081
+  },
+  {
+    "text": "you can use prompts along with the LLMs",
+    "start": 126.96,
+    "duration": 5.16
+  },
+  {
+    "text": "you can use",
+    "start": 130.16,
+    "duration": 4.4
+  },
+  {
+    "text": "tools you can use different kind of",
+    "start": 132.12,
+    "duration": 4.72
+  },
+  {
+    "text": "integrations and many more",
+    "start": 134.56,
+    "duration": 5.28
+  },
+  {
+    "text": "things so overall if I probably talk",
+    "start": 136.84,
+    "duration": 4.759
+  },
+  {
+    "text": "about lang chain",
+    "start": 139.84,
+    "duration": 3.52
+  },
+  {
+    "text": "Any application that is basically",
+    "start": 141.599,
+    "duration": 3.921
+  },
+  {
+    "text": "developed in Langchain, a generative AI",
+    "start": 143.36,
+    "duration": 4.4
+  },
+  {
+    "text": "application or LLM powered application",
+    "start": 145.52,
+    "duration": 4.799
+  },
+  {
+    "text": "or a AI chatbot assistant. There are",
+    "start": 147.76,
+    "duration": 4.559
+  },
+  {
+    "text": "three main important steps that happens",
+    "start": 150.319,
+    "duration": 6.0
+  },
+  {
+    "text": "in Langchain. This is my one step. This",
+    "start": 152.319,
+    "duration": 8.361
+  },
+  {
+    "text": "is my another step and this is my third",
+    "start": 156.319,
+    "duration": 6.521
+  },
+  {
+    "text": "step.",
+    "start": 160.68,
+    "duration": 4.68
+  },
+  {
+    "text": "Okay. So these are the three main",
+    "start": 162.84,
+    "duration": 4.28
+  },
+  {
+    "text": "components. Now what are these specific",
+    "start": 165.36,
+    "duration": 3.519
+  },
+  {
+    "text": "components? When I say steps, I'm",
+    "start": 167.12,
+    "duration": 3.44
+  },
+  {
+    "text": "basically talking about components. The",
+    "start": 168.879,
+    "duration": 3.521
+  },
+  {
+    "text": "first component is nothing but it is",
+    "start": 170.56,
+    "duration": 3.0
+  },
+  {
+    "text": "basically called",
+    "start": 172.4,
+    "duration": 5.199
+  },
+  {
+    "text": "as retrieve. Okay. So here we are",
+    "start": 173.56,
+    "duration": 6.44
+  },
+  {
+    "text": "basically going to write it as retrieve.",
+    "start": 177.599,
+    "duration": 5.521
+  },
+  {
+    "text": "Retrieve or retriever. Then the second",
+    "start": 180.0,
+    "duration": 6.36
+  },
+  {
+    "text": "important component is nothing but",
+    "start": 183.12,
+    "duration": 5.52
+  },
+  {
+    "text": "summarize. And the third important",
+    "start": 186.36,
+    "duration": 4.72
+  },
+  {
+    "text": "component is nothing but your final",
+    "start": 188.64,
+    "duration": 7.76
+  },
+  {
+    "text": "answer or output. Okay. Now when we talk",
+    "start": 191.08,
+    "duration": 8.04
+  },
+  {
+    "text": "about this components. Okay. So here I",
+    "start": 196.4,
+    "duration": 4.32
+  },
+  {
+    "text": "will just go ahead and write output.",
+    "start": 199.12,
+    "duration": 3.839
+  },
+  {
+    "text": "Okay. When we talk about the specific",
+    "start": 200.72,
+    "duration": 3.84
+  },
+  {
+    "text": "components in lang chain whether you",
+    "start": 202.959,
+    "duration": 3.801
+  },
+  {
+    "text": "generate any kind of generative AI",
+    "start": 204.56,
+    "duration": 4.84
+  },
+  {
+    "text": "applications empowered application or AI",
+    "start": 206.76,
+    "duration": 5.32
+  },
+  {
+    "text": "assistant these three components will be",
+    "start": 209.4,
+    "duration": 5.08
+  },
+  {
+    "text": "definitely there. Now the question rises",
+    "start": 212.08,
+    "duration": 5.36
+  },
+  {
+    "text": "kish what does exactly happen in the",
+    "start": 214.48,
+    "duration": 5.52
+  },
+  {
+    "text": "directory in retrieve? There are three",
+    "start": 217.44,
+    "duration": 4.32
+  },
+  {
+    "text": "main important things that we basically",
+    "start": 220.0,
+    "duration": 7.36
+  },
+  {
+    "text": "do. One is data injection.",
+    "start": 221.76,
+    "duration": 7.28
+  },
+  {
+    "text": "Now the question rises what is data",
+    "start": 227.36,
+    "duration": 3.04
+  },
+  {
+    "text": "injection? Data injection is very",
+    "start": 229.04,
+    "duration": 4.24
+  },
+  {
+    "text": "simple, right? We ingest a data right we",
+    "start": 230.4,
+    "duration": 5.32
+  },
+  {
+    "text": "probably load a data from a specific",
+    "start": 233.28,
+    "duration": 5.92
+  },
+  {
+    "text": "source. Now the main thing is that here",
+    "start": 235.72,
+    "duration": 5.32
+  },
+  {
+    "text": "the source can be different different it",
+    "start": 239.2,
+    "duration": 4.399
+  },
+  {
+    "text": "can be a PDF file. It can be an external",
+    "start": 241.04,
+    "duration": 4.16
+  },
+  {
+    "text": "database. It can be an excel file. It",
+    "start": 243.599,
+    "duration": 3.441
+  },
+  {
+    "text": "can be a website. You need to probably",
+    "start": 245.2,
+    "duration": 4.48
+  },
+  {
+    "text": "web scrap the data. There may be various",
+    "start": 247.04,
+    "duration": 5.199
+  },
+  {
+    "text": "different ways right in data injection.",
+    "start": 249.68,
+    "duration": 4.559
+  },
+  {
+    "text": "So when we talk about data injection",
+    "start": 252.239,
+    "duration": 5.041
+  },
+  {
+    "text": "this is also called as we basically use",
+    "start": 254.239,
+    "duration": 5.081
+  },
+  {
+    "text": "something called as document loader over",
+    "start": 257.28,
+    "duration": 4.72
+  },
+  {
+    "text": "here right. So we use nothing but",
+    "start": 259.32,
+    "duration": 5.56
+  },
+  {
+    "text": "document loader. So in langchain you",
+    "start": 262.0,
+    "duration": 5.759
+  },
+  {
+    "text": "have a specific class uh where you have",
+    "start": 264.88,
+    "duration": 4.56
+  },
+  {
+    "text": "lot of packages and integration",
+    "start": 267.759,
+    "duration": 3.281
+  },
+  {
+    "text": "specifically with respect to document",
+    "start": 269.44,
+    "duration": 5.28
+  },
+  {
+    "text": "loader. Here the main aim is that you",
+    "start": 271.04,
+    "duration": 5.92
+  },
+  {
+    "text": "try to load documents from different",
+    "start": 274.72,
+    "duration": 4.72
+  },
+  {
+    "text": "different sources. It can be any source.",
+    "start": 276.96,
+    "duration": 5.2
+  },
+  {
+    "text": "It can be a PDF file. It can be a excel",
+    "start": 279.44,
+    "duration": 6.24
+  },
+  {
+    "text": "file. It can be a CSV file. It can even",
+    "start": 282.16,
+    "duration": 7.44
+  },
+  {
+    "text": "be some third-party APIs like Wikipedia.",
+    "start": 285.68,
+    "duration": 7.04
+  },
+  {
+    "text": "It can be r. It can be anything as such.",
+    "start": 289.6,
+    "duration": 5.319
+  },
+  {
+    "text": "Right? So they are multiple sources and",
+    "start": 292.72,
+    "duration": 6.16
+  },
+  {
+    "text": "langen has a huge amount of different",
+    "start": 294.919,
+    "duration": 5.641
+  },
+  {
+    "text": "different kind of integrations already",
+    "start": 298.88,
+    "duration": 3.84
+  },
+  {
+    "text": "provided in terms of document loader.",
+    "start": 300.56,
+    "duration": 3.84
+  },
+  {
+    "text": "And what I feel is that whenever you try",
+    "start": 302.72,
+    "duration": 3.6
+  },
+  {
+    "text": "to develop any of this kind of",
+    "start": 304.4,
+    "duration": 3.92
+  },
+  {
+    "text": "application, this is the most important",
+    "start": 306.32,
+    "duration": 4.56
+  },
+  {
+    "text": "step because here the parsing of the",
+    "start": 308.32,
+    "duration": 5.28
+  },
+  {
+    "text": "data will happen, right? The parsing of",
+    "start": 310.88,
+    "duration": 5.759
+  },
+  {
+    "text": "the data will happen. The more in a like",
+    "start": 313.6,
+    "duration": 4.879
+  },
+  {
+    "text": "when you do the parsing, if you do this",
+    "start": 316.639,
+    "duration": 4.0
+  },
+  {
+    "text": "much more accurately, then you will",
+    "start": 318.479,
+    "duration": 4.881
+  },
+  {
+    "text": "definitely be able to generate uh or",
+    "start": 320.639,
+    "duration": 5.12
+  },
+  {
+    "text": "create a generative AI application with",
+    "start": 323.36,
+    "duration": 4.559
+  },
+  {
+    "text": "much more accuracy. So now there are",
+    "start": 325.759,
+    "duration": 4.88
+  },
+  {
+    "text": "dedicated companies who specifically do",
+    "start": 327.919,
+    "duration": 4.481
+  },
+  {
+    "text": "this particular task who create this",
+    "start": 330.639,
+    "duration": 3.12
+  },
+  {
+    "text": "kind of packages with respect to",
+    "start": 332.4,
+    "duration": 3.76
+  },
+  {
+    "text": "document loader right I need to probably",
+    "start": 333.759,
+    "duration": 4.641
+  },
+  {
+    "text": "I create a document loader to let's say",
+    "start": 336.16,
+    "duration": 4.319
+  },
+  {
+    "text": "web scrap the data from the internet",
+    "start": 338.4,
+    "duration": 4.32
+  },
+  {
+    "text": "which will be a very important use case",
+    "start": 340.479,
+    "duration": 3.841
+  },
+  {
+    "text": "for most of the use case that we",
+    "start": 342.72,
+    "duration": 4.0
+  },
+  {
+    "text": "specifically implement in the industry.",
+    "start": 344.32,
+    "duration": 4.159
+  },
+  {
+    "text": "So in document loader this basically",
+    "start": 346.72,
+    "duration": 3.8
+  },
+  {
+    "text": "happens right and that is a part of data",
+    "start": 348.479,
+    "duration": 4.801
+  },
+  {
+    "text": "ingestion. Now coming to the second most",
+    "start": 350.52,
+    "duration": 5.32
+  },
+  {
+    "text": "important component. The second most",
+    "start": 353.28,
+    "duration": 4.72
+  },
+  {
+    "text": "important component is nothing but it is",
+    "start": 355.84,
+    "duration": 3.96
+  },
+  {
+    "text": "called as text",
+    "start": 358.0,
+    "duration": 4.24
+  },
+  {
+    "text": "splitter. Now text splitter is also a",
+    "start": 359.8,
+    "duration": 4.28
+  },
+  {
+    "text": "separate class that is available in lang",
+    "start": 362.24,
+    "duration": 3.92
+  },
+  {
+    "text": "chain or a separate package wherein",
+    "start": 364.08,
+    "duration": 4.32
+  },
+  {
+    "text": "there are multiple ways of splitting the",
+    "start": 366.16,
+    "duration": 4.879
+  },
+  {
+    "text": "text. Once you read the data from all",
+    "start": 368.4,
+    "duration": 4.72
+  },
+  {
+    "text": "these kind of sources, right? We I",
+    "start": 371.039,
+    "duration": 4.321
+  },
+  {
+    "text": "cannot just directly provide the entire",
+    "start": 373.12,
+    "duration": 4.799
+  },
+  {
+    "text": "data to my LLM model as a context.",
+    "start": 375.36,
+    "duration": 4.8
+  },
+  {
+    "text": "Right? So what I have to do why I cannot",
+    "start": 377.919,
+    "duration": 4.481
+  },
+  {
+    "text": "provide because there is a very",
+    "start": 380.16,
+    "duration": 3.92
+  },
+  {
+    "text": "important component which is called as",
+    "start": 382.4,
+    "duration": 5.359
+  },
+  {
+    "text": "context window. Every LLM has a",
+    "start": 384.08,
+    "duration": 5.44
+  },
+  {
+    "text": "limitation with respect to the context",
+    "start": 387.759,
+    "duration": 4.401
+  },
+  {
+    "text": "window. So in order to overcome this",
+    "start": 389.52,
+    "duration": 4.959
+  },
+  {
+    "text": "what we do is that once we read the data",
+    "start": 392.16,
+    "duration": 5.2
+  },
+  {
+    "text": "from this data source we try to divide",
+    "start": 394.479,
+    "duration": 5.881
+  },
+  {
+    "text": "this data into smaller",
+    "start": 397.36,
+    "duration": 6.16
+  },
+  {
+    "text": "chunks into smaller chunks. Smaller",
+    "start": 400.36,
+    "duration": 6.679
+  },
+  {
+    "text": "chunks smaller chunks. Once we divide",
+    "start": 403.52,
+    "duration": 6.64
+  },
+  {
+    "text": "this data into smaller chunk then the",
+    "start": 407.039,
+    "duration": 5.201
+  },
+  {
+    "text": "next step because after we divide this",
+    "start": 410.16,
+    "duration": 4.24
+  },
+  {
+    "text": "we need to store it somewhere right and",
+    "start": 412.24,
+    "duration": 4.16
+  },
+  {
+    "text": "that is where your third important",
+    "start": 414.4,
+    "duration": 6.04
+  },
+  {
+    "text": "component comes is nothing but vector",
+    "start": 416.4,
+    "duration": 6.4
+  },
+  {
+    "text": "databases. Now inside this vector",
+    "start": 420.44,
+    "duration": 5.0
+  },
+  {
+    "text": "databases when we are specifically using",
+    "start": 422.8,
+    "duration": 6.239
+  },
+  {
+    "text": "vector databases here we also use",
+    "start": 425.44,
+    "duration": 7.199
+  },
+  {
+    "text": "something called as vector embeddings.",
+    "start": 429.039,
+    "duration": 6.16
+  },
+  {
+    "text": "Now for vector embeddings it is nothing",
+    "start": 432.639,
+    "duration": 4.56
+  },
+  {
+    "text": "but we are converting the text into",
+    "start": 435.199,
+    "duration": 4.881
+  },
+  {
+    "text": "vectors that is the main aim with",
+    "start": 437.199,
+    "duration": 6.161
+  },
+  {
+    "text": "respect to vector embeddings right. So",
+    "start": 440.08,
+    "duration": 5.36
+  },
+  {
+    "text": "this is a kind of a task wherein we",
+    "start": 443.36,
+    "duration": 4.16
+  },
+  {
+    "text": "convert the text into vectors. So once",
+    "start": 445.44,
+    "duration": 3.92
+  },
+  {
+    "text": "it is basically converted we basically",
+    "start": 447.52,
+    "duration": 3.84
+  },
+  {
+    "text": "store that into the vector database. Now",
+    "start": 449.36,
+    "duration": 4.16
+  },
+  {
+    "text": "the question arises why do we store it",
+    "start": 451.36,
+    "duration": 4.399
+  },
+  {
+    "text": "right because at the end of the day from",
+    "start": 453.52,
+    "duration": 5.519
+  },
+  {
+    "text": "my any application if all my data is",
+    "start": 455.759,
+    "duration": 5.761
+  },
+  {
+    "text": "basically stored in a vector database we",
+    "start": 459.039,
+    "duration": 5.201
+  },
+  {
+    "text": "will definitely be able to do different",
+    "start": 461.52,
+    "duration": 5.2
+  },
+  {
+    "text": "different kind of search. One search",
+    "start": 464.24,
+    "duration": 4.88
+  },
+  {
+    "text": "example is nothing but semantic search.",
+    "start": 466.72,
+    "duration": 6.0
+  },
+  {
+    "text": "It can be graph DB search right and with",
+    "start": 469.12,
+    "duration": 6.56
+  },
+  {
+    "text": "the help of this search we will be able",
+    "start": 472.72,
+    "duration": 4.96
+  },
+  {
+    "text": "to retrieve the right amount of context",
+    "start": 475.68,
+    "duration": 4.079
+  },
+  {
+    "text": "and give it to our LLM to finally",
+    "start": 477.68,
+    "duration": 5.199
+  },
+  {
+    "text": "generate the output right and that is",
+    "start": 479.759,
+    "duration": 5.681
+  },
+  {
+    "text": "really important right unless and until",
+    "start": 482.879,
+    "duration": 4.481
+  },
+  {
+    "text": "this is not done accurately and we don't",
+    "start": 485.44,
+    "duration": 4.0
+  },
+  {
+    "text": "get the right kind of context out of the",
+    "start": 487.36,
+    "duration": 5.36
+  },
+  {
+    "text": "directed database we will not be able to",
+    "start": 489.44,
+    "duration": 5.599
+  },
+  {
+    "text": "accurately give the output to the user",
+    "start": 492.72,
+    "duration": 6.159
+  },
+  {
+    "text": "right so in the retrieve component of",
+    "start": 495.039,
+    "duration": 6.401
+  },
+  {
+    "text": "lang chain you really need to be good at",
+    "start": 498.879,
+    "duration": 5.121
+  },
+  {
+    "text": "all the specific things when you go",
+    "start": 501.44,
+    "duration": 4.8
+  },
+  {
+    "text": "tomorrow to any companies to gen and if",
+    "start": 504.0,
+    "duration": 3.599
+  },
+  {
+    "text": "you're probably generating or developing",
+    "start": 506.24,
+    "duration": 3.84
+  },
+  {
+    "text": "a generative AI powered application you",
+    "start": 507.599,
+    "duration": 4.481
+  },
+  {
+    "text": "will be doing all the specific steps you",
+    "start": 510.08,
+    "duration": 3.92
+  },
+  {
+    "text": "need to parse the data you need to",
+    "start": 512.08,
+    "duration": 3.839
+  },
+  {
+    "text": "probably store the data in exact right",
+    "start": 514.0,
+    "duration": 3.68
+  },
+  {
+    "text": "format with respect to the document data",
+    "start": 515.919,
+    "duration": 4.161
+  },
+  {
+    "text": "type you need to make sure that you have",
+    "start": 517.68,
+    "duration": 4.64
+  },
+  {
+    "text": "to do this kind of chunking strategy so",
+    "start": 520.08,
+    "duration": 4.319
+  },
+  {
+    "text": "that you try to solve this context",
+    "start": 522.32,
+    "duration": 3.44
+  },
+  {
+    "text": "window size with respect to different",
+    "start": 524.399,
+    "duration": 3.201
+  },
+  {
+    "text": "different LLMs that you're using and",
+    "start": 525.76,
+    "duration": 3.28
+  },
+  {
+    "text": "finally you store all this particular",
+    "start": 527.6,
+    "duration": 4.4
+  },
+  {
+    "text": "data into the vector database. Okay. Now",
+    "start": 529.04,
+    "duration": 5.68
+  },
+  {
+    "text": "coming to the next important step after",
+    "start": 532.0,
+    "duration": 4.32
+  },
+  {
+    "text": "we probably complete this retrieve",
+    "start": 534.72,
+    "duration": 4.0
+  },
+  {
+    "text": "component. It is nothing but summarize.",
+    "start": 536.32,
+    "duration": 5.12
+  },
+  {
+    "text": "Now here is where you know and when we",
+    "start": 538.72,
+    "duration": 4.08
+  },
+  {
+    "text": "talk about summarize or when we talk",
+    "start": 541.44,
+    "duration": 2.88
+  },
+  {
+    "text": "about building generative AI",
+    "start": 542.8,
+    "duration": 3.599
+  },
+  {
+    "text": "applications uh with the help of lang",
+    "start": 544.32,
+    "duration": 5.44
+  },
+  {
+    "text": "chain here you specifically follow a",
+    "start": 546.399,
+    "duration": 6.081
+  },
+  {
+    "text": "sequential order. Okay, this is really",
+    "start": 549.76,
+    "duration": 4.72
+  },
+  {
+    "text": "important to understand and here you",
+    "start": 552.48,
+    "duration": 3.52
+  },
+  {
+    "text": "will definitely be understanding the",
+    "start": 554.48,
+    "duration": 3.039
+  },
+  {
+    "text": "differences between langin and lang",
+    "start": 556.0,
+    "duration": 3.92
+  },
+  {
+    "text": "graph. When we talk about sequential",
+    "start": 557.519,
+    "duration": 4.44
+  },
+  {
+    "text": "order, now what does this basically",
+    "start": 559.92,
+    "duration": 5.2
+  },
+  {
+    "text": "mean? In sequential order here, it",
+    "start": 561.959,
+    "duration": 6.041
+  },
+  {
+    "text": "basically means that the execution of",
+    "start": 565.12,
+    "duration": 6.44
+  },
+  {
+    "text": "any task will just happen",
+    "start": 568.0,
+    "duration": 7.12
+  },
+  {
+    "text": "sequentially. We cannot go back. Okay.",
+    "start": 571.56,
+    "duration": 6.12
+  },
+  {
+    "text": "So this entire langen the generative AI",
+    "start": 575.12,
+    "duration": 4.0
+  },
+  {
+    "text": "application that is developed with the",
+    "start": 577.68,
+    "duration": 5.04
+  },
+  {
+    "text": "help of langchen follows a DAG graph",
+    "start": 579.12,
+    "duration": 7.52
+  },
+  {
+    "text": "right directed a cyclic graph okay that",
+    "start": 582.72,
+    "duration": 5.44
+  },
+  {
+    "text": "basically means if my execution is",
+    "start": 586.64,
+    "duration": 3.68
+  },
+  {
+    "text": "basically started from this task it has",
+    "start": 588.16,
+    "duration": 3.84
+  },
+  {
+    "text": "to probably go to this task it has to go",
+    "start": 590.32,
+    "duration": 3.84
+  },
+  {
+    "text": "to this particular task only sequential",
+    "start": 592.0,
+    "duration": 5.16
+  },
+  {
+    "text": "I cannot come back this option is not",
+    "start": 594.16,
+    "duration": 7.359
+  },
+  {
+    "text": "there this option is not there right so",
+    "start": 597.16,
+    "duration": 5.96
+  },
+  {
+    "text": "when we talk about this summarize",
+    "start": 601.519,
+    "duration": 3.44
+  },
+  {
+    "text": "component here you'll be able to see",
+    "start": 603.12,
+    "duration": 5.399
+  },
+  {
+    "text": "that we create some kind of chaining",
+    "start": 604.959,
+    "duration": 6.32
+  },
+  {
+    "text": "concept. So in lang chain whenever a",
+    "start": 608.519,
+    "duration": 4.521
+  },
+  {
+    "text": "generative AI application is basically",
+    "start": 611.279,
+    "duration": 4.881
+  },
+  {
+    "text": "developed here we try to implement this",
+    "start": 613.04,
+    "duration": 5.44
+  },
+  {
+    "text": "chaining concept. Now in the chaining",
+    "start": 616.16,
+    "duration": 4.96
+  },
+  {
+    "text": "concept we first of all go ahead and",
+    "start": 618.48,
+    "duration": 4.32
+  },
+  {
+    "text": "write our prompt chain. So let's say",
+    "start": 621.12,
+    "duration": 4.48
+  },
+  {
+    "text": "this is my prompt chain right sorry this",
+    "start": 622.8,
+    "duration": 4.56
+  },
+  {
+    "text": "is my prompt. We basically go ahead and",
+    "start": 625.6,
+    "duration": 3.6
+  },
+  {
+    "text": "give a prompt. prompt is just like an",
+    "start": 627.36,
+    "duration": 4.56
+  },
+  {
+    "text": "instruction to an LLM right along with",
+    "start": 629.2,
+    "duration": 7.199
+  },
+  {
+    "text": "this we try to integrate this uh prompt",
+    "start": 631.92,
+    "duration": 7.12
+  },
+  {
+    "text": "with our LLM. So LLM will be my second",
+    "start": 636.399,
+    "duration": 4.161
+  },
+  {
+    "text": "thing in the chain right second",
+    "start": 639.04,
+    "duration": 3.6
+  },
+  {
+    "text": "important component in the chain and",
+    "start": 640.56,
+    "duration": 3.76
+  },
+  {
+    "text": "then the third important component can",
+    "start": 642.64,
+    "duration": 3.6
+  },
+  {
+    "text": "be my context the context that I'm",
+    "start": 644.32,
+    "duration": 4.24
+  },
+  {
+    "text": "supplying to the LLM. So this will",
+    "start": 646.24,
+    "duration": 3.88
+  },
+  {
+    "text": "basically be my",
+    "start": 648.56,
+    "duration": 5.6
+  },
+  {
+    "text": "prompt. This will be my llm and this",
+    "start": 650.12,
+    "duration": 6.279
+  },
+  {
+    "text": "will basically be my context and this",
+    "start": 654.16,
+    "duration": 3.919
+  },
+  {
+    "text": "context will be coming from the specific",
+    "start": 656.399,
+    "duration": 3.68
+  },
+  {
+    "text": "vector database. So internally you'll be",
+    "start": 658.079,
+    "duration": 3.841
+  },
+  {
+    "text": "able to see that this vector database",
+    "start": 660.079,
+    "duration": 4.081
+  },
+  {
+    "text": "will be comp connected to this",
+    "start": 661.92,
+    "duration": 4.32
+  },
+  {
+    "text": "particular chain itself wherein we will",
+    "start": 664.16,
+    "duration": 4.84
+  },
+  {
+    "text": "be providing the context and this",
+    "start": 666.24,
+    "duration": 6.719
+  },
+  {
+    "text": "execution takes place sequentially one",
+    "start": 669.0,
+    "duration": 7.0
+  },
+  {
+    "text": "after the other right and finally",
+    "start": 672.959,
+    "duration": 5.681
+  },
+  {
+    "text": "whatever output you basically get here",
+    "start": 676.0,
+    "duration": 5.04
+  },
+  {
+    "text": "we are basically going to use or here we",
+    "start": 678.64,
+    "duration": 3.52
+  },
+  {
+    "text": "are going to give the answer of the",
+    "start": 681.04,
+    "duration": 3.68
+  },
+  {
+    "text": "output here again we can use multiple",
+    "start": 682.16,
+    "duration": 4.56
+  },
+  {
+    "text": "components one component can be my",
+    "start": 684.72,
+    "duration": 4.4
+  },
+  {
+    "text": "memory right so here we can use some",
+    "start": 686.72,
+    "duration": 5.44
+  },
+  {
+    "text": "kind of persistent memory. So if you",
+    "start": 689.12,
+    "duration": 5.04
+  },
+  {
+    "text": "have been seeing my videos with respect",
+    "start": 692.16,
+    "duration": 5.2
+  },
+  {
+    "text": "to lang lang chain or lang lang graph I",
+    "start": 694.16,
+    "duration": 5.119
+  },
+  {
+    "text": "have covered all this specific thing",
+    "start": 697.36,
+    "duration": 3.84
+  },
+  {
+    "text": "right and next thing after this",
+    "start": 699.279,
+    "duration": 3.841
+  },
+  {
+    "text": "persisting memory I can also go ahead",
+    "start": 701.2,
+    "duration": 4.0
+  },
+  {
+    "text": "and probably combine prompt with a",
+    "start": 703.12,
+    "duration": 4.719
+  },
+  {
+    "text": "separate LLM over here prompt with a",
+    "start": 705.2,
+    "duration": 4.48
+  },
+  {
+    "text": "separate LLM over here so that we will",
+    "start": 707.839,
+    "duration": 4.0
+  },
+  {
+    "text": "be able to get the output right and",
+    "start": 709.68,
+    "duration": 3.599
+  },
+  {
+    "text": "finally here you can actually see that",
+    "start": 711.839,
+    "duration": 3.281
+  },
+  {
+    "text": "finally we generate this specific output",
+    "start": 713.279,
+    "duration": 3.841
+  },
+  {
+    "text": "so this can also be created in the form",
+    "start": 715.12,
+    "duration": 5.12
+  },
+  {
+    "text": "of chain but understand one thing",
+    "start": 717.12,
+    "duration": 5.44
+  },
+  {
+    "text": "everything is basically getting executed",
+    "start": 720.24,
+    "duration": 4.719
+  },
+  {
+    "text": "sequentially. This is the most important",
+    "start": 722.56,
+    "duration": 5.2
+  },
+  {
+    "text": "thing in the entire lang chain with",
+    "start": 724.959,
+    "duration": 4.801
+  },
+  {
+    "text": "respect to developing any generative AI",
+    "start": 727.76,
+    "duration": 4.8
+  },
+  {
+    "text": "powered applications. Okay. So here is",
+    "start": 729.76,
+    "duration": 4.24
+  },
+  {
+    "text": "what we basically do with the help of",
+    "start": 732.56,
+    "duration": 4.079
+  },
+  {
+    "text": "lang chain right and again I will again",
+    "start": 734.0,
+    "duration": 4.16
+  },
+  {
+    "text": "talk about the differences as we go",
+    "start": 736.639,
+    "duration": 2.961
+  },
+  {
+    "text": "ahead like what are the main exact",
+    "start": 738.16,
+    "duration": 3.44
+  },
+  {
+    "text": "differences and all here you saw that it",
+    "start": 739.6,
+    "duration": 3.919
+  },
+  {
+    "text": "is following a sequential order. It",
+    "start": 741.6,
+    "duration": 3.84
+  },
+  {
+    "text": "follows a directed earth cyclic graph.",
+    "start": 743.519,
+    "duration": 4.0
+  },
+  {
+    "text": "You know, uh here everything is in the",
+    "start": 745.44,
+    "duration": 4.16
+  },
+  {
+    "text": "form of chaining. Here we have these",
+    "start": 747.519,
+    "duration": 4.241
+  },
+  {
+    "text": "three important components. How each and",
+    "start": 749.6,
+    "duration": 3.76
+  },
+  {
+    "text": "every component is basically executed",
+    "start": 751.76,
+    "duration": 3.44
+  },
+  {
+    "text": "and how it proceeds to finally getting",
+    "start": 753.36,
+    "duration": 5.12
+  },
+  {
+    "text": "an output. Right? Now, similarly, if I",
+    "start": 755.2,
+    "duration": 7.639
+  },
+  {
+    "text": "talk about langraph, okay,",
+    "start": 758.48,
+    "duration": 7.56
+  },
+  {
+    "text": "langraph. Now when I talk about langraph",
+    "start": 762.839,
+    "duration": 8.8
+  },
+  {
+    "text": "here the main aim is basically to create",
+    "start": 766.04,
+    "duration": 7.52
+  },
+  {
+    "text": "stateful",
+    "start": 771.639,
+    "duration": 4.081
+  },
+  {
+    "text": "multi-",
+    "start": 773.56,
+    "duration": 5.8
+  },
+  {
+    "text": "AI agentic",
+    "start": 775.72,
+    "duration": 3.64
+  },
+  {
+    "text": "application agentic application or AI",
+    "start": 780.519,
+    "duration": 6.361
+  },
+  {
+    "text": "agents multi-state stateful multiAI",
+    "start": 784.16,
+    "duration": 6.799
+  },
+  {
+    "text": "agents itself right now here the main",
+    "start": 786.88,
+    "duration": 5.6
+  },
+  {
+    "text": "aim if I just want to probably break",
+    "start": 790.959,
+    "duration": 3.12
+  },
+  {
+    "text": "this down here you'll be able ble to see",
+    "start": 792.48,
+    "duration": 5.2
+  },
+  {
+    "text": "that we create AI agents and it's not",
+    "start": 794.079,
+    "duration": 6.56
+  },
+  {
+    "text": "like a simple a single AI agent it'll be",
+    "start": 797.68,
+    "duration": 4.64
+  },
+  {
+    "text": "multiple AI agents which will be doing",
+    "start": 800.639,
+    "duration": 3.681
+  },
+  {
+    "text": "separately different task and the best",
+    "start": 802.32,
+    "duration": 3.84
+  },
+  {
+    "text": "part about these AI agents is that they",
+    "start": 804.32,
+    "duration": 6.4
+  },
+  {
+    "text": "can communicate with each other to solve",
+    "start": 806.16,
+    "duration": 6.919
+  },
+  {
+    "text": "a complex",
+    "start": 810.72,
+    "duration": 5.919
+  },
+  {
+    "text": "workflow complex workflow I've already",
+    "start": 813.079,
+    "duration": 5.641
+  },
+  {
+    "text": "started my entire langraph playlist and",
+    "start": 816.639,
+    "duration": 3.76
+  },
+  {
+    "text": "I think if you're following them I've",
+    "start": 818.72,
+    "duration": 3.52
+  },
+  {
+    "text": "explained this entirely in a much more",
+    "start": 820.399,
+    "duration": 4.081
+  },
+  {
+    "text": "detailed manner uh you know in the live",
+    "start": 822.24,
+    "duration": 3.92
+  },
+  {
+    "text": "classes uh that I've actually taken in",
+    "start": 824.48,
+    "duration": 5.599
+  },
+  {
+    "text": "my YouTube channel right now here the",
+    "start": 826.16,
+    "duration": 5.44
+  },
+  {
+    "text": "main thing is that it need not be",
+    "start": 830.079,
+    "duration": 4.401
+  },
+  {
+    "text": "directed or cyclic graph it it even need",
+    "start": 831.6,
+    "duration": 5.76
+  },
+  {
+    "text": "not be sequential this can follow in a",
+    "start": 834.48,
+    "duration": 4.32
+  },
+  {
+    "text": "different ways okay so first of all",
+    "start": 837.36,
+    "duration": 3.599
+  },
+  {
+    "text": "we'll talk about what are the important",
+    "start": 838.8,
+    "duration": 4.64
+  },
+  {
+    "text": "components in lang graph okay some of",
+    "start": 840.959,
+    "duration": 4.32
+  },
+  {
+    "text": "the important components in lang graph",
+    "start": 843.44,
+    "duration": 4.8
+  },
+  {
+    "text": "are like tasks second important",
+    "start": 845.279,
+    "duration": 5.601
+  },
+  {
+    "text": "component we basically use as nodes",
+    "start": 848.24,
+    "duration": 4.52
+  },
+  {
+    "text": "third it'll be something called as",
+    "start": 850.88,
+    "duration": 4.959
+  },
+  {
+    "text": "edges. Fourth is nothing but graph. So",
+    "start": 852.76,
+    "duration": 5.96
+  },
+  {
+    "text": "that basically means my entire lang",
+    "start": 855.839,
+    "duration": 5.041
+  },
+  {
+    "text": "graph the complex workflows that is",
+    "start": 858.72,
+    "duration": 4.4
+  },
+  {
+    "text": "defined which will be it it'll be in the",
+    "start": 860.88,
+    "duration": 5.36
+  },
+  {
+    "text": "form of a graph and when you see a graph",
+    "start": 863.12,
+    "duration": 4.32
+  },
+  {
+    "text": "right if you probably have some",
+    "start": 866.24,
+    "duration": 3.839
+  },
+  {
+    "text": "knowledge about graph let's say uh here",
+    "start": 867.44,
+    "duration": 4.0
+  },
+  {
+    "text": "I will just go ahead and write this is",
+    "start": 870.079,
+    "duration": 5.281
+  },
+  {
+    "text": "my task A okay this is my task A right",
+    "start": 871.44,
+    "duration": 6.0
+  },
+  {
+    "text": "so let's say this is my task A this can",
+    "start": 875.36,
+    "duration": 5.88
+  },
+  {
+    "text": "be my task B this can be my task",
+    "start": 877.44,
+    "duration": 8.92
+  },
+  {
+    "text": "C this can be my task",
+    "start": 881.24,
+    "duration": 8.56
+  },
+  {
+    "text": "E and this can be my final task that is",
+    "start": 886.36,
+    "duration": 5.279
+  },
+  {
+    "text": "end let's",
+    "start": 889.8,
+    "duration": 5.56
+  },
+  {
+    "text": "say now each and every task over here so",
+    "start": 891.639,
+    "duration": 6.121
+  },
+  {
+    "text": "let's say if this is my task A this is",
+    "start": 895.36,
+    "duration": 5.719
+  },
+  {
+    "text": "my task B this is my task",
+    "start": 897.76,
+    "duration": 6.12
+  },
+  {
+    "text": "C this is my task",
+    "start": 901.079,
+    "duration": 5.401
+  },
+  {
+    "text": "D so when we talk about this kind of",
+    "start": 903.88,
+    "duration": 4.68
+  },
+  {
+    "text": "task we basically start from start over",
+    "start": 906.48,
+    "duration": 4.4
+  },
+  {
+    "text": "here there will be a conditional edge",
+    "start": 908.56,
+    "duration": 4.88
+  },
+  {
+    "text": "then we go to task D then finally we go",
+    "start": 910.88,
+    "duration": 3.84
+  },
+  {
+    "text": "to",
+    "start": 913.44,
+    "duration": 2.959
+  },
+  {
+    "text": "Now here also I'm showing sequential",
+    "start": 914.72,
+    "duration": 3.919
+  },
+  {
+    "text": "only but one important thing is that you",
+    "start": 916.399,
+    "duration": 5.12
+  },
+  {
+    "text": "can go back from task B to task A you",
+    "start": 918.639,
+    "duration": 6.081
+  },
+  {
+    "text": "can go back to task D to task C you can",
+    "start": 921.519,
+    "duration": 5.44
+  },
+  {
+    "text": "reexecute this and here you can come so",
+    "start": 924.72,
+    "duration": 3.84
+  },
+  {
+    "text": "that is the reason why I'm saying that",
+    "start": 926.959,
+    "duration": 3.841
+  },
+  {
+    "text": "this two important thing is basically",
+    "start": 928.56,
+    "duration": 4.399
+  },
+  {
+    "text": "happening that is communication within",
+    "start": 930.8,
+    "duration": 4.24
+  },
+  {
+    "text": "this particular task and each and every",
+    "start": 932.959,
+    "duration": 5.841
+  },
+  {
+    "text": "task is executed by a separate AI agent",
+    "start": 935.04,
+    "duration": 5.52
+  },
+  {
+    "text": "you can basically create a separate AI",
+    "start": 938.8,
+    "duration": 3.76
+  },
+  {
+    "text": "agent and perform that task similarly",
+    "start": 940.56,
+    "duration": 4.48
+  },
+  {
+    "text": "and the output of one task can be passed",
+    "start": 942.56,
+    "duration": 4.719
+  },
+  {
+    "text": "to the output of the other task. It can",
+    "start": 945.04,
+    "duration": 4.599
+  },
+  {
+    "text": "also be vice",
+    "start": 947.279,
+    "duration": 5.521
+  },
+  {
+    "text": "versa. Right? So here a feedback",
+    "start": 949.639,
+    "duration": 5.56
+  },
+  {
+    "text": "mechanism can also be generated and even",
+    "start": 952.8,
+    "duration": 4.52
+  },
+  {
+    "text": "human feedback mechanism can also be",
+    "start": 955.199,
+    "duration": 5.44
+  },
+  {
+    "text": "included. So this way you are able to",
+    "start": 957.32,
+    "duration": 6.759
+  },
+  {
+    "text": "solve a very complex workflow. In my",
+    "start": 960.639,
+    "duration": 5.361
+  },
+  {
+    "text": "recent uh live session, I gave a",
+    "start": 964.079,
+    "duration": 4.161
+  },
+  {
+    "text": "hackathon wherein you have to probably",
+    "start": 966.0,
+    "duration": 3.6
+  },
+  {
+    "text": "implement the entire software",
+    "start": 968.24,
+    "duration": 4.399
+  },
+  {
+    "text": "development life cycle with the help of",
+    "start": 969.6,
+    "duration": 4.039
+  },
+  {
+    "text": "human",
+    "start": 972.639,
+    "duration": 3.681
+  },
+  {
+    "text": "feedback with with the help of this",
+    "start": 973.639,
+    "duration": 5.401
+  },
+  {
+    "text": "entire complex workflow. So what is",
+    "start": 976.32,
+    "duration": 4.72
+  },
+  {
+    "text": "software development life cycle? First",
+    "start": 979.04,
+    "duration": 3.919
+  },
+  {
+    "text": "requirement gathering, then business",
+    "start": 981.04,
+    "duration": 4.799
+  },
+  {
+    "text": "understanding, then documentation, then",
+    "start": 982.959,
+    "duration": 5.68
+  },
+  {
+    "text": "code creation, then unit testing, then",
+    "start": 985.839,
+    "duration": 4.721
+  },
+  {
+    "text": "managers probably reviewing the sorry",
+    "start": 988.639,
+    "duration": 4.401
+  },
+  {
+    "text": "code peers reviewing the code review,",
+    "start": 990.56,
+    "duration": 4.959
+  },
+  {
+    "text": "providing the feedback, quality check,",
+    "start": 993.04,
+    "duration": 4.0
+  },
+  {
+    "text": "all those kind of check and finally",
+    "start": 995.519,
+    "duration": 2.721
+  },
+  {
+    "text": "implementing the entire software",
+    "start": 997.04,
+    "duration": 3.12
+  },
+  {
+    "text": "development life cycle and people",
+    "start": 998.24,
+    "duration": 3.839
+  },
+  {
+    "text": "implement it in a much more beautiful",
+    "start": 1000.16,
+    "duration": 4.64
+  },
+  {
+    "text": "way. So here if you probably see we",
+    "start": 1002.079,
+    "duration": 5.2
+  },
+  {
+    "text": "follow entire graph structure and this",
+    "start": 1004.8,
+    "duration": 4.959
+  },
+  {
+    "text": "graph structure need not be a directed",
+    "start": 1007.279,
+    "duration": 5.281
+  },
+  {
+    "text": "or cyclic graph because here my task can",
+    "start": 1009.759,
+    "duration": 4.561
+  },
+  {
+    "text": "go from up and down it can go here and",
+    "start": 1012.56,
+    "duration": 5.199
+  },
+  {
+    "text": "there right. So if you see some of the",
+    "start": 1014.32,
+    "duration": 6.0
+  },
+  {
+    "text": "important differences with respect to",
+    "start": 1017.759,
+    "duration": 4.401
+  },
+  {
+    "text": "the component here we use components",
+    "start": 1020.32,
+    "duration": 5.599
+  },
+  {
+    "text": "like prompt lm context we use data",
+    "start": 1022.16,
+    "duration": 7.36
+  },
+  {
+    "text": "injection we use persistent memory right",
+    "start": 1025.919,
+    "duration": 6.241
+  },
+  {
+    "text": "here we specifically use nodes edges so",
+    "start": 1029.52,
+    "duration": 4.439
+  },
+  {
+    "text": "these are nothing but these are",
+    "start": 1032.16,
+    "duration": 5.919
+  },
+  {
+    "text": "nodes right these are edges edges is",
+    "start": 1033.959,
+    "duration": 5.84
+  },
+  {
+    "text": "basically used for flow of the",
+    "start": 1038.079,
+    "duration": 5.041
+  },
+  {
+    "text": "information and when I say stateful here",
+    "start": 1039.799,
+    "duration": 5.721
+  },
+  {
+    "text": "the persistent memory is quite more",
+    "start": 1043.12,
+    "duration": 3.88
+  },
+  {
+    "text": "efficient",
+    "start": 1045.52,
+    "duration": 3.92
+  },
+  {
+    "text": "ient and the best part about this is",
+    "start": 1047.0,
+    "duration": 4.36
+  },
+  {
+    "text": "that the memory is basically shared",
+    "start": 1049.44,
+    "duration": 3.76
+  },
+  {
+    "text": "between each and every task any update",
+    "start": 1051.36,
+    "duration": 4.88
+  },
+  {
+    "text": "that I'm doing in one variable this all",
+    "start": 1053.2,
+    "duration": 4.839
+  },
+  {
+    "text": "nodes will be able to access those",
+    "start": 1056.24,
+    "duration": 4.24
+  },
+  {
+    "text": "variables and the persistent memory is",
+    "start": 1058.039,
+    "duration": 5.401
+  },
+  {
+    "text": "quite efficient in langraph right so if",
+    "start": 1060.48,
+    "duration": 5.04
+  },
+  {
+    "text": "I talk about agentic AI application you",
+    "start": 1063.44,
+    "duration": 3.599
+  },
+  {
+    "text": "may use some of the components that are",
+    "start": 1065.52,
+    "duration": 3.519
+  },
+  {
+    "text": "available in the lang chain but at the",
+    "start": 1067.039,
+    "duration": 4.401
+  },
+  {
+    "text": "end of the day you are building an",
+    "start": 1069.039,
+    "duration": 4.081
+  },
+  {
+    "text": "amazing agentic application with the",
+    "start": 1071.44,
+    "duration": 4.119
+  },
+  {
+    "text": "help of langraph",
+    "start": 1073.12,
+    "duration": 4.72
+  },
+  {
+    "text": "Right. Other than that there are some",
+    "start": 1075.559,
+    "duration": 3.801
+  },
+  {
+    "text": "more differences which you can probably",
+    "start": 1077.84,
+    "duration": 4.0
+  },
+  {
+    "text": "find out over here. So these are some of",
+    "start": 1079.36,
+    "duration": 4.24
+  },
+  {
+    "text": "the important components. As I said with",
+    "start": 1081.84,
+    "duration": 3.6
+  },
+  {
+    "text": "respect to persistent memory this is",
+    "start": 1083.6,
+    "duration": 4.24
+  },
+  {
+    "text": "much more sufficient efficient. Here we",
+    "start": 1085.44,
+    "duration": 4.4
+  },
+  {
+    "text": "just use a sequential order. Here it",
+    "start": 1087.84,
+    "duration": 3.92
+  },
+  {
+    "text": "need not be a sequential order to solve",
+    "start": 1089.84,
+    "duration": 4.959
+  },
+  {
+    "text": "any kind of use cases. Right? And here",
+    "start": 1091.76,
+    "duration": 4.56
+  },
+  {
+    "text": "we also understood what are the",
+    "start": 1094.799,
+    "duration": 3.281
+  },
+  {
+    "text": "important components and here what are",
+    "start": 1096.32,
+    "duration": 4.88
+  },
+  {
+    "text": "the important components. Right? Now the",
+    "start": 1098.08,
+    "duration": 4.959
+  },
+  {
+    "text": "reason of making this specific video is",
+    "start": 1101.2,
+    "duration": 3.76
+  },
+  {
+    "text": "to make your understanding very very",
+    "start": 1103.039,
+    "duration": 4.721
+  },
+  {
+    "text": "strong. If I ask you a question, hey,",
+    "start": 1104.96,
+    "duration": 5.92
+  },
+  {
+    "text": "when should we probably go ahead and use",
+    "start": 1107.76,
+    "duration": 6.4
+  },
+  {
+    "text": "fine-tuning or when should we use rag or",
+    "start": 1110.88,
+    "duration": 5.6
+  },
+  {
+    "text": "when should we probably go ahead and use",
+    "start": 1114.16,
+    "duration": 4.0
+  },
+  {
+    "text": "uh let's say prompt engineering many",
+    "start": 1116.48,
+    "duration": 3.28
+  },
+  {
+    "text": "people are not able to clearly say the",
+    "start": 1118.16,
+    "duration": 4.08
+  },
+  {
+    "text": "differences right if this is the kind of",
+    "start": 1119.76,
+    "duration": 3.919
+  },
+  {
+    "text": "question I have already made this kind",
+    "start": 1122.24,
+    "duration": 3.84
+  },
+  {
+    "text": "of videos this videos like see in the",
+    "start": 1123.679,
+    "duration": 4.801
+  },
+  {
+    "text": "companies now many people more than 80",
+    "start": 1126.08,
+    "duration": 4.719
+  },
+  {
+    "text": "to 90%age of the people uh in the",
+    "start": 1128.48,
+    "duration": 4.28
+  },
+  {
+    "text": "companies are implementing efficient rag",
+    "start": 1130.799,
+    "duration": 4.321
+  },
+  {
+    "text": "systems so here also you'll be able to",
+    "start": 1132.76,
+    "duration": 4.52
+  },
+  {
+    "text": "see that when we create these are like",
+    "start": 1135.12,
+    "duration": 4.16
+  },
+  {
+    "text": "traditional rags okay I'll also talk",
+    "start": 1137.28,
+    "duration": 4.16
+  },
+  {
+    "text": "about traditional rag and agentic rag so",
+    "start": 1139.28,
+    "duration": 3.92
+  },
+  {
+    "text": "in the traditional rag you basically",
+    "start": 1141.44,
+    "duration": 6.08
+  },
+  {
+    "text": "create an llm right this let's say this",
+    "start": 1143.2,
+    "duration": 6.88
+  },
+  {
+    "text": "is my llm powered ai application this",
+    "start": 1147.52,
+    "duration": 5.72
+  },
+  {
+    "text": "will be interacting with my rag",
+    "start": 1150.08,
+    "duration": 5.44
+  },
+  {
+    "text": "database right so this will basically be",
+    "start": 1153.24,
+    "duration": 4.76
+  },
+  {
+    "text": "my rag database and this rag database",
+    "start": 1155.52,
+    "duration": 4.48
+  },
+  {
+    "text": "will provide the context to the lm to",
+    "start": 1158.0,
+    "duration": 4.799
+  },
+  {
+    "text": "finally provide the output right here if",
+    "start": 1160.0,
+    "duration": 5.52
+  },
+  {
+    "text": "my input is basically going on",
+    "start": 1162.799,
+    "duration": 4.641
+  },
+  {
+    "text": "So this is what is basically happening",
+    "start": 1165.52,
+    "duration": 4.88
+  },
+  {
+    "text": "in a traditional rag. In the case of",
+    "start": 1167.44,
+    "duration": 5.0
+  },
+  {
+    "text": "agentic rag, we create",
+    "start": 1170.4,
+    "duration": 5.519
+  },
+  {
+    "text": "agents. We create AI agents and this",
+    "start": 1172.44,
+    "duration": 5.32
+  },
+  {
+    "text": "agent is responsible whether I have to",
+    "start": 1175.919,
+    "duration": 4.0
+  },
+  {
+    "text": "make a call to my database, whether I",
+    "start": 1177.76,
+    "duration": 4.4
+  },
+  {
+    "text": "have to make the call to my tools or",
+    "start": 1179.919,
+    "duration": 4.281
+  },
+  {
+    "text": "whether I have to take any kind of other",
+    "start": 1182.16,
+    "duration": 4.72
+  },
+  {
+    "text": "action. Automatically this AI agents",
+    "start": 1184.2,
+    "duration": 4.68
+  },
+  {
+    "text": "will be able to take that particular",
+    "start": 1186.88,
+    "duration": 4.24
+  },
+  {
+    "text": "decision and provide me the response.",
+    "start": 1188.88,
+    "duration": 4.0
+  },
+  {
+    "text": "And then probably let's say that after",
+    "start": 1191.12,
+    "duration": 3.439
+  },
+  {
+    "text": "getting this information I need to go",
+    "start": 1192.88,
+    "duration": 3.44
+  },
+  {
+    "text": "ahead and hit the tool and provide the",
+    "start": 1194.559,
+    "duration": 3.921
+  },
+  {
+    "text": "get the response. This entire thing is",
+    "start": 1196.32,
+    "duration": 4.44
+  },
+  {
+    "text": "basically implemented in the form of a",
+    "start": 1198.48,
+    "duration": 3.96
+  },
+  {
+    "text": "workflow.",
+    "start": 1200.76,
+    "duration": 4.279
+  },
+  {
+    "text": "Right? So this is how things basically",
+    "start": 1202.44,
+    "duration": 4.119
+  },
+  {
+    "text": "happen. I'm soon going to make a",
+    "start": 1205.039,
+    "duration": 3.681
+  },
+  {
+    "text": "detailed video on different types of rag",
+    "start": 1206.559,
+    "duration": 3.601
+  },
+  {
+    "text": "which is one of the most important",
+    "start": 1208.72,
+    "duration": 3.199
+  },
+  {
+    "text": "component that is currently required",
+    "start": 1210.16,
+    "duration": 3.92
+  },
+  {
+    "text": "right now. Right? So I hope you like",
+    "start": 1211.919,
+    "duration": 4.801
+  },
+  {
+    "text": "this particular video and uh this was",
+    "start": 1214.08,
+    "duration": 4.32
+  },
+  {
+    "text": "the basic differences between langin and",
+    "start": 1216.72,
+    "duration": 3.68
+  },
+  {
+    "text": "langraph. In the upcoming videos I'm",
+    "start": 1218.4,
+    "duration": 3.519
+  },
+  {
+    "text": "also going to discuss about other",
+    "start": 1220.4,
+    "duration": 5.279
+  },
+  {
+    "text": "frameworks. let's say crew AI agno and",
+    "start": 1221.919,
+    "duration": 4.961
+  },
+  {
+    "text": "I'm going to probably go ahead and",
+    "start": 1225.679,
+    "duration": 3.12
+  },
+  {
+    "text": "explain you all the specific things and",
+    "start": 1226.88,
+    "duration": 4.48
+  },
+  {
+    "text": "these all things we detail explain in",
+    "start": 1228.799,
+    "duration": 4.88
+  },
+  {
+    "text": "our live batches all the information",
+    "start": 1231.36,
+    "duration": 3.76
+  },
+  {
+    "text": "will be given in the description of this",
+    "start": 1233.679,
+    "duration": 2.721
+  },
+  {
+    "text": "particular video you can go ahead and",
+    "start": 1235.12,
+    "duration": 3.919
+  },
+  {
+    "text": "check it out so yes uh this was it for",
+    "start": 1236.4,
+    "duration": 4.08
+  },
+  {
+    "text": "my side I'll see you in the next video",
+    "start": 1239.039,
+    "duration": 2.88
+  },
+  {
+    "text": "have a great day thank you and all take",
+    "start": 1240.48,
+    "duration": 3.84
+  },
+  {
+    "text": "care bye-bye",
+    "start": 1241.919,
+    "duration": 2.401
+  }
+]

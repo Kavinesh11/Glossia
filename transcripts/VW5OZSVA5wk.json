@@ -1,0 +1,2162 @@
+[
+  {
+    "text": "There were many questions in my previous",
+    "start": 0.32,
+    "duration": 4.64
+  },
+  {
+    "text": "video around how do we start generative",
+    "start": 2.159,
+    "duration": 4.801
+  },
+  {
+    "text": "AI? How do we start learning generative",
+    "start": 4.96,
+    "duration": 5.679
+  },
+  {
+    "text": "AI in a good foundational manner not get",
+    "start": 6.96,
+    "duration": 5.36
+  },
+  {
+    "text": "carried away by everything that's",
+    "start": 10.639,
+    "duration": 4.561
+  },
+  {
+    "text": "happening but a pure road map that will",
+    "start": 12.32,
+    "duration": 5.28
+  },
+  {
+    "text": "help us navigate through everything",
+    "start": 15.2,
+    "duration": 4.96
+  },
+  {
+    "text": "that's happening and yet give us",
+    "start": 17.6,
+    "duration": 4.48
+  },
+  {
+    "text": "everything that we want to learn. So",
+    "start": 20.16,
+    "duration": 4.64
+  },
+  {
+    "text": "here is this video. Let's start. No",
+    "start": 22.08,
+    "duration": 5.68
+  },
+  {
+    "text": "fuss, no technical jargon. I'll give you",
+    "start": 24.8,
+    "duration": 4.719
+  },
+  {
+    "text": "everything that you require in this",
+    "start": 27.76,
+    "duration": 3.839
+  },
+  {
+    "text": "video that you should know in order to",
+    "start": 29.519,
+    "duration": 4.001
+  },
+  {
+    "text": "become a good generative AI data",
+    "start": 31.599,
+    "duration": 3.761
+  },
+  {
+    "text": "scientist, engineer or whatever your",
+    "start": 33.52,
+    "duration": 4.17
+  },
+  {
+    "text": "roles are. So let's",
+    "start": 35.36,
+    "duration": 6.09
+  },
+  {
+    "text": "[Music]",
+    "start": 37.69,
+    "duration": 3.76
+  },
+  {
+    "text": "begin. The first thing that you need is",
+    "start": 41.719,
+    "duration": 6.32
+  },
+  {
+    "text": "a good understanding of linear algebra,",
+    "start": 44.239,
+    "duration": 6.64
+  },
+  {
+    "text": "probability and fundamental concepts of",
+    "start": 48.039,
+    "duration": 5.081
+  },
+  {
+    "text": "deep learning. These are those three",
+    "start": 50.879,
+    "duration": 4.32
+  },
+  {
+    "text": "things that you should master really",
+    "start": 53.12,
+    "duration": 3.599
+  },
+  {
+    "text": "efficiently.",
+    "start": 55.199,
+    "duration": 4.321
+  },
+  {
+    "text": "Now probability is something that is",
+    "start": 56.719,
+    "duration": 5.201
+  },
+  {
+    "text": "used everywhere across the transformer",
+    "start": 59.52,
+    "duration": 5.44
+  },
+  {
+    "text": "architecture. So you should know this",
+    "start": 61.92,
+    "duration": 5.199
+  },
+  {
+    "text": "linear algebra with all the algebraic",
+    "start": 64.96,
+    "duration": 3.96
+  },
+  {
+    "text": "operations that happen with respect to",
+    "start": 67.119,
+    "duration": 4.641
+  },
+  {
+    "text": "vectors. All of this is the basis of a",
+    "start": 68.92,
+    "duration": 5.239
+  },
+  {
+    "text": "lot of systems going forward like rag",
+    "start": 71.76,
+    "duration": 4.24
+  },
+  {
+    "text": "systems use cosine similarity on",
+    "start": 74.159,
+    "duration": 3.28
+  },
+  {
+    "text": "embeddings. What are embeddings?",
+    "start": 76.0,
+    "duration": 4.159
+  },
+  {
+    "text": "Embeddings are vector representations of",
+    "start": 77.439,
+    "duration": 5.521
+  },
+  {
+    "text": "keywords or sentences that you input.",
+    "start": 80.159,
+    "duration": 4.28
+  },
+  {
+    "text": "How is this cosine",
+    "start": 82.96,
+    "duration": 4.56
+  },
+  {
+    "text": "similarity created? So start with",
+    "start": 84.439,
+    "duration": 5.161
+  },
+  {
+    "text": "probability. Get your probability basics",
+    "start": 87.52,
+    "duration": 4.32
+  },
+  {
+    "text": "correct. Get linear algebra sorted",
+    "start": 89.6,
+    "duration": 4.24
+  },
+  {
+    "text": "especially vectors and all of the other",
+    "start": 91.84,
+    "duration": 4.0
+  },
+  {
+    "text": "nitty-g gritties that are there. Then",
+    "start": 93.84,
+    "duration": 4.72
+  },
+  {
+    "text": "you should also focus upon deep learning",
+    "start": 95.84,
+    "duration": 5.319
+  },
+  {
+    "text": "concepts like activation",
+    "start": 98.56,
+    "duration": 4.879
+  },
+  {
+    "text": "functions. What is ReLU function? What",
+    "start": 101.159,
+    "duration": 4.841
+  },
+  {
+    "text": "is leaky relu? Why are neural networks",
+    "start": 103.439,
+    "duration": 5.521
+  },
+  {
+    "text": "so popular? How can they approximate any",
+    "start": 106.0,
+    "duration": 5.28
+  },
+  {
+    "text": "function that you want to kind of learn",
+    "start": 108.96,
+    "duration": 5.119
+  },
+  {
+    "text": "or that you want your entire network to",
+    "start": 111.28,
+    "duration": 4.72
+  },
+  {
+    "text": "learn? How does this approximation",
+    "start": 114.079,
+    "duration": 5.441
+  },
+  {
+    "text": "happens? Uh what is bias? What is how",
+    "start": 116.0,
+    "duration": 5.439
+  },
+  {
+    "text": "does the learning happen? All of these",
+    "start": 119.52,
+    "duration": 4.8
+  },
+  {
+    "text": "small details, small little details is",
+    "start": 121.439,
+    "duration": 5.201
+  },
+  {
+    "text": "what you should really know. Uh so you",
+    "start": 124.32,
+    "duration": 3.84
+  },
+  {
+    "text": "should be really good with deep learning",
+    "start": 126.64,
+    "duration": 3.759
+  },
+  {
+    "text": "concepts as well. So that is my first",
+    "start": 128.16,
+    "duration": 4.96
+  },
+  {
+    "text": "recommendation. Get your mathematics",
+    "start": 130.399,
+    "duration": 5.441
+  },
+  {
+    "text": "base sorted. If you don't have the time",
+    "start": 133.12,
+    "duration": 4.68
+  },
+  {
+    "text": "to do everything, do at least",
+    "start": 135.84,
+    "duration": 5.28
+  },
+  {
+    "text": "probability, do at least linear algebra",
+    "start": 137.8,
+    "duration": 5.56
+  },
+  {
+    "text": "and also have a good base setup on deep",
+    "start": 141.12,
+    "duration": 3.86
+  },
+  {
+    "text": "learning",
+    "start": 143.36,
+    "duration": 5.0
+  },
+  {
+    "text": "[Music]",
+    "start": 144.98,
+    "duration": 3.38
+  },
+  {
+    "text": "concepts. Once these concepts are clear,",
+    "start": 149.0,
+    "duration": 3.879
+  },
+  {
+    "text": "the next thing that you should",
+    "start": 151.76,
+    "duration": 4.4
+  },
+  {
+    "text": "definitely focus on is the evolution of",
+    "start": 152.879,
+    "duration": 5.041
+  },
+  {
+    "text": "NLP.",
+    "start": 156.16,
+    "duration": 4.799
+  },
+  {
+    "text": "Not every task that you perform for an",
+    "start": 157.92,
+    "duration": 6.0
+  },
+  {
+    "text": "NLP operation requires the entire 4",
+    "start": 160.959,
+    "duration": 5.441
+  },
+  {
+    "text": "billion, 5 billion, 10 billion models.",
+    "start": 163.92,
+    "duration": 4.0
+  },
+  {
+    "text": "One thing that I've realized with a lot",
+    "start": 166.4,
+    "duration": 4.16
+  },
+  {
+    "text": "of people that I've worked with and also",
+    "start": 167.92,
+    "duration": 4.319
+  },
+  {
+    "text": "a a lot of people that I interview right",
+    "start": 170.56,
+    "duration": 5.039
+  },
+  {
+    "text": "now is for every task, the bare minimum",
+    "start": 172.239,
+    "duration": 5.761
+  },
+  {
+    "text": "that everyone wants to use is plug in a",
+    "start": 175.599,
+    "duration": 4.0
+  },
+  {
+    "text": "transformer architecture for simple",
+    "start": 178.0,
+    "duration": 4.879
+  },
+  {
+    "text": "tasks as well. But no one is taking into",
+    "start": 179.599,
+    "duration": 5.681
+  },
+  {
+    "text": "account three basic pillars, right?",
+    "start": 182.879,
+    "duration": 5.041
+  },
+  {
+    "text": "accuracy, latency and the cost of",
+    "start": 185.28,
+    "duration": 5.039
+  },
+  {
+    "text": "running the solution. When you think at",
+    "start": 187.92,
+    "duration": 5.12
+  },
+  {
+    "text": "scale and if your problem statement is",
+    "start": 190.319,
+    "duration": 5.681
+  },
+  {
+    "text": "not very complex, why have a big model",
+    "start": 193.04,
+    "duration": 5.839
+  },
+  {
+    "text": "deployed for a simpler use case, right?",
+    "start": 196.0,
+    "duration": 5.12
+  },
+  {
+    "text": "It is here that you have to understand",
+    "start": 198.879,
+    "duration": 5.44
+  },
+  {
+    "text": "which solution fits in which problem",
+    "start": 201.12,
+    "duration": 5.839
+  },
+  {
+    "text": "statement. So start with regular",
+    "start": 204.319,
+    "duration": 5.28
+  },
+  {
+    "text": "expressions. If you have simpler issues",
+    "start": 206.959,
+    "duration": 5.521
+  },
+  {
+    "text": "to solve, say a large language model can",
+    "start": 209.599,
+    "duration": 4.401
+  },
+  {
+    "text": "give you all the regular expressions",
+    "start": 212.48,
+    "duration": 2.96
+  },
+  {
+    "text": "that you're kind of searching for as",
+    "start": 214.0,
+    "duration": 3.84
+  },
+  {
+    "text": "well. Sometimes simple regular",
+    "start": 215.44,
+    "duration": 4.24
+  },
+  {
+    "text": "expression matches give you really good",
+    "start": 217.84,
+    "duration": 4.56
+  },
+  {
+    "text": "solutions for simpler problems. Uh then",
+    "start": 219.68,
+    "duration": 4.479
+  },
+  {
+    "text": "there are predefined word based",
+    "start": 222.4,
+    "duration": 3.6
+  },
+  {
+    "text": "classification models. So don't use a",
+    "start": 224.159,
+    "duration": 3.761
+  },
+  {
+    "text": "decoder only models which are heavy to",
+    "start": 226.0,
+    "duration": 4.56
+  },
+  {
+    "text": "load heavy uh in terms of getting the",
+    "start": 227.92,
+    "duration": 5.36
+  },
+  {
+    "text": "right JSON structure. take some data set",
+    "start": 230.56,
+    "duration": 4.239
+  },
+  {
+    "text": "that you can synthetically generate",
+    "start": 233.28,
+    "duration": 4.239
+  },
+  {
+    "text": "using a BERT model and fine-tune a BERT",
+    "start": 234.799,
+    "duration": 4.321
+  },
+  {
+    "text": "model based on the data set that you",
+    "start": 237.519,
+    "duration": 3.521
+  },
+  {
+    "text": "have. It will give you tremendous",
+    "start": 239.12,
+    "duration": 4.0
+  },
+  {
+    "text": "accuracy as well if you have like a",
+    "start": 241.04,
+    "duration": 4.08
+  },
+  {
+    "text": "really good representation of the data",
+    "start": 243.12,
+    "duration": 4.479
+  },
+  {
+    "text": "set that you want to use for inference",
+    "start": 245.12,
+    "duration": 4.64
+  },
+  {
+    "text": "as well. So that is the second piece",
+    "start": 247.599,
+    "duration": 4.961
+  },
+  {
+    "text": "that I can tell you. Start understanding",
+    "start": 249.76,
+    "duration": 5.52
+  },
+  {
+    "text": "what you are using and what requires or",
+    "start": 252.56,
+    "duration": 4.72
+  },
+  {
+    "text": "which problem statement requires a",
+    "start": 255.28,
+    "duration": 4.079
+  },
+  {
+    "text": "complex model. Which problem statement",
+    "start": 257.28,
+    "duration": 4.96
+  },
+  {
+    "text": "requires a simpler model. For you to",
+    "start": 259.359,
+    "duration": 4.56
+  },
+  {
+    "text": "understand all of this, you have to",
+    "start": 262.24,
+    "duration": 5.36
+  },
+  {
+    "text": "understand the evolution of NLP. Start",
+    "start": 263.919,
+    "duration": 8.081
+  },
+  {
+    "text": "with simpler algorithms like TF, BM25.",
+    "start": 267.6,
+    "duration": 7.039
+  },
+  {
+    "text": "How do they work? What what is the use",
+    "start": 272.0,
+    "duration": 5.04
+  },
+  {
+    "text": "case that they were meant to solve for?",
+    "start": 274.639,
+    "duration": 4.881
+  },
+  {
+    "text": "Then people shifted away from the",
+    "start": 277.04,
+    "duration": 5.68
+  },
+  {
+    "text": "simpler algorithms to LSTMs. Before",
+    "start": 279.52,
+    "duration": 7.04
+  },
+  {
+    "text": "LSTMs was RNN, then LSTMs came in. Then",
+    "start": 282.72,
+    "duration": 6.0
+  },
+  {
+    "text": "transformers came in. Attention",
+    "start": 286.56,
+    "duration": 3.919
+  },
+  {
+    "text": "transformers came in and then everything",
+    "start": 288.72,
+    "duration": 3.44
+  },
+  {
+    "text": "kind of shifted over towards",
+    "start": 290.479,
+    "duration": 3.761
+  },
+  {
+    "text": "transformers. So the point that I'm",
+    "start": 292.16,
+    "duration": 6.0
+  },
+  {
+    "text": "trying to land is if you are clear with",
+    "start": 294.24,
+    "duration": 7.44
+  },
+  {
+    "text": "all the entire landscape of how LLMs or",
+    "start": 298.16,
+    "duration": 6.8
+  },
+  {
+    "text": "NLP has evolved so to speak then if",
+    "start": 301.68,
+    "duration": 6.48
+  },
+  {
+    "text": "you're building a solution wherein if",
+    "start": 304.96,
+    "duration": 4.959
+  },
+  {
+    "text": "you are expecting a latency of some",
+    "start": 308.16,
+    "duration": 4.879
+  },
+  {
+    "text": "milliseconds and if it's a simple",
+    "start": 309.919,
+    "duration": 5.601
+  },
+  {
+    "text": "classification task rather than using a",
+    "start": 313.039,
+    "duration": 5.681
+  },
+  {
+    "text": "decoder only huge 1 billion 2 billion",
+    "start": 315.52,
+    "duration": 5.519
+  },
+  {
+    "text": "size model even that is a huge model if",
+    "start": 318.72,
+    "duration": 4.8
+  },
+  {
+    "text": "you ask me you can use a 100 million",
+    "start": 321.039,
+    "duration": 5.041
+  },
+  {
+    "text": "parameter bird model fine-tune it for",
+    "start": 323.52,
+    "duration": 5.44
+  },
+  {
+    "text": "your use case and you can get sub 10",
+    "start": 326.08,
+    "duration": 5.92
+  },
+  {
+    "text": "millisecond latency as well. So",
+    "start": 328.96,
+    "duration": 4.88
+  },
+  {
+    "text": "understanding architectures,",
+    "start": 332.0,
+    "duration": 4.56
+  },
+  {
+    "text": "understanding the evolution of NLP and",
+    "start": 333.84,
+    "duration": 5.44
+  },
+  {
+    "text": "then judging that this particular",
+    "start": 336.56,
+    "duration": 4.88
+  },
+  {
+    "text": "problem statement requires a simpler",
+    "start": 339.28,
+    "duration": 4.199
+  },
+  {
+    "text": "solution as compared to a more complex",
+    "start": 341.44,
+    "duration": 4.56
+  },
+  {
+    "text": "model. That is where you will kind of",
+    "start": 343.479,
+    "duration": 5.881
+  },
+  {
+    "text": "start appreciating the ALC value that",
+    "start": 346.0,
+    "duration": 5.52
+  },
+  {
+    "text": "you bring to the projects that is",
+    "start": 349.36,
+    "duration": 6.08
+  },
+  {
+    "text": "accuracy, latency and cost. imagine I",
+    "start": 351.52,
+    "duration": 5.76
+  },
+  {
+    "text": "have a simple sentiment analysis task",
+    "start": 355.44,
+    "duration": 4.96
+  },
+  {
+    "text": "and if I deploy a llama XY Z model which",
+    "start": 357.28,
+    "duration": 5.359
+  },
+  {
+    "text": "is 8 billion in size right so I'll",
+    "start": 360.4,
+    "duration": 4.32
+  },
+  {
+    "text": "require a huge high-end GPU",
+    "start": 362.639,
+    "duration": 5.041
+  },
+  {
+    "text": "infrastructure to just give out output",
+    "start": 364.72,
+    "duration": 6.08
+  },
+  {
+    "text": "outputs like positive negative neutral",
+    "start": 367.68,
+    "duration": 6.16
+  },
+  {
+    "text": "why can't I take a simple B model and",
+    "start": 370.8,
+    "duration": 5.839
+  },
+  {
+    "text": "currently there are different B bird",
+    "start": 373.84,
+    "duration": 4.24
+  },
+  {
+    "text": "architectures that have recently",
+    "start": 376.639,
+    "duration": 3.761
+  },
+  {
+    "text": "released as well right so you can take a",
+    "start": 378.08,
+    "duration": 4.32
+  },
+  {
+    "text": "look into those architectures because",
+    "start": 380.4,
+    "duration": 4.0
+  },
+  {
+    "text": "they've been fine-tuned or they've been",
+    "start": 382.4,
+    "duration": 3.76
+  },
+  {
+    "text": "trained on newer data sets which will",
+    "start": 384.4,
+    "duration": 3.919
+  },
+  {
+    "text": "give you much better base accuracy",
+    "start": 386.16,
+    "duration": 4.24
+  },
+  {
+    "text": "itself. So why not look at those",
+    "start": 388.319,
+    "duration": 4.32
+  },
+  {
+    "text": "architectures for simpler use cases as",
+    "start": 390.4,
+    "duration": 4.88
+  },
+  {
+    "text": "opposed to using a very complex model",
+    "start": 392.639,
+    "duration": 4.961
+  },
+  {
+    "text": "for a simpler use case. So that is",
+    "start": 395.28,
+    "duration": 4.08
+  },
+  {
+    "text": "something that I want to land as well",
+    "start": 397.6,
+    "duration": 5.96
+  },
+  {
+    "text": "understand the entire evolution of NLP/",
+    "start": 399.36,
+    "duration": 8.8
+  },
+  {
+    "text": "LLMs and then be wise in terms of",
+    "start": 403.56,
+    "duration": 8.21
+  },
+  {
+    "text": "selecting which solutions to use",
+    "start": 408.16,
+    "duration": 7.369
+  },
+  {
+    "text": "[Music]",
+    "start": 411.77,
+    "duration": 3.759
+  },
+  {
+    "text": "where now you've understood the",
+    "start": 415.88,
+    "duration": 4.599
+  },
+  {
+    "text": "technicalities of which model to choose",
+    "start": 418.08,
+    "duration": 5.44
+  },
+  {
+    "text": "where etc. Right? But you still have a",
+    "start": 420.479,
+    "duration": 4.72
+  },
+  {
+    "text": "basic thing missing which is",
+    "start": 423.52,
+    "duration": 4.239
+  },
+  {
+    "text": "understanding the transformer network.",
+    "start": 425.199,
+    "duration": 4.321
+  },
+  {
+    "text": "If there is one thing that you should",
+    "start": 427.759,
+    "duration": 4.16
+  },
+  {
+    "text": "spend good amount of time understanding",
+    "start": 429.52,
+    "duration": 5.36
+  },
+  {
+    "text": "is different architecture types uh",
+    "start": 431.919,
+    "duration": 5.12
+  },
+  {
+    "text": "encoder only models, decoder only",
+    "start": 434.88,
+    "duration": 5.2
+  },
+  {
+    "text": "models, encoder decoder architectures.",
+    "start": 437.039,
+    "duration": 6.241
+  },
+  {
+    "text": "Understand how they function at at least",
+    "start": 440.08,
+    "duration": 6.32
+  },
+  {
+    "text": "an over overall level. Understanding",
+    "start": 443.28,
+    "duration": 5.039
+  },
+  {
+    "text": "what positional encodings are.",
+    "start": 446.4,
+    "duration": 4.56
+  },
+  {
+    "text": "understanding how text is generated in a",
+    "start": 448.319,
+    "duration": 5.121
+  },
+  {
+    "text": "decoder only model. What do you feed in",
+    "start": 450.96,
+    "duration": 4.959
+  },
+  {
+    "text": "as input? What is the output that is",
+    "start": 453.44,
+    "duration": 5.039
+  },
+  {
+    "text": "generated? Uh is the output generated",
+    "start": 455.919,
+    "duration": 4.4
+  },
+  {
+    "text": "parallelly all at once or is it a",
+    "start": 458.479,
+    "duration": 4.081
+  },
+  {
+    "text": "sequential process? All of this is",
+    "start": 460.319,
+    "duration": 4.0
+  },
+  {
+    "text": "something that will give you immense",
+    "start": 462.56,
+    "duration": 4.96
+  },
+  {
+    "text": "clarity in terms of how the LLMs work",
+    "start": 464.319,
+    "duration": 6.32
+  },
+  {
+    "text": "under the hood. There are multiple",
+    "start": 467.52,
+    "duration": 4.959
+  },
+  {
+    "text": "YouTube videos out there. There are",
+    "start": 470.639,
+    "duration": 4.24
+  },
+  {
+    "text": "multiple blogs that explain transformer",
+    "start": 472.479,
+    "duration": 5.84
+  },
+  {
+    "text": "architecture in a very fine way. uh I",
+    "start": 474.879,
+    "duration": 5.281
+  },
+  {
+    "text": "would highly recommend whatever suits",
+    "start": 478.319,
+    "duration": 4.16
+  },
+  {
+    "text": "you. You can kind of go through all the",
+    "start": 480.16,
+    "duration": 5.12
+  },
+  {
+    "text": "links that are available right now. Uh",
+    "start": 482.479,
+    "duration": 5.681
+  },
+  {
+    "text": "but my recommendation to you is get this",
+    "start": 485.28,
+    "duration": 6.479
+  },
+  {
+    "text": "basic clear so that when you interview",
+    "start": 488.16,
+    "duration": 5.599
+  },
+  {
+    "text": "for a role, it can be a senior role,",
+    "start": 491.759,
+    "duration": 4.241
+  },
+  {
+    "text": "junior role, you will have complete",
+    "start": 493.759,
+    "duration": 4.0
+  },
+  {
+    "text": "clarity in terms of the questions that",
+    "start": 496.0,
+    "duration": 4.319
+  },
+  {
+    "text": "are being asked to you and accordingly",
+    "start": 497.759,
+    "duration": 4.081
+  },
+  {
+    "text": "what is the response that you have to",
+    "start": 500.319,
+    "duration": 4.401
+  },
+  {
+    "text": "give them as well. So understand the",
+    "start": 501.84,
+    "duration": 5.84
+  },
+  {
+    "text": "transformer architecture in and out like",
+    "start": 504.72,
+    "duration": 6.879
+  },
+  {
+    "text": "this is there is no shortcut to success.",
+    "start": 507.68,
+    "duration": 5.279
+  },
+  {
+    "text": "If there's something that I can",
+    "start": 511.599,
+    "duration": 3.601
+  },
+  {
+    "text": "recommend to you wholeheartedly then you",
+    "start": 512.959,
+    "duration": 4.88
+  },
+  {
+    "text": "should know the different pieces of how",
+    "start": 515.2,
+    "duration": 4.719
+  },
+  {
+    "text": "the entire transformer architecture",
+    "start": 517.839,
+    "duration": 4.64
+  },
+  {
+    "text": "works. How does fine-tuning work? What",
+    "start": 519.919,
+    "duration": 6.081
+  },
+  {
+    "text": "is Laura? What is Q laura? All of these",
+    "start": 522.479,
+    "duration": 6.881
+  },
+  {
+    "text": "are fine-tuning techniques that kind of",
+    "start": 526.0,
+    "duration": 5.76
+  },
+  {
+    "text": "uh have made a significant impact in",
+    "start": 529.36,
+    "duration": 4.4
+  },
+  {
+    "text": "terms of the training time, reducing the",
+    "start": 531.76,
+    "duration": 4.56
+  },
+  {
+    "text": "training time as well as reaching at the",
+    "start": 533.76,
+    "duration": 4.24
+  },
+  {
+    "text": "most accurate solutions that are out",
+    "start": 536.32,
+    "duration": 4.32
+  },
+  {
+    "text": "there. So you should understand the",
+    "start": 538.0,
+    "duration": 6.64
+  },
+  {
+    "text": "fundamentals of how fine-tuning happens,",
+    "start": 540.64,
+    "duration": 6.8
+  },
+  {
+    "text": "how are models created. You should also",
+    "start": 544.64,
+    "duration": 5.04
+  },
+  {
+    "text": "have a sense of how rags or retrieval",
+    "start": 547.44,
+    "duration": 4.88
+  },
+  {
+    "text": "agumented generation works. Now rags as",
+    "start": 549.68,
+    "duration": 5.04
+  },
+  {
+    "text": "a concept is something that is very",
+    "start": 552.32,
+    "duration": 5.44
+  },
+  {
+    "text": "popular and a lot of people really don't",
+    "start": 554.72,
+    "duration": 5.92
+  },
+  {
+    "text": "understand uh rags that well. One of the",
+    "start": 557.76,
+    "duration": 5.44
+  },
+  {
+    "text": "reason why this happens is because uh",
+    "start": 560.64,
+    "duration": 4.639
+  },
+  {
+    "text": "there are a lot of abstraction based",
+    "start": 563.2,
+    "duration": 4.639
+  },
+  {
+    "text": "libraries like right so you have lang",
+    "start": 565.279,
+    "duration": 5.281
+  },
+  {
+    "text": "chain llama index which kind of simplify",
+    "start": 567.839,
+    "duration": 6.801
+  },
+  {
+    "text": "the end execution for you but uh when it",
+    "start": 570.56,
+    "duration": 7.6
+  },
+  {
+    "text": "comes to production deployment very few",
+    "start": 574.64,
+    "duration": 6.72
+  },
+  {
+    "text": "use cases with these extensions like",
+    "start": 578.16,
+    "duration": 5.2
+  },
+  {
+    "text": "llama index or lang chain make it to",
+    "start": 581.36,
+    "duration": 4.479
+  },
+  {
+    "text": "production because lang chain or llama",
+    "start": 583.36,
+    "duration": 4.72
+  },
+  {
+    "text": "index add a lot of metadata into your",
+    "start": 585.839,
+    "duration": 4.401
+  },
+  {
+    "text": "LLM calls which is something that kind",
+    "start": 588.08,
+    "duration": 5.12
+  },
+  {
+    "text": "of hurts the end output in terms of the",
+    "start": 590.24,
+    "duration": 5.44
+  },
+  {
+    "text": "accuracy as well as latency. To avoid",
+    "start": 593.2,
+    "duration": 5.44
+  },
+  {
+    "text": "this, you use base LLMs for rags when",
+    "start": 595.68,
+    "duration": 5.52
+  },
+  {
+    "text": "you implement them. But not a lot of",
+    "start": 598.64,
+    "duration": 6.0
+  },
+  {
+    "text": "people implement rags through base LLMs,",
+    "start": 601.2,
+    "duration": 6.0
+  },
+  {
+    "text": "right? So this is one sad reality that",
+    "start": 604.64,
+    "duration": 4.0
+  },
+  {
+    "text": "I've kind of captured during the",
+    "start": 607.2,
+    "duration": 3.92
+  },
+  {
+    "text": "interviews as well. So my only request",
+    "start": 608.64,
+    "duration": 4.72
+  },
+  {
+    "text": "to you is whatever topic that you're",
+    "start": 611.12,
+    "duration": 3.76
+  },
+  {
+    "text": "working on as well. So if you want to",
+    "start": 613.36,
+    "duration": 3.08
+  },
+  {
+    "text": "work on rags for",
+    "start": 614.88,
+    "duration": 5.28
+  },
+  {
+    "text": "example, make sure to understand rags in",
+    "start": 616.44,
+    "duration": 7.0
+  },
+  {
+    "text": "and out. When I say in and out, I mean",
+    "start": 620.16,
+    "duration": 6.239
+  },
+  {
+    "text": "you should have complete clarity of how",
+    "start": 623.44,
+    "duration": 5.76
+  },
+  {
+    "text": "the entire retrieval process happens.",
+    "start": 626.399,
+    "duration": 5.521
+  },
+  {
+    "text": "What is the query embedding doing? How",
+    "start": 629.2,
+    "duration": 4.8
+  },
+  {
+    "text": "is the query embedding searching against",
+    "start": 631.92,
+    "duration": 3.96
+  },
+  {
+    "text": "all the embeddings in my vector",
+    "start": 634.0,
+    "duration": 5.36
+  },
+  {
+    "text": "database? What is picked up? What cannot",
+    "start": 635.88,
+    "duration": 5.56
+  },
+  {
+    "text": "be picked up? What is hybrid search and",
+    "start": 639.36,
+    "duration": 4.4
+  },
+  {
+    "text": "rag? So whatever topic that you're",
+    "start": 641.44,
+    "duration": 4.959
+  },
+  {
+    "text": "working on, make sure to understand the",
+    "start": 643.76,
+    "duration": 4.72
+  },
+  {
+    "text": "technical know-hows of that particular",
+    "start": 646.399,
+    "duration": 4.081
+  },
+  {
+    "text": "solution. If you're using libraries",
+    "start": 648.48,
+    "duration": 3.84
+  },
+  {
+    "text": "which kind of give you an abstraction of",
+    "start": 650.48,
+    "duration": 4.88
+  },
+  {
+    "text": "the overall solution in the long run, uh",
+    "start": 652.32,
+    "duration": 5.28
+  },
+  {
+    "text": "it's good for a P, right? If if you want",
+    "start": 655.36,
+    "duration": 4.479
+  },
+  {
+    "text": "to quickly churn up a solution, create a",
+    "start": 657.6,
+    "duration": 4.239
+  },
+  {
+    "text": "solution, share it with 10 different",
+    "start": 659.839,
+    "duration": 5.041
+  },
+  {
+    "text": "people, then say a solution in lang",
+    "start": 661.839,
+    "duration": 6.481
+  },
+  {
+    "text": "chain, llama index is great. But if you",
+    "start": 664.88,
+    "duration": 6.32
+  },
+  {
+    "text": "have to go in for production deployment,",
+    "start": 668.32,
+    "duration": 4.68
+  },
+  {
+    "text": "when you use",
+    "start": 671.2,
+    "duration": 4.8
+  },
+  {
+    "text": "LLM's at a core level where you're only",
+    "start": 673.0,
+    "duration": 5.16
+  },
+  {
+    "text": "calling the LLM API by passing in the",
+    "start": 676.0,
+    "duration": 4.72
+  },
+  {
+    "text": "chunks, the query and then a prompt to",
+    "start": 678.16,
+    "duration": 4.96
+  },
+  {
+    "text": "kind of synthesize the response. That is",
+    "start": 680.72,
+    "duration": 4.559
+  },
+  {
+    "text": "where you have complete control over the",
+    "start": 683.12,
+    "duration": 3.839
+  },
+  {
+    "text": "responses that are generated and",
+    "start": 685.279,
+    "duration": 3.56
+  },
+  {
+    "text": "accordingly you can kind of fine-tune",
+    "start": 686.959,
+    "duration": 4.241
+  },
+  {
+    "text": "whatever parameters are going wrong with",
+    "start": 688.839,
+    "duration": 5.321
+  },
+  {
+    "text": "the responses. So understand whatever",
+    "start": 691.2,
+    "duration": 5.04
+  },
+  {
+    "text": "you're building uh understand the",
+    "start": 694.16,
+    "duration": 4.16
+  },
+  {
+    "text": "technical knowhows of things. There's",
+    "start": 696.24,
+    "duration": 4.719
+  },
+  {
+    "text": "one thing that I've also understood is a",
+    "start": 698.32,
+    "duration": 4.72
+  },
+  {
+    "text": "lot of people on LinkedIn and social",
+    "start": 700.959,
+    "duration": 4.401
+  },
+  {
+    "text": "media say especially Twitter as well a",
+    "start": 703.04,
+    "duration": 4.76
+  },
+  {
+    "text": "lot of people who want to sell the",
+    "start": 705.36,
+    "duration": 6.88
+  },
+  {
+    "text": "products have or how do I say create",
+    "start": 707.8,
+    "duration": 7.0
+  },
+  {
+    "text": "good post that fine-tuning embeddings",
+    "start": 712.24,
+    "duration": 4.96
+  },
+  {
+    "text": "will not give you really good accuracy",
+    "start": 714.8,
+    "duration": 4.96
+  },
+  {
+    "text": "for rags. Let me be very honest those",
+    "start": 717.2,
+    "duration": 4.24
+  },
+  {
+    "text": "people have never fine-tuned a single",
+    "start": 719.76,
+    "duration": 4.319
+  },
+  {
+    "text": "model. Okay, there are so many people",
+    "start": 721.44,
+    "duration": 4.639
+  },
+  {
+    "text": "who have done some tremendous work in",
+    "start": 724.079,
+    "duration": 4.32
+  },
+  {
+    "text": "achieving crazy accuracy numbers with",
+    "start": 726.079,
+    "duration": 5.361
+  },
+  {
+    "text": "rag applications on domain specific data",
+    "start": 728.399,
+    "duration": 6.24
+  },
+  {
+    "text": "by fine-tuning a base embedding model.",
+    "start": 731.44,
+    "duration": 5.839
+  },
+  {
+    "text": "Take your queries, take your data set",
+    "start": 734.639,
+    "duration": 5.361
+  },
+  {
+    "text": "that is there, fine-tune your data,",
+    "start": 737.279,
+    "duration": 4.56
+  },
+  {
+    "text": "fine-tune a base embedding model with",
+    "start": 740.0,
+    "duration": 3.76
+  },
+  {
+    "text": "the new data set that you have or your",
+    "start": 741.839,
+    "duration": 4.321
+  },
+  {
+    "text": "custom domain specific data set that you",
+    "start": 743.76,
+    "duration": 5.92
+  },
+  {
+    "text": "have. You will be amazed to see how good",
+    "start": 746.16,
+    "duration": 6.84
+  },
+  {
+    "text": "accuracy numbers are, right?",
+    "start": 749.68,
+    "duration": 7.04
+  },
+  {
+    "text": "Uh don't follow influencers online",
+    "start": 753.0,
+    "duration": 5.88
+  },
+  {
+    "text": "blindly who have not really implemented",
+    "start": 756.72,
+    "duration": 4.96
+  },
+  {
+    "text": "things. Uh this is other advice that I",
+    "start": 758.88,
+    "duration": 5.12
+  },
+  {
+    "text": "want to give you as well in this entire",
+    "start": 761.68,
+    "duration": 5.599
+  },
+  {
+    "text": "uh generative AI LLM road map. Don't",
+    "start": 764.0,
+    "duration": 5.44
+  },
+  {
+    "text": "trust people blindly.",
+    "start": 767.279,
+    "duration": 5.36
+  },
+  {
+    "text": "Look at their say body of work that they",
+    "start": 769.44,
+    "duration": 4.959
+  },
+  {
+    "text": "have done so far and then trust them",
+    "start": 772.639,
+    "duration": 3.76
+  },
+  {
+    "text": "that are they even capable enough of",
+    "start": 774.399,
+    "duration": 4.56
+  },
+  {
+    "text": "being trust trusted. Uh that is",
+    "start": 776.399,
+    "duration": 4.481
+  },
+  {
+    "text": "something that you should look into.",
+    "start": 778.959,
+    "duration": 4.88
+  },
+  {
+    "text": "Focus on basics. There is there are so",
+    "start": 780.88,
+    "duration": 4.56
+  },
+  {
+    "text": "many things happening right. So you",
+    "start": 783.839,
+    "duration": 4.321
+  },
+  {
+    "text": "cannot go through everything that exist",
+    "start": 785.44,
+    "duration": 4.959
+  },
+  {
+    "text": "but what you should go through is a",
+    "start": 788.16,
+    "duration": 4.479
+  },
+  {
+    "text": "clear plan of understanding mathematics,",
+    "start": 790.399,
+    "duration": 4.321
+  },
+  {
+    "text": "probability, deep learning,",
+    "start": 792.639,
+    "duration": 3.361
+  },
+  {
+    "text": "understanding the transformer",
+    "start": 794.72,
+    "duration": 3.2
+  },
+  {
+    "text": "architecture. If you're working on rags",
+    "start": 796.0,
+    "duration": 4.0
+  },
+  {
+    "text": "then understanding rags. If you're",
+    "start": 797.92,
+    "duration": 5.52
+  },
+  {
+    "text": "working on say text to speech then this",
+    "start": 800.0,
+    "duration": 5.76
+  },
+  {
+    "text": "is like a pure encoder decoder based",
+    "start": 803.44,
+    "duration": 4.079
+  },
+  {
+    "text": "models. How do you fine-tune them? How",
+    "start": 805.76,
+    "duration": 4.24
+  },
+  {
+    "text": "do you generate good quality data sets?",
+    "start": 807.519,
+    "duration": 4.361
+  },
+  {
+    "text": "That is where your focus should",
+    "start": 810.0,
+    "duration": 5.92
+  },
+  {
+    "text": "be. If there are people only sharing",
+    "start": 811.88,
+    "duration": 6.44
+  },
+  {
+    "text": "advice online that you everything will",
+    "start": 815.92,
+    "duration": 4.479
+  },
+  {
+    "text": "be done using a particular large",
+    "start": 818.32,
+    "duration": 4.639
+  },
+  {
+    "text": "language model. any large language model",
+    "start": 820.399,
+    "duration": 5.44
+  },
+  {
+    "text": "if you throw in input as garbage the",
+    "start": 822.959,
+    "duration": 5.361
+  },
+  {
+    "text": "response will be garbage however good",
+    "start": 825.839,
+    "duration": 4.321
+  },
+  {
+    "text": "the large language model is right you",
+    "start": 828.32,
+    "duration": 6.48
+  },
+  {
+    "text": "can use clot 3.7 Gemini 2.5 pro or GPTs",
+    "start": 830.16,
+    "duration": 8.2
+  },
+  {
+    "text": "or llamas etc right whichever model you",
+    "start": 834.8,
+    "duration": 6.96
+  },
+  {
+    "text": "use essentially all of them boil down to",
+    "start": 838.36,
+    "duration": 5.56
+  },
+  {
+    "text": "the kind of input that you pass in and",
+    "start": 841.76,
+    "duration": 4.16
+  },
+  {
+    "text": "the kind of response that you generate",
+    "start": 843.92,
+    "duration": 3.68
+  },
+  {
+    "text": "so the other piece that you should also",
+    "start": 845.92,
+    "duration": 4.77
+  },
+  {
+    "text": "master is uh once you've mastered all of",
+    "start": 847.6,
+    "duration": 6.599
+  },
+  {
+    "text": "[Music]",
+    "start": 850.69,
+    "duration": 3.509
+  },
+  {
+    "text": "is you should also master learning",
+    "start": 854.76,
+    "duration": 4.84
+  },
+  {
+    "text": "prompt engineering. Although prompt",
+    "start": 857.68,
+    "duration": 3.599
+  },
+  {
+    "text": "engineering is not very significant",
+    "start": 859.6,
+    "duration": 3.44
+  },
+  {
+    "text": "right now because you can kind of create",
+    "start": 861.279,
+    "duration": 6.081
+  },
+  {
+    "text": "prompts using using the LLMs itself. But",
+    "start": 863.04,
+    "duration": 6.72
+  },
+  {
+    "text": "having a good understanding of prompt",
+    "start": 867.36,
+    "duration": 5.599
+  },
+  {
+    "text": "engineering to kind of get the LLM to do",
+    "start": 869.76,
+    "duration": 5.92
+  },
+  {
+    "text": "what you want it to do is also an art",
+    "start": 872.959,
+    "duration": 4.32
+  },
+  {
+    "text": "which I believe you should spend good",
+    "start": 875.68,
+    "duration": 4.399
+  },
+  {
+    "text": "amount of time in. uh writing efficient",
+    "start": 877.279,
+    "duration": 4.961
+  },
+  {
+    "text": "prompts can bring out bring down the",
+    "start": 880.079,
+    "duration": 4.88
+  },
+  {
+    "text": "response times tremendously. Like there",
+    "start": 882.24,
+    "duration": 4.159
+  },
+  {
+    "text": "was a use case that I was trying to",
+    "start": 884.959,
+    "duration": 3.601
+  },
+  {
+    "text": "solve and initially I was trying to",
+    "start": 886.399,
+    "duration": 5.921
+  },
+  {
+    "text": "return the entire JSON output. But one",
+    "start": 888.56,
+    "duration": 5.36
+  },
+  {
+    "text": "hack that I tried was rather than",
+    "start": 892.32,
+    "duration": 3.519
+  },
+  {
+    "text": "returning the entire JSON and rather",
+    "start": 893.92,
+    "duration": 4.479
+  },
+  {
+    "text": "than the LLM doing all the heavy lifting",
+    "start": 895.839,
+    "duration": 4.961
+  },
+  {
+    "text": "in terms of generating the entire JSON,",
+    "start": 898.399,
+    "duration": 5.601
+  },
+  {
+    "text": "I essentially wanted a list output which",
+    "start": 900.8,
+    "duration": 5.279
+  },
+  {
+    "text": "is something that I could kind of later",
+    "start": 904.0,
+    "duration": 5.519
+  },
+  {
+    "text": "encapsulate in the JSON itself. uh which",
+    "start": 906.079,
+    "duration": 5.521
+  },
+  {
+    "text": "brought down the overall response time",
+    "start": 909.519,
+    "duration": 5.841
+  },
+  {
+    "text": "from 15 seconds to 2 seconds. Can you",
+    "start": 911.6,
+    "duration": 6.4
+  },
+  {
+    "text": "imagine a hack as simple as not",
+    "start": 915.36,
+    "duration": 5.279
+  },
+  {
+    "text": "generating the entire JSON to only",
+    "start": 918.0,
+    "duration": 4.48
+  },
+  {
+    "text": "generating the list values that have to",
+    "start": 920.639,
+    "duration": 5.44
+  },
+  {
+    "text": "be appended in an already populated JSON",
+    "start": 922.48,
+    "duration": 6.479
+  },
+  {
+    "text": "could reduce my overall response time",
+    "start": 926.079,
+    "duration": 6.88
+  },
+  {
+    "text": "from 15 seconds to 2 seconds. So uh when",
+    "start": 928.959,
+    "duration": 5.921
+  },
+  {
+    "text": "you work with LLMs right this is one",
+    "start": 932.959,
+    "duration": 4.56
+  },
+  {
+    "text": "approach that I also follow is you",
+    "start": 934.88,
+    "duration": 5.399
+  },
+  {
+    "text": "should think of a large language model",
+    "start": 937.519,
+    "duration": 7.041
+  },
+  {
+    "text": "as a special friend who will give you",
+    "start": 940.279,
+    "duration": 6.68
+  },
+  {
+    "text": "very curated responses if you ask the",
+    "start": 944.56,
+    "duration": 4.719
+  },
+  {
+    "text": "right questions. If you ask it to do",
+    "start": 946.959,
+    "duration": 4.161
+  },
+  {
+    "text": "everything then it will not do",
+    "start": 949.279,
+    "duration": 4.321
+  },
+  {
+    "text": "everything as you want it to do right",
+    "start": 951.12,
+    "duration": 4.8
+  },
+  {
+    "text": "which is where what you should be doing",
+    "start": 953.6,
+    "duration": 5.12
+  },
+  {
+    "text": "is you should be very specific with all",
+    "start": 955.92,
+    "duration": 5.359
+  },
+  {
+    "text": "the context that you can provide that",
+    "start": 958.72,
+    "duration": 4.239
+  },
+  {
+    "text": "should be passed to the large language",
+    "start": 961.279,
+    "duration": 3.841
+  },
+  {
+    "text": "model. Now what is the context that you",
+    "start": 962.959,
+    "duration": 5.041
+  },
+  {
+    "text": "pass in is where your prompt engineering",
+    "start": 965.12,
+    "duration": 4.959
+  },
+  {
+    "text": "or prompt creation skills come into",
+    "start": 968.0,
+    "duration": 3.759
+  },
+  {
+    "text": "picture. There are a lot of courses",
+    "start": 970.079,
+    "duration": 3.76
+  },
+  {
+    "text": "online that people are selling on prompt",
+    "start": 971.759,
+    "duration": 3.921
+  },
+  {
+    "text": "engineering. Don't waste all of those",
+    "start": 973.839,
+    "duration": 4.641
+  },
+  {
+    "text": "money that you have right uh on stupid",
+    "start": 975.68,
+    "duration": 5.599
+  },
+  {
+    "text": "courses on prompt engineering etc right",
+    "start": 978.48,
+    "duration": 4.56
+  },
+  {
+    "text": "uh prompt engineering is something that",
+    "start": 981.279,
+    "duration": 5.321
+  },
+  {
+    "text": "is as simple as writing basic English",
+    "start": 983.04,
+    "duration": 5.76
+  },
+  {
+    "text": "language and modifying the English",
+    "start": 986.6,
+    "duration": 4.08
+  },
+  {
+    "text": "language so that you get the right",
+    "start": 988.8,
+    "duration": 4.0
+  },
+  {
+    "text": "responses if you're confused with",
+    "start": 990.68,
+    "duration": 3.959
+  },
+  {
+    "text": "respect to generating the right prompt",
+    "start": 992.8,
+    "duration": 3.76
+  },
+  {
+    "text": "create an approximate prompt that you",
+    "start": 994.639,
+    "duration": 4.32
+  },
+  {
+    "text": "feel would be relevant and pass it to",
+    "start": 996.56,
+    "duration": 4.24
+  },
+  {
+    "text": "the LLM that you want to use for",
+    "start": 998.959,
+    "duration": 4.081
+  },
+  {
+    "text": "generating the response and tell it to",
+    "start": 1000.8,
+    "duration": 4.719
+  },
+  {
+    "text": "correct the prompt itself for you. So",
+    "start": 1003.04,
+    "duration": 4.599
+  },
+  {
+    "text": "the LLM that you want to use will",
+    "start": 1005.519,
+    "duration": 4.401
+  },
+  {
+    "text": "automatically correct the prompt and",
+    "start": 1007.639,
+    "duration": 4.12
+  },
+  {
+    "text": "give you the right optimized prompt that",
+    "start": 1009.92,
+    "duration": 4.8
+  },
+  {
+    "text": "you want to utilize as well. Uh this is",
+    "start": 1011.759,
+    "duration": 5.52
+  },
+  {
+    "text": "one hack that a lot of people use. I use",
+    "start": 1014.72,
+    "duration": 5.119
+  },
+  {
+    "text": "this personally. Uh so don't waste time",
+    "start": 1017.279,
+    "duration": 4.8
+  },
+  {
+    "text": "in learning prompt engineering from some",
+    "start": 1019.839,
+    "duration": 4.881
+  },
+  {
+    "text": "random courses. That's pure waste of",
+    "start": 1022.079,
+    "duration": 5.201
+  },
+  {
+    "text": "money. Uh so this is something that I",
+    "start": 1024.72,
+    "duration": 4.959
+  },
+  {
+    "text": "wanted to voice out. I know the video is",
+    "start": 1027.28,
+    "duration": 4.639
+  },
+  {
+    "text": "not very structured wherein uh the road",
+    "start": 1029.679,
+    "duration": 4.561
+  },
+  {
+    "text": "map will be given to you and pointwise",
+    "start": 1031.919,
+    "duration": 5.361
+  },
+  {
+    "text": "right do maths do stats and all of that",
+    "start": 1034.24,
+    "duration": 5.52
+  },
+  {
+    "text": "I wanted this to be free flowing this is",
+    "start": 1037.28,
+    "duration": 4.88
+  },
+  {
+    "text": "like a one take video that I've created",
+    "start": 1039.76,
+    "duration": 4.319
+  },
+  {
+    "text": "I'll only edit places where I've kind",
+    "start": 1042.16,
+    "duration": 4.159
+  },
+  {
+    "text": "ofh messed up some words here and there",
+    "start": 1044.079,
+    "duration": 4.321
+  },
+  {
+    "text": "but most of the thoughts that I have are",
+    "start": 1046.319,
+    "duration": 4.561
+  },
+  {
+    "text": "raw which is what I wanted to keep in",
+    "start": 1048.4,
+    "duration": 4.96
+  },
+  {
+    "text": "this video as well so that you kind of",
+    "start": 1050.88,
+    "duration": 4.56
+  },
+  {
+    "text": "go back and understand what I've tried",
+    "start": 1053.36,
+    "duration": 4.88
+  },
+  {
+    "text": "to deliver you in this particular video.",
+    "start": 1055.44,
+    "duration": 4.64
+  },
+  {
+    "text": "So this is all that I had in today's",
+    "start": 1058.24,
+    "duration": 4.24
+  },
+  {
+    "text": "video. Make the most of what you're",
+    "start": 1060.08,
+    "duration": 4.64
+  },
+  {
+    "text": "learning. Try to understand everything",
+    "start": 1062.48,
+    "duration": 6.8
+  },
+  {
+    "text": "from scratch and then even LLMs or even",
+    "start": 1064.72,
+    "duration": 6.959
+  },
+  {
+    "text": "creating a genai road map for you at",
+    "start": 1069.28,
+    "duration": 4.16
+  },
+  {
+    "text": "your level which will be much more",
+    "start": 1071.679,
+    "duration": 4.481
+  },
+  {
+    "text": "simpler. Right? So this is all that I",
+    "start": 1073.44,
+    "duration": 4.32
+  },
+  {
+    "text": "had. Thank you so much for watching the",
+    "start": 1076.16,
+    "duration": 7.32
+  },
+  {
+    "text": "video and uh yeah thank you so much.",
+    "start": 1077.76,
+    "duration": 5.72
+  },
+  {
+    "text": "[Music]",
+    "start": 1086.94,
+    "duration": 2.559
+  }
+]

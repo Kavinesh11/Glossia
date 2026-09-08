@@ -1,0 +1,436 @@
+Transcript for YouTube video: Ik0YUPKRqZg
+--------------------------------------------------
+
+[0.8s - 4.8s] Hi, I'm Alza and in this video I'm going
+[2.9s - 9.8s] to show you how you can create a rag
+[4.8s - 11.5s] agent using M8. And before diving into
+[9.8s - 15.0s] the implementation, I would like to
+[11.5s - 18.6s] explain the rag concept very quickly for
+[15.0s - 22.6s] people who still don't know about the
+[18.6s - 26.3s] the rag concept and what it is. So yeah,
+[22.6s - 29.4s] let's jump right into the concept.
+[26.3s - 34.4s] So as you know when we are using any LLM
+[29.4s - 37.9s] large language model like chat GPT like
+[34.4s - 42.6s] and many other uh large language models
+[37.9s - 45.4s] how it works is we give an input prompt
+[42.6s - 47.3s] as a query to the LLM and then LLM can
+[45.4s - 51.0s] generate the answer for us. So this is a
+[47.3s - 54.7s] quite a basic flow of how LLM works in
+[51.0s - 56.2s] any chat boards. But when we look at to
+[54.7s - 58.4s] the problems is
+[56.2s - 61.5s] that these uh
+[58.4s - 64.2s] LLMs they do not have access to many of
+[61.5s - 67.3s] the source data and information. For
+[64.2s - 70.5s] example, they don't access to your
+[67.3s - 73.4s] internal policies in your company. They
+[70.5s - 75.7s] don't have access to your personal data.
+[73.4s - 77.8s] They don't have access to your company
+[75.7s - 80.9s] data. So because of that if you ask any
+[77.8s - 83.0s] of questions that related to any of
+[80.9s - 86.8s] these data sources you're not going to
+[83.0s - 90.0s] get answer from LLM and because of that
+[86.8s - 94.0s] rag actually is the solution because
+[90.0s - 96.0s] with rag we are able to utilize LLM and
+[94.0s - 97.9s] connect our source data to the large
+[96.0s - 100.0s] language model in a way that the large
+[97.9s - 101.6s] language model can generate answer from
+[100.0s - 104.8s] those
+[101.6s - 107.6s] data. But before we start asking
+[104.8s - 110.2s] question from the the rag agent, there
+[107.6s - 113.8s] are things needs to be done in order to
+[110.2s - 117.0s] make sure that the whole whole setup is
+[113.8s - 119.2s] ready. So we need to prepare the data
+[117.0s - 122.4s] and because of that we need
+[119.2s - 126.2s] to learn about the embedding and
+[122.4s - 128.3s] vectorization. You might uh hear the the
+[126.2s - 130.4s] name of embedding and vectorization, but
+[128.3s - 131.9s] don't don't worry about it because all
+[130.4s - 134.1s] of these things is going to be covered
+[131.9s - 136.1s] by the tools we are using. But it's
+[134.1s - 139.5s] important also to understand that when
+[136.1s - 142.3s] you want to use the LLM, you still need
+[139.5s - 144.5s] to do a couple of things beforehand
+[142.3s - 148.5s] before connecting your data source to
+[144.5s - 150.6s] your rag workflow. So we need to
+[148.5s - 153.5s] vectorize our data and in order to
+[150.6s - 155.8s] create a vector database you need to do
+[153.5s - 159.3s] the embedding and in order to do the
+[155.8s - 161.2s] embedding you need to extract the text
+[159.3s - 165.2s] from your document as split it to the
+[161.2s - 167.4s] chunks and those chunks inform data is
+[165.2s - 170.2s] going to be vectorized and stored in the
+[167.4s - 172.5s] vector database. This way we can create
+[170.2s - 175.5s] the same the
+[172.5s - 177.5s] data format as we have on the large
+[175.5s - 179.4s] language model in a way that is very
+[177.5s - 183.4s] easy also to be
+[179.4s - 187.1s] retrieved by the the rag agent and then
+[183.4s - 189.4s] after that what we can do is to use the
+[187.1s - 191.4s] LLM to generate the answer for us. In a
+[189.4s - 195.2s] nutshell this is the the the simple way
+[191.4s - 198.2s] of looking at rag solution. I already
+[195.2s - 200.0s] created more videos about the rag which
+[198.2s - 201.8s] you can watch and understand more in
+[200.0s - 203.6s] details about the what the rag is and
+[201.8s - 206.8s] what are the steps and you need to take
+[203.6s - 209.9s] for that. But let's go to
+[206.8s - 213.1s] the next concept which is the rag agent.
+[209.9s - 217.4s] When you create a rag agent basically
+[213.1s - 219.7s] you connect your vector database to your
+[217.4s - 221.4s] lm and in order to do that you need to
+[219.7s - 223.8s] have a retrieval system. With the
+[221.4s - 227.1s] retrieval system when you get an any
+[223.8s - 230.1s] question from input you embed your
+[227.1s - 232.0s] question and then you query the same
+[230.1s - 234.2s] question you have from your vector
+[232.0s - 237.0s] database to see if there is any relevant
+[234.2s - 239.3s] answers for that and once you get the
+[237.0s - 242.1s] relevant answers your context is ready
+[239.3s - 244.9s] your context is including your question
+[242.1s - 246.5s] and also the relevant answer right so
+[244.9s - 249.0s] you have a question you have some
+[246.5s - 252.6s] relevant information and then you pass
+[249.0s - 255.8s] it to the LLM and then LLM will generate
+[252.6s - 258.7s] your final answer. So basically here LL
+[255.8s - 261.8s] we utilize the LLM capability to
+[258.7s - 265.5s] generate the best answer out of the
+[261.8s - 268.4s] input information we have and we don't
+[265.5s - 272.6s] want to use the LLM data here because
+[268.4s - 275.8s] when we add any information to LLM as a
+[272.6s - 279.5s] rag solution we want to limit the agent
+[275.8s - 282.1s] to the information is provided by us not
+[279.5s - 285.5s] from the LLM and why is that for example
+[282.1s - 287.6s] when you process the the company policy
+[285.5s - 291.4s] and you ask questions about your company
+[287.6s - 294.4s] policy from LLM, you expect to see uh
+[291.4s - 296.7s] those information only limited to the
+[294.4s - 299.4s] policy you have, not from outside of
+[296.7s - 302.6s] your company, right? Otherwise, LLM can
+[299.4s - 305.3s] give you any fictional answer or any
+[302.6s - 308.6s] other random answer it might have from
+[305.3s - 310.0s] many other companies as a common answer.
+[308.6s - 311.8s] But that's not what we are looking with
+[310.0s - 314.4s] the rack. with the right we are looking
+[311.8s - 318.3s] for the right answer a specific answer
+[314.4s - 320.8s] to the input information we have for
+[318.3s - 324.6s] this video we're going to use several
+[320.8s - 327.5s] tools for the workflow automation we are
+[324.6s - 331.1s] going to use the NHN which is quite nice
+[327.5s - 334.6s] and easy to work everything will be step
+[331.1s - 337.6s] by step for the documentation uh I mean
+[334.6s - 339.4s] the the tool that we use to process the
+[337.6s - 341.9s] document we are using the the Google
+[339.4s - 343.8s] drive so I already uploaded my file to
+[341.9s - 347.3s] the Google drive and I'm going to
+[343.8s - 350.2s] process it from there. For the
+[347.3s - 353.6s] vectorzation, I'm going to use Pine Con.
+[350.2s - 356.7s] You can sign up with Pine Con with a
+[353.6s - 359.4s] free subscription and still use this
+[356.7s - 362.2s] service without any subscription. So
+[359.4s - 364.4s] that will be free. And of course for the
+[362.2s - 366.9s] Google Drive, you also need to enable
+[364.4s - 369.4s] your Google Drive API. This is also
+[366.9s - 372.2s] important because uh if you don't then
+[369.4s - 375.5s] the Google API is not
+[372.2s - 379.2s] working. And last thing is the document.
+[375.5s - 383.6s] The document I'm using for
+[379.2s - 386.2s] this tutorial is the fictional company
+[383.6s - 388.5s] policy. So we already have a company
+[386.2s - 391.0s] policy which is quite different from the
+[388.5s - 393.0s] I mean other company policy. Because of
+[391.0s - 395.3s] that then we can test the agent. So the
+[393.0s - 397.6s] idea is that when we create this agent,
+[395.3s - 400.4s] the agent only answer the question based
+[397.6s - 403.5s] on this company policy and if the the
+[400.4s - 405.6s] question is not supported by this
+[403.5s - 408.8s] information, the agent should say I
+[405.6s - 411.2s] don't know any answer. So then I think
+[408.8s - 414.3s] then we have done a really good job with
+[411.2s - 417.9s] this agent. So let's start creating a
+[414.3s - 420.3s] new workflow here. I will start naming
+[417.9s - 420.3s] it
+[420.4s - 428.2s] rag agent
+[422.4s - 428.2s] here. So before I jump into
+[428.6s - 433.6s] the automations here, maybe I forgot
+[432.1s - 435.7s] something to show you. It's about the
+[433.6s - 437.3s] way we need to create
+[435.7s - 440.8s] this
+[437.3s - 443.2s] basically automation. Yes, this is it.
+[440.8s - 445.5s] This is what I wanted to show. So
+[443.2s - 448.0s] basically what we want to do first is to
+[445.5s - 450.9s] vectorize our data. I already showed you
+[448.0s - 454.5s] the document we have. We need to
+[450.9s - 457.8s] vectorize this data and store it in
+[454.5s - 461.0s] our storage here, the vector database
+[457.8s - 462.7s] here which is a pine cone and the
+[461.0s - 465.8s] process for that is that we need to
+[462.7s - 467.6s] provide the source data we need to do
+[465.8s - 470.9s] the embedding and then store it to the
+[467.6s - 474.2s] vector database. So there we need to uh
+[470.9s - 477.2s] think of two actually uh um kind of a
+[474.2s - 479.4s] flow here. One flow for vectorzing the
+[477.2s - 480.8s] data. Another flow for creating the
+[479.4s - 483.9s] right
+[480.8s - 485.9s] agent. So this flow is the flow that we
+[483.9s - 488.2s] don't need to run it every time. So we
+[485.9s - 490.4s] we run it every time we want to update
+[488.2s - 492.8s] our database with the new data. So I
+[490.4s - 496.8s] just put the manual trigger
+[492.8s - 498.9s] here. The next thing I need to do is the
+[496.8s - 501.0s] Google Drive. So I click on the Google
+[498.9s - 505.8s] drive and I choose the download file
+[501.0s - 509.8s] because we want to get the the the file
+[505.8s - 512.6s] here. Now from here you need uh as
+[509.8s - 514.8s] always you need to configure your
+[512.6s - 519.0s] credential first on each component when
+[514.8s - 522.5s] you are creating the workflow in N8N or
+[519.0s - 526.1s] any other tools. So I already configured
+[522.5s - 528.8s] this and it's very easy to do. You need
+[526.1s - 531.5s] to follow the documentation to create
+[528.8s - 533.6s] your credentials here and then uh
+[531.5s - 536.5s] connect it here. I think you can follow
+[533.6s - 538.6s] that guideline and then everything will
+[536.5s - 540.2s] be straightforward from here. Everything
+[538.6s - 542.9s] is fine. The only thing we need to
+[540.2s - 546.4s] choose is the file here. So this is the
+[542.9s - 549.4s] name of the file I want to process and I
+[546.4s - 554.4s] can actually test the step here already.
+[549.4s - 554.4s] And as you can see it is working.
+[555.1s - 560.6s] Next thing we need to do, we need to add
+[557.4s - 562.8s] vector store. As I said, we are going to
+[560.6s - 566.7s] use the pine core here and we have a
+[562.8s - 569.4s] pine core store connection here. So
+[566.7s - 572.9s] basically from the actions we can choose
+[569.4s - 575.8s] the add documents to vector store and
+[572.9s - 578.3s] from here what we need to do we need to
+[575.8s - 581.2s] connect to the pine cone API account.
+[578.3s - 584.2s] You can get the API account once you
+[581.2s - 589.1s] sign up for the pine cone. We can add
+[584.2s - 591.9s] generate the API key from there. So and
+[589.1s - 594.1s] that will be configured here. It's
+[591.9s - 596.4s] already tested successfully. So I don't
+[594.1s - 598.7s] need to do it. The operation mode should
+[596.4s - 601.4s] be insert document because we are adding
+[598.7s - 603.3s] document. The index here should be
+[601.4s - 605.9s] configured to the index you created.
+[603.3s - 609.4s] When you create the pyon for the first
+[605.9s - 611.8s] time, you can actually choose the index.
+[609.4s - 615.4s] Currently I created the index and called
+[611.8s - 616.3s] it test. So you can call it any uh name
+[615.4s - 620.7s] you
+[616.3s - 623.3s] want. So I can choose test here. For the
+[620.7s - 628.6s] embedding batch size I think I can leave
+[623.3s - 630.6s] it to 200. That should be fine. And the
+[628.6s - 633.9s] only thing I need to do here is to also
+[630.6s - 640.1s] add the pine cone name space. So for
+[633.9s - 640.1s] that I'm going to add company info.
+[641.7s - 647.1s] And I'm going to close this because
+[644.2s - 651.1s] still I need to do other things
+[647.1s - 655.2s] here. So the next thing is to connect
+[651.1s - 658.5s] the embedding model and also the data
+[655.2s - 661.4s] loader here. So for the embedding model
+[658.5s - 661.4s] I'm going to use
+[663.1s - 667.8s] OpenAI and I can leave the same
+[665.7s - 671.0s] embedding model here. The only thing is
+[667.8s - 673.5s] the dimension should
+[671.0s - 677.2s] be
+[673.5s - 678.7s] 1024. And here we need to also connect
+[677.2s - 681.6s] the the data
+[678.7s - 684.5s] loader. The data loader here it's by
+[681.6s - 686.8s] default JSON but our data is a PDF
+[684.5s - 689.0s] binary. So we can change it to the
+[686.8s - 692.3s] binary. The rest is fine. And now we
+[689.0s - 696.2s] have the text splitter. And for the text
+[692.3s - 698.6s] splitter we can use the token splitter
+[696.2s - 702.0s] here. That should be fine. And the chunk
+[698.6s - 703.3s] size, we can also keep it to 200 here.
+[702.0s - 706.2s] That should be
+[703.3s - 708.4s] fine. I think everything looks fine
+[706.2s - 710.4s] here. What we can do, we can test it
+[708.4s - 713.4s] here. So if I
+[710.4s - 713.4s] test
+[715.6s - 722.2s] workflow, it's working successfully. Now
+[718.6s - 726.0s] if I go back to the pineco,
+[722.2s - 727.6s] pine cone, sorry. And here I can I go to
+[726.0s - 730.6s] the name
+[727.6s - 733.5s] space and I can see that the the company
+[730.6s - 735.2s] info uh name space is already filled up
+[733.5s - 737.8s] with
+[735.2s - 740.1s] information. So this is the name space I
+[737.8s - 743.3s] need to use also and the next step when
+[740.1s - 746.0s] we create right agent. So I think this
+[743.3s - 748.0s] is for the vectorzation and what we can
+[746.0s - 749.1s] do we can create a kind of a sticking
+[748.0s - 752.4s] note
+[749.1s - 752.4s] here for
+[752.4s - 755.4s] the
+[757.3s - 761.7s] vectorzation just to make it a little
+[759.5s - 764.2s] bit
+[761.7s - 767.1s] clean. Okay. Now we want to create a
+[764.2s - 769.1s] chatbot in this section. In order to do
+[767.1s - 771.0s] that we need to add the chat trigger
+[769.1s - 774.1s] here.
+[771.0s - 775.6s] And let me see where it is here. I can
+[774.1s - 778.3s] put it
+[775.6s - 781.4s] here.
+[778.3s - 784.1s] Nice. Next, I need to add the agent
+[781.4s - 785.9s] here. So, I I'm just looking for the
+[784.1s - 787.8s] agent AI
+[785.9s - 791.0s] agent.
+[787.8s - 793.1s] And here, I think I need to add the
+[791.0s - 795.2s] system message. The prompt user message
+[793.1s - 798.2s] is already configured with the chat
+[795.2s - 800.6s] input. But for the system message, I
+[798.2s - 803.5s] already prepared the the prompt. So I
+[800.6s - 806.5s] will add my prompt here and
+[803.5s - 808.4s] then should be fine. There's nothing
+[806.5s - 810.7s] else I need to configure. Yeah, the
+[808.4s - 813.5s] prompt is super important here because
+[810.7s - 815.9s] the trump actually will tell agent what
+[813.5s - 818.8s] to do, what kind of actions it needs to
+[815.9s - 821.4s] take and also what kind of tools you
+[818.8s - 824.2s] need to use. Everything will be done by
+[821.4s - 825.5s] the by the prompt. But don't worry about
+[824.2s - 828.3s] it because you can
+[825.5s - 830.9s] download the template after watching
+[828.3s - 834.0s] this video. So uh you don't have to be
+[830.9s - 835.9s] worried about that. So for the chat
+[834.0s - 838.7s] model what we can do we can connect to
+[835.9s - 843.8s] the opening eye
+[838.7s - 843.8s] again. I would like to change it to the
+[847.8s - 853.6s] GPT40. And that's it. I think this is
+[850.6s - 857.0s] also fine. We can add the chat memory
+[853.6s - 859.0s] also just to make sure that the chat
+[857.0s - 860.7s] memory also is provided with the right
+[859.0s - 862.7s] agent. You can also configure the
+[860.7s - 864.7s] context window lengths how many past
+[862.7s - 868.6s] interactions. I think five should be
+[864.7s - 870.7s] enough here. So and for the tools for
+[868.6s - 873.7s] the tools we need to connect it to
+[870.7s - 876.8s] our vector store that we created uh
+[873.7s - 878.8s] previously. So we create we look for the
+[876.8s - 882.0s] pine core again
+[878.8s - 884.2s] here. And now we need to configure this
+[882.0s - 886.0s] pine. The the pine core connection is
+[884.2s - 889.0s] already configured because we did it
+[886.0s - 891.8s] once. Now we need to change the name
+[889.0s - 894.6s] here. I think for the ch name I will put
+[891.8s - 894.6s] it company
+[899.8s - 905.5s] knowledge company knowledge vector
+[902.2s - 909.7s] store. I will remove this number one
+[905.5s - 912.6s] here and here also.
+[909.7s - 915.6s] Okay, company
+[912.6s - 918.8s] knowledge and for the description I'm
+[915.6s - 921.2s] just uh using use this tool whenever you
+[918.8s - 923.7s] need to retrieve company information and
+[921.2s - 927.4s] for the index I'm going to
+[923.7s - 931.1s] choose and then for the name space I'm
+[927.4s - 933.4s] going to choose company info the one we
+[931.1s - 936.3s] already configured previously when we
+[933.4s - 939.1s] did the embedding. So I think here also
+[936.3s - 941.5s] everything is fine everything is
+[939.1s - 943.4s] configured properly. Now what we need to
+[941.5s - 946.4s] do we need to configure the embedding
+[943.4s - 948.1s] model here. So we do the same embedding
+[946.4s - 952.2s] model that we use for the
+[948.1s - 955.4s] vectorzation and the dimension here
+[952.2s - 960.2s] also. Yes I think
+[955.4s - 962.1s] then this is also nice and you can also
+[960.2s - 965.2s] tidy up your selection. for this uh
+[962.1s - 969.7s] workflow it's already nice but if
+[965.2s - 974.0s] you click the tidy it's also make it
+[969.7s - 977.4s] really nice and neat. So now our a AI
+[974.0s - 979.1s] agent is ready. So we can h give it a
+[977.4s - 981.9s] try for the testing. It actually
+[979.1s - 984.9s] generates some question from chat GPT.
+[981.9s - 987.6s] So I can actually use those questions to
+[984.9s - 989.6s] ask a question. So I'm going to do that.
+[987.6s - 992.2s] So in order to do that you can already
+[989.6s - 995.7s] start asking questions from the agent.
+[992.2s - 998.9s] So as you uh we can go again to the
+[995.7s - 1000.6s] document just have a quick look what
+[998.9s - 1003.8s] kind of topics we had. It's about the
+[1000.6s - 1006.4s] ticketing system, SLAs, notifications,
+[1003.8s - 1009.3s] resolving tickets, feedback, rating,
+[1006.4s - 1011.9s] support, common actually topics that you
+[1009.3s - 1015.2s] expect from the ticketing system for IT
+[1011.9s - 1019.7s] support. So for example, the first thing
+[1015.2s - 1022.3s] is we we can ask it's about uh URL.
+[1019.7s - 1022.3s] Okay. What is
+[1023.9s - 1030.7s] the Let me just Yes. What's the website
+[1027.4s - 1033.6s] URL for accessing the ticketing
+[1030.7s - 1035.7s] system? It's interesting. It's Yes, it's
+[1033.6s - 1037.6s] it's it's correct. If you go back to the
+[1035.7s - 1039.0s] document, you can see that the URL is
+[1037.6s - 1043.0s] here. So, as you can see, you can see
+[1039.0s - 1046.5s] the process that the agent uh actually
+[1043.0s - 1048.6s] took to come to up to this answer. So as
+[1046.5s - 1051.5s] you can see all of the components are
+[1048.6s - 1055.8s] listed here and also uh it shows us what
+[1051.5s - 1058.3s] what happened. So we have the the input
+[1055.8s - 1062.0s] user question
+[1058.3s - 1064.5s] and the prompt and then after that uh it
+[1062.0s - 1067.0s] did retrieve the information from the
+[1064.5s - 1069.2s] the knowledge rectory store and then
+[1067.0s - 1071.8s] after that based on the the prompt we
+[1069.2s - 1073.8s] had we got the output information. This
+[1071.8s - 1076.5s] quite interesting to see what happened
+[1073.8s - 1080.6s] also the the memory is also working
+[1076.5s - 1082.8s] here. So now I can ask another question
+[1080.6s - 1085.9s] for example about the SLA. What is the
+[1082.8s - 1088.1s] SLA for the high priority issues? So
+[1085.9s - 1089.6s] before asking questions we can also look
+[1088.1s - 1093.3s] at to the SLA
+[1089.6s - 1095.3s] here. So the SLA for the high priority
+[1093.3s - 1097.9s] should be 4 hours. Let's ask this
+[1095.3s - 1100.9s] questions and see what will be the
+[1097.9s - 1100.9s] answer.
+[1104.4s - 1110.7s] This is quite interesting. It uh gives
+[1107.4s - 1113.0s] us a really a good and concrete answer.
+[1110.7s - 1115.0s] So let's ask a question which is not
+[1113.0s - 1118.2s] part of this document. For
+[1115.0s - 1120.2s] example, something completely different
+[1118.2s - 1122.1s] which is not part of the document we
+[1120.2s - 1125.2s] provided. So the expectation is this
+[1122.1s - 1126.7s] arrive agent should not give an answer
+[1125.2s - 1128.8s] to this question because it's not
+[1126.7s - 1131.8s] provided in the document and it
+[1128.8s - 1135.2s] shouldn't also gives us any other answer
+[1131.8s - 1135.2s] out of the document. Let's
+[1137.2s - 1142.0s] see. So this is quite interesting. It
+[1139.8s - 1144.6s] says I couldn't find any information
+[1142.0s - 1146.9s] about this question in the company
+[1144.6s - 1148.9s] policy document. So this is really nice.
+[1146.9s - 1151.0s] That's what exactly I was actually
+[1148.9s - 1153.4s] looking. Let's ask another question
+[1151.0s - 1155.7s] which is part of the document. So the
+[1153.4s - 1160.4s] question I'm going to ask is about the
+[1155.7s - 1160.4s] help desk. Yeah, the IK help desk phone
+[1160.8s - 1167.2s] number and let's see what will be the
+[1164.6s - 1170.9s] reaction from the
+[1167.2s - 1173.1s] agent. So as you can see it gives us a
+[1170.9s - 1174.8s] uh the right answer here. And now I'm
+[1173.1s - 1179.9s] going to ask another question which is
+[1174.8s - 1179.9s] not part of the document.
+[1180.3s - 1184.2s] It's about what programming language is
+[1182.1s - 1187.6s] used to develop the ticketing system
+[1184.2s - 1187.6s] back end. Let's have a
+[1188.7s - 1193.9s] look. It's interesting. This was not
+[1191.4s - 1196.1s] provided inside the document and of
+[1193.9s - 1200.2s] course the agent
+[1196.1s - 1203.4s] also didn't give us any answer for that.
+[1200.2s - 1206.3s] So we managed to create a rag agent
+[1203.4s - 1208.6s] processing our custom documents. So you
+[1206.3s - 1210.0s] can put any documents you want and
+[1208.6s - 1213.1s] convert it to
+[1210.0s - 1216.3s] the vector database and after that you
+[1213.1s - 1220.0s] can actually create your AI agent the
+[1216.3s - 1223.0s] rag agent using that vector
+[1220.0s - 1225.4s] database. I'm going to put this template
+[1223.0s - 1227.7s] on the community our community. You can
+[1225.4s - 1229.9s] join to our community and download the
+[1227.7s - 1232.7s] template. The link is below in the
+[1229.9s - 1235.5s] description. And I hope you like this
+[1232.7s - 1238.5s] video. See you in the next video. Thank
+[1235.5s - 1238.5s] you.
+[1239.2s - 1267.1s] [Music]

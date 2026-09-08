@@ -1,0 +1,2167 @@
+[
+  {
+    "text": "Hi, I'm Alza and in this video I'm going",
+    "start": 0.8,
+    "duration": 3.999
+  },
+  {
+    "text": "to show you how you can create a rag",
+    "start": 2.879,
+    "duration": 6.881
+  },
+  {
+    "text": "agent using M8. And before diving into",
+    "start": 4.799,
+    "duration": 6.72
+  },
+  {
+    "text": "the implementation, I would like to",
+    "start": 9.76,
+    "duration": 5.2
+  },
+  {
+    "text": "explain the rag concept very quickly for",
+    "start": 11.519,
+    "duration": 7.041
+  },
+  {
+    "text": "people who still don't know about the",
+    "start": 14.96,
+    "duration": 7.68
+  },
+  {
+    "text": "the rag concept and what it is. So yeah,",
+    "start": 18.56,
+    "duration": 7.719
+  },
+  {
+    "text": "let's jump right into the concept.",
+    "start": 22.64,
+    "duration": 6.799
+  },
+  {
+    "text": "So as you know when we are using any LLM",
+    "start": 26.279,
+    "duration": 8.12
+  },
+  {
+    "text": "large language model like chat GPT like",
+    "start": 29.439,
+    "duration": 8.481
+  },
+  {
+    "text": "and many other uh large language models",
+    "start": 34.399,
+    "duration": 8.241
+  },
+  {
+    "text": "how it works is we give an input prompt",
+    "start": 37.92,
+    "duration": 7.44
+  },
+  {
+    "text": "as a query to the LLM and then LLM can",
+    "start": 42.64,
+    "duration": 4.64
+  },
+  {
+    "text": "generate the answer for us. So this is a",
+    "start": 45.36,
+    "duration": 5.679
+  },
+  {
+    "text": "quite a basic flow of how LLM works in",
+    "start": 47.28,
+    "duration": 7.439
+  },
+  {
+    "text": "any chat boards. But when we look at to",
+    "start": 51.039,
+    "duration": 5.16
+  },
+  {
+    "text": "the problems is",
+    "start": 54.719,
+    "duration": 3.721
+  },
+  {
+    "text": "that these uh",
+    "start": 56.199,
+    "duration": 5.321
+  },
+  {
+    "text": "LLMs they do not have access to many of",
+    "start": 58.44,
+    "duration": 5.759
+  },
+  {
+    "text": "the source data and information. For",
+    "start": 61.52,
+    "duration": 5.76
+  },
+  {
+    "text": "example, they don't access to your",
+    "start": 64.199,
+    "duration": 6.28
+  },
+  {
+    "text": "internal policies in your company. They",
+    "start": 67.28,
+    "duration": 6.159
+  },
+  {
+    "text": "don't have access to your personal data.",
+    "start": 70.479,
+    "duration": 5.201
+  },
+  {
+    "text": "They don't have access to your company",
+    "start": 73.439,
+    "duration": 4.401
+  },
+  {
+    "text": "data. So because of that if you ask any",
+    "start": 75.68,
+    "duration": 5.2
+  },
+  {
+    "text": "of questions that related to any of",
+    "start": 77.84,
+    "duration": 5.2
+  },
+  {
+    "text": "these data sources you're not going to",
+    "start": 80.88,
+    "duration": 5.919
+  },
+  {
+    "text": "get answer from LLM and because of that",
+    "start": 83.04,
+    "duration": 6.96
+  },
+  {
+    "text": "rag actually is the solution because",
+    "start": 86.799,
+    "duration": 7.201
+  },
+  {
+    "text": "with rag we are able to utilize LLM and",
+    "start": 90.0,
+    "duration": 6.0
+  },
+  {
+    "text": "connect our source data to the large",
+    "start": 94.0,
+    "duration": 3.92
+  },
+  {
+    "text": "language model in a way that the large",
+    "start": 96.0,
+    "duration": 4.0
+  },
+  {
+    "text": "language model can generate answer from",
+    "start": 97.92,
+    "duration": 3.64
+  },
+  {
+    "text": "those",
+    "start": 100.0,
+    "duration": 4.799
+  },
+  {
+    "text": "data. But before we start asking",
+    "start": 101.56,
+    "duration": 6.04
+  },
+  {
+    "text": "question from the the rag agent, there",
+    "start": 104.799,
+    "duration": 5.36
+  },
+  {
+    "text": "are things needs to be done in order to",
+    "start": 107.6,
+    "duration": 6.199
+  },
+  {
+    "text": "make sure that the whole whole setup is",
+    "start": 110.159,
+    "duration": 6.801
+  },
+  {
+    "text": "ready. So we need to prepare the data",
+    "start": 113.799,
+    "duration": 5.441
+  },
+  {
+    "text": "and because of that we need",
+    "start": 116.96,
+    "duration": 5.479
+  },
+  {
+    "text": "to learn about the embedding and",
+    "start": 119.24,
+    "duration": 7.0
+  },
+  {
+    "text": "vectorization. You might uh hear the the",
+    "start": 122.439,
+    "duration": 5.88
+  },
+  {
+    "text": "name of embedding and vectorization, but",
+    "start": 126.24,
+    "duration": 4.159
+  },
+  {
+    "text": "don't don't worry about it because all",
+    "start": 128.319,
+    "duration": 3.601
+  },
+  {
+    "text": "of these things is going to be covered",
+    "start": 130.399,
+    "duration": 3.681
+  },
+  {
+    "text": "by the tools we are using. But it's",
+    "start": 131.92,
+    "duration": 4.16
+  },
+  {
+    "text": "important also to understand that when",
+    "start": 134.08,
+    "duration": 5.4
+  },
+  {
+    "text": "you want to use the LLM, you still need",
+    "start": 136.08,
+    "duration": 6.239
+  },
+  {
+    "text": "to do a couple of things beforehand",
+    "start": 139.48,
+    "duration": 5.0
+  },
+  {
+    "text": "before connecting your data source to",
+    "start": 142.319,
+    "duration": 6.161
+  },
+  {
+    "text": "your rag workflow. So we need to",
+    "start": 144.48,
+    "duration": 6.16
+  },
+  {
+    "text": "vectorize our data and in order to",
+    "start": 148.48,
+    "duration": 5.039
+  },
+  {
+    "text": "create a vector database you need to do",
+    "start": 150.64,
+    "duration": 5.2
+  },
+  {
+    "text": "the embedding and in order to do the",
+    "start": 153.519,
+    "duration": 5.761
+  },
+  {
+    "text": "embedding you need to extract the text",
+    "start": 155.84,
+    "duration": 5.36
+  },
+  {
+    "text": "from your document as split it to the",
+    "start": 159.28,
+    "duration": 5.92
+  },
+  {
+    "text": "chunks and those chunks inform data is",
+    "start": 161.2,
+    "duration": 6.24
+  },
+  {
+    "text": "going to be vectorized and stored in the",
+    "start": 165.2,
+    "duration": 5.039
+  },
+  {
+    "text": "vector database. This way we can create",
+    "start": 167.44,
+    "duration": 5.079
+  },
+  {
+    "text": "the same the",
+    "start": 170.239,
+    "duration": 5.28
+  },
+  {
+    "text": "data format as we have on the large",
+    "start": 172.519,
+    "duration": 5.0
+  },
+  {
+    "text": "language model in a way that is very",
+    "start": 175.519,
+    "duration": 3.881
+  },
+  {
+    "text": "easy also to be",
+    "start": 177.519,
+    "duration": 5.921
+  },
+  {
+    "text": "retrieved by the the rag agent and then",
+    "start": 179.4,
+    "duration": 7.72
+  },
+  {
+    "text": "after that what we can do is to use the",
+    "start": 183.44,
+    "duration": 5.92
+  },
+  {
+    "text": "LLM to generate the answer for us. In a",
+    "start": 187.12,
+    "duration": 4.24
+  },
+  {
+    "text": "nutshell this is the the the simple way",
+    "start": 189.36,
+    "duration": 5.84
+  },
+  {
+    "text": "of looking at rag solution. I already",
+    "start": 191.36,
+    "duration": 6.799
+  },
+  {
+    "text": "created more videos about the rag which",
+    "start": 195.2,
+    "duration": 4.8
+  },
+  {
+    "text": "you can watch and understand more in",
+    "start": 198.159,
+    "duration": 3.681
+  },
+  {
+    "text": "details about the what the rag is and",
+    "start": 200.0,
+    "duration": 3.599
+  },
+  {
+    "text": "what are the steps and you need to take",
+    "start": 201.84,
+    "duration": 5.0
+  },
+  {
+    "text": "for that. But let's go to",
+    "start": 203.599,
+    "duration": 6.321
+  },
+  {
+    "text": "the next concept which is the rag agent.",
+    "start": 206.84,
+    "duration": 6.24
+  },
+  {
+    "text": "When you create a rag agent basically",
+    "start": 209.92,
+    "duration": 7.44
+  },
+  {
+    "text": "you connect your vector database to your",
+    "start": 213.08,
+    "duration": 6.6
+  },
+  {
+    "text": "lm and in order to do that you need to",
+    "start": 217.36,
+    "duration": 4.08
+  },
+  {
+    "text": "have a retrieval system. With the",
+    "start": 219.68,
+    "duration": 4.16
+  },
+  {
+    "text": "retrieval system when you get an any",
+    "start": 221.44,
+    "duration": 5.68
+  },
+  {
+    "text": "question from input you embed your",
+    "start": 223.84,
+    "duration": 6.24
+  },
+  {
+    "text": "question and then you query the same",
+    "start": 227.12,
+    "duration": 4.88
+  },
+  {
+    "text": "question you have from your vector",
+    "start": 230.08,
+    "duration": 4.159
+  },
+  {
+    "text": "database to see if there is any relevant",
+    "start": 232.0,
+    "duration": 4.959
+  },
+  {
+    "text": "answers for that and once you get the",
+    "start": 234.239,
+    "duration": 5.041
+  },
+  {
+    "text": "relevant answers your context is ready",
+    "start": 236.959,
+    "duration": 5.121
+  },
+  {
+    "text": "your context is including your question",
+    "start": 239.28,
+    "duration": 5.599
+  },
+  {
+    "text": "and also the relevant answer right so",
+    "start": 242.08,
+    "duration": 4.4
+  },
+  {
+    "text": "you have a question you have some",
+    "start": 244.879,
+    "duration": 4.161
+  },
+  {
+    "text": "relevant information and then you pass",
+    "start": 246.48,
+    "duration": 6.08
+  },
+  {
+    "text": "it to the LLM and then LLM will generate",
+    "start": 249.04,
+    "duration": 6.72
+  },
+  {
+    "text": "your final answer. So basically here LL",
+    "start": 252.56,
+    "duration": 6.16
+  },
+  {
+    "text": "we utilize the LLM capability to",
+    "start": 255.76,
+    "duration": 5.999
+  },
+  {
+    "text": "generate the best answer out of the",
+    "start": 258.72,
+    "duration": 6.8
+  },
+  {
+    "text": "input information we have and we don't",
+    "start": 261.759,
+    "duration": 6.641
+  },
+  {
+    "text": "want to use the LLM data here because",
+    "start": 265.52,
+    "duration": 7.04
+  },
+  {
+    "text": "when we add any information to LLM as a",
+    "start": 268.4,
+    "duration": 7.44
+  },
+  {
+    "text": "rag solution we want to limit the agent",
+    "start": 272.56,
+    "duration": 6.96
+  },
+  {
+    "text": "to the information is provided by us not",
+    "start": 275.84,
+    "duration": 6.24
+  },
+  {
+    "text": "from the LLM and why is that for example",
+    "start": 279.52,
+    "duration": 6.0
+  },
+  {
+    "text": "when you process the the company policy",
+    "start": 282.08,
+    "duration": 5.52
+  },
+  {
+    "text": "and you ask questions about your company",
+    "start": 285.52,
+    "duration": 5.92
+  },
+  {
+    "text": "policy from LLM, you expect to see uh",
+    "start": 287.6,
+    "duration": 6.8
+  },
+  {
+    "text": "those information only limited to the",
+    "start": 291.44,
+    "duration": 5.28
+  },
+  {
+    "text": "policy you have, not from outside of",
+    "start": 294.4,
+    "duration": 5.04
+  },
+  {
+    "text": "your company, right? Otherwise, LLM can",
+    "start": 296.72,
+    "duration": 5.919
+  },
+  {
+    "text": "give you any fictional answer or any",
+    "start": 299.44,
+    "duration": 5.84
+  },
+  {
+    "text": "other random answer it might have from",
+    "start": 302.639,
+    "duration": 5.921
+  },
+  {
+    "text": "many other companies as a common answer.",
+    "start": 305.28,
+    "duration": 4.72
+  },
+  {
+    "text": "But that's not what we are looking with",
+    "start": 308.56,
+    "duration": 3.28
+  },
+  {
+    "text": "the rack. with the right we are looking",
+    "start": 310.0,
+    "duration": 4.4
+  },
+  {
+    "text": "for the right answer a specific answer",
+    "start": 311.84,
+    "duration": 6.48
+  },
+  {
+    "text": "to the input information we have for",
+    "start": 314.4,
+    "duration": 6.44
+  },
+  {
+    "text": "this video we're going to use several",
+    "start": 318.32,
+    "duration": 6.24
+  },
+  {
+    "text": "tools for the workflow automation we are",
+    "start": 320.84,
+    "duration": 6.68
+  },
+  {
+    "text": "going to use the NHN which is quite nice",
+    "start": 324.56,
+    "duration": 6.56
+  },
+  {
+    "text": "and easy to work everything will be step",
+    "start": 327.52,
+    "duration": 7.119
+  },
+  {
+    "text": "by step for the documentation uh I mean",
+    "start": 331.12,
+    "duration": 6.48
+  },
+  {
+    "text": "the the tool that we use to process the",
+    "start": 334.639,
+    "duration": 4.721
+  },
+  {
+    "text": "document we are using the the Google",
+    "start": 337.6,
+    "duration": 4.319
+  },
+  {
+    "text": "drive so I already uploaded my file to",
+    "start": 339.36,
+    "duration": 4.48
+  },
+  {
+    "text": "the Google drive and I'm going to",
+    "start": 341.919,
+    "duration": 5.361
+  },
+  {
+    "text": "process it from there. For the",
+    "start": 343.84,
+    "duration": 6.32
+  },
+  {
+    "text": "vectorzation, I'm going to use Pine Con.",
+    "start": 347.28,
+    "duration": 6.359
+  },
+  {
+    "text": "You can sign up with Pine Con with a",
+    "start": 350.16,
+    "duration": 6.56
+  },
+  {
+    "text": "free subscription and still use this",
+    "start": 353.639,
+    "duration": 5.801
+  },
+  {
+    "text": "service without any subscription. So",
+    "start": 356.72,
+    "duration": 5.44
+  },
+  {
+    "text": "that will be free. And of course for the",
+    "start": 359.44,
+    "duration": 4.96
+  },
+  {
+    "text": "Google Drive, you also need to enable",
+    "start": 362.16,
+    "duration": 4.72
+  },
+  {
+    "text": "your Google Drive API. This is also",
+    "start": 364.4,
+    "duration": 4.96
+  },
+  {
+    "text": "important because uh if you don't then",
+    "start": 366.88,
+    "duration": 5.319
+  },
+  {
+    "text": "the Google API is not",
+    "start": 369.36,
+    "duration": 6.16
+  },
+  {
+    "text": "working. And last thing is the document.",
+    "start": 372.199,
+    "duration": 6.961
+  },
+  {
+    "text": "The document I'm using for",
+    "start": 375.52,
+    "duration": 8.08
+  },
+  {
+    "text": "this tutorial is the fictional company",
+    "start": 379.16,
+    "duration": 7.0
+  },
+  {
+    "text": "policy. So we already have a company",
+    "start": 383.6,
+    "duration": 4.879
+  },
+  {
+    "text": "policy which is quite different from the",
+    "start": 386.16,
+    "duration": 4.879
+  },
+  {
+    "text": "I mean other company policy. Because of",
+    "start": 388.479,
+    "duration": 4.481
+  },
+  {
+    "text": "that then we can test the agent. So the",
+    "start": 391.039,
+    "duration": 4.241
+  },
+  {
+    "text": "idea is that when we create this agent,",
+    "start": 392.96,
+    "duration": 4.64
+  },
+  {
+    "text": "the agent only answer the question based",
+    "start": 395.28,
+    "duration": 5.12
+  },
+  {
+    "text": "on this company policy and if the the",
+    "start": 397.6,
+    "duration": 5.92
+  },
+  {
+    "text": "question is not supported by this",
+    "start": 400.4,
+    "duration": 5.2
+  },
+  {
+    "text": "information, the agent should say I",
+    "start": 403.52,
+    "duration": 5.28
+  },
+  {
+    "text": "don't know any answer. So then I think",
+    "start": 405.6,
+    "duration": 5.599
+  },
+  {
+    "text": "then we have done a really good job with",
+    "start": 408.8,
+    "duration": 5.519
+  },
+  {
+    "text": "this agent. So let's start creating a",
+    "start": 411.199,
+    "duration": 6.72
+  },
+  {
+    "text": "new workflow here. I will start naming",
+    "start": 414.319,
+    "duration": 6.0
+  },
+  {
+    "text": "it",
+    "start": 417.919,
+    "duration": 2.4
+  },
+  {
+    "text": "rag agent",
+    "start": 420.44,
+    "duration": 7.8
+  },
+  {
+    "text": "here. So before I jump into",
+    "start": 422.44,
+    "duration": 5.8
+  },
+  {
+    "text": "the automations here, maybe I forgot",
+    "start": 428.599,
+    "duration": 5.0
+  },
+  {
+    "text": "something to show you. It's about the",
+    "start": 432.08,
+    "duration": 3.64
+  },
+  {
+    "text": "way we need to create",
+    "start": 433.599,
+    "duration": 3.72
+  },
+  {
+    "text": "this",
+    "start": 435.72,
+    "duration": 5.08
+  },
+  {
+    "text": "basically automation. Yes, this is it.",
+    "start": 437.319,
+    "duration": 5.88
+  },
+  {
+    "text": "This is what I wanted to show. So",
+    "start": 440.8,
+    "duration": 4.72
+  },
+  {
+    "text": "basically what we want to do first is to",
+    "start": 443.199,
+    "duration": 4.801
+  },
+  {
+    "text": "vectorize our data. I already showed you",
+    "start": 445.52,
+    "duration": 5.36
+  },
+  {
+    "text": "the document we have. We need to",
+    "start": 448.0,
+    "duration": 6.52
+  },
+  {
+    "text": "vectorize this data and store it in",
+    "start": 450.88,
+    "duration": 6.879
+  },
+  {
+    "text": "our storage here, the vector database",
+    "start": 454.52,
+    "duration": 6.519
+  },
+  {
+    "text": "here which is a pine cone and the",
+    "start": 457.759,
+    "duration": 4.961
+  },
+  {
+    "text": "process for that is that we need to",
+    "start": 461.039,
+    "duration": 4.801
+  },
+  {
+    "text": "provide the source data we need to do",
+    "start": 462.72,
+    "duration": 4.879
+  },
+  {
+    "text": "the embedding and then store it to the",
+    "start": 465.84,
+    "duration": 5.04
+  },
+  {
+    "text": "vector database. So there we need to uh",
+    "start": 467.599,
+    "duration": 6.641
+  },
+  {
+    "text": "think of two actually uh um kind of a",
+    "start": 470.88,
+    "duration": 6.319
+  },
+  {
+    "text": "flow here. One flow for vectorzing the",
+    "start": 474.24,
+    "duration": 5.2
+  },
+  {
+    "text": "data. Another flow for creating the",
+    "start": 477.199,
+    "duration": 3.56
+  },
+  {
+    "text": "right",
+    "start": 479.44,
+    "duration": 4.479
+  },
+  {
+    "text": "agent. So this flow is the flow that we",
+    "start": 480.759,
+    "duration": 5.16
+  },
+  {
+    "text": "don't need to run it every time. So we",
+    "start": 483.919,
+    "duration": 4.241
+  },
+  {
+    "text": "we run it every time we want to update",
+    "start": 485.919,
+    "duration": 4.481
+  },
+  {
+    "text": "our database with the new data. So I",
+    "start": 488.16,
+    "duration": 4.68
+  },
+  {
+    "text": "just put the manual trigger",
+    "start": 490.4,
+    "duration": 6.4
+  },
+  {
+    "text": "here. The next thing I need to do is the",
+    "start": 492.84,
+    "duration": 6.039
+  },
+  {
+    "text": "Google Drive. So I click on the Google",
+    "start": 496.8,
+    "duration": 4.16
+  },
+  {
+    "text": "drive and I choose the download file",
+    "start": 498.879,
+    "duration": 6.921
+  },
+  {
+    "text": "because we want to get the the the file",
+    "start": 500.96,
+    "duration": 8.88
+  },
+  {
+    "text": "here. Now from here you need uh as",
+    "start": 505.8,
+    "duration": 6.76
+  },
+  {
+    "text": "always you need to configure your",
+    "start": 509.84,
+    "duration": 4.96
+  },
+  {
+    "text": "credential first on each component when",
+    "start": 512.56,
+    "duration": 6.399
+  },
+  {
+    "text": "you are creating the workflow in N8N or",
+    "start": 514.8,
+    "duration": 7.679
+  },
+  {
+    "text": "any other tools. So I already configured",
+    "start": 518.959,
+    "duration": 7.121
+  },
+  {
+    "text": "this and it's very easy to do. You need",
+    "start": 522.479,
+    "duration": 6.36
+  },
+  {
+    "text": "to follow the documentation to create",
+    "start": 526.08,
+    "duration": 5.439
+  },
+  {
+    "text": "your credentials here and then uh",
+    "start": 528.839,
+    "duration": 4.801
+  },
+  {
+    "text": "connect it here. I think you can follow",
+    "start": 531.519,
+    "duration": 4.961
+  },
+  {
+    "text": "that guideline and then everything will",
+    "start": 533.64,
+    "duration": 4.92
+  },
+  {
+    "text": "be straightforward from here. Everything",
+    "start": 536.48,
+    "duration": 3.76
+  },
+  {
+    "text": "is fine. The only thing we need to",
+    "start": 538.56,
+    "duration": 4.32
+  },
+  {
+    "text": "choose is the file here. So this is the",
+    "start": 540.24,
+    "duration": 6.159
+  },
+  {
+    "text": "name of the file I want to process and I",
+    "start": 542.88,
+    "duration": 6.56
+  },
+  {
+    "text": "can actually test the step here already.",
+    "start": 546.399,
+    "duration": 8.041
+  },
+  {
+    "text": "And as you can see it is working.",
+    "start": 549.44,
+    "duration": 5.0
+  },
+  {
+    "text": "Next thing we need to do, we need to add",
+    "start": 555.12,
+    "duration": 5.44
+  },
+  {
+    "text": "vector store. As I said, we are going to",
+    "start": 557.36,
+    "duration": 5.44
+  },
+  {
+    "text": "use the pine core here and we have a",
+    "start": 560.56,
+    "duration": 6.16
+  },
+  {
+    "text": "pine core store connection here. So",
+    "start": 562.8,
+    "duration": 6.64
+  },
+  {
+    "text": "basically from the actions we can choose",
+    "start": 566.72,
+    "duration": 6.16
+  },
+  {
+    "text": "the add documents to vector store and",
+    "start": 569.44,
+    "duration": 6.32
+  },
+  {
+    "text": "from here what we need to do we need to",
+    "start": 572.88,
+    "duration": 5.44
+  },
+  {
+    "text": "connect to the pine cone API account.",
+    "start": 575.76,
+    "duration": 5.44
+  },
+  {
+    "text": "You can get the API account once you",
+    "start": 578.32,
+    "duration": 5.84
+  },
+  {
+    "text": "sign up for the pine cone. We can add",
+    "start": 581.2,
+    "duration": 7.92
+  },
+  {
+    "text": "generate the API key from there. So and",
+    "start": 584.16,
+    "duration": 7.76
+  },
+  {
+    "text": "that will be configured here. It's",
+    "start": 589.12,
+    "duration": 4.96
+  },
+  {
+    "text": "already tested successfully. So I don't",
+    "start": 591.92,
+    "duration": 4.479
+  },
+  {
+    "text": "need to do it. The operation mode should",
+    "start": 594.08,
+    "duration": 4.6
+  },
+  {
+    "text": "be insert document because we are adding",
+    "start": 596.399,
+    "duration": 4.961
+  },
+  {
+    "text": "document. The index here should be",
+    "start": 598.68,
+    "duration": 4.599
+  },
+  {
+    "text": "configured to the index you created.",
+    "start": 601.36,
+    "duration": 4.52
+  },
+  {
+    "text": "When you create the pyon for the first",
+    "start": 603.279,
+    "duration": 6.081
+  },
+  {
+    "text": "time, you can actually choose the index.",
+    "start": 605.88,
+    "duration": 5.959
+  },
+  {
+    "text": "Currently I created the index and called",
+    "start": 609.36,
+    "duration": 6.08
+  },
+  {
+    "text": "it test. So you can call it any uh name",
+    "start": 611.839,
+    "duration": 4.44
+  },
+  {
+    "text": "you",
+    "start": 615.44,
+    "duration": 5.28
+  },
+  {
+    "text": "want. So I can choose test here. For the",
+    "start": 616.279,
+    "duration": 7.0
+  },
+  {
+    "text": "embedding batch size I think I can leave",
+    "start": 620.72,
+    "duration": 7.84
+  },
+  {
+    "text": "it to 200. That should be fine. And the",
+    "start": 623.279,
+    "duration": 7.361
+  },
+  {
+    "text": "only thing I need to do here is to also",
+    "start": 628.56,
+    "duration": 5.36
+  },
+  {
+    "text": "add the pine cone name space. So for",
+    "start": 630.64,
+    "duration": 9.48
+  },
+  {
+    "text": "that I'm going to add company info.",
+    "start": 633.92,
+    "duration": 6.2
+  },
+  {
+    "text": "And I'm going to close this because",
+    "start": 641.72,
+    "duration": 5.359
+  },
+  {
+    "text": "still I need to do other things",
+    "start": 644.24,
+    "duration": 6.88
+  },
+  {
+    "text": "here. So the next thing is to connect",
+    "start": 647.079,
+    "duration": 8.121
+  },
+  {
+    "text": "the embedding model and also the data",
+    "start": 651.12,
+    "duration": 7.36
+  },
+  {
+    "text": "loader here. So for the embedding model",
+    "start": 655.2,
+    "duration": 6.16
+  },
+  {
+    "text": "I'm going to use",
+    "start": 658.48,
+    "duration": 2.88
+  },
+  {
+    "text": "OpenAI and I can leave the same",
+    "start": 663.079,
+    "duration": 4.76
+  },
+  {
+    "text": "embedding model here. The only thing is",
+    "start": 665.68,
+    "duration": 5.32
+  },
+  {
+    "text": "the dimension should",
+    "start": 667.839,
+    "duration": 5.641
+  },
+  {
+    "text": "be",
+    "start": 671.0,
+    "duration": 6.2
+  },
+  {
+    "text": "1024. And here we need to also connect",
+    "start": 673.48,
+    "duration": 5.2
+  },
+  {
+    "text": "the the data",
+    "start": 677.2,
+    "duration": 4.4
+  },
+  {
+    "text": "loader. The data loader here it's by",
+    "start": 678.68,
+    "duration": 5.8
+  },
+  {
+    "text": "default JSON but our data is a PDF",
+    "start": 681.6,
+    "duration": 5.2
+  },
+  {
+    "text": "binary. So we can change it to the",
+    "start": 684.48,
+    "duration": 4.56
+  },
+  {
+    "text": "binary. The rest is fine. And now we",
+    "start": 686.8,
+    "duration": 5.479
+  },
+  {
+    "text": "have the text splitter. And for the text",
+    "start": 689.04,
+    "duration": 7.12
+  },
+  {
+    "text": "splitter we can use the token splitter",
+    "start": 692.279,
+    "duration": 6.281
+  },
+  {
+    "text": "here. That should be fine. And the chunk",
+    "start": 696.16,
+    "duration": 5.84
+  },
+  {
+    "text": "size, we can also keep it to 200 here.",
+    "start": 698.56,
+    "duration": 4.76
+  },
+  {
+    "text": "That should be",
+    "start": 702.0,
+    "duration": 4.16
+  },
+  {
+    "text": "fine. I think everything looks fine",
+    "start": 703.32,
+    "duration": 5.079
+  },
+  {
+    "text": "here. What we can do, we can test it",
+    "start": 706.16,
+    "duration": 4.2
+  },
+  {
+    "text": "here. So if I",
+    "start": 708.399,
+    "duration": 4.961
+  },
+  {
+    "text": "test",
+    "start": 710.36,
+    "duration": 3.0
+  },
+  {
+    "text": "workflow, it's working successfully. Now",
+    "start": 715.56,
+    "duration": 6.6
+  },
+  {
+    "text": "if I go back to the pineco,",
+    "start": 718.56,
+    "duration": 7.44
+  },
+  {
+    "text": "pine cone, sorry. And here I can I go to",
+    "start": 722.16,
+    "duration": 5.479
+  },
+  {
+    "text": "the name",
+    "start": 726.0,
+    "duration": 4.639
+  },
+  {
+    "text": "space and I can see that the the company",
+    "start": 727.639,
+    "duration": 5.88
+  },
+  {
+    "text": "info uh name space is already filled up",
+    "start": 730.639,
+    "duration": 4.521
+  },
+  {
+    "text": "with",
+    "start": 733.519,
+    "duration": 4.32
+  },
+  {
+    "text": "information. So this is the name space I",
+    "start": 735.16,
+    "duration": 4.919
+  },
+  {
+    "text": "need to use also and the next step when",
+    "start": 737.839,
+    "duration": 5.44
+  },
+  {
+    "text": "we create right agent. So I think this",
+    "start": 740.079,
+    "duration": 5.921
+  },
+  {
+    "text": "is for the vectorzation and what we can",
+    "start": 743.279,
+    "duration": 4.721
+  },
+  {
+    "text": "do we can create a kind of a sticking",
+    "start": 746.0,
+    "duration": 3.079
+  },
+  {
+    "text": "note",
+    "start": 748.0,
+    "duration": 4.399
+  },
+  {
+    "text": "here for",
+    "start": 749.079,
+    "duration": 3.32
+  },
+  {
+    "text": "the",
+    "start": 752.44,
+    "duration": 3.0
+  },
+  {
+    "text": "vectorzation just to make it a little",
+    "start": 757.32,
+    "duration": 4.4
+  },
+  {
+    "text": "bit",
+    "start": 759.519,
+    "duration": 4.721
+  },
+  {
+    "text": "clean. Okay. Now we want to create a",
+    "start": 761.72,
+    "duration": 5.4
+  },
+  {
+    "text": "chatbot in this section. In order to do",
+    "start": 764.24,
+    "duration": 4.88
+  },
+  {
+    "text": "that we need to add the chat trigger",
+    "start": 767.12,
+    "duration": 3.839
+  },
+  {
+    "text": "here.",
+    "start": 769.12,
+    "duration": 4.959
+  },
+  {
+    "text": "And let me see where it is here. I can",
+    "start": 770.959,
+    "duration": 4.68
+  },
+  {
+    "text": "put it",
+    "start": 774.079,
+    "duration": 4.2
+  },
+  {
+    "text": "here.",
+    "start": 775.639,
+    "duration": 5.801
+  },
+  {
+    "text": "Nice. Next, I need to add the agent",
+    "start": 778.279,
+    "duration": 5.8
+  },
+  {
+    "text": "here. So, I I'm just looking for the",
+    "start": 781.44,
+    "duration": 4.44
+  },
+  {
+    "text": "agent AI",
+    "start": 784.079,
+    "duration": 3.721
+  },
+  {
+    "text": "agent.",
+    "start": 785.88,
+    "duration": 5.16
+  },
+  {
+    "text": "And here, I think I need to add the",
+    "start": 787.8,
+    "duration": 5.32
+  },
+  {
+    "text": "system message. The prompt user message",
+    "start": 791.04,
+    "duration": 4.12
+  },
+  {
+    "text": "is already configured with the chat",
+    "start": 793.12,
+    "duration": 5.12
+  },
+  {
+    "text": "input. But for the system message, I",
+    "start": 795.16,
+    "duration": 5.4
+  },
+  {
+    "text": "already prepared the the prompt. So I",
+    "start": 798.24,
+    "duration": 5.24
+  },
+  {
+    "text": "will add my prompt here and",
+    "start": 800.56,
+    "duration": 5.92
+  },
+  {
+    "text": "then should be fine. There's nothing",
+    "start": 803.48,
+    "duration": 4.919
+  },
+  {
+    "text": "else I need to configure. Yeah, the",
+    "start": 806.48,
+    "duration": 4.24
+  },
+  {
+    "text": "prompt is super important here because",
+    "start": 808.399,
+    "duration": 5.12
+  },
+  {
+    "text": "the trump actually will tell agent what",
+    "start": 810.72,
+    "duration": 5.2
+  },
+  {
+    "text": "to do, what kind of actions it needs to",
+    "start": 813.519,
+    "duration": 5.281
+  },
+  {
+    "text": "take and also what kind of tools you",
+    "start": 815.92,
+    "duration": 5.44
+  },
+  {
+    "text": "need to use. Everything will be done by",
+    "start": 818.8,
+    "duration": 5.36
+  },
+  {
+    "text": "the by the prompt. But don't worry about",
+    "start": 821.36,
+    "duration": 4.12
+  },
+  {
+    "text": "it because you can",
+    "start": 824.16,
+    "duration": 4.16
+  },
+  {
+    "text": "download the template after watching",
+    "start": 825.48,
+    "duration": 5.4
+  },
+  {
+    "text": "this video. So uh you don't have to be",
+    "start": 828.32,
+    "duration": 5.68
+  },
+  {
+    "text": "worried about that. So for the chat",
+    "start": 830.88,
+    "duration": 5.04
+  },
+  {
+    "text": "model what we can do we can connect to",
+    "start": 834.0,
+    "duration": 4.68
+  },
+  {
+    "text": "the opening eye",
+    "start": 835.92,
+    "duration": 7.919
+  },
+  {
+    "text": "again. I would like to change it to the",
+    "start": 838.68,
+    "duration": 5.159
+  },
+  {
+    "text": "GPT40. And that's it. I think this is",
+    "start": 847.8,
+    "duration": 5.76
+  },
+  {
+    "text": "also fine. We can add the chat memory",
+    "start": 850.56,
+    "duration": 6.48
+  },
+  {
+    "text": "also just to make sure that the chat",
+    "start": 853.56,
+    "duration": 5.399
+  },
+  {
+    "text": "memory also is provided with the right",
+    "start": 857.04,
+    "duration": 3.68
+  },
+  {
+    "text": "agent. You can also configure the",
+    "start": 858.959,
+    "duration": 3.721
+  },
+  {
+    "text": "context window lengths how many past",
+    "start": 860.72,
+    "duration": 4.0
+  },
+  {
+    "text": "interactions. I think five should be",
+    "start": 862.68,
+    "duration": 5.88
+  },
+  {
+    "text": "enough here. So and for the tools for",
+    "start": 864.72,
+    "duration": 5.96
+  },
+  {
+    "text": "the tools we need to connect it to",
+    "start": 868.56,
+    "duration": 5.12
+  },
+  {
+    "text": "our vector store that we created uh",
+    "start": 870.68,
+    "duration": 6.12
+  },
+  {
+    "text": "previously. So we create we look for the",
+    "start": 873.68,
+    "duration": 5.08
+  },
+  {
+    "text": "pine core again",
+    "start": 876.8,
+    "duration": 5.2
+  },
+  {
+    "text": "here. And now we need to configure this",
+    "start": 878.76,
+    "duration": 5.4
+  },
+  {
+    "text": "pine. The the pine core connection is",
+    "start": 882.0,
+    "duration": 4.0
+  },
+  {
+    "text": "already configured because we did it",
+    "start": 884.16,
+    "duration": 4.799
+  },
+  {
+    "text": "once. Now we need to change the name",
+    "start": 886.0,
+    "duration": 5.76
+  },
+  {
+    "text": "here. I think for the ch name I will put",
+    "start": 888.959,
+    "duration": 5.68
+  },
+  {
+    "text": "it company",
+    "start": 891.76,
+    "duration": 2.879
+  },
+  {
+    "text": "knowledge company knowledge vector",
+    "start": 899.8,
+    "duration": 5.68
+  },
+  {
+    "text": "store. I will remove this number one",
+    "start": 902.16,
+    "duration": 7.52
+  },
+  {
+    "text": "here and here also.",
+    "start": 905.48,
+    "duration": 7.12
+  },
+  {
+    "text": "Okay, company",
+    "start": 909.68,
+    "duration": 5.92
+  },
+  {
+    "text": "knowledge and for the description I'm",
+    "start": 912.6,
+    "duration": 6.2
+  },
+  {
+    "text": "just uh using use this tool whenever you",
+    "start": 915.6,
+    "duration": 5.599
+  },
+  {
+    "text": "need to retrieve company information and",
+    "start": 918.8,
+    "duration": 4.92
+  },
+  {
+    "text": "for the index I'm going to",
+    "start": 921.199,
+    "duration": 6.241
+  },
+  {
+    "text": "choose and then for the name space I'm",
+    "start": 923.72,
+    "duration": 7.4
+  },
+  {
+    "text": "going to choose company info the one we",
+    "start": 927.44,
+    "duration": 5.92
+  },
+  {
+    "text": "already configured previously when we",
+    "start": 931.12,
+    "duration": 5.2
+  },
+  {
+    "text": "did the embedding. So I think here also",
+    "start": 933.36,
+    "duration": 5.76
+  },
+  {
+    "text": "everything is fine everything is",
+    "start": 936.32,
+    "duration": 5.199
+  },
+  {
+    "text": "configured properly. Now what we need to",
+    "start": 939.12,
+    "duration": 4.32
+  },
+  {
+    "text": "do we need to configure the embedding",
+    "start": 941.519,
+    "duration": 4.88
+  },
+  {
+    "text": "model here. So we do the same embedding",
+    "start": 943.44,
+    "duration": 4.68
+  },
+  {
+    "text": "model that we use for the",
+    "start": 946.399,
+    "duration": 5.8
+  },
+  {
+    "text": "vectorzation and the dimension here",
+    "start": 948.12,
+    "duration": 7.279
+  },
+  {
+    "text": "also. Yes I think",
+    "start": 952.199,
+    "duration": 7.961
+  },
+  {
+    "text": "then this is also nice and you can also",
+    "start": 955.399,
+    "duration": 6.68
+  },
+  {
+    "text": "tidy up your selection. for this uh",
+    "start": 960.16,
+    "duration": 5.08
+  },
+  {
+    "text": "workflow it's already nice but if",
+    "start": 962.079,
+    "duration": 7.601
+  },
+  {
+    "text": "you click the tidy it's also make it",
+    "start": 965.24,
+    "duration": 8.76
+  },
+  {
+    "text": "really nice and neat. So now our a AI",
+    "start": 969.68,
+    "duration": 7.68
+  },
+  {
+    "text": "agent is ready. So we can h give it a",
+    "start": 974.0,
+    "duration": 5.12
+  },
+  {
+    "text": "try for the testing. It actually",
+    "start": 977.36,
+    "duration": 4.56
+  },
+  {
+    "text": "generates some question from chat GPT.",
+    "start": 979.12,
+    "duration": 5.76
+  },
+  {
+    "text": "So I can actually use those questions to",
+    "start": 981.92,
+    "duration": 5.68
+  },
+  {
+    "text": "ask a question. So I'm going to do that.",
+    "start": 984.88,
+    "duration": 4.72
+  },
+  {
+    "text": "So in order to do that you can already",
+    "start": 987.6,
+    "duration": 4.56
+  },
+  {
+    "text": "start asking questions from the agent.",
+    "start": 989.6,
+    "duration": 6.12
+  },
+  {
+    "text": "So as you uh we can go again to the",
+    "start": 992.16,
+    "duration": 6.72
+  },
+  {
+    "text": "document just have a quick look what",
+    "start": 995.72,
+    "duration": 4.84
+  },
+  {
+    "text": "kind of topics we had. It's about the",
+    "start": 998.88,
+    "duration": 4.879
+  },
+  {
+    "text": "ticketing system, SLAs, notifications,",
+    "start": 1000.56,
+    "duration": 5.8
+  },
+  {
+    "text": "resolving tickets, feedback, rating,",
+    "start": 1003.759,
+    "duration": 5.52
+  },
+  {
+    "text": "support, common actually topics that you",
+    "start": 1006.36,
+    "duration": 5.52
+  },
+  {
+    "text": "expect from the ticketing system for IT",
+    "start": 1009.279,
+    "duration": 5.92
+  },
+  {
+    "text": "support. So for example, the first thing",
+    "start": 1011.88,
+    "duration": 7.8
+  },
+  {
+    "text": "is we we can ask it's about uh URL.",
+    "start": 1015.199,
+    "duration": 7.121
+  },
+  {
+    "text": "Okay. What is",
+    "start": 1019.68,
+    "duration": 2.64
+  },
+  {
+    "text": "the Let me just Yes. What's the website",
+    "start": 1023.88,
+    "duration": 6.799
+  },
+  {
+    "text": "URL for accessing the ticketing",
+    "start": 1027.36,
+    "duration": 6.24
+  },
+  {
+    "text": "system? It's interesting. It's Yes, it's",
+    "start": 1030.679,
+    "duration": 5.0
+  },
+  {
+    "text": "it's it's correct. If you go back to the",
+    "start": 1033.6,
+    "duration": 4.0
+  },
+  {
+    "text": "document, you can see that the URL is",
+    "start": 1035.679,
+    "duration": 3.36
+  },
+  {
+    "text": "here. So, as you can see, you can see",
+    "start": 1037.6,
+    "duration": 5.439
+  },
+  {
+    "text": "the process that the agent uh actually",
+    "start": 1039.039,
+    "duration": 7.441
+  },
+  {
+    "text": "took to come to up to this answer. So as",
+    "start": 1043.039,
+    "duration": 5.52
+  },
+  {
+    "text": "you can see all of the components are",
+    "start": 1046.48,
+    "duration": 5.04
+  },
+  {
+    "text": "listed here and also uh it shows us what",
+    "start": 1048.559,
+    "duration": 7.201
+  },
+  {
+    "text": "what happened. So we have the the input",
+    "start": 1051.52,
+    "duration": 6.76
+  },
+  {
+    "text": "user question",
+    "start": 1055.76,
+    "duration": 6.24
+  },
+  {
+    "text": "and the prompt and then after that uh it",
+    "start": 1058.28,
+    "duration": 6.2
+  },
+  {
+    "text": "did retrieve the information from the",
+    "start": 1062.0,
+    "duration": 5.039
+  },
+  {
+    "text": "the knowledge rectory store and then",
+    "start": 1064.48,
+    "duration": 4.72
+  },
+  {
+    "text": "after that based on the the prompt we",
+    "start": 1067.039,
+    "duration": 4.801
+  },
+  {
+    "text": "had we got the output information. This",
+    "start": 1069.2,
+    "duration": 4.64
+  },
+  {
+    "text": "quite interesting to see what happened",
+    "start": 1071.84,
+    "duration": 4.64
+  },
+  {
+    "text": "also the the memory is also working",
+    "start": 1073.84,
+    "duration": 6.719
+  },
+  {
+    "text": "here. So now I can ask another question",
+    "start": 1076.48,
+    "duration": 6.319
+  },
+  {
+    "text": "for example about the SLA. What is the",
+    "start": 1080.559,
+    "duration": 5.36
+  },
+  {
+    "text": "SLA for the high priority issues? So",
+    "start": 1082.799,
+    "duration": 5.281
+  },
+  {
+    "text": "before asking questions we can also look",
+    "start": 1085.919,
+    "duration": 3.721
+  },
+  {
+    "text": "at to the SLA",
+    "start": 1088.08,
+    "duration": 5.2
+  },
+  {
+    "text": "here. So the SLA for the high priority",
+    "start": 1089.64,
+    "duration": 5.64
+  },
+  {
+    "text": "should be 4 hours. Let's ask this",
+    "start": 1093.28,
+    "duration": 4.639
+  },
+  {
+    "text": "questions and see what will be the",
+    "start": 1095.28,
+    "duration": 5.639
+  },
+  {
+    "text": "answer.",
+    "start": 1097.919,
+    "duration": 3.0
+  },
+  {
+    "text": "This is quite interesting. It uh gives",
+    "start": 1104.4,
+    "duration": 6.32
+  },
+  {
+    "text": "us a really a good and concrete answer.",
+    "start": 1107.44,
+    "duration": 5.599
+  },
+  {
+    "text": "So let's ask a question which is not",
+    "start": 1110.72,
+    "duration": 4.28
+  },
+  {
+    "text": "part of this document. For",
+    "start": 1113.039,
+    "duration": 5.201
+  },
+  {
+    "text": "example, something completely different",
+    "start": 1115.0,
+    "duration": 5.16
+  },
+  {
+    "text": "which is not part of the document we",
+    "start": 1118.24,
+    "duration": 3.84
+  },
+  {
+    "text": "provided. So the expectation is this",
+    "start": 1120.16,
+    "duration": 5.04
+  },
+  {
+    "text": "arrive agent should not give an answer",
+    "start": 1122.08,
+    "duration": 4.64
+  },
+  {
+    "text": "to this question because it's not",
+    "start": 1125.2,
+    "duration": 3.599
+  },
+  {
+    "text": "provided in the document and it",
+    "start": 1126.72,
+    "duration": 5.12
+  },
+  {
+    "text": "shouldn't also gives us any other answer",
+    "start": 1128.799,
+    "duration": 6.401
+  },
+  {
+    "text": "out of the document. Let's",
+    "start": 1131.84,
+    "duration": 3.36
+  },
+  {
+    "text": "see. So this is quite interesting. It",
+    "start": 1137.24,
+    "duration": 4.72
+  },
+  {
+    "text": "says I couldn't find any information",
+    "start": 1139.84,
+    "duration": 4.8
+  },
+  {
+    "text": "about this question in the company",
+    "start": 1141.96,
+    "duration": 4.92
+  },
+  {
+    "text": "policy document. So this is really nice.",
+    "start": 1144.64,
+    "duration": 4.24
+  },
+  {
+    "text": "That's what exactly I was actually",
+    "start": 1146.88,
+    "duration": 4.08
+  },
+  {
+    "text": "looking. Let's ask another question",
+    "start": 1148.88,
+    "duration": 4.48
+  },
+  {
+    "text": "which is part of the document. So the",
+    "start": 1150.96,
+    "duration": 4.719
+  },
+  {
+    "text": "question I'm going to ask is about the",
+    "start": 1153.36,
+    "duration": 7.04
+  },
+  {
+    "text": "help desk. Yeah, the IK help desk phone",
+    "start": 1155.679,
+    "duration": 4.721
+  },
+  {
+    "text": "number and let's see what will be the",
+    "start": 1160.76,
+    "duration": 6.4
+  },
+  {
+    "text": "reaction from the",
+    "start": 1164.64,
+    "duration": 6.24
+  },
+  {
+    "text": "agent. So as you can see it gives us a",
+    "start": 1167.16,
+    "duration": 5.96
+  },
+  {
+    "text": "uh the right answer here. And now I'm",
+    "start": 1170.88,
+    "duration": 3.919
+  },
+  {
+    "text": "going to ask another question which is",
+    "start": 1173.12,
+    "duration": 6.76
+  },
+  {
+    "text": "not part of the document.",
+    "start": 1174.799,
+    "duration": 5.081
+  },
+  {
+    "text": "It's about what programming language is",
+    "start": 1180.32,
+    "duration": 3.92
+  },
+  {
+    "text": "used to develop the ticketing system",
+    "start": 1182.08,
+    "duration": 5.52
+  },
+  {
+    "text": "back end. Let's have a",
+    "start": 1184.24,
+    "duration": 3.36
+  },
+  {
+    "text": "look. It's interesting. This was not",
+    "start": 1188.679,
+    "duration": 5.24
+  },
+  {
+    "text": "provided inside the document and of",
+    "start": 1191.36,
+    "duration": 4.76
+  },
+  {
+    "text": "course the agent",
+    "start": 1193.919,
+    "duration": 6.321
+  },
+  {
+    "text": "also didn't give us any answer for that.",
+    "start": 1196.12,
+    "duration": 7.32
+  },
+  {
+    "text": "So we managed to create a rag agent",
+    "start": 1200.24,
+    "duration": 6.08
+  },
+  {
+    "text": "processing our custom documents. So you",
+    "start": 1203.44,
+    "duration": 5.119
+  },
+  {
+    "text": "can put any documents you want and",
+    "start": 1206.32,
+    "duration": 3.64
+  },
+  {
+    "text": "convert it to",
+    "start": 1208.559,
+    "duration": 4.561
+  },
+  {
+    "text": "the vector database and after that you",
+    "start": 1209.96,
+    "duration": 6.36
+  },
+  {
+    "text": "can actually create your AI agent the",
+    "start": 1213.12,
+    "duration": 6.919
+  },
+  {
+    "text": "rag agent using that vector",
+    "start": 1216.32,
+    "duration": 6.64
+  },
+  {
+    "text": "database. I'm going to put this template",
+    "start": 1220.039,
+    "duration": 5.401
+  },
+  {
+    "text": "on the community our community. You can",
+    "start": 1222.96,
+    "duration": 4.719
+  },
+  {
+    "text": "join to our community and download the",
+    "start": 1225.44,
+    "duration": 4.44
+  },
+  {
+    "text": "template. The link is below in the",
+    "start": 1227.679,
+    "duration": 5.0
+  },
+  {
+    "text": "description. And I hope you like this",
+    "start": 1229.88,
+    "duration": 5.64
+  },
+  {
+    "text": "video. See you in the next video. Thank",
+    "start": 1232.679,
+    "duration": 5.841
+  },
+  {
+    "text": "you.",
+    "start": 1235.52,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 1239.2,
+    "duration": 27.87
+  }
+]

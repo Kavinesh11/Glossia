@@ -1,0 +1,435 @@
+Transcript for YouTube video: VW5OZSVA5wk
+--------------------------------------------------
+
+[0.3s - 5.0s] There were many questions in my previous
+[2.2s - 7.0s] video around how do we start generative
+[5.0s - 10.6s] AI? How do we start learning generative
+[7.0s - 12.3s] AI in a good foundational manner not get
+[10.6s - 15.2s] carried away by everything that's
+[12.3s - 17.6s] happening but a pure road map that will
+[15.2s - 20.2s] help us navigate through everything
+[17.6s - 22.1s] that's happening and yet give us
+[20.2s - 24.8s] everything that we want to learn. So
+[22.1s - 27.8s] here is this video. Let's start. No
+[24.8s - 29.5s] fuss, no technical jargon. I'll give you
+[27.8s - 31.6s] everything that you require in this
+[29.5s - 33.5s] video that you should know in order to
+[31.6s - 35.4s] become a good generative AI data
+[33.5s - 37.7s] scientist, engineer or whatever your
+[35.4s - 41.5s] roles are. So let's
+[37.7s - 41.4s] [Music]
+[41.7s - 48.0s] begin. The first thing that you need is
+[44.2s - 50.9s] a good understanding of linear algebra,
+[48.0s - 53.1s] probability and fundamental concepts of
+[50.9s - 55.2s] deep learning. These are those three
+[53.1s - 56.7s] things that you should master really
+[55.2s - 59.5s] efficiently.
+[56.7s - 61.9s] Now probability is something that is
+[59.5s - 65.0s] used everywhere across the transformer
+[61.9s - 67.1s] architecture. So you should know this
+[65.0s - 68.9s] linear algebra with all the algebraic
+[67.1s - 71.8s] operations that happen with respect to
+[68.9s - 74.2s] vectors. All of this is the basis of a
+[71.8s - 76.0s] lot of systems going forward like rag
+[74.2s - 77.4s] systems use cosine similarity on
+[76.0s - 80.2s] embeddings. What are embeddings?
+[77.4s - 83.0s] Embeddings are vector representations of
+[80.2s - 84.4s] keywords or sentences that you input.
+[83.0s - 87.5s] How is this cosine
+[84.4s - 89.6s] similarity created? So start with
+[87.5s - 91.8s] probability. Get your probability basics
+[89.6s - 93.8s] correct. Get linear algebra sorted
+[91.8s - 95.8s] especially vectors and all of the other
+[93.8s - 98.6s] nitty-g gritties that are there. Then
+[95.8s - 101.2s] you should also focus upon deep learning
+[98.6s - 103.4s] concepts like activation
+[101.2s - 106.0s] functions. What is ReLU function? What
+[103.4s - 109.0s] is leaky relu? Why are neural networks
+[106.0s - 111.3s] so popular? How can they approximate any
+[109.0s - 114.1s] function that you want to kind of learn
+[111.3s - 116.0s] or that you want your entire network to
+[114.1s - 119.5s] learn? How does this approximation
+[116.0s - 121.4s] happens? Uh what is bias? What is how
+[119.5s - 124.3s] does the learning happen? All of these
+[121.4s - 126.6s] small details, small little details is
+[124.3s - 128.2s] what you should really know. Uh so you
+[126.6s - 130.4s] should be really good with deep learning
+[128.2s - 133.1s] concepts as well. So that is my first
+[130.4s - 135.8s] recommendation. Get your mathematics
+[133.1s - 137.8s] base sorted. If you don't have the time
+[135.8s - 141.1s] to do everything, do at least
+[137.8s - 143.4s] probability, do at least linear algebra
+[141.1s - 145.0s] and also have a good base setup on deep
+[143.4s - 148.4s] learning
+[145.0s - 148.4s] [Music]
+[149.0s - 152.9s] concepts. Once these concepts are clear,
+[151.8s - 156.2s] the next thing that you should
+[152.9s - 157.9s] definitely focus on is the evolution of
+[156.2s - 161.0s] NLP.
+[157.9s - 163.9s] Not every task that you perform for an
+[161.0s - 166.4s] NLP operation requires the entire 4
+[163.9s - 167.9s] billion, 5 billion, 10 billion models.
+[166.4s - 170.6s] One thing that I've realized with a lot
+[167.9s - 172.2s] of people that I've worked with and also
+[170.6s - 175.6s] a a lot of people that I interview right
+[172.2s - 178.0s] now is for every task, the bare minimum
+[175.6s - 179.6s] that everyone wants to use is plug in a
+[178.0s - 182.9s] transformer architecture for simple
+[179.6s - 185.3s] tasks as well. But no one is taking into
+[182.9s - 187.9s] account three basic pillars, right?
+[185.3s - 190.3s] accuracy, latency and the cost of
+[187.9s - 193.0s] running the solution. When you think at
+[190.3s - 196.0s] scale and if your problem statement is
+[193.0s - 198.9s] not very complex, why have a big model
+[196.0s - 201.1s] deployed for a simpler use case, right?
+[198.9s - 204.3s] It is here that you have to understand
+[201.1s - 207.0s] which solution fits in which problem
+[204.3s - 209.6s] statement. So start with regular
+[207.0s - 212.5s] expressions. If you have simpler issues
+[209.6s - 214.0s] to solve, say a large language model can
+[212.5s - 215.4s] give you all the regular expressions
+[214.0s - 217.8s] that you're kind of searching for as
+[215.4s - 219.7s] well. Sometimes simple regular
+[217.8s - 222.4s] expression matches give you really good
+[219.7s - 224.2s] solutions for simpler problems. Uh then
+[222.4s - 226.0s] there are predefined word based
+[224.2s - 227.9s] classification models. So don't use a
+[226.0s - 230.6s] decoder only models which are heavy to
+[227.9s - 233.3s] load heavy uh in terms of getting the
+[230.6s - 234.8s] right JSON structure. take some data set
+[233.3s - 237.5s] that you can synthetically generate
+[234.8s - 239.1s] using a BERT model and fine-tune a BERT
+[237.5s - 241.0s] model based on the data set that you
+[239.1s - 243.1s] have. It will give you tremendous
+[241.0s - 245.1s] accuracy as well if you have like a
+[243.1s - 247.6s] really good representation of the data
+[245.1s - 249.8s] set that you want to use for inference
+[247.6s - 252.6s] as well. So that is the second piece
+[249.8s - 255.3s] that I can tell you. Start understanding
+[252.6s - 257.3s] what you are using and what requires or
+[255.3s - 259.4s] which problem statement requires a
+[257.3s - 262.2s] complex model. Which problem statement
+[259.4s - 263.9s] requires a simpler model. For you to
+[262.2s - 267.6s] understand all of this, you have to
+[263.9s - 272.0s] understand the evolution of NLP. Start
+[267.6s - 274.6s] with simpler algorithms like TF, BM25.
+[272.0s - 277.0s] How do they work? What what is the use
+[274.6s - 279.5s] case that they were meant to solve for?
+[277.0s - 282.7s] Then people shifted away from the
+[279.5s - 286.6s] simpler algorithms to LSTMs. Before
+[282.7s - 288.7s] LSTMs was RNN, then LSTMs came in. Then
+[286.6s - 290.5s] transformers came in. Attention
+[288.7s - 292.2s] transformers came in and then everything
+[290.5s - 294.2s] kind of shifted over towards
+[292.2s - 298.2s] transformers. So the point that I'm
+[294.2s - 301.7s] trying to land is if you are clear with
+[298.2s - 305.0s] all the entire landscape of how LLMs or
+[301.7s - 308.2s] NLP has evolved so to speak then if
+[305.0s - 309.9s] you're building a solution wherein if
+[308.2s - 313.0s] you are expecting a latency of some
+[309.9s - 315.5s] milliseconds and if it's a simple
+[313.0s - 318.7s] classification task rather than using a
+[315.5s - 321.0s] decoder only huge 1 billion 2 billion
+[318.7s - 323.5s] size model even that is a huge model if
+[321.0s - 326.1s] you ask me you can use a 100 million
+[323.5s - 329.0s] parameter bird model fine-tune it for
+[326.1s - 332.0s] your use case and you can get sub 10
+[329.0s - 333.8s] millisecond latency as well. So
+[332.0s - 336.6s] understanding architectures,
+[333.8s - 339.3s] understanding the evolution of NLP and
+[336.6s - 341.4s] then judging that this particular
+[339.3s - 343.5s] problem statement requires a simpler
+[341.4s - 346.0s] solution as compared to a more complex
+[343.5s - 349.4s] model. That is where you will kind of
+[346.0s - 351.5s] start appreciating the ALC value that
+[349.4s - 355.4s] you bring to the projects that is
+[351.5s - 357.3s] accuracy, latency and cost. imagine I
+[355.4s - 360.4s] have a simple sentiment analysis task
+[357.3s - 362.6s] and if I deploy a llama XY Z model which
+[360.4s - 364.7s] is 8 billion in size right so I'll
+[362.6s - 367.7s] require a huge high-end GPU
+[364.7s - 370.8s] infrastructure to just give out output
+[367.7s - 373.8s] outputs like positive negative neutral
+[370.8s - 376.6s] why can't I take a simple B model and
+[373.8s - 378.1s] currently there are different B bird
+[376.6s - 380.4s] architectures that have recently
+[378.1s - 382.4s] released as well right so you can take a
+[380.4s - 384.4s] look into those architectures because
+[382.4s - 386.2s] they've been fine-tuned or they've been
+[384.4s - 388.3s] trained on newer data sets which will
+[386.2s - 390.4s] give you much better base accuracy
+[388.3s - 392.6s] itself. So why not look at those
+[390.4s - 395.3s] architectures for simpler use cases as
+[392.6s - 397.6s] opposed to using a very complex model
+[395.3s - 399.4s] for a simpler use case. So that is
+[397.6s - 403.6s] something that I want to land as well
+[399.4s - 408.2s] understand the entire evolution of NLP/
+[403.6s - 411.8s] LLMs and then be wise in terms of
+[408.2s - 415.5s] selecting which solutions to use
+[411.8s - 415.5s] [Music]
+[415.9s - 420.5s] where now you've understood the
+[418.1s - 423.5s] technicalities of which model to choose
+[420.5s - 425.2s] where etc. Right? But you still have a
+[423.5s - 427.8s] basic thing missing which is
+[425.2s - 429.5s] understanding the transformer network.
+[427.8s - 431.9s] If there is one thing that you should
+[429.5s - 434.9s] spend good amount of time understanding
+[431.9s - 437.0s] is different architecture types uh
+[434.9s - 440.1s] encoder only models, decoder only
+[437.0s - 443.3s] models, encoder decoder architectures.
+[440.1s - 446.4s] Understand how they function at at least
+[443.3s - 448.3s] an over overall level. Understanding
+[446.4s - 451.0s] what positional encodings are.
+[448.3s - 453.4s] understanding how text is generated in a
+[451.0s - 455.9s] decoder only model. What do you feed in
+[453.4s - 458.5s] as input? What is the output that is
+[455.9s - 460.3s] generated? Uh is the output generated
+[458.5s - 462.6s] parallelly all at once or is it a
+[460.3s - 464.3s] sequential process? All of this is
+[462.6s - 467.5s] something that will give you immense
+[464.3s - 470.6s] clarity in terms of how the LLMs work
+[467.5s - 472.5s] under the hood. There are multiple
+[470.6s - 474.9s] YouTube videos out there. There are
+[472.5s - 478.3s] multiple blogs that explain transformer
+[474.9s - 480.2s] architecture in a very fine way. uh I
+[478.3s - 482.5s] would highly recommend whatever suits
+[480.2s - 485.3s] you. You can kind of go through all the
+[482.5s - 488.2s] links that are available right now. Uh
+[485.3s - 491.8s] but my recommendation to you is get this
+[488.2s - 493.8s] basic clear so that when you interview
+[491.8s - 496.0s] for a role, it can be a senior role,
+[493.8s - 497.8s] junior role, you will have complete
+[496.0s - 500.3s] clarity in terms of the questions that
+[497.8s - 501.8s] are being asked to you and accordingly
+[500.3s - 504.7s] what is the response that you have to
+[501.8s - 507.7s] give them as well. So understand the
+[504.7s - 511.6s] transformer architecture in and out like
+[507.7s - 513.0s] this is there is no shortcut to success.
+[511.6s - 515.2s] If there's something that I can
+[513.0s - 517.8s] recommend to you wholeheartedly then you
+[515.2s - 519.9s] should know the different pieces of how
+[517.8s - 522.5s] the entire transformer architecture
+[519.9s - 526.0s] works. How does fine-tuning work? What
+[522.5s - 529.4s] is Laura? What is Q laura? All of these
+[526.0s - 531.8s] are fine-tuning techniques that kind of
+[529.4s - 533.8s] uh have made a significant impact in
+[531.8s - 536.3s] terms of the training time, reducing the
+[533.8s - 538.0s] training time as well as reaching at the
+[536.3s - 540.6s] most accurate solutions that are out
+[538.0s - 544.6s] there. So you should understand the
+[540.6s - 547.4s] fundamentals of how fine-tuning happens,
+[544.6s - 549.7s] how are models created. You should also
+[547.4s - 552.3s] have a sense of how rags or retrieval
+[549.7s - 554.7s] agumented generation works. Now rags as
+[552.3s - 557.8s] a concept is something that is very
+[554.7s - 560.6s] popular and a lot of people really don't
+[557.8s - 563.2s] understand uh rags that well. One of the
+[560.6s - 565.3s] reason why this happens is because uh
+[563.2s - 567.8s] there are a lot of abstraction based
+[565.3s - 570.6s] libraries like right so you have lang
+[567.8s - 574.6s] chain llama index which kind of simplify
+[570.6s - 578.2s] the end execution for you but uh when it
+[574.6s - 581.4s] comes to production deployment very few
+[578.2s - 583.4s] use cases with these extensions like
+[581.4s - 585.8s] llama index or lang chain make it to
+[583.4s - 588.1s] production because lang chain or llama
+[585.8s - 590.2s] index add a lot of metadata into your
+[588.1s - 593.2s] LLM calls which is something that kind
+[590.2s - 595.7s] of hurts the end output in terms of the
+[593.2s - 598.6s] accuracy as well as latency. To avoid
+[595.7s - 601.2s] this, you use base LLMs for rags when
+[598.6s - 604.6s] you implement them. But not a lot of
+[601.2s - 607.2s] people implement rags through base LLMs,
+[604.6s - 608.6s] right? So this is one sad reality that
+[607.2s - 611.1s] I've kind of captured during the
+[608.6s - 613.4s] interviews as well. So my only request
+[611.1s - 614.9s] to you is whatever topic that you're
+[613.4s - 616.4s] working on as well. So if you want to
+[614.9s - 620.2s] work on rags for
+[616.4s - 623.4s] example, make sure to understand rags in
+[620.2s - 626.4s] and out. When I say in and out, I mean
+[623.4s - 629.2s] you should have complete clarity of how
+[626.4s - 631.9s] the entire retrieval process happens.
+[629.2s - 634.0s] What is the query embedding doing? How
+[631.9s - 635.9s] is the query embedding searching against
+[634.0s - 639.4s] all the embeddings in my vector
+[635.9s - 641.4s] database? What is picked up? What cannot
+[639.4s - 643.8s] be picked up? What is hybrid search and
+[641.4s - 646.4s] rag? So whatever topic that you're
+[643.8s - 648.5s] working on, make sure to understand the
+[646.4s - 650.5s] technical know-hows of that particular
+[648.5s - 652.3s] solution. If you're using libraries
+[650.5s - 655.4s] which kind of give you an abstraction of
+[652.3s - 657.6s] the overall solution in the long run, uh
+[655.4s - 659.8s] it's good for a P, right? If if you want
+[657.6s - 661.8s] to quickly churn up a solution, create a
+[659.8s - 664.9s] solution, share it with 10 different
+[661.8s - 668.3s] people, then say a solution in lang
+[664.9s - 671.2s] chain, llama index is great. But if you
+[668.3s - 673.0s] have to go in for production deployment,
+[671.2s - 676.0s] when you use
+[673.0s - 678.2s] LLM's at a core level where you're only
+[676.0s - 680.7s] calling the LLM API by passing in the
+[678.2s - 683.1s] chunks, the query and then a prompt to
+[680.7s - 685.3s] kind of synthesize the response. That is
+[683.1s - 687.0s] where you have complete control over the
+[685.3s - 688.8s] responses that are generated and
+[687.0s - 691.2s] accordingly you can kind of fine-tune
+[688.8s - 694.2s] whatever parameters are going wrong with
+[691.2s - 696.2s] the responses. So understand whatever
+[694.2s - 698.3s] you're building uh understand the
+[696.2s - 701.0s] technical knowhows of things. There's
+[698.3s - 703.0s] one thing that I've also understood is a
+[701.0s - 705.4s] lot of people on LinkedIn and social
+[703.0s - 707.8s] media say especially Twitter as well a
+[705.4s - 712.2s] lot of people who want to sell the
+[707.8s - 714.8s] products have or how do I say create
+[712.2s - 717.2s] good post that fine-tuning embeddings
+[714.8s - 719.8s] will not give you really good accuracy
+[717.2s - 721.4s] for rags. Let me be very honest those
+[719.8s - 724.1s] people have never fine-tuned a single
+[721.4s - 726.1s] model. Okay, there are so many people
+[724.1s - 728.4s] who have done some tremendous work in
+[726.1s - 731.4s] achieving crazy accuracy numbers with
+[728.4s - 734.6s] rag applications on domain specific data
+[731.4s - 737.3s] by fine-tuning a base embedding model.
+[734.6s - 740.0s] Take your queries, take your data set
+[737.3s - 741.8s] that is there, fine-tune your data,
+[740.0s - 743.8s] fine-tune a base embedding model with
+[741.8s - 746.2s] the new data set that you have or your
+[743.8s - 749.7s] custom domain specific data set that you
+[746.2s - 753.0s] have. You will be amazed to see how good
+[749.7s - 756.7s] accuracy numbers are, right?
+[753.0s - 758.9s] Uh don't follow influencers online
+[756.7s - 761.7s] blindly who have not really implemented
+[758.9s - 764.0s] things. Uh this is other advice that I
+[761.7s - 767.3s] want to give you as well in this entire
+[764.0s - 769.4s] uh generative AI LLM road map. Don't
+[767.3s - 772.6s] trust people blindly.
+[769.4s - 774.4s] Look at their say body of work that they
+[772.6s - 776.4s] have done so far and then trust them
+[774.4s - 779.0s] that are they even capable enough of
+[776.4s - 780.9s] being trust trusted. Uh that is
+[779.0s - 783.8s] something that you should look into.
+[780.9s - 785.4s] Focus on basics. There is there are so
+[783.8s - 788.2s] many things happening right. So you
+[785.4s - 790.4s] cannot go through everything that exist
+[788.2s - 792.6s] but what you should go through is a
+[790.4s - 794.7s] clear plan of understanding mathematics,
+[792.6s - 796.0s] probability, deep learning,
+[794.7s - 797.9s] understanding the transformer
+[796.0s - 800.0s] architecture. If you're working on rags
+[797.9s - 803.4s] then understanding rags. If you're
+[800.0s - 805.8s] working on say text to speech then this
+[803.4s - 807.5s] is like a pure encoder decoder based
+[805.8s - 810.0s] models. How do you fine-tune them? How
+[807.5s - 811.9s] do you generate good quality data sets?
+[810.0s - 815.9s] That is where your focus should
+[811.9s - 818.3s] be. If there are people only sharing
+[815.9s - 820.4s] advice online that you everything will
+[818.3s - 823.0s] be done using a particular large
+[820.4s - 825.8s] language model. any large language model
+[823.0s - 828.3s] if you throw in input as garbage the
+[825.8s - 830.2s] response will be garbage however good
+[828.3s - 834.8s] the large language model is right you
+[830.2s - 838.4s] can use clot 3.7 Gemini 2.5 pro or GPTs
+[834.8s - 841.8s] or llamas etc right whichever model you
+[838.4s - 843.9s] use essentially all of them boil down to
+[841.8s - 845.9s] the kind of input that you pass in and
+[843.9s - 847.6s] the kind of response that you generate
+[845.9s - 850.7s] so the other piece that you should also
+[847.6s - 854.2s] master is uh once you've mastered all of
+[850.7s - 854.2s] [Music]
+[854.8s - 859.6s] is you should also master learning
+[857.7s - 861.3s] prompt engineering. Although prompt
+[859.6s - 863.0s] engineering is not very significant
+[861.3s - 867.4s] right now because you can kind of create
+[863.0s - 869.8s] prompts using using the LLMs itself. But
+[867.4s - 873.0s] having a good understanding of prompt
+[869.8s - 875.7s] engineering to kind of get the LLM to do
+[873.0s - 877.3s] what you want it to do is also an art
+[875.7s - 880.1s] which I believe you should spend good
+[877.3s - 882.2s] amount of time in. uh writing efficient
+[880.1s - 885.0s] prompts can bring out bring down the
+[882.2s - 886.4s] response times tremendously. Like there
+[885.0s - 888.6s] was a use case that I was trying to
+[886.4s - 892.3s] solve and initially I was trying to
+[888.6s - 893.9s] return the entire JSON output. But one
+[892.3s - 895.8s] hack that I tried was rather than
+[893.9s - 898.4s] returning the entire JSON and rather
+[895.8s - 900.8s] than the LLM doing all the heavy lifting
+[898.4s - 904.0s] in terms of generating the entire JSON,
+[900.8s - 906.1s] I essentially wanted a list output which
+[904.0s - 909.5s] is something that I could kind of later
+[906.1s - 911.6s] encapsulate in the JSON itself. uh which
+[909.5s - 915.4s] brought down the overall response time
+[911.6s - 918.0s] from 15 seconds to 2 seconds. Can you
+[915.4s - 920.6s] imagine a hack as simple as not
+[918.0s - 922.5s] generating the entire JSON to only
+[920.6s - 926.1s] generating the list values that have to
+[922.5s - 929.0s] be appended in an already populated JSON
+[926.1s - 933.0s] could reduce my overall response time
+[929.0s - 934.9s] from 15 seconds to 2 seconds. So uh when
+[933.0s - 937.5s] you work with LLMs right this is one
+[934.9s - 940.3s] approach that I also follow is you
+[937.5s - 944.6s] should think of a large language model
+[940.3s - 947.0s] as a special friend who will give you
+[944.6s - 949.3s] very curated responses if you ask the
+[947.0s - 951.1s] right questions. If you ask it to do
+[949.3s - 953.6s] everything then it will not do
+[951.1s - 955.9s] everything as you want it to do right
+[953.6s - 958.7s] which is where what you should be doing
+[955.9s - 961.3s] is you should be very specific with all
+[958.7s - 963.0s] the context that you can provide that
+[961.3s - 965.1s] should be passed to the large language
+[963.0s - 968.0s] model. Now what is the context that you
+[965.1s - 970.1s] pass in is where your prompt engineering
+[968.0s - 971.8s] or prompt creation skills come into
+[970.1s - 973.8s] picture. There are a lot of courses
+[971.8s - 975.7s] online that people are selling on prompt
+[973.8s - 978.5s] engineering. Don't waste all of those
+[975.7s - 981.3s] money that you have right uh on stupid
+[978.5s - 983.0s] courses on prompt engineering etc right
+[981.3s - 986.6s] uh prompt engineering is something that
+[983.0s - 988.8s] is as simple as writing basic English
+[986.6s - 990.7s] language and modifying the English
+[988.8s - 992.8s] language so that you get the right
+[990.7s - 994.6s] responses if you're confused with
+[992.8s - 996.6s] respect to generating the right prompt
+[994.6s - 999.0s] create an approximate prompt that you
+[996.6s - 1000.8s] feel would be relevant and pass it to
+[999.0s - 1003.0s] the LLM that you want to use for
+[1000.8s - 1005.5s] generating the response and tell it to
+[1003.0s - 1007.6s] correct the prompt itself for you. So
+[1005.5s - 1009.9s] the LLM that you want to use will
+[1007.6s - 1011.8s] automatically correct the prompt and
+[1009.9s - 1014.7s] give you the right optimized prompt that
+[1011.8s - 1017.3s] you want to utilize as well. Uh this is
+[1014.7s - 1019.8s] one hack that a lot of people use. I use
+[1017.3s - 1022.1s] this personally. Uh so don't waste time
+[1019.8s - 1024.7s] in learning prompt engineering from some
+[1022.1s - 1027.3s] random courses. That's pure waste of
+[1024.7s - 1029.7s] money. Uh so this is something that I
+[1027.3s - 1031.9s] wanted to voice out. I know the video is
+[1029.7s - 1034.2s] not very structured wherein uh the road
+[1031.9s - 1037.3s] map will be given to you and pointwise
+[1034.2s - 1039.8s] right do maths do stats and all of that
+[1037.3s - 1042.2s] I wanted this to be free flowing this is
+[1039.8s - 1044.1s] like a one take video that I've created
+[1042.2s - 1046.3s] I'll only edit places where I've kind
+[1044.1s - 1048.4s] ofh messed up some words here and there
+[1046.3s - 1050.9s] but most of the thoughts that I have are
+[1048.4s - 1053.4s] raw which is what I wanted to keep in
+[1050.9s - 1055.4s] this video as well so that you kind of
+[1053.4s - 1058.2s] go back and understand what I've tried
+[1055.4s - 1060.1s] to deliver you in this particular video.
+[1058.2s - 1062.5s] So this is all that I had in today's
+[1060.1s - 1064.7s] video. Make the most of what you're
+[1062.5s - 1069.3s] learning. Try to understand everything
+[1064.7s - 1071.7s] from scratch and then even LLMs or even
+[1069.3s - 1073.4s] creating a genai road map for you at
+[1071.7s - 1076.2s] your level which will be much more
+[1073.4s - 1077.8s] simpler. Right? So this is all that I
+[1076.2s - 1083.5s] had. Thank you so much for watching the
+[1077.8s - 1083.5s] video and uh yeah thank you so much.
+[1086.9s - 1089.5s] [Music]

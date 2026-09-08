@@ -1,0 +1,2672 @@
+[
+  {
+    "text": "and we are here this is the video in",
+    "start": 0.14,
+    "duration": 7.03
+  },
+  {
+    "text": "this playlist which really comes right",
+    "start": 3.72,
+    "duration": 6.089
+  },
+  {
+    "text": "after 10.7 matrix backs part two this is",
+    "start": 7.17,
+    "duration": 5.429
+  },
+  {
+    "text": "matrix math part 3 where I am finally",
+    "start": 9.809,
+    "duration": 9.111
+  },
+  {
+    "text": "going to look at okay",
+    "start": 12.599,
+    "duration": 6.321
+  },
+  {
+    "text": "matrix multiplication or really I should",
+    "start": 19.01,
+    "duration": 9.519
+  },
+  {
+    "text": "say matrix multiplication okay so if you",
+    "start": 21.449,
+    "duration": 10.95
+  },
+  {
+    "text": "recall what I'm doing I know it looked",
+    "start": 28.529,
+    "duration": 4.951
+  },
+  {
+    "text": "quite different but I already covered",
+    "start": 32.399,
+    "duration": 4.261
+  },
+  {
+    "text": "that we'll bring this one was made a",
+    "start": 33.48,
+    "duration": 5.81
+  },
+  {
+    "text": "while ago anyway if I have a matrix",
+    "start": 36.66,
+    "duration": 5.969
+  },
+  {
+    "text": "right and what I mean by a matrix is a",
+    "start": 39.29,
+    "duration": 7.69
+  },
+  {
+    "text": "grid of values and let's say I have one",
+    "start": 42.629,
+    "duration": 10.921
+  },
+  {
+    "text": "that looks like this a b c d e this is a",
+    "start": 46.98,
+    "duration": 14.73
+  },
+  {
+    "text": "3 no no it is a 2 by 3 matrix we always",
+    "start": 53.55,
+    "duration": 9.989
+  },
+  {
+    "text": "refer to the number of rows before the",
+    "start": 61.71,
+    "duration": 4.29
+  },
+  {
+    "text": "number of columns now what does it need",
+    "start": 63.539,
+    "duration": 6.271
+  },
+  {
+    "text": "and and and previously with when i made",
+    "start": 66.0,
+    "duration": 5.939
+  },
+  {
+    "text": "some videos just about vectors i talked",
+    "start": 69.81,
+    "duration": 3.48
+  },
+  {
+    "text": "about this thing called a dot product",
+    "start": 71.939,
+    "duration": 4.081
+  },
+  {
+    "text": "but i'm gonna change that here and write",
+    "start": 73.29,
+    "duration": 5.1
+  },
+  {
+    "text": "the matrix product so first of all what",
+    "start": 76.02,
+    "duration": 6.029
+  },
+  {
+    "text": "does it mean to multiply a matrix by by",
+    "start": 78.39,
+    "duration": 5.369
+  },
+  {
+    "text": "something i could just multiply this",
+    "start": 82.049,
+    "duration": 4.051
+  },
+  {
+    "text": "matrix by a single number and that's",
+    "start": 83.759,
+    "duration": 4.051
+  },
+  {
+    "text": "what's known as well it's not really",
+    "start": 86.1,
+    "duration": 3.33
+  },
+  {
+    "text": "that's what's known as scaler sorry",
+    "start": 87.81,
+    "duration": 3.87
+  },
+  {
+    "text": "scaler if i multiply this by a single",
+    "start": 89.43,
+    "duration": 4.68
+  },
+  {
+    "text": "number then I just say if this was a",
+    "start": 91.68,
+    "duration": 4.17
+  },
+  {
+    "text": "whole bunch of ones multiply it by two I",
+    "start": 94.11,
+    "duration": 3.299
+  },
+  {
+    "text": "got a whole bunch of two's you know if I",
+    "start": 95.85,
+    "duration": 3.18
+  },
+  {
+    "text": "multiply by two double every value in",
+    "start": 97.409,
+    "duration": 3.091
+  },
+  {
+    "text": "the matrix and I think actually now I",
+    "start": 99.03,
+    "duration": 4.11
+  },
+  {
+    "text": "did that in the previous video I could",
+    "start": 100.5,
+    "duration": 5.159
+  },
+  {
+    "text": "also do what's known as element wise",
+    "start": 103.14,
+    "duration": 5.759
+  },
+  {
+    "text": "multiplication and that is also referred",
+    "start": 105.659,
+    "duration": 4.92
+  },
+  {
+    "text": "to as the hata mard",
+    "start": 108.899,
+    "duration": 2.551
+  },
+  {
+    "text": "i don't know if i'm pronouncing that",
+    "start": 110.579,
+    "duration": 3.121
+  },
+  {
+    "text": "correctly and breaking new somebody in",
+    "start": 111.45,
+    "duration": 3.809
+  },
+  {
+    "text": "the live chat that's going on right now",
+    "start": 113.7,
+    "duration": 3.57
+  },
+  {
+    "text": "told me that it also son is called a",
+    "start": 115.259,
+    "duration": 4.051
+  },
+  {
+    "text": "short product and what that means is",
+    "start": 117.27,
+    "duration": 4.62
+  },
+  {
+    "text": "imagine I have another matrix that's",
+    "start": 119.31,
+    "duration": 6.87
+  },
+  {
+    "text": "exactly the same size as this one and in",
+    "start": 121.89,
+    "duration": 5.939
+  },
+  {
+    "text": "fact I could kind of do that little",
+    "start": 126.18,
+    "duration": 6.34
+  },
+  {
+    "text": "small over here and I could say G H I J",
+    "start": 127.829,
+    "duration": 6.971
+  },
+  {
+    "text": "k:l right so I could have another matrix",
+    "start": 132.52,
+    "duration": 4.44
+  },
+  {
+    "text": "if it's exactly the same size and mine",
+    "start": 134.8,
+    "duration": 3.78
+  },
+  {
+    "text": "if I multiplied these together I have a",
+    "start": 136.96,
+    "duration": 4.44
+  },
+  {
+    "text": "new matrix which is has a times G B",
+    "start": 138.58,
+    "duration": 5.88
+  },
+  {
+    "text": "times H C times I D times J element-wise",
+    "start": 141.4,
+    "duration": 5.55
+  },
+  {
+    "text": "each each element of the matrix get",
+    "start": 144.46,
+    "duration": 4.08
+  },
+  {
+    "text": "multiplied by its corresponding other",
+    "start": 146.95,
+    "duration": 5.43
+  },
+  {
+    "text": "element now I don't those are perfectly",
+    "start": 148.54,
+    "duration": 5.46
+  },
+  {
+    "text": "valid I'm looking for my eraser",
+    "start": 152.38,
+    "duration": 3.48
+  },
+  {
+    "text": "perfectly valid ways of doing",
+    "start": 154.0,
+    "duration": 5.28
+  },
+  {
+    "text": "multiplication oops but what I'm really",
+    "start": 155.86,
+    "duration": 6.66
+  },
+  {
+    "text": "interested in is the matrix product and",
+    "start": 159.28,
+    "duration": 5.61
+  },
+  {
+    "text": "the reason why I'm interested in the",
+    "start": 162.52,
+    "duration": 7.32
+  },
+  {
+    "text": "matrix product is because I want to use",
+    "start": 164.89,
+    "duration": 7.47
+  },
+  {
+    "text": "the matrix product for a neural network",
+    "start": 169.84,
+    "duration": 6.12
+  },
+  {
+    "text": "for example this node in a neural",
+    "start": 172.36,
+    "duration": 6.78
+  },
+  {
+    "text": "network is going to be the result of the",
+    "start": 175.96,
+    "duration": 8.13
+  },
+  {
+    "text": "weighted sum of all of the input nodes x",
+    "start": 179.14,
+    "duration": 8.88
+  },
+  {
+    "text": "weighted connections and this one is",
+    "start": 184.09,
+    "duration": 6.6
+  },
+  {
+    "text": "also going to be the weighted sum of all",
+    "start": 188.02,
+    "duration": 4.8
+  },
+  {
+    "text": "of the input nodes x weighted",
+    "start": 190.69,
+    "duration": 3.57
+  },
+  {
+    "text": "connections and so on and so forth and",
+    "start": 192.82,
+    "duration": 4.47
+  },
+  {
+    "text": "so these weights are stored in a matrix",
+    "start": 194.26,
+    "duration": 7.35
+  },
+  {
+    "text": "and the inputs come in in a matrix as",
+    "start": 197.29,
+    "duration": 7.29
+  },
+  {
+    "text": "well so if this is how I'm representing",
+    "start": 201.61,
+    "duration": 9.15
+  },
+  {
+    "text": "the inputs then you might discover that",
+    "start": 204.58,
+    "duration": 11.07
+  },
+  {
+    "text": "I have this matrix of all these weights",
+    "start": 210.76,
+    "duration": 7.38
+  },
+  {
+    "text": "that I need to multiply those inputs by",
+    "start": 215.65,
+    "duration": 6.42
+  },
+  {
+    "text": "to get the new values of the outputs of",
+    "start": 218.14,
+    "duration": 6.36
+  },
+  {
+    "text": "this hidden layer now anyway I kind of",
+    "start": 222.07,
+    "duration": 4.86
+  },
+  {
+    "text": "talked about that in a previous video",
+    "start": 224.5,
+    "duration": 4.8
+  },
+  {
+    "text": "and I'm going to talk about it a lot",
+    "start": 226.93,
+    "duration": 5.04
+  },
+  {
+    "text": "more in the next video when we look at",
+    "start": 229.3,
+    "duration": 4.92
+  },
+  {
+    "text": "this in more detail but the point here",
+    "start": 231.97,
+    "duration": 4.98
+  },
+  {
+    "text": "is that this idea of a matrix product is",
+    "start": 234.22,
+    "duration": 4.41
+  },
+  {
+    "text": "something that I'm going to need don't",
+    "start": 236.95,
+    "duration": 3.33
+  },
+  {
+    "text": "worry about the whole neural network",
+    "start": 238.63,
+    "duration": 4.079
+  },
+  {
+    "text": "thing I'm going to come back to that in",
+    "start": 240.28,
+    "duration": 4.41
+  },
+  {
+    "text": "next video and go through that in detail",
+    "start": 242.709,
+    "duration": 3.541
+  },
+  {
+    "text": "what I need to do here is just",
+    "start": 244.69,
+    "duration": 4.11
+  },
+  {
+    "text": "understand I know I need the matrix",
+    "start": 246.25,
+    "duration": 5.28
+  },
+  {
+    "text": "product how does it work and then we'll",
+    "start": 248.8,
+    "duration": 4.17
+  },
+  {
+    "text": "see how its applied in the neural",
+    "start": 251.53,
+    "duration": 3.84
+  },
+  {
+    "text": "network example ok so let's say that I",
+    "start": 252.97,
+    "duration": 5.04
+  },
+  {
+    "text": "have another I have a matrix a and I",
+    "start": 255.37,
+    "duration": 5.67
+  },
+  {
+    "text": "have another matrix B and that matrix is",
+    "start": 258.01,
+    "duration": 5.64
+  },
+  {
+    "text": "equal to",
+    "start": 261.04,
+    "duration": 8.58
+  },
+  {
+    "text": "g h i j k l I'm writing l like that so",
+    "start": 263.65,
+    "duration": 7.68
+  },
+  {
+    "text": "that I can see that it's not a 1 or",
+    "start": 269.62,
+    "duration": 5.19
+  },
+  {
+    "text": "whatever ok so I have these two matrices",
+    "start": 271.33,
+    "duration": 6.27
+  },
+  {
+    "text": "the way that I write the expression a",
+    "start": 274.81,
+    "duration": 5.22
+  },
+  {
+    "text": "matrix product B I'm gonna write it like",
+    "start": 277.6,
+    "duration": 7.26
+  },
+  {
+    "text": "this a dot B the dot is the indicator",
+    "start": 280.03,
+    "duration": 6.09
+  },
+  {
+    "text": "for the matrix product",
+    "start": 284.86,
+    "duration": 2.7
+  },
+  {
+    "text": "now what couple things that are really",
+    "start": 286.12,
+    "duration": 4.71
+  },
+  {
+    "text": "important here 1 the commutative",
+    "start": 287.56,
+    "duration": 6.3
+  },
+  {
+    "text": "property does not hold a dot B does not",
+    "start": 290.83,
+    "duration": 6.51
+  },
+  {
+    "text": "equal B dot a this is not true and",
+    "start": 293.86,
+    "duration": 4.86
+  },
+  {
+    "text": "you're gonna see why in a minute",
+    "start": 297.34,
+    "duration": 3.72
+  },
+  {
+    "text": "you know if I were to say 3 times 4",
+    "start": 298.72,
+    "duration": 4.35
+  },
+  {
+    "text": "that's equal to 4 times 3 they're both",
+    "start": 301.06,
+    "duration": 3.84
+  },
+  {
+    "text": "equal to 12 but again this matrix",
+    "start": 303.07,
+    "duration": 3.29
+  },
+  {
+    "text": "product is a different kind of",
+    "start": 304.9,
+    "duration": 3.48
+  },
+  {
+    "text": "multiplication this commutative property",
+    "start": 306.36,
+    "duration": 6.059
+  },
+  {
+    "text": "does not hold so that's kind of key",
+    "start": 308.38,
+    "duration": 4.039
+  },
+  {
+    "text": "another thing that's really important is",
+    "start": 312.66,
+    "duration": 5.02
+  },
+  {
+    "text": "the matrix product is something you",
+    "start": 315.22,
+    "duration": 5.49
+  },
+  {
+    "text": "could only do if the sizes of the",
+    "start": 317.68,
+    "duration": 5.01
+  },
+  {
+    "text": "matrices match up and what do I mean by",
+    "start": 320.71,
+    "duration": 3.239
+  },
+  {
+    "text": "that now one thing you might have",
+    "start": 322.69,
+    "duration": 2.729
+  },
+  {
+    "text": "thought but realize like if I was doing",
+    "start": 323.949,
+    "duration": 2.821
+  },
+  {
+    "text": "when I have that example the Hadamard",
+    "start": 325.419,
+    "duration": 3.541
+  },
+  {
+    "text": "product that's only gonna work if I have",
+    "start": 326.77,
+    "duration": 3.99
+  },
+  {
+    "text": "two matrices with the same exact",
+    "start": 328.96,
+    "duration": 4.32
+  },
+  {
+    "text": "dimensions right because if I if I don't",
+    "start": 330.76,
+    "duration": 3.719
+  },
+  {
+    "text": "have the same dimensions how can I",
+    "start": 333.28,
+    "duration": 2.49
+  },
+  {
+    "text": "multiply each element by the other",
+    "start": 334.479,
+    "duration": 2.821
+  },
+  {
+    "text": "element because some elements might not",
+    "start": 335.77,
+    "duration": 2.79
+  },
+  {
+    "text": "exist in one of them but something even",
+    "start": 337.3,
+    "duration": 2.73
+  },
+  {
+    "text": "completely different it's going to go on",
+    "start": 338.56,
+    "duration": 4.109
+  },
+  {
+    "text": "here I need to have for this to be valid",
+    "start": 340.03,
+    "duration": 7.319
+  },
+  {
+    "text": "I need to have the columns right the",
+    "start": 342.669,
+    "duration": 9.271
+  },
+  {
+    "text": "columns of a equal to the rows of B and",
+    "start": 347.349,
+    "duration": 7.261
+  },
+  {
+    "text": "you'll notice I made these do that so I",
+    "start": 351.94,
+    "duration": 4.409
+  },
+  {
+    "text": "have to have however many columns I have",
+    "start": 354.61,
+    "duration": 3.929
+  },
+  {
+    "text": "here 3 I have to have exactly the same",
+    "start": 356.349,
+    "duration": 4.231
+  },
+  {
+    "text": "number of rows and B otherwise this",
+    "start": 358.539,
+    "duration": 6.181
+  },
+  {
+    "text": "won't work and the reason is what I'm",
+    "start": 360.58,
+    "duration": 5.64
+  },
+  {
+    "text": "actually going to do is the reason why I",
+    "start": 364.72,
+    "duration": 3.39
+  },
+  {
+    "text": "use this dot here is I'm going to use",
+    "start": 366.22,
+    "duration": 4.919
+  },
+  {
+    "text": "the vector dot product vector dot",
+    "start": 368.11,
+    "duration": 4.92
+  },
+  {
+    "text": "product so you might have to go back to",
+    "start": 371.139,
+    "duration": 3.871
+  },
+  {
+    "text": "one of my previous videos where I talked",
+    "start": 373.03,
+    "duration": 3.419
+  },
+  {
+    "text": "about the vector dot product or gonna do",
+    "start": 375.01,
+    "duration": 3.719
+  },
+  {
+    "text": "it here again but what the vector dot",
+    "start": 376.449,
+    "duration": 4.44
+  },
+  {
+    "text": "product does is it takes kind of like",
+    "start": 378.729,
+    "duration": 5.341
+  },
+  {
+    "text": "the sum of all the elements multiplied",
+    "start": 380.889,
+    "duration": 6.0
+  },
+  {
+    "text": "the element wise elements both tied to",
+    "start": 384.07,
+    "duration": 5.19
+  },
+  {
+    "text": "each other what do I mean by that so if",
+    "start": 386.889,
+    "duration": 6.061
+  },
+  {
+    "text": "I say a dot B I'm gonna get when I when",
+    "start": 389.26,
+    "duration": 8.22
+  },
+  {
+    "text": "I take one matrix the a matrix product B",
+    "start": 392.95,
+    "duration": 6.87
+  },
+  {
+    "text": "result is also going to be a matrix now",
+    "start": 397.48,
+    "duration": 3.75
+  },
+  {
+    "text": "how do I know the dimensions of that",
+    "start": 399.82,
+    "duration": 2.04
+  },
+  {
+    "text": "matrix",
+    "start": 401.23,
+    "duration": 3.39
+  },
+  {
+    "text": "it's going to have the number of rows of",
+    "start": 401.86,
+    "duration": 9.03
+  },
+  {
+    "text": "a which is how many - followed by the",
+    "start": 404.62,
+    "duration": 11.07
+  },
+  {
+    "text": "number of columns of B what - so in the",
+    "start": 410.89,
+    "duration": 6.57
+  },
+  {
+    "text": "enemy in a 2 by 2 matrix now this is",
+    "start": 415.69,
+    "duration": 3.36
+  },
+  {
+    "text": "gonna be different with any all",
+    "start": 417.46,
+    "duration": 3.72
+  },
+  {
+    "text": "different matrix dimensions and after",
+    "start": 419.05,
+    "duration": 3.45
+  },
+  {
+    "text": "you watch this video you can make up",
+    "start": 421.18,
+    "duration": 2.61
+  },
+  {
+    "text": "lots of different matrices and play a",
+    "start": 422.5,
+    "duration": 2.88
+  },
+  {
+    "text": "game with yourself to like do this",
+    "start": 423.79,
+    "duration": 3.75
+  },
+  {
+    "text": "matrix product with pencil and paper boy",
+    "start": 425.38,
+    "duration": 3.93
+  },
+  {
+    "text": "won't that be fine I'm gonna go do that",
+    "start": 427.54,
+    "duration": 2.1
+  },
+  {
+    "text": "later",
+    "start": 429.31,
+    "duration": 3.33
+  },
+  {
+    "text": "myself I'm sure um but here we can see",
+    "start": 429.64,
+    "duration": 5.49
+  },
+  {
+    "text": "I'm gonna get a square 2 by 2 matrix now",
+    "start": 432.64,
+    "duration": 4.92
+  },
+  {
+    "text": "what am I doing here how do I fill in",
+    "start": 435.13,
+    "duration": 5.09
+  },
+  {
+    "text": "each of these blanks so I'm gonna just",
+    "start": 437.56,
+    "duration": 5.61
+  },
+  {
+    "text": "put a little blank square here I know I",
+    "start": 440.22,
+    "duration": 6.79
+  },
+  {
+    "text": "need to buy two well what I do is I take",
+    "start": 443.17,
+    "duration": 7.47
+  },
+  {
+    "text": "the dot product of the row of the first",
+    "start": 447.01,
+    "duration": 8.07
+  },
+  {
+    "text": "one with the cup of the row of a with",
+    "start": 450.64,
+    "duration": 7.71
+  },
+  {
+    "text": "the column of B right so it's almost",
+    "start": 455.08,
+    "duration": 6.06
+  },
+  {
+    "text": "kind of like the intersection this first",
+    "start": 458.35,
+    "duration": 5.79
+  },
+  {
+    "text": "element right I gotta get the first row",
+    "start": 461.14,
+    "duration": 5.16
+  },
+  {
+    "text": "of a and the first column of B that's",
+    "start": 464.14,
+    "duration": 3.51
+  },
+  {
+    "text": "why they have to have the same number of",
+    "start": 466.3,
+    "duration": 4.5
+  },
+  {
+    "text": "rows and B as columns an a so what this",
+    "start": 467.65,
+    "duration": 5.82
+  },
+  {
+    "text": "actually is this value here is the dot",
+    "start": 470.8,
+    "duration": 5.42
+  },
+  {
+    "text": "product of these two vectors which is",
+    "start": 473.47,
+    "duration": 5.75
+  },
+  {
+    "text": "actually let me just come over here",
+    "start": 476.22,
+    "duration": 13.24
+  },
+  {
+    "text": "which is a times G Plus B times I plus C",
+    "start": 479.22,
+    "duration": 14.2
+  },
+  {
+    "text": "times I ok so that's this element here",
+    "start": 489.46,
+    "duration": 6.93
+  },
+  {
+    "text": "now let's do this element here well I'm",
+    "start": 493.42,
+    "duration": 8.73
+  },
+  {
+    "text": "in row 1 so I stay with Row 1 of a but",
+    "start": 496.39,
+    "duration": 8.37
+  },
+  {
+    "text": "now I'm in column 2 so I go to column 2",
+    "start": 502.15,
+    "duration": 7.22
+  },
+  {
+    "text": "of B so now this particular value is a",
+    "start": 504.76,
+    "duration": 14.87
+  },
+  {
+    "text": "times H plus B times J plus C times L",
+    "start": 509.37,
+    "duration": 12.7
+  },
+  {
+    "text": "okay that's good",
+    "start": 519.63,
+    "duration": 5.44
+  },
+  {
+    "text": "now let me do this one this one is the",
+    "start": 522.07,
+    "duration": 8.16
+  },
+  {
+    "text": "second row times the first row the first",
+    "start": 525.07,
+    "duration": 6.24
+  },
+  {
+    "text": "column of B",
+    "start": 530.23,
+    "duration": 4.92
+  },
+  {
+    "text": "D times G + e times I plus F times K and",
+    "start": 531.31,
+    "duration": 7.17
+  },
+  {
+    "text": "then this one here is going to be the",
+    "start": 535.15,
+    "duration": 5.82
+  },
+  {
+    "text": "second row times the second column D",
+    "start": 538.48,
+    "duration": 6.24
+  },
+  {
+    "text": "times H + e times J plus F times L ok so",
+    "start": 540.97,
+    "duration": 7.05
+  },
+  {
+    "text": "that's the math for any arbitrary set of",
+    "start": 544.72,
+    "duration": 6.059
+  },
+  {
+    "text": "matrices you take the dot product of all",
+    "start": 548.02,
+    "duration": 5.19
+  },
+  {
+    "text": "the rows with the columns to fill out",
+    "start": 550.779,
+    "duration": 4.621
+  },
+  {
+    "text": "your resulting matrix product and you",
+    "start": 553.21,
+    "duration": 4.71
+  },
+  {
+    "text": "must have the same number of columns in",
+    "start": 555.4,
+    "duration": 8.04
+  },
+  {
+    "text": "a as rows of B ok so pause this video if",
+    "start": 557.92,
+    "duration": 7.169
+  },
+  {
+    "text": "you want try to draw some diagrams",
+    "start": 563.44,
+    "duration": 3.42
+  },
+  {
+    "text": "google matrix product google image",
+    "start": 565.089,
+    "duration": 3.181
+  },
+  {
+    "text": "search matrix product you probably come",
+    "start": 566.86,
+    "duration": 3.09
+  },
+  {
+    "text": "up with a million visual examples of",
+    "start": 568.27,
+    "duration": 4.35
+  },
+  {
+    "text": "this watch three blue one browns videos",
+    "start": 569.95,
+    "duration": 3.84
+  },
+  {
+    "text": "on lunar algebra which will probably",
+    "start": 572.62,
+    "duration": 3.24
+  },
+  {
+    "text": "teach dozen a much more intuitive and",
+    "start": 573.79,
+    "duration": 5.28
+  },
+  {
+    "text": "nice way but I don't link to that in",
+    "start": 575.86,
+    "duration": 4.47
+  },
+  {
+    "text": "this video's description I'm now going",
+    "start": 579.07,
+    "duration": 2.88
+  },
+  {
+    "text": "to try to implement this matrix product",
+    "start": 580.33,
+    "duration": 4.65
+  },
+  {
+    "text": "even code minor correction hopefully I",
+    "start": 581.95,
+    "duration": 5.16
+  },
+  {
+    "text": "said the right thing but I do have",
+    "start": 584.98,
+    "duration": 5.1
+  },
+  {
+    "text": "something wrong here a times G B times I",
+    "start": 587.11,
+    "duration": 9.71
+  },
+  {
+    "text": "C times K this should be a K right here",
+    "start": 590.08,
+    "duration": 9.3
+  },
+  {
+    "text": "okay so let's try to implement the math",
+    "start": 596.82,
+    "duration": 4.93
+  },
+  {
+    "text": "for this so where I'm gonna do this is",
+    "start": 599.38,
+    "duration": 4.17
+  },
+  {
+    "text": "in the multiply function and I had",
+    "start": 601.75,
+    "duration": 3.48
+  },
+  {
+    "text": "written that before to do scalar",
+    "start": 603.55,
+    "duration": 3.66
+  },
+  {
+    "text": "multiplication and I'm gonna do the same",
+    "start": 605.23,
+    "duration": 4.23
+  },
+  {
+    "text": "thing I did an ad where I'm gonna check",
+    "start": 607.21,
+    "duration": 4.35
+  },
+  {
+    "text": "what is the thing coming in is it a",
+    "start": 609.46,
+    "duration": 5.73
+  },
+  {
+    "text": "matrix or is it a scalar or etc so I'm",
+    "start": 611.56,
+    "duration": 4.77
+  },
+  {
+    "text": "not going to bother with the Hadamard",
+    "start": 615.19,
+    "duration": 4.53
+  },
+  {
+    "text": "product I'll add that into this matrix",
+    "start": 616.33,
+    "duration": 5.759
+  },
+  {
+    "text": "library if I ever need it but I'm just",
+    "start": 619.72,
+    "duration": 4.41
+  },
+  {
+    "text": "going to check is N and instance of a",
+    "start": 622.089,
+    "duration": 5.221
+  },
+  {
+    "text": "matrix if that's so then I want to do",
+    "start": 624.13,
+    "duration": 10.31
+  },
+  {
+    "text": "matrix product otherwise I want to do",
+    "start": 627.31,
+    "duration": 7.13
+  },
+  {
+    "text": "scalar product okay so now I need to",
+    "start": 634.95,
+    "duration": 5.68
+  },
+  {
+    "text": "write the code for the matrix product",
+    "start": 639.01,
+    "duration": 6.0
+  },
+  {
+    "text": "right there but first I must check are",
+    "start": 640.63,
+    "duration": 7.02
+  },
+  {
+    "text": "the columns of a equal to the rows of B",
+    "start": 645.01,
+    "duration": 4.38
+  },
+  {
+    "text": "otherwise I cannot perform the matrix",
+    "start": 647.65,
+    "duration": 3.809
+  },
+  {
+    "text": "product at all so I'm going to come over",
+    "start": 649.39,
+    "duration": 7.319
+  },
+  {
+    "text": "here and I'm gonna say if I mean the",
+    "start": 651.459,
+    "duration": 10.521
+  },
+  {
+    "text": "right screen yes if the a is this matrix",
+    "start": 656.709,
+    "duration": 7.971
+  },
+  {
+    "text": "object if this dot Rose",
+    "start": 661.98,
+    "duration": 5.58
+  },
+  {
+    "text": "know if it stud columns does not equal",
+    "start": 664.68,
+    "duration": 7.08
+  },
+  {
+    "text": "and rose I kind of don't like that this",
+    "start": 667.56,
+    "duration": 7.68
+  },
+  {
+    "text": "is called n here but whatever just then",
+    "start": 671.76,
+    "duration": 6.269
+  },
+  {
+    "text": "and I'll use this more strict equals",
+    "start": 675.24,
+    "duration": 6.96
+  },
+  {
+    "text": "here then I D to return like undefined",
+    "start": 678.029,
+    "duration": 5.791
+  },
+  {
+    "text": "or something like just get out of here",
+    "start": 682.2,
+    "duration": 4.32
+  },
+  {
+    "text": "this is no good and I'm going to console",
+    "start": 683.82,
+    "duration": 9.15
+  },
+  {
+    "text": "dot log columns of a must match rows of",
+    "start": 686.52,
+    "duration": 10.53
+  },
+  {
+    "text": "B columns now I could be more thoughtful",
+    "start": 692.97,
+    "duration": 5.55
+  },
+  {
+    "text": "and I can use a try-catch with some",
+    "start": 697.05,
+    "duration": 2.67
+  },
+  {
+    "text": "error handling but I'm just going to do",
+    "start": 698.52,
+    "duration": 3.12
+  },
+  {
+    "text": "this for right now just to be some and",
+    "start": 699.72,
+    "duration": 3.78
+  },
+  {
+    "text": "let's actually make sure this works so",
+    "start": 701.64,
+    "duration": 5.58
+  },
+  {
+    "text": "if I go back to loading that code and I",
+    "start": 703.5,
+    "duration": 8.3
+  },
+  {
+    "text": "said something like a is a matrix that",
+    "start": 707.22,
+    "duration": 10.08
+  },
+  {
+    "text": "is three by three and B is a matrix that",
+    "start": 711.8,
+    "duration": 12.21
+  },
+  {
+    "text": "is five by ten if I say a multiply B I",
+    "start": 717.3,
+    "duration": 9.57
+  },
+  {
+    "text": "get undefined and it says columns of a",
+    "start": 724.01,
+    "duration": 4.72
+  },
+  {
+    "text": "must match rows of B so that's working",
+    "start": 726.87,
+    "duration": 8.54
+  },
+  {
+    "text": "and I could just say B is a matrix of",
+    "start": 728.73,
+    "duration": 6.68
+  },
+  {
+    "text": "five by sorry three by three also then",
+    "start": 737.0,
+    "duration": 6.79
+  },
+  {
+    "text": "they match and I'm say a multiply B I",
+    "start": 740.76,
+    "duration": 4.65
+  },
+  {
+    "text": "still get under fine because I have done",
+    "start": 743.79,
+    "duration": 2.52
+  },
+  {
+    "text": "it yet but I don't get that error",
+    "start": 745.41,
+    "duration": 5.1
+  },
+  {
+    "text": "message okay so now I need to create a",
+    "start": 746.31,
+    "duration": 10.17
+  },
+  {
+    "text": "new matrix so I'm just say the result is",
+    "start": 750.51,
+    "duration": 11.94
+  },
+  {
+    "text": "a new matrix that has the number of what",
+    "start": 756.48,
+    "duration": 9.75
+  },
+  {
+    "text": "did I say it has the number of rows of a",
+    "start": 762.45,
+    "duration": 8.34
+  },
+  {
+    "text": "and the number of columns of B so it has",
+    "start": 766.23,
+    "duration": 8.37
+  },
+  {
+    "text": "the number of rows of a and the number",
+    "start": 770.79,
+    "duration": 9.81
+  },
+  {
+    "text": "of columns of B come on Adam keeps",
+    "start": 774.6,
+    "duration": 7.76
+  },
+  {
+    "text": "wanting me to put my password in okay",
+    "start": 780.6,
+    "duration": 4.5
+  },
+  {
+    "text": "all right so that's good now I need to",
+    "start": 782.36,
+    "duration": 10.83
+  },
+  {
+    "text": "do each spot so for each row whoops",
+    "start": 785.1,
+    "duration": 8.09
+  },
+  {
+    "text": "for each row and for each column I need",
+    "start": 797.05,
+    "duration": 17.829
+  },
+  {
+    "text": "to do the dot product of that lips first",
+    "start": 807.62,
+    "duration": 8.339
+  },
+  {
+    "text": "of all I have an error before I can do",
+    "start": 814.879,
+    "duration": 5.31
+  },
+  {
+    "text": "this I have an error here and what I",
+    "start": 815.959,
+    "duration": 8.521
+  },
+  {
+    "text": "want is if I'm at 0-0 I want all of the",
+    "start": 820.189,
+    "duration": 6.9
+  },
+  {
+    "text": "values I want to do the sum of all of",
+    "start": 824.48,
+    "duration": 8.339
+  },
+  {
+    "text": "the values well so I want let's just do",
+    "start": 827.089,
+    "duration": 10.581
+  },
+  {
+    "text": "this manually in this case it would be",
+    "start": 832.819,
+    "duration": 16.31
+  },
+  {
+    "text": "this dot matrix I times and matrix J",
+    "start": 837.67,
+    "duration": 16.33
+  },
+  {
+    "text": "sorry I I need yeah I need another",
+    "start": 849.129,
+    "duration": 7.091
+  },
+  {
+    "text": "double nested loop in here right because",
+    "start": 854.0,
+    "duration": 9.089
+  },
+  {
+    "text": "I'm going to take this and add I plus",
+    "start": 856.22,
+    "duration": 14.76
+  },
+  {
+    "text": "plus one but staying in J J plus 1 right",
+    "start": 863.089,
+    "duration": 14.37
+  },
+  {
+    "text": "is this right I plus 2 J plus 2 I mean",
+    "start": 870.98,
+    "duration": 8.43
+  },
+  {
+    "text": "this isn't I'm making this up because I",
+    "start": 877.459,
+    "duration": 4.11
+  },
+  {
+    "text": "don't I'm doing this an arbitrary way we",
+    "start": 879.41,
+    "duration": 4.08
+  },
+  {
+    "text": "don't know what the actual rows this",
+    "start": 881.569,
+    "duration": 3.51
+  },
+  {
+    "text": "this just goes up depending on the",
+    "start": 883.49,
+    "duration": 7.019
+  },
+  {
+    "text": "number of of rows columns there are all",
+    "start": 885.079,
+    "duration": 10.05
+  },
+  {
+    "text": "right right so maybe I only need one",
+    "start": 890.509,
+    "duration": 7.38
+  },
+  {
+    "text": "loop here because I need one loop so",
+    "start": 895.129,
+    "duration": 6.06
+  },
+  {
+    "text": "what's that know because these could be",
+    "start": 897.889,
+    "duration": 8.94
+  },
+  {
+    "text": "different yeah k week Mon is telling me",
+    "start": 901.189,
+    "duration": 6.931
+  },
+  {
+    "text": "in the chat another way of thinking",
+    "start": 906.829,
+    "duration": 5.671
+  },
+  {
+    "text": "about this is I could say and you know",
+    "start": 908.12,
+    "duration": 6.659
+  },
+  {
+    "text": "what would might be nice actually one",
+    "start": 912.5,
+    "duration": 3.839
+  },
+  {
+    "text": "thing that I could do here just at least",
+    "start": 914.779,
+    "duration": 3.091
+  },
+  {
+    "text": "I think it's gonna help me work this out",
+    "start": 916.339,
+    "duration": 5.161
+  },
+  {
+    "text": "is I could say let a equal this dot",
+    "start": 917.87,
+    "duration": 8.83
+  },
+  {
+    "text": "matrix and let B equal end",
+    "start": 921.5,
+    "duration": 7.93
+  },
+  {
+    "text": "just to have variables called a and B",
+    "start": 926.7,
+    "duration": 6.6
+  },
+  {
+    "text": "for the two different matrices and this",
+    "start": 929.43,
+    "duration": 6.36
+  },
+  {
+    "text": "is still the result but in other words",
+    "start": 933.3,
+    "duration": 7.62
+  },
+  {
+    "text": "what I'm saying is a and this is B so a",
+    "start": 935.79,
+    "duration": 14.15
+  },
+  {
+    "text": "I K B KJ so it's a little Olin let me",
+    "start": 940.92,
+    "duration": 14.91
+  },
+  {
+    "text": "with K sum over K so hold on so let me",
+    "start": 949.94,
+    "duration": 8.32
+  },
+  {
+    "text": "put this here did I get this wrong this",
+    "start": 955.83,
+    "duration": 10.44
+  },
+  {
+    "text": "is B is it yes so you know what's wrong",
+    "start": 958.26,
+    "duration": 8.79
+  },
+  {
+    "text": "about this",
+    "start": 966.27,
+    "duration": 2.97
+  },
+  {
+    "text": "so let's look now we can get this right",
+    "start": 967.05,
+    "duration": 4.77
+  },
+  {
+    "text": "here's what I'm doing here I want a I",
+    "start": 969.24,
+    "duration": 5.46
+  },
+  {
+    "text": "want to be increasing not the row but",
+    "start": 971.82,
+    "duration": 4.83
+  },
+  {
+    "text": "the column I did it wrong I did it",
+    "start": 974.7,
+    "duration": 3.9
+  },
+  {
+    "text": "backwards do you guys like watching",
+    "start": 976.65,
+    "duration": 3.12
+  },
+  {
+    "text": "these videos where I try to figure it",
+    "start": 978.6,
+    "duration": 3.9
+  },
+  {
+    "text": "out I don't know it could I could just",
+    "start": 979.77,
+    "duration": 4.26
+  },
+  {
+    "text": "get it right the first time I could just",
+    "start": 982.5,
+    "duration": 3.15
+  },
+  {
+    "text": "like start over and get it right but",
+    "start": 984.03,
+    "duration": 5.37
+  },
+  {
+    "text": "what I'm doing is I'm every column of a",
+    "start": 985.65,
+    "duration": 9.63
+  },
+  {
+    "text": "which column is I'm actually using yes",
+    "start": 989.4,
+    "duration": 7.86
+  },
+  {
+    "text": "it's Col it's all its row I",
+    "start": 995.28,
+    "duration": 4.47
+  },
+  {
+    "text": "but I'm iterating over the columns of",
+    "start": 997.26,
+    "duration": 4.35
+  },
+  {
+    "text": "course of course of course",
+    "start": 999.75,
+    "duration": 7.01
+  },
+  {
+    "text": "so it is this J",
+    "start": 1001.61,
+    "duration": 5.15
+  },
+  {
+    "text": "so this is actually this is what I need",
+    "start": 1013.1,
+    "duration": 6.44
+  },
+  {
+    "text": "so what I should be able to say is",
+    "start": 1016.09,
+    "duration": 4.66
+  },
+  {
+    "text": "result",
+    "start": 1019.54,
+    "duration": 6.7
+  },
+  {
+    "text": "I need another loop for let K equals 0 K",
+    "start": 1020.75,
+    "duration": 8.16
+  },
+  {
+    "text": "is less than and I can use remember I",
+    "start": 1026.24,
+    "duration": 5.82
+  },
+  {
+    "text": "could use a column Zoar B's rows those",
+    "start": 1028.91,
+    "duration": 4.89
+  },
+  {
+    "text": "have to be the same so I'm gonna use a",
+    "start": 1032.06,
+    "duration": 11.25
+  },
+  {
+    "text": "as columns yes k plus plus and then I'm",
+    "start": 1033.8,
+    "duration": 12.779
+  },
+  {
+    "text": "first I need to say let sum equals 0 and",
+    "start": 1043.31,
+    "duration": 6.29
+  },
+  {
+    "text": "then I'm gonna say sum plus equal a",
+    "start": 1046.579,
+    "duration": 11.971
+  },
+  {
+    "text": "index I K plus B index K J this I think",
+    "start": 1049.6,
+    "duration": 12.97
+  },
+  {
+    "text": "is right and then I have to put that in",
+    "start": 1058.55,
+    "duration": 17.66
+  },
+  {
+    "text": "the result result result i J equals sum",
+    "start": 1062.57,
+    "duration": 16.53
+  },
+  {
+    "text": "so if I was using like some other vector",
+    "start": 1076.21,
+    "duration": 4.63
+  },
+  {
+    "text": "library I could like pull those out then",
+    "start": 1079.1,
+    "duration": 4.62
+  },
+  {
+    "text": "do the dot product but let's see here",
+    "start": 1080.84,
+    "duration": 5.19
+  },
+  {
+    "text": "let's make sure this is right I want to",
+    "start": 1083.72,
+    "duration": 6.09
+  },
+  {
+    "text": "for every element in the results I want",
+    "start": 1086.03,
+    "duration": 7.59
+  },
+  {
+    "text": "to sum the dot product of all of the",
+    "start": 1089.81,
+    "duration": 8.13
+  },
+  {
+    "text": "column spots in a that's K with all of",
+    "start": 1093.62,
+    "duration": 7.2
+  },
+  {
+    "text": "the row spots in B and then I've got the",
+    "start": 1097.94,
+    "duration": 6.63
+  },
+  {
+    "text": "result and lying 50s I'm seeing deep",
+    "start": 1100.82,
+    "duration": 6.15
+  },
+  {
+    "text": "space in the chat says lying 57 oh yes",
+    "start": 1104.57,
+    "duration": 4.86
+  },
+  {
+    "text": "sorry this needs to be multiplied so",
+    "start": 1106.97,
+    "duration": 3.93
+  },
+  {
+    "text": "these get multiplied I'm summing the",
+    "start": 1109.43,
+    "duration": 4.98
+  },
+  {
+    "text": "product of all those yes and of course",
+    "start": 1110.9,
+    "duration": 5.88
+  },
+  {
+    "text": "there are much faster ways I'm not",
+    "start": 1114.41,
+    "duration": 4.68
+  },
+  {
+    "text": "looking for any any efficiency here I'm",
+    "start": 1116.78,
+    "duration": 4.17
+  },
+  {
+    "text": "just trying to understand the algorithm",
+    "start": 1119.09,
+    "duration": 3.84
+  },
+  {
+    "text": "and make sure I have something that",
+    "start": 1120.95,
+    "duration": 8.28
+  },
+  {
+    "text": "works okay so now I need one more curly",
+    "start": 1122.93,
+    "duration": 12.51
+  },
+  {
+    "text": "bracket and I think if i zoom back out",
+    "start": 1129.23,
+    "duration": 9.57
+  },
+  {
+    "text": "here I think I am done this is the",
+    "start": 1135.44,
+    "duration": 6.9
+  },
+  {
+    "text": "algorithm right I have a new matrix that",
+    "start": 1138.8,
+    "duration": 6.509
+  },
+  {
+    "text": "has that is of the size of an",
+    "start": 1142.34,
+    "duration": 5.579
+  },
+  {
+    "text": "this I should do this down here the size",
+    "start": 1145.309,
+    "duration": 6.75
+  },
+  {
+    "text": "of A's rose and B is columns then I go",
+    "start": 1147.919,
+    "duration": 6.901
+  },
+  {
+    "text": "through it and I do the dot product of a",
+    "start": 1152.059,
+    "duration": 5.791
+  },
+  {
+    "text": "vector from of a row of a and a column",
+    "start": 1154.82,
+    "duration": 6.569
+  },
+  {
+    "text": "of B store that result okay",
+    "start": 1157.85,
+    "duration": 6.39
+  },
+  {
+    "text": "and B is here's another mistake B equals",
+    "start": 1161.389,
+    "duration": 5.431
+  },
+  {
+    "text": "n dot matrix right because the actual",
+    "start": 1164.24,
+    "duration": 6.36
+  },
+  {
+    "text": "two dimensional array is stored in a",
+    "start": 1166.82,
+    "duration": 7.319
+  },
+  {
+    "text": "variable called matrix it's not it's not",
+    "start": 1170.6,
+    "duration": 6.63
+  },
+  {
+    "text": "the it's the the object itself has the",
+    "start": 1174.139,
+    "duration": 5.701
+  },
+  {
+    "text": "data inside a variable okay so how are",
+    "start": 1177.23,
+    "duration": 4.98
+  },
+  {
+    "text": "we gonna test this I actually have a",
+    "start": 1179.84,
+    "duration": 5.49
+  },
+  {
+    "text": "sketch here so I'm gonna in that's a p5",
+    "start": 1182.21,
+    "duration": 4.949
+  },
+  {
+    "text": "sketch I may not even use anything about",
+    "start": 1185.33,
+    "duration": 4.169
+  },
+  {
+    "text": "p5 I'm gonna have a be a new matrix",
+    "start": 1187.159,
+    "duration": 7.951
+  },
+  {
+    "text": "that's 3 by 2 sorry 2 by 3 I'm going to",
+    "start": 1189.499,
+    "duration": 12.721
+  },
+  {
+    "text": "see the same for B which is 3 by 2 then",
+    "start": 1195.11,
+    "duration": 11.49
+  },
+  {
+    "text": "I'm going to say a a dot randomized B",
+    "start": 1202.22,
+    "duration": 9.24
+  },
+  {
+    "text": "dot randomized console.log a dot matrix",
+    "start": 1206.6,
+    "duration": 10.169
+  },
+  {
+    "text": "and console dot log and not dot log",
+    "start": 1211.46,
+    "duration": 12.99
+  },
+  {
+    "text": "table B dot matrix so let's take a look",
+    "start": 1216.769,
+    "duration": 12.181
+  },
+  {
+    "text": "at that okay so now I have to make two",
+    "start": 1224.45,
+    "duration": 6.75
+  },
+  {
+    "text": "matrices this is one and they with",
+    "start": 1228.95,
+    "duration": 4.41
+  },
+  {
+    "text": "random values in them so now I'm gonna",
+    "start": 1231.2,
+    "duration": 9.979
+  },
+  {
+    "text": "say let C equal a dot multiply B",
+    "start": 1233.36,
+    "duration": 7.819
+  },
+  {
+    "text": "oh I didn't get anything there oh oh I",
+    "start": 1254.059,
+    "duration": 6.75
+  },
+  {
+    "text": "didn't console.log it",
+    "start": 1259.429,
+    "duration": 6.771
+  },
+  {
+    "text": "oh man console table C dot matrix oh I",
+    "start": 1260.809,
+    "duration": 7.891
+  },
+  {
+    "text": "forgot about that part okay here we go",
+    "start": 1266.2,
+    "duration": 4.679
+  },
+  {
+    "text": "again",
+    "start": 1268.7,
+    "duration": 2.179
+  },
+  {
+    "text": "shoot all right so what's this error",
+    "start": 1276.549,
+    "duration": 11.47
+  },
+  {
+    "text": "sketch that jeaious line 11 cannot did",
+    "start": 1281.629,
+    "duration": 8.701
+  },
+  {
+    "text": "Isis forget to return it I forgot to",
+    "start": 1288.019,
+    "duration": 4.64
+  },
+  {
+    "text": "return it didn't I",
+    "start": 1290.33,
+    "duration": 5.219
+  },
+  {
+    "text": "okay you know what would be nice is that",
+    "start": 1292.659,
+    "duration": 5.35
+  },
+  {
+    "text": "the end of this I said return result and",
+    "start": 1295.549,
+    "duration": 6.12
+  },
+  {
+    "text": "this actually goes we're here right",
+    "start": 1298.009,
+    "duration": 6.66
+  },
+  {
+    "text": "I got a return to return that result all",
+    "start": 1301.669,
+    "duration": 5.81
+  },
+  {
+    "text": "right let's try this again",
+    "start": 1304.669,
+    "duration": 2.81
+  },
+  {
+    "text": "no I forgot hit save uh-oh I'm being",
+    "start": 1312.16,
+    "duration": 12.0
+  },
+  {
+    "text": "told breaking news breaking news the",
+    "start": 1320.68,
+    "duration": 6.03
+  },
+  {
+    "text": "return is in this for loop that's not",
+    "start": 1324.16,
+    "duration": 5.7
+  },
+  {
+    "text": "good oh right because this just the",
+    "start": 1326.71,
+    "duration": 4.44
+  },
+  {
+    "text": "return was in the for loop that's",
+    "start": 1329.86,
+    "duration": 3.6
+  },
+  {
+    "text": "terrible and this says results and it",
+    "start": 1331.15,
+    "duration": 4.41
+  },
+  {
+    "text": "should say results okay I'm feeling a",
+    "start": 1333.46,
+    "duration": 5.25
+  },
+  {
+    "text": "little bit a little bit more confident",
+    "start": 1335.56,
+    "duration": 15.26
+  },
+  {
+    "text": "now what what what oh oh oh my goodness",
+    "start": 1338.71,
+    "duration": 15.63
+  },
+  {
+    "text": "I'm completely losing my mind here so",
+    "start": 1350.82,
+    "duration": 4.75
+  },
+  {
+    "text": "it's very important to realize that",
+    "start": 1354.34,
+    "duration": 5.22
+  },
+  {
+    "text": "result is the matrix object ah the",
+    "start": 1355.57,
+    "duration": 6.81
+  },
+  {
+    "text": "matrix object has this array called",
+    "start": 1359.56,
+    "duration": 4.89
+  },
+  {
+    "text": "matrix which actually stores the values",
+    "start": 1362.38,
+    "duration": 4.11
+  },
+  {
+    "text": "and there's no like set function or",
+    "start": 1364.45,
+    "duration": 4.02
+  },
+  {
+    "text": "anything so what I actually really need",
+    "start": 1366.49,
+    "duration": 5.58
+  },
+  {
+    "text": "to put here is result dot matrix right",
+    "start": 1368.47,
+    "duration": 9.18
+  },
+  {
+    "text": "equals this result dot matrix equals no",
+    "start": 1372.07,
+    "duration": 7.77
+  },
+  {
+    "text": "and then return results right so I these",
+    "start": 1377.65,
+    "duration": 3.45
+  },
+  {
+    "text": "values that I'm calculating this",
+    "start": 1379.84,
+    "duration": 2.88
+  },
+  {
+    "text": "probably be like a set function or",
+    "start": 1381.1,
+    "duration": 2.4
+  },
+  {
+    "text": "something like that",
+    "start": 1382.72,
+    "duration": 2.31
+  },
+  {
+    "text": "and I probably should just created the",
+    "start": 1383.5,
+    "duration": 3.54
+  },
+  {
+    "text": "2d array here and then made a major but",
+    "start": 1385.03,
+    "duration": 3.87
+  },
+  {
+    "text": "whatever this is what it needs to be I",
+    "start": 1387.04,
+    "duration": 13.2
+  },
+  {
+    "text": "think we got it now oh boy oh oh this is",
+    "start": 1388.9,
+    "duration": 16.74
+  },
+  {
+    "text": "the worst I'm really doing a horrible so",
+    "start": 1400.24,
+    "duration": 7.23
+  },
+  {
+    "text": "I've done something terrible here but",
+    "start": 1405.64,
+    "duration": 3.36
+  },
+  {
+    "text": "hopefully you know you're watching this",
+    "start": 1407.47,
+    "duration": 3.21
+  },
+  {
+    "text": "video and maybe this is valuable to you",
+    "start": 1409.0,
+    "duration": 4.11
+  },
+  {
+    "text": "I have really conflated the idea of the",
+    "start": 1410.68,
+    "duration": 4.77
+  },
+  {
+    "text": "2d array that stores the values with the",
+    "start": 1413.11,
+    "duration": 4.05
+  },
+  {
+    "text": "object and I'm using it all sorts of",
+    "start": 1415.45,
+    "duration": 5.96
+  },
+  {
+    "text": "terrible ways so let's think about this",
+    "start": 1417.16,
+    "duration": 8.04
+  },
+  {
+    "text": "this is this is this is what I want a is",
+    "start": 1421.41,
+    "duration": 7.66
+  },
+  {
+    "text": "this B is n now I can get the rows and",
+    "start": 1425.2,
+    "duration": 6.81
+  },
+  {
+    "text": "columns but down here I really need to",
+    "start": 1429.07,
+    "duration": 9.75
+  },
+  {
+    "text": "say a dot matrix B dot matrix right and",
+    "start": 1432.01,
+    "duration": 10.88
+  },
+  {
+    "text": "and that goes into the resultant matrix",
+    "start": 1438.82,
+    "duration": 4.07
+  },
+  {
+    "text": "so I hopefully this is clear too",
+    "start": 1443.22,
+    "duration": 4.93
+  },
+  {
+    "text": "the issue let me try to rephrase it",
+    "start": 1446.02,
+    "duration": 4.62
+  },
+  {
+    "text": "again in case it's not there is this",
+    "start": 1448.15,
+    "duration": 5.25
+  },
+  {
+    "text": "idea of a matrix object it has three",
+    "start": 1450.64,
+    "duration": 4.8
+  },
+  {
+    "text": "properties the number of rows the number",
+    "start": 1453.4,
+    "duration": 4.8
+  },
+  {
+    "text": "of columns and the actual 2d array so",
+    "start": 1455.44,
+    "duration": 4.5
+  },
+  {
+    "text": "where I refer to the variable that's the",
+    "start": 1458.2,
+    "duration": 3.42
+  },
+  {
+    "text": "matrix object and I want to actually do",
+    "start": 1459.94,
+    "duration": 3.96
+  },
+  {
+    "text": "something to the data I have to say the",
+    "start": 1461.62,
+    "duration": 5.309
+  },
+  {
+    "text": "name of the object dot matrix and some",
+    "start": 1463.9,
+    "duration": 4.71
+  },
+  {
+    "text": "I'm forgetting to do that in so many",
+    "start": 1466.929,
+    "duration": 6.241
+  },
+  {
+    "text": "different places so what I'm gonna do",
+    "start": 1468.61,
+    "duration": 5.79
+  },
+  {
+    "text": "what I'm gonna look at down here is I",
+    "start": 1473.17,
+    "duration": 3.57
+  },
+  {
+    "text": "think now everything is correct if a and",
+    "start": 1474.4,
+    "duration": 4.62
+  },
+  {
+    "text": "B are the names of the objects I could",
+    "start": 1476.74,
+    "duration": 4.59
+  },
+  {
+    "text": "pull out the rows and columns from a and",
+    "start": 1479.02,
+    "duration": 4.32
+  },
+  {
+    "text": "then I could pull out the values from a",
+    "start": 1481.33,
+    "duration": 4.89
+  },
+  {
+    "text": "dot matrix and B dot matrix and set the",
+    "start": 1483.34,
+    "duration": 8.04
+  },
+  {
+    "text": "values in result dot matrix okay how",
+    "start": 1486.22,
+    "duration": 7.65
+  },
+  {
+    "text": "couldn't be confident I really should",
+    "start": 1491.38,
+    "duration": 5.06
+  },
+  {
+    "text": "not be confident this is a terrible idea",
+    "start": 1493.87,
+    "duration": 6.08
+  },
+  {
+    "text": "but I'm confident",
+    "start": 1496.44,
+    "duration": 3.51
+  },
+  {
+    "text": "okay so we finally got three things if",
+    "start": 1503.11,
+    "duration": 7.54
+  },
+  {
+    "text": "this is a and this is B this is a dot B",
+    "start": 1506.21,
+    "duration": 6.84
+  },
+  {
+    "text": "anybody want a fact check from me for",
+    "start": 1510.65,
+    "duration": 6.93
+  },
+  {
+    "text": "this coming the chat I don't I'm gonna",
+    "start": 1513.05,
+    "duration": 7.02
+  },
+  {
+    "text": "pop in a wait now this will get edited",
+    "start": 1517.58,
+    "duration": 7.5
+  },
+  {
+    "text": "out thank you thank you these numbers",
+    "start": 1520.07,
+    "duration": 6.27
+  },
+  {
+    "text": "are in fact correct I took a little",
+    "start": 1525.08,
+    "duration": 3.21
+  },
+  {
+    "text": "break there and check them they are",
+    "start": 1526.34,
+    "duration": 3.54
+  },
+  {
+    "text": "right I encourage you to pause the video",
+    "start": 1528.29,
+    "duration": 3.18
+  },
+  {
+    "text": "and check them yourself to see if you",
+    "start": 1529.88,
+    "duration": 3.03
+  },
+  {
+    "text": "understand how the library is working",
+    "start": 1531.47,
+    "duration": 3.12
+  },
+  {
+    "text": "one thing that actually could be really",
+    "start": 1532.91,
+    "duration": 2.34
+  },
+  {
+    "text": "useful",
+    "start": 1534.59,
+    "duration": 4.26
+  },
+  {
+    "text": "I don't ever employ tests never really",
+    "start": 1535.25,
+    "duration": 4.77
+  },
+  {
+    "text": "but I should learn about tests and I",
+    "start": 1538.85,
+    "duration": 2.67
+  },
+  {
+    "text": "should probably do some stuff with tests",
+    "start": 1540.02,
+    "duration": 3.0
+  },
+  {
+    "text": "on this channel so I think I might come",
+    "start": 1541.52,
+    "duration": 3.81
+  },
+  {
+    "text": "back and try to do some tests that would",
+    "start": 1543.02,
+    "duration": 4.23
+  },
+  {
+    "text": "if I ever change the code for this",
+    "start": 1545.33,
+    "duration": 4.38
+  },
+  {
+    "text": "matrix library to ensure that the math",
+    "start": 1547.25,
+    "duration": 4.53
+  },
+  {
+    "text": "still works so maybe someday I'll come",
+    "start": 1549.71,
+    "duration": 6.18
+  },
+  {
+    "text": "back and do that but and now yes there",
+    "start": 1551.78,
+    "duration": 5.61
+  },
+  {
+    "text": "needs to be a lot of tidying up and",
+    "start": 1555.89,
+    "duration": 3.03
+  },
+  {
+    "text": "refactoring I can use these array",
+    "start": 1557.39,
+    "duration": 2.88
+  },
+  {
+    "text": "functions and I'm gonna get to all that",
+    "start": 1558.92,
+    "duration": 4.32
+  },
+  {
+    "text": "but now we're ready the next video I can",
+    "start": 1560.27,
+    "duration": 7.05
+  },
+  {
+    "text": "take this matrix library this matrix",
+    "start": 1563.24,
+    "duration": 7.65
+  },
+  {
+    "text": "class and use it in my neural network",
+    "start": 1567.32,
+    "duration": 6.83
+  },
+  {
+    "text": "class to perform the feed-forward",
+    "start": 1570.89,
+    "duration": 5.85
+  },
+  {
+    "text": "algorithm of taking all these inputs",
+    "start": 1574.15,
+    "duration": 5.32
+  },
+  {
+    "text": "multiplying them by weights and getting",
+    "start": 1576.74,
+    "duration": 5.37
+  },
+  {
+    "text": "new outputs which then go into other",
+    "start": 1579.47,
+    "duration": 4.29
+  },
+  {
+    "text": "node they become inputs to a hidden",
+    "start": 1582.11,
+    "duration": 3.3
+  },
+  {
+    "text": "layer of nodes eccentric search I've",
+    "start": 1583.76,
+    "duration": 3.21
+  },
+  {
+    "text": "talked about that in the previous videos",
+    "start": 1585.41,
+    "duration": 3.18
+  },
+  {
+    "text": "and now I'm gonna come back and actually",
+    "start": 1586.97,
+    "duration": 4.14
+  },
+  {
+    "text": "do that címon in the chat makes a good",
+    "start": 1588.59,
+    "duration": 6.08
+  },
+  {
+    "text": "point where if you look at this class",
+    "start": 1591.11,
+    "duration": 7.46
+  },
+  {
+    "text": "all of these functions randomized ad",
+    "start": 1594.67,
+    "duration": 7.51
+  },
+  {
+    "text": "multiply up to multiply they change the",
+    "start": 1598.57,
+    "duration": 5.26
+  },
+  {
+    "text": "object that I'm calling the function on",
+    "start": 1602.18,
+    "duration": 5.73
+  },
+  {
+    "text": "so if I say matrix a I say a dot",
+    "start": 1603.83,
+    "duration": 6.42
+  },
+  {
+    "text": "randomized that matrix object actually",
+    "start": 1607.91,
+    "duration": 4.74
+  },
+  {
+    "text": "changes but in this with this matrix",
+    "start": 1610.25,
+    "duration": 3.9
+  },
+  {
+    "text": "product I'm not actually affecting the",
+    "start": 1612.65,
+    "duration": 4.44
+  },
+  {
+    "text": "object when I say a multiply B I don't",
+    "start": 1614.15,
+    "duration": 5.85
+  },
+  {
+    "text": "change the value of a I create a new a",
+    "start": 1617.09,
+    "duration": 7.05
+  },
+  {
+    "text": "new matrix object and return that value",
+    "start": 1620.0,
+    "duration": 7.56
+  },
+  {
+    "text": "so I probably should refactor the",
+    "start": 1624.14,
+    "duration": 8.37
+  },
+  {
+    "text": "library to do maybe that mult matrix",
+    "start": 1627.56,
+    "duration": 6.39
+  },
+  {
+    "text": "product in a slightly different way and",
+    "start": 1632.51,
+    "duration": 3.03
+  },
+  {
+    "text": "I could use something called a static",
+    "start": 1633.95,
+    "duration": 3.57
+  },
+  {
+    "text": "method so I'm like I'll come back maybe",
+    "start": 1635.54,
+    "duration": 3.57
+  },
+  {
+    "text": "in a later video when I refactor this a",
+    "start": 1637.52,
+    "duration": 2.85
+  },
+  {
+    "text": "little bit I wanted to mention that now",
+    "start": 1639.11,
+    "duration": 4.41
+  },
+  {
+    "text": "but it also reminded me there's one more",
+    "start": 1640.37,
+    "duration": 5.04
+  },
+  {
+    "text": "matrix operation that I need for the",
+    "start": 1643.52,
+    "duration": 3.45
+  },
+  {
+    "text": "neural network stuff I think I don't",
+    "start": 1645.41,
+    "duration": 2.97
+  },
+  {
+    "text": "actually need it for the feed-forward so",
+    "start": 1646.97,
+    "duration": 2.85
+  },
+  {
+    "text": "I could come back and do it after that",
+    "start": 1648.38,
+    "duration": 3.929
+  },
+  {
+    "text": "but I do need it for the training aspect",
+    "start": 1649.82,
+    "duration": 5.43
+  },
+  {
+    "text": "when I adjust and tune it based on the",
+    "start": 1652.309,
+    "duration": 4.321
+  },
+  {
+    "text": "width the guess is well I get to all",
+    "start": 1655.25,
+    "duration": 3.809
+  },
+  {
+    "text": "that later the thing that I need is to",
+    "start": 1656.63,
+    "duration": 5.37
+  },
+  {
+    "text": "transpose a matrix so how do I transpose",
+    "start": 1659.059,
+    "duration": 4.801
+  },
+  {
+    "text": "a matrix if I have a matrix a with a",
+    "start": 1662.0,
+    "duration": 4.02
+  },
+  {
+    "text": "certain number of rows and columns start",
+    "start": 1663.86,
+    "duration": 4.439
+  },
+  {
+    "text": "rows and columns the columns become the",
+    "start": 1666.02,
+    "duration": 4.17
+  },
+  {
+    "text": "rows the rows become the columns so",
+    "start": 1668.299,
+    "duration": 6.301
+  },
+  {
+    "text": "transposing this matrix would turn it",
+    "start": 1670.19,
+    "duration": 7.65
+  },
+  {
+    "text": "into this matrix okay so I'm going to",
+    "start": 1674.6,
+    "duration": 4.53
+  },
+  {
+    "text": "quickly in the next video write a",
+    "start": 1677.84,
+    "duration": 4.88
+  },
+  {
+    "text": "function that does exactly that",
+    "start": 1679.13,
+    "duration": 3.59
+  },
+  {
+    "text": "[Music]",
+    "start": 1685.13,
+    "duration": 6.819
+  }
+]

@@ -1,0 +1,537 @@
+Transcript for YouTube video: NgZAIkDcPkI
+--------------------------------------------------
+
+[0.1s - 7.2s] and we are here this is the video in
+[3.7s - 9.8s] this playlist which really comes right
+[7.2s - 12.6s] after 10.7 matrix backs part two this is
+[9.8s - 18.9s] matrix math part 3 where I am finally
+[12.6s - 18.9s] going to look at okay
+[19.0s - 28.5s] matrix multiplication or really I should
+[21.4s - 32.4s] say matrix multiplication okay so if you
+[28.5s - 33.5s] recall what I'm doing I know it looked
+[32.4s - 36.7s] quite different but I already covered
+[33.5s - 39.3s] that we'll bring this one was made a
+[36.7s - 42.6s] while ago anyway if I have a matrix
+[39.3s - 47.0s] right and what I mean by a matrix is a
+[42.6s - 53.5s] grid of values and let's say I have one
+[47.0s - 61.7s] that looks like this a b c d e this is a
+[53.5s - 63.5s] 3 no no it is a 2 by 3 matrix we always
+[61.7s - 66.0s] refer to the number of rows before the
+[63.5s - 69.8s] number of columns now what does it need
+[66.0s - 71.9s] and and and previously with when i made
+[69.8s - 73.3s] some videos just about vectors i talked
+[71.9s - 76.0s] about this thing called a dot product
+[73.3s - 78.4s] but i'm gonna change that here and write
+[76.0s - 82.0s] the matrix product so first of all what
+[78.4s - 83.8s] does it mean to multiply a matrix by by
+[82.0s - 86.1s] something i could just multiply this
+[83.8s - 87.8s] matrix by a single number and that's
+[86.1s - 89.4s] what's known as well it's not really
+[87.8s - 91.7s] that's what's known as scaler sorry
+[89.4s - 94.1s] scaler if i multiply this by a single
+[91.7s - 95.9s] number then I just say if this was a
+[94.1s - 97.4s] whole bunch of ones multiply it by two I
+[95.8s - 99.0s] got a whole bunch of two's you know if I
+[97.4s - 100.5s] multiply by two double every value in
+[99.0s - 103.1s] the matrix and I think actually now I
+[100.5s - 105.7s] did that in the previous video I could
+[103.1s - 108.9s] also do what's known as element wise
+[105.7s - 110.6s] multiplication and that is also referred
+[108.9s - 111.5s] to as the hata mard
+[110.6s - 113.7s] i don't know if i'm pronouncing that
+[111.5s - 115.3s] correctly and breaking new somebody in
+[113.7s - 117.3s] the live chat that's going on right now
+[115.3s - 119.3s] told me that it also son is called a
+[117.3s - 121.9s] short product and what that means is
+[119.3s - 126.2s] imagine I have another matrix that's
+[121.9s - 127.8s] exactly the same size as this one and in
+[126.2s - 132.5s] fact I could kind of do that little
+[127.8s - 134.8s] small over here and I could say G H I J
+[132.5s - 137.0s] k:l right so I could have another matrix
+[134.8s - 138.6s] if it's exactly the same size and mine
+[137.0s - 141.4s] if I multiplied these together I have a
+[138.6s - 144.5s] new matrix which is has a times G B
+[141.4s - 147.0s] times H C times I D times J element-wise
+[144.5s - 148.5s] each each element of the matrix get
+[146.9s - 152.4s] multiplied by its corresponding other
+[148.5s - 154.0s] element now I don't those are perfectly
+[152.4s - 155.9s] valid I'm looking for my eraser
+[154.0s - 159.3s] perfectly valid ways of doing
+[155.9s - 162.5s] multiplication oops but what I'm really
+[159.3s - 164.9s] interested in is the matrix product and
+[162.5s - 169.8s] the reason why I'm interested in the
+[164.9s - 172.4s] matrix product is because I want to use
+[169.8s - 176.0s] the matrix product for a neural network
+[172.4s - 179.1s] for example this node in a neural
+[176.0s - 184.1s] network is going to be the result of the
+[179.1s - 188.0s] weighted sum of all of the input nodes x
+[184.1s - 190.7s] weighted connections and this one is
+[188.0s - 192.8s] also going to be the weighted sum of all
+[190.7s - 194.3s] of the input nodes x weighted
+[192.8s - 197.3s] connections and so on and so forth and
+[194.3s - 201.6s] so these weights are stored in a matrix
+[197.3s - 204.6s] and the inputs come in in a matrix as
+[201.6s - 210.8s] well so if this is how I'm representing
+[204.6s - 215.7s] the inputs then you might discover that
+[210.8s - 218.1s] I have this matrix of all these weights
+[215.7s - 222.1s] that I need to multiply those inputs by
+[218.1s - 224.5s] to get the new values of the outputs of
+[222.1s - 226.9s] this hidden layer now anyway I kind of
+[224.5s - 229.3s] talked about that in a previous video
+[226.9s - 232.0s] and I'm going to talk about it a lot
+[229.3s - 234.2s] more in the next video when we look at
+[232.0s - 236.9s] this in more detail but the point here
+[234.2s - 238.6s] is that this idea of a matrix product is
+[236.9s - 240.3s] something that I'm going to need don't
+[238.6s - 242.7s] worry about the whole neural network
+[240.3s - 244.7s] thing I'm going to come back to that in
+[242.7s - 246.2s] next video and go through that in detail
+[244.7s - 248.8s] what I need to do here is just
+[246.2s - 251.5s] understand I know I need the matrix
+[248.8s - 253.0s] product how does it work and then we'll
+[251.5s - 255.4s] see how its applied in the neural
+[253.0s - 258.0s] network example ok so let's say that I
+[255.4s - 261.0s] have another I have a matrix a and I
+[258.0s - 263.6s] have another matrix B and that matrix is
+[261.0s - 269.6s] equal to
+[263.6s - 271.3s] g h i j k l I'm writing l like that so
+[269.6s - 274.8s] that I can see that it's not a 1 or
+[271.3s - 277.6s] whatever ok so I have these two matrices
+[274.8s - 280.0s] the way that I write the expression a
+[277.6s - 284.9s] matrix product B I'm gonna write it like
+[280.0s - 286.1s] this a dot B the dot is the indicator
+[284.9s - 287.6s] for the matrix product
+[286.1s - 290.8s] now what couple things that are really
+[287.6s - 293.9s] important here 1 the commutative
+[290.8s - 297.3s] property does not hold a dot B does not
+[293.9s - 298.7s] equal B dot a this is not true and
+[297.3s - 301.1s] you're gonna see why in a minute
+[298.7s - 303.1s] you know if I were to say 3 times 4
+[301.1s - 304.9s] that's equal to 4 times 3 they're both
+[303.1s - 306.4s] equal to 12 but again this matrix
+[304.9s - 308.4s] product is a different kind of
+[306.4s - 312.4s] multiplication this commutative property
+[308.4s - 312.4s] does not hold so that's kind of key
+[312.7s - 317.7s] another thing that's really important is
+[315.2s - 320.7s] the matrix product is something you
+[317.7s - 322.7s] could only do if the sizes of the
+[320.7s - 323.9s] matrices match up and what do I mean by
+[322.7s - 325.4s] that now one thing you might have
+[323.9s - 326.8s] thought but realize like if I was doing
+[325.4s - 329.0s] when I have that example the Hadamard
+[326.8s - 330.8s] product that's only gonna work if I have
+[329.0s - 333.3s] two matrices with the same exact
+[330.8s - 334.5s] dimensions right because if I if I don't
+[333.3s - 335.8s] have the same dimensions how can I
+[334.5s - 337.3s] multiply each element by the other
+[335.8s - 338.6s] element because some elements might not
+[337.3s - 340.0s] exist in one of them but something even
+[338.6s - 342.7s] completely different it's going to go on
+[340.0s - 347.3s] here I need to have for this to be valid
+[342.7s - 351.9s] I need to have the columns right the
+[347.3s - 354.6s] columns of a equal to the rows of B and
+[351.9s - 356.3s] you'll notice I made these do that so I
+[354.6s - 358.5s] have to have however many columns I have
+[356.3s - 360.6s] here 3 I have to have exactly the same
+[358.5s - 364.7s] number of rows and B otherwise this
+[360.6s - 366.2s] won't work and the reason is what I'm
+[364.7s - 368.1s] actually going to do is the reason why I
+[366.2s - 371.1s] use this dot here is I'm going to use
+[368.1s - 373.0s] the vector dot product vector dot
+[371.1s - 375.0s] product so you might have to go back to
+[373.0s - 376.4s] one of my previous videos where I talked
+[375.0s - 378.7s] about the vector dot product or gonna do
+[376.4s - 380.9s] it here again but what the vector dot
+[378.7s - 384.1s] product does is it takes kind of like
+[380.9s - 386.9s] the sum of all the elements multiplied
+[384.1s - 389.3s] the element wise elements both tied to
+[386.9s - 392.9s] each other what do I mean by that so if
+[389.3s - 397.5s] I say a dot B I'm gonna get when I when
+[392.9s - 399.8s] I take one matrix the a matrix product B
+[397.5s - 401.2s] result is also going to be a matrix now
+[399.8s - 401.9s] how do I know the dimensions of that
+[401.2s - 404.6s] matrix
+[401.9s - 410.9s] it's going to have the number of rows of
+[404.6s - 415.7s] a which is how many - followed by the
+[410.9s - 417.5s] number of columns of B what - so in the
+[415.7s - 419.1s] enemy in a 2 by 2 matrix now this is
+[417.5s - 421.2s] gonna be different with any all
+[419.1s - 422.5s] different matrix dimensions and after
+[421.2s - 423.8s] you watch this video you can make up
+[422.5s - 425.4s] lots of different matrices and play a
+[423.8s - 427.5s] game with yourself to like do this
+[425.4s - 429.3s] matrix product with pencil and paper boy
+[427.5s - 429.6s] won't that be fine I'm gonna go do that
+[429.3s - 432.6s] later
+[429.6s - 435.1s] myself I'm sure um but here we can see
+[432.6s - 437.6s] I'm gonna get a square 2 by 2 matrix now
+[435.1s - 440.2s] what am I doing here how do I fill in
+[437.6s - 443.2s] each of these blanks so I'm gonna just
+[440.2s - 447.0s] put a little blank square here I know I
+[443.2s - 450.6s] need to buy two well what I do is I take
+[447.0s - 455.1s] the dot product of the row of the first
+[450.6s - 458.3s] one with the cup of the row of a with
+[455.1s - 461.1s] the column of B right so it's almost
+[458.4s - 464.1s] kind of like the intersection this first
+[461.1s - 466.3s] element right I gotta get the first row
+[464.1s - 467.6s] of a and the first column of B that's
+[466.3s - 470.8s] why they have to have the same number of
+[467.6s - 473.5s] rows and B as columns an a so what this
+[470.8s - 476.2s] actually is this value here is the dot
+[473.5s - 479.2s] product of these two vectors which is
+[476.2s - 489.5s] actually let me just come over here
+[479.2s - 493.4s] which is a times G Plus B times I plus C
+[489.5s - 496.4s] times I ok so that's this element here
+[493.4s - 502.2s] now let's do this element here well I'm
+[496.4s - 504.8s] in row 1 so I stay with Row 1 of a but
+[502.1s - 509.4s] now I'm in column 2 so I go to column 2
+[504.8s - 519.6s] of B so now this particular value is a
+[509.4s - 522.1s] times H plus B times J plus C times L
+[519.6s - 525.1s] okay that's good
+[522.1s - 530.2s] now let me do this one this one is the
+[525.1s - 531.3s] second row times the first row the first
+[530.2s - 535.1s] column of B
+[531.3s - 538.5s] D times G + e times I plus F times K and
+[535.1s - 541.0s] then this one here is going to be the
+[538.5s - 544.7s] second row times the second column D
+[541.0s - 548.0s] times H + e times J plus F times L ok so
+[544.7s - 550.8s] that's the math for any arbitrary set of
+[548.0s - 553.2s] matrices you take the dot product of all
+[550.8s - 555.4s] the rows with the columns to fill out
+[553.2s - 557.9s] your resulting matrix product and you
+[555.4s - 563.4s] must have the same number of columns in
+[557.9s - 565.1s] a as rows of B ok so pause this video if
+[563.4s - 566.9s] you want try to draw some diagrams
+[565.1s - 568.3s] google matrix product google image
+[566.9s - 570.0s] search matrix product you probably come
+[568.3s - 572.6s] up with a million visual examples of
+[570.0s - 573.8s] this watch three blue one browns videos
+[572.6s - 575.9s] on lunar algebra which will probably
+[573.8s - 579.1s] teach dozen a much more intuitive and
+[575.9s - 580.3s] nice way but I don't link to that in
+[579.1s - 582.0s] this video's description I'm now going
+[580.3s - 585.0s] to try to implement this matrix product
+[582.0s - 587.1s] even code minor correction hopefully I
+[585.0s - 590.1s] said the right thing but I do have
+[587.1s - 596.8s] something wrong here a times G B times I
+[590.1s - 599.4s] C times K this should be a K right here
+[596.8s - 601.8s] okay so let's try to implement the math
+[599.4s - 603.5s] for this so where I'm gonna do this is
+[601.8s - 605.2s] in the multiply function and I had
+[603.5s - 607.2s] written that before to do scalar
+[605.2s - 609.5s] multiplication and I'm gonna do the same
+[607.2s - 611.6s] thing I did an ad where I'm gonna check
+[609.5s - 615.2s] what is the thing coming in is it a
+[611.6s - 616.3s] matrix or is it a scalar or etc so I'm
+[615.2s - 619.7s] not going to bother with the Hadamard
+[616.3s - 622.1s] product I'll add that into this matrix
+[619.7s - 624.1s] library if I ever need it but I'm just
+[622.1s - 627.3s] going to check is N and instance of a
+[624.1s - 634.4s] matrix if that's so then I want to do
+[627.3s - 634.4s] matrix product otherwise I want to do
+[635.0s - 640.6s] scalar product okay so now I need to
+[639.0s - 645.0s] write the code for the matrix product
+[640.6s - 647.6s] right there but first I must check are
+[645.0s - 649.4s] the columns of a equal to the rows of B
+[647.6s - 651.5s] otherwise I cannot perform the matrix
+[649.4s - 656.7s] product at all so I'm going to come over
+[651.5s - 662.0s] here and I'm gonna say if I mean the
+[656.7s - 664.7s] right screen yes if the a is this matrix
+[662.0s - 667.6s] object if this dot Rose
+[664.7s - 671.8s] know if it stud columns does not equal
+[667.6s - 675.2s] and rose I kind of don't like that this
+[671.8s - 678.0s] is called n here but whatever just then
+[675.2s - 682.2s] and I'll use this more strict equals
+[678.0s - 683.8s] here then I D to return like undefined
+[682.2s - 686.5s] or something like just get out of here
+[683.8s - 693.0s] this is no good and I'm going to console
+[686.5s - 697.0s] dot log columns of a must match rows of
+[693.0s - 698.5s] B columns now I could be more thoughtful
+[697.0s - 699.7s] and I can use a try-catch with some
+[698.5s - 701.6s] error handling but I'm just going to do
+[699.7s - 703.5s] this for right now just to be some and
+[701.6s - 707.2s] let's actually make sure this works so
+[703.5s - 711.8s] if I go back to loading that code and I
+[707.2s - 717.3s] said something like a is a matrix that
+[711.8s - 724.0s] is three by three and B is a matrix that
+[717.3s - 726.9s] is five by ten if I say a multiply B I
+[724.0s - 728.7s] get undefined and it says columns of a
+[726.9s - 735.4s] must match rows of B so that's working
+[728.7s - 735.4s] and I could just say B is a matrix of
+[737.0s - 743.8s] five by sorry three by three also then
+[740.8s - 745.4s] they match and I'm say a multiply B I
+[743.8s - 746.3s] still get under fine because I have done
+[745.4s - 750.5s] it yet but I don't get that error
+[746.3s - 756.5s] message okay so now I need to create a
+[750.5s - 762.5s] new matrix so I'm just say the result is
+[756.5s - 766.2s] a new matrix that has the number of what
+[762.5s - 770.8s] did I say it has the number of rows of a
+[766.2s - 774.6s] and the number of columns of B so it has
+[770.8s - 780.6s] the number of rows of a and the number
+[774.6s - 782.4s] of columns of B come on Adam keeps
+[780.6s - 785.1s] wanting me to put my password in okay
+[782.4s - 793.2s] all right so that's good now I need to
+[785.1s - 793.2s] do each spot so for each row whoops
+[797.0s - 814.9s] for each row and for each column I need
+[807.6s - 816.0s] to do the dot product of that lips first
+[814.9s - 820.2s] of all I have an error before I can do
+[816.0s - 824.5s] this I have an error here and what I
+[820.2s - 827.1s] want is if I'm at 0-0 I want all of the
+[824.5s - 832.8s] values I want to do the sum of all of
+[827.1s - 837.7s] the values well so I want let's just do
+[832.8s - 849.1s] this manually in this case it would be
+[837.7s - 854.0s] this dot matrix I times and matrix J
+[849.1s - 856.2s] sorry I I need yeah I need another
+[854.0s - 863.1s] double nested loop in here right because
+[856.2s - 871.0s] I'm going to take this and add I plus
+[863.1s - 877.5s] plus one but staying in J J plus 1 right
+[871.0s - 879.4s] is this right I plus 2 J plus 2 I mean
+[877.5s - 881.6s] this isn't I'm making this up because I
+[879.4s - 883.5s] don't I'm doing this an arbitrary way we
+[881.6s - 885.1s] don't know what the actual rows this
+[883.5s - 890.5s] this just goes up depending on the
+[885.1s - 895.1s] number of of rows columns there are all
+[890.5s - 897.9s] right right so maybe I only need one
+[895.1s - 901.2s] loop here because I need one loop so
+[897.9s - 906.8s] what's that know because these could be
+[901.2s - 908.1s] different yeah k week Mon is telling me
+[906.8s - 912.5s] in the chat another way of thinking
+[908.1s - 914.8s] about this is I could say and you know
+[912.5s - 916.3s] what would might be nice actually one
+[914.8s - 917.9s] thing that I could do here just at least
+[916.3s - 921.5s] I think it's gonna help me work this out
+[917.9s - 926.7s] is I could say let a equal this dot
+[921.5s - 929.4s] matrix and let B equal end
+[926.7s - 933.3s] just to have variables called a and B
+[929.4s - 935.8s] for the two different matrices and this
+[933.3s - 940.9s] is still the result but in other words
+[935.8s - 949.9s] what I'm saying is a and this is B so a
+[940.9s - 955.8s] I K B KJ so it's a little Olin let me
+[949.9s - 958.3s] with K sum over K so hold on so let me
+[955.8s - 966.3s] put this here did I get this wrong this
+[958.3s - 967.0s] is B is it yes so you know what's wrong
+[966.3s - 969.2s] about this
+[967.0s - 971.8s] so let's look now we can get this right
+[969.2s - 974.7s] here's what I'm doing here I want a I
+[971.8s - 976.7s] want to be increasing not the row but
+[974.7s - 978.6s] the column I did it wrong I did it
+[976.6s - 979.8s] backwards do you guys like watching
+[978.6s - 982.5s] these videos where I try to figure it
+[979.8s - 984.0s] out I don't know it could I could just
+[982.5s - 985.6s] get it right the first time I could just
+[984.0s - 989.4s] like start over and get it right but
+[985.6s - 995.3s] what I'm doing is I'm every column of a
+[989.4s - 997.3s] which column is I'm actually using yes
+[995.3s - 999.8s] it's Col it's all its row I
+[997.3s - 1001.6s] but I'm iterating over the columns of
+[999.8s - 1006.8s] course of course of course
+[1001.6s - 1006.8s] so it is this J
+[1013.1s - 1019.5s] so this is actually this is what I need
+[1016.1s - 1020.8s] so what I should be able to say is
+[1019.5s - 1026.2s] result
+[1020.8s - 1028.9s] I need another loop for let K equals 0 K
+[1026.2s - 1032.1s] is less than and I can use remember I
+[1028.9s - 1033.8s] could use a column Zoar B's rows those
+[1032.1s - 1043.3s] have to be the same so I'm gonna use a
+[1033.8s - 1046.6s] as columns yes k plus plus and then I'm
+[1043.3s - 1049.6s] first I need to say let sum equals 0 and
+[1046.6s - 1058.5s] then I'm gonna say sum plus equal a
+[1049.6s - 1062.6s] index I K plus B index K J this I think
+[1058.5s - 1076.2s] is right and then I have to put that in
+[1062.6s - 1079.1s] the result result result i J equals sum
+[1076.2s - 1080.8s] so if I was using like some other vector
+[1079.1s - 1083.7s] library I could like pull those out then
+[1080.8s - 1086.0s] do the dot product but let's see here
+[1083.7s - 1089.8s] let's make sure this is right I want to
+[1086.0s - 1093.6s] for every element in the results I want
+[1089.8s - 1097.9s] to sum the dot product of all of the
+[1093.6s - 1100.8s] column spots in a that's K with all of
+[1097.9s - 1104.6s] the row spots in B and then I've got the
+[1100.8s - 1107.0s] result and lying 50s I'm seeing deep
+[1104.6s - 1109.4s] space in the chat says lying 57 oh yes
+[1107.0s - 1110.9s] sorry this needs to be multiplied so
+[1109.4s - 1114.4s] these get multiplied I'm summing the
+[1110.9s - 1116.8s] product of all those yes and of course
+[1114.4s - 1119.1s] there are much faster ways I'm not
+[1116.8s - 1121.0s] looking for any any efficiency here I'm
+[1119.1s - 1122.9s] just trying to understand the algorithm
+[1121.0s - 1129.2s] and make sure I have something that
+[1122.9s - 1135.4s] works okay so now I need one more curly
+[1129.2s - 1138.8s] bracket and I think if i zoom back out
+[1135.4s - 1142.3s] here I think I am done this is the
+[1138.8s - 1145.3s] algorithm right I have a new matrix that
+[1142.3s - 1147.9s] has that is of the size of an
+[1145.3s - 1152.1s] this I should do this down here the size
+[1147.9s - 1154.8s] of A's rose and B is columns then I go
+[1152.1s - 1157.8s] through it and I do the dot product of a
+[1154.8s - 1161.4s] vector from of a row of a and a column
+[1157.8s - 1164.2s] of B store that result okay
+[1161.4s - 1166.8s] and B is here's another mistake B equals
+[1164.2s - 1170.6s] n dot matrix right because the actual
+[1166.8s - 1174.1s] two dimensional array is stored in a
+[1170.6s - 1177.2s] variable called matrix it's not it's not
+[1174.1s - 1179.8s] the it's the the object itself has the
+[1177.2s - 1182.2s] data inside a variable okay so how are
+[1179.8s - 1185.3s] we gonna test this I actually have a
+[1182.2s - 1187.2s] sketch here so I'm gonna in that's a p5
+[1185.3s - 1189.5s] sketch I may not even use anything about
+[1187.2s - 1195.1s] p5 I'm gonna have a be a new matrix
+[1189.5s - 1202.2s] that's 3 by 2 sorry 2 by 3 I'm going to
+[1195.1s - 1206.6s] see the same for B which is 3 by 2 then
+[1202.2s - 1211.5s] I'm going to say a a dot randomized B
+[1206.6s - 1216.8s] dot randomized console.log a dot matrix
+[1211.5s - 1224.5s] and console dot log and not dot log
+[1216.8s - 1229.0s] table B dot matrix so let's take a look
+[1224.5s - 1231.2s] at that okay so now I have to make two
+[1229.0s - 1233.4s] matrices this is one and they with
+[1231.2s - 1241.2s] random values in them so now I'm gonna
+[1233.4s - 1241.2s] say let C equal a dot multiply B
+[1254.1s - 1260.8s] oh I didn't get anything there oh oh I
+[1259.4s - 1266.2s] didn't console.log it
+[1260.8s - 1268.7s] oh man console table C dot matrix oh I
+[1266.2s - 1270.9s] forgot about that part okay here we go
+[1268.7s - 1270.9s] again
+[1276.5s - 1288.0s] shoot all right so what's this error
+[1281.6s - 1290.3s] sketch that jeaious line 11 cannot did
+[1288.0s - 1292.7s] Isis forget to return it I forgot to
+[1290.3s - 1295.5s] return it didn't I
+[1292.7s - 1298.0s] okay you know what would be nice is that
+[1295.5s - 1301.7s] the end of this I said return result and
+[1298.0s - 1304.7s] this actually goes we're here right
+[1301.7s - 1307.5s] I got a return to return that result all
+[1304.7s - 1307.5s] right let's try this again
+[1312.2s - 1324.2s] no I forgot hit save uh-oh I'm being
+[1320.7s - 1326.7s] told breaking news breaking news the
+[1324.2s - 1329.9s] return is in this for loop that's not
+[1326.7s - 1331.2s] good oh right because this just the
+[1329.9s - 1333.5s] return was in the for loop that's
+[1331.2s - 1335.6s] terrible and this says results and it
+[1333.5s - 1338.7s] should say results okay I'm feeling a
+[1335.6s - 1350.8s] little bit a little bit more confident
+[1338.7s - 1354.3s] now what what what oh oh oh my goodness
+[1350.8s - 1355.6s] I'm completely losing my mind here so
+[1354.3s - 1359.6s] it's very important to realize that
+[1355.6s - 1362.4s] result is the matrix object ah the
+[1359.6s - 1364.5s] matrix object has this array called
+[1362.4s - 1366.5s] matrix which actually stores the values
+[1364.5s - 1368.5s] and there's no like set function or
+[1366.5s - 1372.1s] anything so what I actually really need
+[1368.5s - 1377.7s] to put here is result dot matrix right
+[1372.1s - 1379.8s] equals this result dot matrix equals no
+[1377.7s - 1381.1s] and then return results right so I these
+[1379.8s - 1382.7s] values that I'm calculating this
+[1381.1s - 1383.5s] probably be like a set function or
+[1382.7s - 1385.0s] something like that
+[1383.5s - 1387.0s] and I probably should just created the
+[1385.0s - 1388.9s] 2d array here and then made a major but
+[1387.0s - 1400.2s] whatever this is what it needs to be I
+[1388.9s - 1405.6s] think we got it now oh boy oh oh this is
+[1400.2s - 1407.5s] the worst I'm really doing a horrible so
+[1405.6s - 1409.0s] I've done something terrible here but
+[1407.5s - 1410.7s] hopefully you know you're watching this
+[1409.0s - 1413.1s] video and maybe this is valuable to you
+[1410.7s - 1415.5s] I have really conflated the idea of the
+[1413.1s - 1417.2s] 2d array that stores the values with the
+[1415.5s - 1421.4s] object and I'm using it all sorts of
+[1417.2s - 1425.2s] terrible ways so let's think about this
+[1421.4s - 1429.1s] this is this is this is what I want a is
+[1425.2s - 1432.0s] this B is n now I can get the rows and
+[1429.1s - 1438.8s] columns but down here I really need to
+[1432.0s - 1442.9s] say a dot matrix B dot matrix right and
+[1438.8s - 1442.9s] and that goes into the resultant matrix
+[1443.2s - 1448.2s] so I hopefully this is clear too
+[1446.0s - 1450.6s] the issue let me try to rephrase it
+[1448.2s - 1453.4s] again in case it's not there is this
+[1450.6s - 1455.4s] idea of a matrix object it has three
+[1453.4s - 1458.2s] properties the number of rows the number
+[1455.4s - 1459.9s] of columns and the actual 2d array so
+[1458.2s - 1461.6s] where I refer to the variable that's the
+[1459.9s - 1463.9s] matrix object and I want to actually do
+[1461.6s - 1466.9s] something to the data I have to say the
+[1463.9s - 1468.6s] name of the object dot matrix and some
+[1466.9s - 1473.2s] I'm forgetting to do that in so many
+[1468.6s - 1474.4s] different places so what I'm gonna do
+[1473.2s - 1476.7s] what I'm gonna look at down here is I
+[1474.4s - 1479.0s] think now everything is correct if a and
+[1476.7s - 1481.3s] B are the names of the objects I could
+[1479.0s - 1483.3s] pull out the rows and columns from a and
+[1481.3s - 1486.2s] then I could pull out the values from a
+[1483.3s - 1491.4s] dot matrix and B dot matrix and set the
+[1486.2s - 1493.9s] values in result dot matrix okay how
+[1491.4s - 1496.4s] couldn't be confident I really should
+[1493.9s - 1499.9s] not be confident this is a terrible idea
+[1496.4s - 1500.0s] but I'm confident
+[1503.1s - 1510.6s] okay so we finally got three things if
+[1506.2s - 1513.0s] this is a and this is B this is a dot B
+[1510.7s - 1517.6s] anybody want a fact check from me for
+[1513.0s - 1520.1s] this coming the chat I don't I'm gonna
+[1517.6s - 1525.1s] pop in a wait now this will get edited
+[1520.1s - 1526.3s] out thank you thank you these numbers
+[1525.1s - 1528.3s] are in fact correct I took a little
+[1526.3s - 1529.9s] break there and check them they are
+[1528.3s - 1531.5s] right I encourage you to pause the video
+[1529.9s - 1532.9s] and check them yourself to see if you
+[1531.5s - 1534.6s] understand how the library is working
+[1532.9s - 1535.2s] one thing that actually could be really
+[1534.6s - 1538.8s] useful
+[1535.2s - 1540.0s] I don't ever employ tests never really
+[1538.8s - 1541.5s] but I should learn about tests and I
+[1540.0s - 1543.0s] should probably do some stuff with tests
+[1541.5s - 1545.3s] on this channel so I think I might come
+[1543.0s - 1547.2s] back and try to do some tests that would
+[1545.3s - 1549.7s] if I ever change the code for this
+[1547.2s - 1551.8s] matrix library to ensure that the math
+[1549.7s - 1555.9s] still works so maybe someday I'll come
+[1551.8s - 1557.4s] back and do that but and now yes there
+[1555.9s - 1558.9s] needs to be a lot of tidying up and
+[1557.4s - 1560.3s] refactoring I can use these array
+[1558.9s - 1563.2s] functions and I'm gonna get to all that
+[1560.3s - 1567.3s] but now we're ready the next video I can
+[1563.2s - 1570.9s] take this matrix library this matrix
+[1567.3s - 1574.1s] class and use it in my neural network
+[1570.9s - 1576.7s] class to perform the feed-forward
+[1574.2s - 1579.5s] algorithm of taking all these inputs
+[1576.7s - 1582.1s] multiplying them by weights and getting
+[1579.5s - 1583.8s] new outputs which then go into other
+[1582.1s - 1585.4s] node they become inputs to a hidden
+[1583.8s - 1587.0s] layer of nodes eccentric search I've
+[1585.4s - 1588.6s] talked about that in the previous videos
+[1587.0s - 1591.1s] and now I'm gonna come back and actually
+[1588.6s - 1594.7s] do that címon in the chat makes a good
+[1591.1s - 1598.6s] point where if you look at this class
+[1594.7s - 1602.2s] all of these functions randomized ad
+[1598.6s - 1603.8s] multiply up to multiply they change the
+[1602.2s - 1607.9s] object that I'm calling the function on
+[1603.8s - 1610.2s] so if I say matrix a I say a dot
+[1607.9s - 1612.7s] randomized that matrix object actually
+[1610.2s - 1614.2s] changes but in this with this matrix
+[1612.7s - 1617.1s] product I'm not actually affecting the
+[1614.2s - 1620.0s] object when I say a multiply B I don't
+[1617.1s - 1624.1s] change the value of a I create a new a
+[1620.0s - 1627.6s] new matrix object and return that value
+[1624.1s - 1632.5s] so I probably should refactor the
+[1627.6s - 1634.0s] library to do maybe that mult matrix
+[1632.5s - 1635.5s] product in a slightly different way and
+[1634.0s - 1637.5s] I could use something called a static
+[1635.5s - 1639.1s] method so I'm like I'll come back maybe
+[1637.5s - 1640.4s] in a later video when I refactor this a
+[1639.1s - 1643.5s] little bit I wanted to mention that now
+[1640.4s - 1645.4s] but it also reminded me there's one more
+[1643.5s - 1647.0s] matrix operation that I need for the
+[1645.4s - 1648.4s] neural network stuff I think I don't
+[1647.0s - 1649.8s] actually need it for the feed-forward so
+[1648.4s - 1652.3s] I could come back and do it after that
+[1649.8s - 1655.2s] but I do need it for the training aspect
+[1652.3s - 1656.6s] when I adjust and tune it based on the
+[1655.2s - 1659.1s] width the guess is well I get to all
+[1656.6s - 1662.0s] that later the thing that I need is to
+[1659.1s - 1663.9s] transpose a matrix so how do I transpose
+[1662.0s - 1666.0s] a matrix if I have a matrix a with a
+[1663.9s - 1668.3s] certain number of rows and columns start
+[1666.0s - 1670.2s] rows and columns the columns become the
+[1668.3s - 1674.6s] rows the rows become the columns so
+[1670.2s - 1677.8s] transposing this matrix would turn it
+[1674.6s - 1679.1s] into this matrix okay so I'm going to
+[1677.8s - 1682.7s] quickly in the next video write a
+[1679.1s - 1682.7s] function that does exactly that
+[1685.1s - 1691.9s] [Music]

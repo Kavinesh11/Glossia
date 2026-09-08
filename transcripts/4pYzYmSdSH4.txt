@@ -1,0 +1,748 @@
+Transcript for YouTube video: 4pYzYmSdSH4
+--------------------------------------------------
+
+[5.5s - 9.8s] I'm really excited for this next
+[8.1s - 11.8s] section. Uh, so we'll be doing a
+[9.8s - 13.5s] fireside chat with Andrew Wing. And
+[11.8s - 15.2s] Andrew probably doesn't need any
+[13.5s - 16.8s] introduction to most folks here. I'm
+[15.2s - 19.4s] guessing a lot of people have taken some
+[16.8s - 21.8s] of his classes on Corsera or deep
+[19.4s - 24.2s] learning. Um, but Andrew's also been a
+[21.8s - 26.6s] big part of the lane chain story. So, I
+[24.2s - 29.1s] met I met Andrew a little over two years
+[26.6s - 30.8s] ago at at at a conference um when we
+[29.1s - 32.9s] started talking about Lingchain and he
+[30.8s - 34.7s] he he graciously invited us to do a
+[32.9s - 37.1s] course on Lingchain with deep learning.
+[34.7s - 39.0s] I think it must have been the second or
+[37.1s - 40.9s] third one that they they they ever did
+[39.0s - 42.3s] and I know a lot of people here probably
+[40.9s - 44.2s] watched that course or got started on
+[42.3s - 47.0s] Lingchain because of that course. So,
+[44.2s - 49.0s] Andrew has been a huge part of the Lang
+[47.0s - 51.0s] Chain journey and I'm super excited to
+[49.0s - 54.6s] welcome him on stage for a fireside
+[51.0s - 55.6s] chat. So, let's welcome Andrew in.
+[54.6s - 59.9s] [Music]
+[55.6s - 62.6s] [Applause]
+[59.9s - 62.6s] Thanks for being
+[62.8s - 67.5s] [Music]
+[65.0s - 69.8s] here. But, by the way, Harrison was
+[67.5s - 72.5s] really kind. Um, I think Harrison and
+[69.8s - 75.3s] his team has taught six short causes so
+[72.5s - 77.5s] far on deep learning.AI and our metrics
+[75.3s - 79.9s] by net promoter score and so on are that
+[77.5s - 82.2s] Harrison's causes are among our most
+[79.9s - 83.8s] highly rated. So, go take all of
+[82.2s - 85.7s] Harrison's courses. I think the recent
+[83.8s - 87.9s] Langrath one had the clearest
+[85.7s - 89.8s] explanation I have seen myself of a
+[87.9s - 91.5s] bunch of agent concepts. So, they
+[89.8s - 93.5s] they've definitely helped make our our
+[91.5s - 96.2s] courses and explanations better. So,
+[93.5s - 99.1s] thank you guys for that as well. Um,
+[96.2s - 100.8s] you've obviously touched and thought
+[99.1s - 103.0s] about so many things in this industry,
+[100.8s - 105.4s] but one of one of your takes that I cite
+[103.0s - 107.4s] a lot and and and probably people have
+[105.4s - 109.3s] have heard me talk about is your take on
+[107.4s - 112.2s] kind of like talking about the
+[109.3s - 113.8s] agenticness of an application as opposed
+[112.2s - 116.0s] to whether something is an agent. And
+[113.8s - 117.5s] so, you know, as we're here now at an
+[116.0s - 119.7s] agent conference, maybe we should rename
+[117.5s - 121.8s] it to an agentic conference, but would
+[119.7s - 123.8s] you mind kind of like clarifying that?
+[121.8s - 125.1s] and and I think it was like almost a
+[123.8s - 126.6s] year and a half two years ago that you
+[125.1s - 129.0s] said that and so I'm curious if things
+[126.6s - 131.0s] have changed in your mind since then. So
+[129.0s - 133.3s] I I remember actually Harris and I spoke
+[131.0s - 135.5s] both spoke at a conference like a year
+[133.3s - 137.1s] over a year ago and at that time I think
+[135.5s - 139.2s] both of us were trying to convince other
+[137.1s - 141.2s] people that agents are a thing and we
+[139.2s - 142.8s] should pay attention to it. And uh that
+[141.2s - 144.9s] was before maybe I think it was
+[142.8s - 147.2s] midsummer last year that a bunch of
+[144.9s - 149.0s] marketers got a hold of the agentic term
+[147.2s - 151.1s] and started sticking that sticker
+[149.0s - 153.0s] everywhere until last meeting. But to to
+[151.1s - 154.5s] Herren's question, I think about a year
+[153.0s - 156.3s] and a half ago, I saw that a lot of
+[154.5s - 157.8s] people are arguing is this an agent, is
+[156.3s - 159.6s] this not there different, you know,
+[157.8s - 162.2s] arguments. Is it truly autonomous not to
+[159.6s - 164.3s] an agent? And I felt that um it was fine
+[162.2s - 166.2s] to have that argument, but that we would
+[164.3s - 167.7s] succeed better as a community if we just
+[166.2s - 170.4s] say that there degrees to which
+[167.7s - 172.1s] something is agentic. So um and then if
+[170.4s - 173.7s] we just say if you want to build an
+[172.1s - 175.8s] agentic system with a little bit of
+[173.7s - 178.0s] autonomy or a lot of autonomy is all
+[175.8s - 180.1s] fine. No need to spend time arguing is
+[178.0s - 182.2s] this truly an agent. Let's just call all
+[180.1s - 184.7s] of these things agentic systems with
+[182.2s - 187.0s] different degrees of autonomy. Um, and I
+[184.7s - 189.2s] think that actually hopefully reduce the
+[187.0s - 191.0s] amount of time people wasted spend
+[189.2s - 192.6s] arguing of something as an agent and
+[191.0s - 194.4s] let's just call them all agentic and
+[192.6s - 196.7s] then and then get on with it. So I I
+[194.4s - 198.9s] think it's actually worked out.
+[196.7s - 200.5s] Where where on that spectrum of kind of
+[198.9s - 202.4s] like a little autonomy to a lot of
+[200.5s - 205.7s] autonomy do you see people building for
+[202.4s - 207.5s] these days? Yeah. So um my team
+[205.7s - 209.4s] routinely uses land graph for our
+[207.5s - 212.3s] hardest problems right with complex
+[209.4s - 214.6s] flows and so on. Um I'm also seeing tons
+[212.3s - 217.7s] of business opportunities that frankly
+[214.6s - 219.8s] are fairly linear workflows or linear
+[217.7s - 220.7s] with just occasional side branches. So a
+[219.8s - 222.4s] lot of businesses there are
+[220.7s - 225.4s] opportunities where you know right now
+[222.4s - 227.3s] we have people um looking at a form on a
+[225.4s - 228.7s] website doing web search checking some
+[227.3s - 230.3s] of the database to see if there's a
+[228.7s - 231.7s] compliance issue or if there you know
+[230.3s - 234.1s] someone we shouldn't sell certain stuff
+[231.7s - 235.8s] to. And it's kind of a or take something
+[234.1s - 237.9s] copy paste it maybe do another web
+[235.8s - 239.6s] search paste in a different form. So in
+[237.9s - 242.2s] business processes there actually a lot
+[239.6s - 244.2s] of fairly linear workflows or linear
+[242.2s - 246.5s] with very small loops and occasional
+[244.2s - 249.4s] branches usually conoting a failure
+[246.5s - 251.2s] because they reject this workflow. So um
+[249.4s - 253.3s] I see a lot of opportunity but but one
+[251.2s - 255.5s] one challenge I see businesses have is
+[253.3s - 257.4s] it's still pretty difficult to look at
+[255.5s - 259.0s] you know some stuff that's being done in
+[257.4s - 261.9s] your business and figure out how to turn
+[259.0s - 263.8s] into an agentic workflow. So what is the
+[261.9s - 266.8s] granularity with which you should break
+[263.8s - 268.5s] down this thing into micro tasks? uh and
+[266.8s - 270.2s] then you know after you build your
+[268.5s - 272.1s] initial prototype if it doesn't work
+[270.2s - 274.2s] well enough which of these steps do you
+[272.1s - 276.6s] work on to improve the performance so I
+[274.2s - 278.2s] think that whole bag of skills on how to
+[276.6s - 280.6s] look at a bunch of stuff that people are
+[278.2s - 282.6s] doing break it into sequential steps u
+[280.6s - 285.0s] where the small number of branches how
+[282.6s - 287.8s] do you put in place evals you know all
+[285.0s - 290.2s] that that skill set is still far too
+[287.8s - 291.9s] rare I think and and then of course the
+[290.2s - 293.7s] much more complex agentic workflows I
+[291.9s - 296.2s] think you heard a bunch about uh with
+[293.7s - 298.3s] very complex loops um uh that that's
+[296.2s - 300.6s] very valuable as well. But I see much
+[298.3s - 302.6s] more in terms of number of opportunities
+[300.6s - 304.5s] still about value. There's a lot of
+[302.6s - 306.6s] simpler workflows that I think are still
+[304.5s - 308.3s] being built out. Let's let's talk about
+[306.6s - 309.8s] some of those skills like so you've
+[308.3s - 312.2s] you've been doing deep learning. I think
+[309.8s - 313.4s] a lot of courses are in in in pursuit of
+[312.2s - 315.7s] helping people kind of like build
+[313.4s - 318.0s] agents. And so what are what are some of
+[315.7s - 320.2s] the skills that you think agent builders
+[318.0s - 323.3s] all across the spectrum should kind of
+[320.2s - 324.8s] like master and get started with? Boy,
+[323.3s - 326.1s] it's a good question. And I wish I knew
+[324.8s - 327.2s] the good answer to that. I've been
+[326.1s - 329.4s] thinking a lot about this actually
+[327.2s - 332.4s] recently. I think a lot of the challenge
+[329.4s - 334.0s] is um uh if you have a business process
+[332.4s - 336.9s] workflow you often have people in
+[334.0s - 340.5s] compliance legal HR whatever doing these
+[336.9s - 343.0s] steps how do you um put in place the
+[340.5s - 345.2s] plumbing um either through a land graph
+[343.0s - 347.5s] type integration or we'll see if MCP
+[345.2s - 350.5s] helps with some of that too uh to ingest
+[347.5s - 353.1s] the data and then how do you prompt or
+[350.5s - 355.0s] process and do the multiple steps uh in
+[353.1s - 357.7s] order to build this end to end system
+[355.0s - 361.3s] and one thing I see a lot is um putting
+[357.7s - 364.2s] in place the right eval framework um uh
+[361.3s - 366.5s] to not only understand the performance
+[364.2s - 368.8s] of the overall system but to trace the
+[366.5s - 370.9s] individual steps you can hone in on
+[368.8s - 373.0s] what's the one step that is broken
+[370.9s - 375.9s] what's the one prompt is broken to work
+[373.0s - 377.8s] on I find that a lot of teams probably
+[375.9s - 379.7s] wait longer than they should just using
+[377.8s - 381.4s] human evals where every time you change
+[379.7s - 383.1s] something you then sit there and look at
+[381.4s - 385.4s] a bunch of output receivers right I see
+[383.1s - 388.3s] most teams probably slower to put in
+[385.4s - 390.9s] place eval systematic evals is ideal.
+[388.3s - 392.6s] But I find that um having the right
+[390.9s - 394.8s] instincts for what to do next in a
+[392.6s - 397.7s] project is is still really difficult,
+[394.8s - 399.0s] right? The skilled teams um the the the
+[397.7s - 401.1s] teams that are still learning these
+[399.0s - 403.0s] skills will often, you know, go down
+[401.1s - 405.2s] blind alleys, right? Where you spend
+[403.0s - 406.8s] like a few months trying to improve one
+[405.2s - 408.3s] component. The the more experienced team
+[406.8s - 410.4s] will say, you know what, I don't think
+[408.3s - 412.0s] this can ever be made to work. Uh so
+[410.4s - 414.7s] just don't just find a different way
+[412.0s - 417.2s] around this problem. I I I wish I knew I
+[414.7s - 419.0s] wish I I I knew more efficient ways to
+[417.2s - 421.3s] get this kind of almost tactile
+[419.0s - 423.1s] knowledge. often you're there you you
+[421.3s - 425.9s] know look at the the output look at
+[423.1s - 427.8s] trace look at the lang output uh and you
+[425.9s - 430.6s] just got to make a decision right in
+[427.8s - 433.0s] minutes or hours on what to do next and
+[430.6s - 434.4s] that's still very difficult and and is
+[433.0s - 437.2s] this kind of like tactile knowledge
+[434.4s - 438.9s] mostly around LLMs and their limitations
+[437.2s - 441.4s] or more around like just the product
+[438.9s - 443.4s] framing of things and and and that skill
+[441.4s - 445.3s] of of of taking a job and breaking it
+[443.4s - 447.7s] down that's something that we're still
+[445.3s - 449.6s] getting accustomed to I think it's all
+[447.7s - 452.9s] of the above actually so I I feel like
+[449.6s - 455.5s] over the last couple years uh AI tool
+[452.9s - 458.6s] companies have created an amazing set of
+[455.5s - 461.3s] AI tools and this includes tools like
+[458.6s - 463.2s] you know Lang graph uh but also uh how
+[461.3s - 464.6s] do you ideas like how do you think about
+[463.2s - 467.1s] rack how do you think about building
+[464.6s - 469.5s] chat bots uh many many different ways of
+[467.1s - 471.1s] approaching memory um I don't know what
+[469.5s - 473.0s] else uh how do you build evals how do
+[471.1s - 475.7s] you build guardrails but I feel like
+[473.0s - 478.6s] there's this you know wide sprawling
+[475.7s - 481.4s] array of really exciting tools one One
+[478.6s - 483.9s] picture I often have in my head is um if
+[481.4s - 485.9s] all you have are, you know, purple Lego
+[483.9s - 488.0s] bricks, right? You can't build that much
+[485.9s - 489.9s] interesting stuff. But and and I think
+[488.0s - 491.9s] of these tools as being akin to Lego
+[489.9s - 493.9s] bricks, right? And the more tools you
+[491.9s - 495.4s] have is as if you don't just a purple
+[493.9s - 497.4s] Lego bricks, but a red one and a black
+[495.4s - 499.3s] one and a yellow one and a green one.
+[497.4s - 500.9s] And as you get more different colored
+[499.3s - 503.0s] and shaped Lego bricks, you can very
+[500.9s - 504.7s] quickly assemble them into really cool
+[503.0s - 506.2s] things. And so I think a lot of these
+[504.7s - 508.7s] tools like the ones I was rattling off
+[506.2s - 510.2s] as different types of Lego bricks and
+[508.7s - 512.0s] when you're trying to build something,
+[510.2s - 514.0s] you know, sometimes you need that right
+[512.0s - 515.4s] squiggly weird shaped Lego brick and
+[514.0s - 517.5s] some people know it and can plug it in
+[515.4s - 520.5s] and just get the job done. But if you've
+[517.5s - 522.2s] never built evals of a certain type,
+[520.5s - 524.6s] then you know, then you could actually
+[522.2s - 526.2s] end up spending whatever three extra
+[524.6s - 527.9s] months doing something that someone else
+[526.2s - 529.7s] that's done that before could say, "Oh,
+[527.9s - 531.8s] well, we should just build evals this
+[529.7s - 533.4s] way. use the OM as a judge and well and
+[531.8s - 536.9s] just go through that process to get it
+[533.4s - 539.4s] done much faster. So one of the for
+[536.9s - 542.4s] unfortunate things about AI is not just
+[539.4s - 543.9s] one tool and in when I'm coding I just
+[542.4s - 545.9s] use a whole bunch of different stuff
+[543.9s - 547.4s] right and I'm not a master of enough
+[545.9s - 550.9s] stuff myself but I've learned enough
+[547.4s - 553.0s] tools to assemble them quickly so um
+[550.9s - 555.2s] yeah and I think having that practice
+[553.0s - 557.8s] with different tools also helps with
+[555.2s - 559.6s] much faster decision- making on for and
+[557.8s - 561.7s] and oh one of the thing is it it also
+[559.6s - 563.8s] changes so for example because OM have
+[561.7s - 564.8s] been having longer and longer context
+[563.8s - 567.0s] memory
+[564.8s - 569.0s] um a lot of the best practices for rag
+[567.0s - 571.4s] from you know a year and a half ago or
+[569.0s - 573.8s] whatever are much less relevant today
+[571.4s - 575.7s] right I remember Harrison was really
+[573.8s - 577.9s] early to a lot of these things like play
+[575.7s - 580.2s] the early lang chain rag frameworks
+[577.9s - 582.8s] recursive summarization and all that as
+[580.2s - 585.0s] OM context memories got longer now we
+[582.8s - 587.0s] just dump a lot more stuff into context
+[585.0s - 588.6s] it's not that rack has gone away but the
+[587.0s - 589.8s] hyperparameter tuning has gotten way
+[588.6s - 591.9s] easier there's a huge range of
+[589.8s - 595.8s] hyperparameters that work you know like
+[591.9s - 598.5s] just fine so so as OM keep progressing
+[595.8s - 600.2s] um the instincts we hold you know two
+[598.5s - 602.3s] years ago may or may not be relevant
+[600.2s - 603.9s] anymore today. You you mentioned a lot
+[602.3s - 605.6s] of things that I wanna I want I want to
+[603.9s - 608.0s] talk about. So okay what are what are
+[605.6s - 609.8s] some of the Lego bricks that are maybe
+[608.0s - 611.2s] underrated right now that you would
+[609.8s - 612.8s] recommend that that people aren't
+[611.2s - 614.5s] talking about like eval you know we we
+[612.8s - 615.8s] had we had three people talk about evals
+[614.5s - 617.2s] and I think that's top of people's mind
+[615.8s - 619.2s] but what are what are some things that
+[617.2s - 620.7s] most people maybe haven't thought of or
+[619.2s - 622.6s] or haven't heard of yet that you would
+[620.7s - 625.9s] recommend them looking into? Good
+[622.6s - 627.7s] question. I don't know. Yeah. Uh maybe
+[625.9s - 629.5s] maybe I'm sure so even though people
+[627.7s - 631.8s] talk about evals, for some reason people
+[629.5s - 633.7s] don't do it. Uh near why why don't why
+[631.8s - 635.7s] don't you think they do it? And I think
+[633.7s - 638.2s] I think it's because people often have
+[635.7s - 639.6s] um I saw a post on this on on eval
+[638.2s - 641.4s] writers blog. People think of writing
+[639.6s - 644.3s] evals as this huge thing that you have
+[641.4s - 645.6s] to do, right? Um, I think of evals as
+[644.3s - 647.7s] something I'm going to throw together
+[645.6s - 650.1s] really quickly, you know, in 20 minutes
+[647.7s - 653.1s] and it's not that good, but it starts to
+[650.1s - 655.0s] complement my human eyeball evals and
+[653.1s - 657.0s] and so what often happens, I'll build a
+[655.0s - 658.8s] system and there's one problem where I
+[657.0s - 660.2s] keep on getting regression. I thought I
+[658.8s - 661.3s] made it work, then it breaks. I thought
+[660.2s - 663.0s] I made it work, then it breaks. Well,
+[661.3s - 665.8s] darn it, this is getting annoying. Then
+[663.0s - 668.0s] I code up a very simple eval maybe with,
+[665.8s - 670.4s] you know, five input examples and some
+[668.0s - 672.6s] very simple LMS judge to just check for
+[670.4s - 674.9s] this one regression, right? Did this one
+[672.6s - 677.2s] thing break? And then I'm not swapping
+[674.9s - 679.0s] out human evals for automated evals. I'm
+[677.2s - 680.3s] still looking at the output myself. But
+[679.0s - 681.8s] when I change something or run this
+[680.3s - 683.9s] evals to just, you know, take this
+[681.8s - 686.8s] burden something so I don't have to
+[683.9s - 689.2s] think about it. And then what happens is
+[686.8s - 691.8s] um just like the way we write English
+[689.2s - 695.3s] maybe once you have some slightly
+[691.8s - 698.2s] helpful but clearly very broken uh
+[695.3s - 700.2s] imperfect eval then you'll start to go
+[698.2s - 701.4s] you know what I can improve my eval to
+[700.2s - 703.4s] make it better and I can improve it to
+[701.4s - 705.8s] make it better. So just as when we built
+[703.4s - 707.3s] a lot of applications we built some you
+[705.8s - 708.6s] know very quick and dirty thing that
+[707.3s - 710.6s] doesn't work and we incrementally make
+[708.6s - 713.2s] it better. For a lot of the way I built
+[710.6s - 715.4s] evals, I built really awful evals that
+[713.2s - 716.6s] barely helps. And then when you look at
+[715.4s - 718.6s] what it does, you go, you know what,
+[716.6s - 720.9s] this eval is broken. I could fix it. And
+[718.6s - 723.4s] you incrementally make it better. Uh, so
+[720.9s - 725.4s] that's one thing. I'll mention one thing
+[723.4s - 728.8s] that people have talked a lot about, but
+[725.4s - 730.6s] I think is so underrated um is the voice
+[728.8s - 731.8s] stack. Um, it's one of the things that
+[730.6s - 733.1s] I'm actually very excited about voice
+[731.8s - 735.1s] applications. A lot of my friends are
+[733.1s - 737.4s] very excited about voice applications. I
+[735.1s - 738.9s] see a bunch of large enterprises really
+[737.4s - 741.0s] excited about voice applications. very
+[738.9s - 743.0s] large enterprise, very large use cases.
+[741.0s - 745.2s] For some reason, while there are some
+[743.0s - 747.6s] developers in this community doing
+[745.2s - 749.9s] voice, the amount of developer attention
+[747.6s - 751.1s] on voice stack applications there, there
+[749.9s - 752.6s] is some, right? It's not the people
+[751.1s - 755.4s] ignored it, but that's one thing that
+[752.6s - 757.7s] feels much smaller than the um large
+[755.4s - 759.0s] enterprise uh uh importance I see as
+[757.7s - 761.5s] well as applications coming down the
+[759.0s - 763.8s] pipe. Um and not not all of this is the
+[761.5s - 767.1s] real-time voice API. It's not all uh
+[763.8s - 769.3s] speechtoech native uh audio in audio
+[767.1s - 771.6s] models. I find those models are very
+[769.3s - 774.3s] hard to control. Uh but when we use more
+[771.6s - 777.0s] of an agentic voice stack workflow which
+[774.3s - 779.9s] is we which find much more controllable
+[777.0s - 782.5s] um uh boy a fan working with a ton of
+[779.9s - 784.4s] teams on on voice stack stuff that some
+[782.5s - 785.7s] of which hopefully will be announced in
+[784.4s - 788.6s] the near future. I'm seeing a lot of
+[785.7s - 790.6s] very exciting things. Um and then other
+[788.6s - 793.0s] things I think underrated one other one
+[790.6s - 794.6s] that maybe is not underrated but more
+[793.0s - 797.3s] business should do it. I think many of
+[794.6s - 799.8s] you have seen that um developers that
+[797.3s - 801.8s] use AI assistance in our coding is so
+[799.8s - 804.6s] much faster than developers that don't.
+[801.8s - 807.7s] Uh I've been uh it's been interesting to
+[804.6s - 809.6s] see how many companies CIOS and CTO's
+[807.7s - 812.6s] still have you know policies that don't
+[809.6s - 814.7s] let engineers use AI assisted coding. Um
+[812.6s - 816.3s] I think maybe sometimes for good reasons
+[814.7s - 818.5s] but I think we have to get past that
+[816.3s - 820.7s] because frankly I don't know my teams
+[818.5s - 823.0s] and I I just hate to ever have to code
+[820.7s - 824.5s] again without AI assistance. So, but I
+[823.0s - 827.6s] think some businesses still need to get
+[824.5s - 829.3s] through that. Um, I think underrated is
+[827.6s - 831.8s] the idea that I I think everyone should
+[829.3s - 835.2s] learn to code. Uh, uh, one one fun fact
+[831.8s - 837.1s] about AI fund, um, everyone in AI fund,
+[835.2s - 839.2s] including, you know, the person that
+[837.1s - 842.2s] runs our front desk receptionist, uh,
+[839.2s - 844.3s] and my CFO and my, uh, at and the
+[842.2s - 846.8s] general counsel, everyone in AI fund
+[844.3s - 848.2s] actually knows how to code. And um it's
+[846.8s - 850.0s] not that I want them to be software
+[848.2s - 851.9s] engineers, they're not. But in their
+[850.0s - 853.4s] respective job functions, many of them
+[851.9s - 856.1s] by learning a little bit about how to
+[853.4s - 858.9s] code are better able to tell a computer
+[856.1s - 860.7s] what they wanted to do. Um and so it's
+[858.9s - 863.0s] actually driving meaningful productivity
+[860.7s - 864.3s] improvements across all of these job
+[863.0s - 866.0s] functions that are not software
+[864.3s - 867.9s] engineering. So that that's been
+[866.0s - 871.0s] exciting as well. Talking about kind of
+[867.9s - 874.6s] like AI coding, how how what what tools
+[871.0s - 877.0s] are you using for that personally?
+[874.6s - 879.0s] So we're working on some things that
+[877.0s - 882.3s] we've not yet announced. Um Oh,
+[879.0s - 886.2s] exciting. Yeah.
+[882.3s - 890.1s] So maybe I I I do use cursor winds surf
+[886.2s - 893.0s] uh um uh and some other things. All
+[890.1s - 895.1s] right, we'll come back to that later.
+[893.0s - 896.7s] Um talking about voice, if if people
+[895.1s - 898.1s] here want to get into voice and they're
+[896.7s - 900.8s] familiar with building kind of like
+[898.1s - 902.0s] agents with LLMs, how how similar is it?
+[900.8s - 903.8s] Are there a lot of ideas that are
+[902.0s - 906.6s] transferable or or what's new? what will
+[903.8s - 908.3s] they have to learn? Yeah. So, it turns
+[906.6s - 910.5s] out um there are a lot of applications
+[908.3s - 914.2s] where I think voice is important. It
+[910.5s - 917.8s] creates certain interactions uh that um
+[914.2s - 919.0s] that are much more it turns out that uh
+[917.8s - 922.2s] it turns out from an application
+[919.0s - 924.2s] perspective um a input text prompt is
+[922.2s - 925.8s] kind of intimidating right for a lot of
+[924.2s - 927.8s] applications. Well, we can go to user
+[925.8s - 929.3s] and say tell me what you think. Here's a
+[927.8s - 930.6s] block of text prompt. Write a bunch of
+[929.3s - 932.3s] text for me. That's actually very
+[930.6s - 935.0s] intimidating for users. And one of the
+[932.3s - 937.4s] problems with that is um people can use
+[935.0s - 940.4s] backspace and so you know people are
+[937.4s - 943.3s] just slower to respond via text whereas
+[940.4s - 945.5s] for voice you know time rolls forward
+[943.3s - 946.8s] you just have to keep talking you could
+[945.5s - 948.4s] change your mind you could actually say
+[946.8s - 949.5s] oh I changed my mind forget that earlier
+[948.4s - 951.8s] thing and our model is actually pretty
+[949.5s - 953.8s] good at dealing with it but I find that
+[951.8s - 955.6s] um there a lot of applications where the
+[953.8s - 957.8s] user friction to just getting them to
+[955.6s - 959.1s] use it is lower and we just say you know
+[957.8s - 962.5s] tell me what you think and then they
+[959.1s - 964.7s] they respond in voice Um so in terms of
+[962.5s - 966.8s] voice the one biggest difference is uh
+[964.7s - 969.8s] in in terms of um engine requirements is
+[966.8s - 971.7s] latency because if you can if someone
+[969.8s - 973.9s] says something you kind of really want
+[971.7s - 975.8s] to respond in you know I don't know sub
+[973.9s - 978.0s] one second right less than 500 millconds
+[975.8s - 980.6s] is great but really ideally sub one
+[978.0s - 982.8s] second and with a lot of um agentic
+[980.6s - 985.8s] workflows that will run for many
+[982.8s - 987.8s] seconds. So when DBWI worked with real
+[985.8s - 988.9s] avatar to build an avatar of me, uh this
+[987.8s - 991.8s] is on a web page. You can talk to an
+[988.9s - 994.3s] avatar of me if you want. Um uh our
+[991.8s - 996.6s] initial version had kind of five to nine
+[994.3s - 998.1s] seconds of latency and was and it's just
+[996.6s - 999.7s] a bad user experience. You say
+[998.1s - 1002.1s] something, you know, 9 seconds of
+[999.7s - 1004.8s] silence, then my avatar responds. But so
+[1002.1s - 1006.6s] we w up building things like um uh we
+[1004.8s - 1008.4s] call a pre-response. So just as you
+[1006.6s - 1010.5s] know, if you ask me a question, I might
+[1008.4s - 1011.9s] go, "Huh, that's interesting." Or, "Let
+[1010.5s - 1014.0s] me think about that."
+[1011.9s - 1017.1s] So, we prompted an ARM to basically do
+[1014.0s - 1019.0s] that to hide the latency. Um, and it
+[1017.1s - 1020.6s] actually seems to work great. And there
+[1019.0s - 1022.4s] all these other little tricks as well.
+[1020.6s - 1024.7s] Turns out if you're building a voice um
+[1022.4s - 1026.8s] customer service chatbot, uh, it turns
+[1024.7s - 1029.0s] out that if you play background noise of
+[1026.8s - 1030.6s] a customer contact center instead of
+[1029.0s - 1032.6s] dead silence, people are much more
+[1030.6s - 1034.5s] accepting of that of that, you know,
+[1032.6s - 1037.8s] latency. So I find that there are a lot
+[1034.5s - 1040.4s] of these things that um uh that are
+[1037.8s - 1042.2s] different than a pure textbased LM but
+[1040.4s - 1044.6s] in applications where a voice-based
+[1042.2s - 1046.6s] modality lets a user be comfortable and
+[1044.6s - 1048.2s] just start talking. Uh I think it
+[1046.6s - 1049.9s] sometimes really reduces the user
+[1048.2s - 1052.3s] friction to you know getting some
+[1049.9s - 1055.2s] information out of them in a safe but I
+[1052.3s - 1057.2s] think when we talk we don't feel like we
+[1055.2s - 1059.7s] need to deliver perfection as much as
+[1057.2s - 1061.3s] when we write. Um, so it's somehow
+[1059.7s - 1062.6s] easier for people to just start blurting
+[1061.3s - 1064.5s] out their ideas and change their mind
+[1062.6s - 1066.1s] and go back and forth and that lets us
+[1064.5s - 1068.6s] get the information from them that we
+[1066.1s - 1072.4s] need to help the user to move forward.
+[1068.6s - 1075.5s] So, huh, that's interesting.
+[1072.4s - 1076.7s] Yeah. Um, one of the one one of the new
+[1075.5s - 1079.5s] things that's out there and you
+[1076.7s - 1081.8s] mentioned briefly is MCP. How are you
+[1079.5s - 1083.1s] seeing that transform how people are
+[1081.8s - 1084.4s] building apps, what types of apps
+[1083.1s - 1086.5s] they're building or what's generally
+[1084.4s - 1087.9s] happening in the ecosystem? Yeah, I
+[1086.5s - 1090.2s] think it's really exciting. Uh just this
+[1087.9s - 1093.4s] morning we released with anthropic uh
+[1090.2s - 1096.2s] short halls on MCP. Um uh I actually saw
+[1093.4s - 1099.2s] a lot of uh stuff you know on the
+[1096.2s - 1101.2s] interweb on MCP that I thought was quite
+[1099.2s - 1103.0s] confusing. So when we got together
+[1101.2s - 1105.6s] anthropy we said you know let's let's
+[1103.0s - 1108.0s] create a really good short course on MCP
+[1105.6s - 1109.3s] that explains it clearly. I think MCP is
+[1108.0s - 1111.8s] fantastic. I think it was a very clear
+[1109.3s - 1114.9s] market gap and you know that that OpenAI
+[1111.8s - 1117.8s] adopted it also I think speaks to the
+[1114.9s - 1119.8s] importance of this. Um I think the MCP
+[1117.8s - 1122.7s] standard will continue to evolve right
+[1119.8s - 1124.3s] so for example so I I think many many of
+[1122.7s - 1126.7s] you know what MCP is right makes it much
+[1124.3s - 1128.6s] easier for agents primarily but frankly
+[1126.7s - 1130.9s] I think other types of software to plug
+[1128.6s - 1133.3s] into different types of data when I'm
+[1130.9s - 1136.5s] using OM myself or when I'm building
+[1133.3s - 1138.5s] applications frankly for a lot of us we
+[1136.5s - 1140.6s] spend so much time on the plumbing right
+[1138.5s - 1143.2s] so I I think for those of you from large
+[1140.6s - 1144.7s] enterprises as well the AI especially
+[1143.2s - 1146.8s] you know reasoning models are like
+[1144.7s - 1148.6s] pretty darn intelligent They could do a
+[1146.8s - 1151.9s] lot of stuff when given the right
+[1148.6s - 1153.5s] context. But so I find that I spend my
+[1151.9s - 1155.9s] team spend a lot of time working on the
+[1153.5s - 1158.2s] plumbing on the data integrations to get
+[1155.9s - 1160.4s] the context of the OM to make it you
+[1158.2s - 1161.8s] know do something that often is pretty
+[1160.4s - 1165.1s] sensible when it has the right input
+[1161.8s - 1167.6s] context. So MCP I think is a fantastic
+[1165.1s - 1169.6s] way to try to standardize the interface
+[1167.6s - 1173.2s] to a lot of tools or API calls as well
+[1169.6s - 1174.8s] as data sources. Um it feels like uh it
+[1173.2s - 1176.6s] feels a little bit like wild west. You
+[1174.8s - 1178.5s] know a lot of MCP servers you find in
+[1176.6s - 1180.9s] the internet do not work right and then
+[1178.5s - 1182.3s] the authentication systems are kind of
+[1180.9s - 1184.5s] you know even for the very large
+[1182.3s - 1186.2s] companies you know with MCP servers a
+[1184.5s - 1188.5s] little bit clunky. It's not clear if the
+[1186.2s - 1190.3s] authentication token totally works and
+[1188.5s - 1192.8s] expires. There's a lot of that going on.
+[1190.3s - 1195.9s] Um I think the MCP protocol itself is
+[1192.8s - 1198.6s] also early right now. MCP gives a long
+[1195.9s - 1200.1s] list of the resources available. you
+[1198.6s - 1202.6s] know, eventually I think we'll need some
+[1200.1s - 1205.4s] more hierarchal discovery. Imagine you
+[1202.6s - 1206.9s] want to build something um I don't know
+[1205.4s - 1209.2s] even I don't know if there ever be an
+[1206.9s - 1211.6s] MCP uh interface to to a land graph but
+[1209.2s - 1213.8s] Lang graph has so many API calls you
+[1211.6s - 1216.0s] just can't have like a long list of
+[1213.8s - 1217.1s] everything under the sun for agent to
+[1216.0s - 1219.4s] sort out. So I think some sort of
+[1217.1s - 1221.6s] hierarchal discovery mechanism. So I
+[1219.4s - 1223.0s] think MCP is a really fantastic first
+[1221.6s - 1225.3s] step. Definitely encourage you to learn
+[1223.0s - 1227.8s] about it. it will make your life easier
+[1225.3s - 1229.4s] probably um if you find a good MCP
+[1227.8s - 1231.4s] server implementations to help some of
+[1229.4s - 1233.4s] the data integrations and I think I
+[1231.4s - 1236.8s] think it'll be important this this idea
+[1233.4s - 1240.0s] of um when you have you know n models or
+[1236.8s - 1242.6s] n agents and m data sources it should
+[1240.0s - 1244.8s] not be n* m e effort to do all the
+[1242.6s - 1247.6s] integration should be n plus m and I
+[1244.8s - 1249.1s] think mcp is a is a fantastic first step
+[1247.6s - 1251.1s] it will need to evolve but it's a
+[1249.1s - 1253.0s] fantastic first step toward that type of
+[1251.1s - 1255.3s] data integration
+[1253.0s - 1257.8s] Another type of protocol that's seen
+[1255.3s - 1260.2s] less buzz than MCP is some of the agent
+[1257.8s - 1262.4s] to aagent stuff. And I remember when we
+[1260.2s - 1263.6s] when we were at a conference a year or
+[1262.4s - 1265.5s] so ago, I think you were talking about
+[1263.6s - 1267.4s] multi-agent systems which this would
+[1265.5s - 1269.3s] kind of enable. So how how do you see
+[1267.4s - 1272.6s] some of the multi-agent or agentto agent
+[1269.3s - 1276.2s] stuff evolving? Yeah. So I think you
+[1272.6s - 1278.9s] know agent AI is still so early most of
+[1276.2s - 1282.4s] us right including me we struggle to
+[1278.9s - 1284.9s] even make our code work. And so making
+[1282.4s - 1287.5s] my co my agent work with someone else's
+[1284.9s - 1291.1s] agent, it feels like a two miracle, you
+[1287.5s - 1293.2s] know, requirement. Um, so I see that
+[1291.1s - 1294.7s] when one team is building a multi- aent
+[1293.2s - 1296.3s] system, that often works because we
+[1294.7s - 1297.4s] build a bunch of agents, they go with
+[1296.3s - 1299.9s] themselves, we understand the protocols,
+[1297.4s - 1301.4s] blah, blah, that works. But to right
+[1299.9s - 1303.1s] now, at least at this moment in time,
+[1301.4s - 1305.4s] and maybe I'm off, the number of
+[1303.1s - 1307.6s] examples I'm seeing of when, you know,
+[1305.4s - 1309.5s] one team's agent or collection of agents
+[1307.6s - 1311.5s] successfully engages a totally different
+[1309.5s - 1313.3s] team's agent or collection of agents. I
+[1311.5s - 1315.2s] think we're a little bit early to that.
+[1313.3s - 1317.8s] I'm sure we'll get there, but I'm not
+[1315.2s - 1319.8s] personally seeing, you know, real
+[1317.8s - 1322.5s] success, huge success stories of that
+[1319.8s - 1324.8s] yet. I I'm not sure if yall seeing No, I
+[1322.5s - 1326.9s] agree. It's it's I I think it's super
+[1324.8s - 1329.7s] early. I think if MCP is early, I think
+[1326.9s - 1331.4s] agent agent stuff is even earlier. Um,
+[1329.7s - 1332.9s] another thing that's kind of like top of
+[1331.4s - 1335.0s] people's mind right now is is kind of
+[1332.9s - 1336.2s] vibe coding. Um, and all of that, and
+[1335.0s - 1338.3s] you touched on it a little bit earlier
+[1336.2s - 1341.2s] with how people are using the these AI
+[1338.3s - 1342.6s] coding assistants, but how how do you
+[1341.2s - 1344.5s] think about vibe coding? Is that a
+[1342.6s - 1346.1s] different skill than before? What what
+[1344.5s - 1348.7s] what kind of purpose does that serve in
+[1346.1s - 1351.0s] in the world? Yeah. So, but I I think
+[1348.7s - 1352.2s] you know, many of us code with barely
+[1351.0s - 1354.2s] looking at the code, right? I think it's
+[1352.2s - 1355.8s] a fantastic thing to be doing. Um, I
+[1354.2s - 1358.0s] think it's unfortunate that that call
+[1355.8s - 1359.8s] Vive coding because it's misleading a
+[1358.0s - 1361.7s] lot of people into thinking just go with
+[1359.8s - 1364.6s] the vibes, you know, accept this, reject
+[1361.7s - 1367.4s] that. And frankly, when I'm coding for a
+[1364.6s - 1369.0s] day, uh, uh, you know, with Vive coding
+[1367.4s - 1370.8s] or whatever with air coding assistance,
+[1369.0s - 1372.4s] I'm frankly exhausted by the end of the
+[1370.8s - 1375.4s] day. This is a deeply intellectual
+[1372.4s - 1377.4s] exercise. Um, and so I think the name is
+[1375.4s - 1379.7s] unfortunate, but the phenomenon is real
+[1377.4s - 1384.6s] and it's been taking off and is great.
+[1379.7s - 1387.4s] Um so I I I I I over the last year a few
+[1384.6s - 1389.5s] people have been advising others to not
+[1387.4s - 1391.7s] learn to code on the basis that AI will
+[1389.5s - 1393.2s] automate coding. I think we look back at
+[1391.7s - 1396.9s] some of the worst career advice ever
+[1393.2s - 1399.8s] given um because over the last many
+[1396.9s - 1402.0s] decades as coding became easier uh more
+[1399.8s - 1403.8s] people started to code. So it it turns
+[1402.0s - 1406.0s] out, you know, when we went from punch
+[1403.8s - 1407.8s] cards to keyboards and terminals, right?
+[1406.0s - 1409.4s] Or when it it turns out, I actually
+[1407.8s - 1411.4s] found some very old articles when
+[1409.4s - 1413.6s] programming went from assembly language
+[1411.4s - 1415.4s] to, you know, literally cobalt. There
+[1413.6s - 1417.3s] were people arguing back then, yep, we
+[1415.4s - 1419.4s] have cobalt, it's so easy, we don't need
+[1417.3s - 1421.4s] programmers anymore. And and obviously
+[1419.4s - 1423.7s] when it became easier, more people learn
+[1421.4s - 1425.8s] to code. And so with AI coding
+[1423.7s - 1429.3s] assistance, more a lot more people
+[1425.8s - 1430.5s] should code. Um uh but I think and it
+[1429.3s - 1432.2s] turns out one of the most important
+[1430.5s - 1434.6s] skills of the future for developers and
+[1432.2s - 1436.5s] non-developers is the ability to tell a
+[1434.6s - 1439.5s] computer exactly what you want so they
+[1436.5s - 1442.0s] will do it for you. And um I think
+[1439.5s - 1443.7s] understanding at some level which all of
+[1442.0s - 1446.2s] you do I know but understanding at some
+[1443.7s - 1448.4s] level how a computer works lets you
+[1446.2s - 1451.4s] prompt or instruct a computer much more
+[1448.4s - 1453.1s] precisely which is why I still try to
+[1451.4s - 1454.7s] advise everyone to you know learn one
+[1453.1s - 1457.9s] programming language learn Python or
+[1454.7s - 1459.2s] something. Um, and then I I think so
+[1457.9s - 1461.4s] maybe some of you know this. I I
+[1459.2s - 1464.2s] personally am a you're much stronger
+[1461.4s - 1467.5s] Python developer than say JavaScript,
+[1464.2s - 1469.2s] right? Uh, but with um AI assisted
+[1467.5s - 1471.3s] coding, I now write a lot more
+[1469.2s - 1473.9s] JavaScript and TypeScript code than I
+[1471.3s - 1476.3s] ever used to. But even when debugging,
+[1473.9s - 1477.6s] you know, JavaScript code that something
+[1476.3s - 1479.5s] else wrote for me that I didn't write
+[1477.6s - 1481.2s] with my own fingers, really
+[1479.5s - 1483.0s] understanding, you know, what are the
+[1481.2s - 1485.4s] error cases? What does this mean? that
+[1483.0s - 1488.1s] that's been really important for me to
+[1485.4s - 1490.1s] write debug my JavaScript code. So, if
+[1488.1s - 1491.4s] you if you don't like the name vibe
+[1490.1s - 1494.1s] coding, do you have a better name in
+[1491.4s - 1495.9s] mind? Oh, it's a good question. I should
+[1494.1s - 1497.4s] think about that. We'll we'll get back
+[1495.9s - 1499.1s] to you on that. That's a good question.
+[1497.4s - 1501.4s] Um, one one of the things that you
+[1499.1s - 1503.1s] announced recently is a new fund for AI
+[1501.4s - 1504.7s] funds. So, congrats on that. Thank you.
+[1503.1s - 1506.7s] For people in the audience who are maybe
+[1504.7s - 1508.2s] thinking of starting a startup or
+[1506.7s - 1509.8s] looking into that, what advice would you
+[1508.2s - 1512.7s] have for them?
+[1509.8s - 1514.3s] So um AI funds a venture studio. So we
+[1512.7s - 1516.2s] built companies and we exclusively
+[1514.3s - 1519.0s] invest in companies that we co-ounded.
+[1516.2s - 1521.7s] So um I think in terms of looking back
+[1519.0s - 1523.8s] on AI funds, you know, lessons learned,
+[1521.7s - 1526.8s] the the number one I would say the
+[1523.8s - 1529.4s] number one predictor of a startup
+[1526.8s - 1531.0s] success is speed. Um I know we're in
+[1529.4s - 1533.8s] Silicon Valley, but I see a lot of
+[1531.0s - 1536.2s] people that have never seen yet the
+[1533.8s - 1538.4s] speed with which a skilled team can
+[1536.2s - 1540.3s] execute. And if you've never seen it
+[1538.4s - 1542.8s] before, I know many of you have seen it,
+[1540.3s - 1544.1s] it's just so much faster than you know
+[1542.8s - 1547.2s] anything that
+[1544.1s - 1549.0s] um slower businesses know how to do. Uh
+[1547.2s - 1551.2s] and I think the number two predictor
+[1549.0s - 1552.9s] also very important is uh technical
+[1551.2s - 1554.7s] knowledge. It turns out if we look at
+[1552.9s - 1556.0s] the skills needed to build a startup,
+[1554.7s - 1557.4s] there's some things like how do you
+[1556.0s - 1559.6s] market, how do you sell, how do you
+[1557.4s - 1561.4s] price, you know, all that is important,
+[1559.6s - 1563.8s] but that knowledge has been around. So
+[1561.4s - 1565.8s] it's a little bit more widespread. But
+[1563.8s - 1567.3s] the knowledge that's really rare is how
+[1565.8s - 1569.9s] does technology actually work because
+[1567.3s - 1571.5s] technology been evolving so quickly. So
+[1569.9s - 1573.4s] I I have deep respect for the go to
+[1571.5s - 1575.4s] market people. Pricing is hard, you
+[1573.4s - 1577.4s] know, marketing is hard, um positioning
+[1575.4s - 1579.4s] is hard, but that knowledge is more
+[1577.4s - 1581.2s] diffused and the most rare resource is
+[1579.4s - 1584.2s] someone that really understands how the
+[1581.2s - 1585.9s] technology works. So AI fund, we really
+[1584.2s - 1588.9s] like working with deeply technical
+[1585.9s - 1591.0s] people um that have good instincts or
+[1588.9s - 1593.8s] understands do this, don't do that. This
+[1591.0s - 1596.0s] lets you go twice as fast. Um, and then
+[1593.8s - 1598.2s] I think uh uh a lot of the business
+[1596.0s - 1600.2s] stuff, you know, that knowledge is very
+[1598.2s - 1602.6s] important, but it's usually easier to
+[1600.2s - 1605.4s] figure out. All right, that's great
+[1602.6s - 1607.2s] advice for starting something. Um, we
+[1605.4s - 1609.0s] are going to wrap this up. We're going
+[1607.2s - 1610.9s] to go to a break now, but before we do,
+[1609.0s - 1614.6s] please join me in giving Andrew a big
+[1610.9s - 1614.6s] hand and thank you.

@@ -1,0 +1,521 @@
+Transcript for YouTube video: vmy3HgaKJsY
+--------------------------------------------------
+
+[0.8s - 5.3s] Hello all, my name is Kuresh Naik and uh
+[2.9s - 7.0s] welcome to my YouTube channel. So guys,
+[5.3s - 9.4s] today in this particular video I'm going
+[7.0s - 11.3s] to discuss about this amazing topic uh
+[9.4s - 14.6s] to make you understand the differences
+[11.3s - 16.4s] between langin versus langraph. Now I've
+[14.6s - 18.7s] been making similar kind of videos from
+[16.4s - 22.2s] past couple of weeks uh or from past
+[18.7s - 24.9s] month and here our main aim is to make
+[22.2s - 26.4s] our fundamentals quite stronger. Let's
+[24.9s - 27.8s] say that if I ask you a question in an
+[26.4s - 30.2s] interview when should we probably go
+[27.8s - 32.4s] ahead and use langraph or what is the
+[30.2s - 34.3s] differences between lang and lang graph
+[32.4s - 36.2s] what would you probably try to explain
+[34.3s - 38.7s] just write down in the comment section
+[36.2s - 40.3s] before seeing the specific video and
+[38.7s - 42.2s] then after you write down the comment
+[40.3s - 44.3s] right just go through this entire video
+[42.2s - 46.8s] and then try to see that how many things
+[44.3s - 48.6s] that I've actually told does it matches
+[46.8s - 51.6s] with all the information that you have
+[48.6s - 53.5s] right so please make sure to do that but
+[51.6s - 55.4s] in this video we are going to have a
+[53.5s - 58.9s] detailed discussion between lang chain
+[55.4s - 60.4s] versus lang graph. Um trust me just
+[58.9s - 63.3s] watch the till the end you will
+[60.4s - 65.8s] definitely learn a lot many things. Now
+[63.3s - 68.6s] uh if I talk about lang chain you know
+[65.8s - 70.8s] and I hope it is one of the most popular
+[68.6s - 73.0s] framework which is basically used to
+[70.8s - 74.5s] create generative AI application. So
+[73.0s - 76.4s] first of all we will just go ahead and
+[74.5s - 79.3s] talk about langchain. So let's go ahead
+[76.4s - 81.9s] and write it down over here like
+[79.3s - 84.7s] langchain.
+[81.9s - 87.1s] Now if I talk about langchain in lang
+[84.7s - 91.2s] chain obviously this is this langchain
+[87.1s - 94.6s] is basically used to create if I
+[91.2s - 96.1s] probably say it is used to create llm
+[94.6s - 99.1s] powered
+[96.1s - 102.0s] application llm
+[99.1s - 104.8s] powered chatbot assistant it can be it
+[102.0s - 107.8s] can be an application or generative AI
+[104.8s - 109.4s] application okay now when I say LLM
+[107.8s - 111.0s] powered that basically means anything
+[109.4s - 113.8s] that you create whether you create a
+[111.0s - 115.9s] chatbot Whether you create a simple app
+[113.8s - 117.7s] or whether you create any kind of
+[115.9s - 119.7s] application right at the end of the day
+[117.7s - 124.1s] you are specifically using
+[119.7s - 127.0s] LLMs right on top of this LLMs there are
+[124.1s - 130.2s] multiple things that can be used here
+[127.0s - 132.1s] you can use prompts along with the LLMs
+[130.2s - 134.6s] you can use
+[132.1s - 136.8s] tools you can use different kind of
+[134.6s - 139.8s] integrations and many more
+[136.8s - 141.6s] things so overall if I probably talk
+[139.8s - 143.4s] about lang chain
+[141.6s - 145.5s] Any application that is basically
+[143.4s - 147.8s] developed in Langchain, a generative AI
+[145.5s - 150.3s] application or LLM powered application
+[147.8s - 152.3s] or a AI chatbot assistant. There are
+[150.3s - 156.3s] three main important steps that happens
+[152.3s - 160.7s] in Langchain. This is my one step. This
+[156.3s - 162.8s] is my another step and this is my third
+[160.7s - 165.4s] step.
+[162.8s - 167.1s] Okay. So these are the three main
+[165.4s - 168.9s] components. Now what are these specific
+[167.1s - 170.6s] components? When I say steps, I'm
+[168.9s - 172.4s] basically talking about components. The
+[170.6s - 173.6s] first component is nothing but it is
+[172.4s - 177.6s] basically called
+[173.6s - 180.0s] as retrieve. Okay. So here we are
+[177.6s - 183.1s] basically going to write it as retrieve.
+[180.0s - 186.4s] Retrieve or retriever. Then the second
+[183.1s - 188.6s] important component is nothing but
+[186.4s - 191.1s] summarize. And the third important
+[188.6s - 196.4s] component is nothing but your final
+[191.1s - 199.1s] answer or output. Okay. Now when we talk
+[196.4s - 200.7s] about this components. Okay. So here I
+[199.1s - 203.0s] will just go ahead and write output.
+[200.7s - 204.6s] Okay. When we talk about the specific
+[203.0s - 206.8s] components in lang chain whether you
+[204.6s - 209.4s] generate any kind of generative AI
+[206.8s - 212.1s] applications empowered application or AI
+[209.4s - 214.5s] assistant these three components will be
+[212.1s - 217.4s] definitely there. Now the question rises
+[214.5s - 220.0s] kish what does exactly happen in the
+[217.4s - 221.8s] directory in retrieve? There are three
+[220.0s - 227.4s] main important things that we basically
+[221.8s - 229.0s] do. One is data injection.
+[227.4s - 230.4s] Now the question rises what is data
+[229.0s - 233.3s] injection? Data injection is very
+[230.4s - 235.7s] simple, right? We ingest a data right we
+[233.3s - 239.2s] probably load a data from a specific
+[235.7s - 241.0s] source. Now the main thing is that here
+[239.2s - 243.6s] the source can be different different it
+[241.0s - 245.2s] can be a PDF file. It can be an external
+[243.6s - 247.0s] database. It can be an excel file. It
+[245.2s - 249.7s] can be a website. You need to probably
+[247.0s - 252.2s] web scrap the data. There may be various
+[249.7s - 254.2s] different ways right in data injection.
+[252.2s - 257.3s] So when we talk about data injection
+[254.2s - 259.3s] this is also called as we basically use
+[257.3s - 262.0s] something called as document loader over
+[259.3s - 264.9s] here right. So we use nothing but
+[262.0s - 267.8s] document loader. So in langchain you
+[264.9s - 269.4s] have a specific class uh where you have
+[267.8s - 271.0s] lot of packages and integration
+[269.4s - 274.7s] specifically with respect to document
+[271.0s - 277.0s] loader. Here the main aim is that you
+[274.7s - 279.4s] try to load documents from different
+[277.0s - 282.2s] different sources. It can be any source.
+[279.4s - 285.7s] It can be a PDF file. It can be a excel
+[282.2s - 289.6s] file. It can be a CSV file. It can even
+[285.7s - 292.7s] be some third-party APIs like Wikipedia.
+[289.6s - 294.9s] It can be r. It can be anything as such.
+[292.7s - 298.9s] Right? So they are multiple sources and
+[294.9s - 300.6s] langen has a huge amount of different
+[298.9s - 302.7s] different kind of integrations already
+[300.6s - 304.4s] provided in terms of document loader.
+[302.7s - 306.3s] And what I feel is that whenever you try
+[304.4s - 308.3s] to develop any of this kind of
+[306.3s - 310.9s] application, this is the most important
+[308.3s - 313.6s] step because here the parsing of the
+[310.9s - 316.6s] data will happen, right? The parsing of
+[313.6s - 318.5s] the data will happen. The more in a like
+[316.6s - 320.6s] when you do the parsing, if you do this
+[318.5s - 323.4s] much more accurately, then you will
+[320.6s - 325.8s] definitely be able to generate uh or
+[323.4s - 327.9s] create a generative AI application with
+[325.8s - 330.6s] much more accuracy. So now there are
+[327.9s - 332.4s] dedicated companies who specifically do
+[330.6s - 333.8s] this particular task who create this
+[332.4s - 336.2s] kind of packages with respect to
+[333.8s - 338.4s] document loader right I need to probably
+[336.2s - 340.5s] I create a document loader to let's say
+[338.4s - 342.7s] web scrap the data from the internet
+[340.5s - 344.3s] which will be a very important use case
+[342.7s - 346.7s] for most of the use case that we
+[344.3s - 348.5s] specifically implement in the industry.
+[346.7s - 350.5s] So in document loader this basically
+[348.5s - 353.3s] happens right and that is a part of data
+[350.5s - 355.8s] ingestion. Now coming to the second most
+[353.3s - 358.0s] important component. The second most
+[355.8s - 359.8s] important component is nothing but it is
+[358.0s - 362.2s] called as text
+[359.8s - 364.1s] splitter. Now text splitter is also a
+[362.2s - 366.2s] separate class that is available in lang
+[364.1s - 368.4s] chain or a separate package wherein
+[366.2s - 371.0s] there are multiple ways of splitting the
+[368.4s - 373.1s] text. Once you read the data from all
+[371.0s - 375.4s] these kind of sources, right? We I
+[373.1s - 377.9s] cannot just directly provide the entire
+[375.4s - 380.2s] data to my LLM model as a context.
+[377.9s - 382.4s] Right? So what I have to do why I cannot
+[380.2s - 384.1s] provide because there is a very
+[382.4s - 387.8s] important component which is called as
+[384.1s - 389.5s] context window. Every LLM has a
+[387.8s - 392.2s] limitation with respect to the context
+[389.5s - 394.5s] window. So in order to overcome this
+[392.2s - 397.4s] what we do is that once we read the data
+[394.5s - 400.4s] from this data source we try to divide
+[397.4s - 403.5s] this data into smaller
+[400.4s - 407.0s] chunks into smaller chunks. Smaller
+[403.5s - 410.2s] chunks smaller chunks. Once we divide
+[407.0s - 412.2s] this data into smaller chunk then the
+[410.2s - 414.4s] next step because after we divide this
+[412.2s - 416.4s] we need to store it somewhere right and
+[414.4s - 420.4s] that is where your third important
+[416.4s - 422.8s] component comes is nothing but vector
+[420.4s - 425.4s] databases. Now inside this vector
+[422.8s - 429.0s] databases when we are specifically using
+[425.4s - 432.6s] vector databases here we also use
+[429.0s - 435.2s] something called as vector embeddings.
+[432.6s - 437.2s] Now for vector embeddings it is nothing
+[435.2s - 440.1s] but we are converting the text into
+[437.2s - 443.4s] vectors that is the main aim with
+[440.1s - 445.4s] respect to vector embeddings right. So
+[443.4s - 447.5s] this is a kind of a task wherein we
+[445.4s - 449.4s] convert the text into vectors. So once
+[447.5s - 451.4s] it is basically converted we basically
+[449.4s - 453.5s] store that into the vector database. Now
+[451.4s - 455.8s] the question arises why do we store it
+[453.5s - 459.0s] right because at the end of the day from
+[455.8s - 461.5s] my any application if all my data is
+[459.0s - 464.2s] basically stored in a vector database we
+[461.5s - 466.7s] will definitely be able to do different
+[464.2s - 469.1s] different kind of search. One search
+[466.7s - 472.7s] example is nothing but semantic search.
+[469.1s - 475.7s] It can be graph DB search right and with
+[472.7s - 477.7s] the help of this search we will be able
+[475.7s - 479.8s] to retrieve the right amount of context
+[477.7s - 482.9s] and give it to our LLM to finally
+[479.8s - 485.4s] generate the output right and that is
+[482.9s - 487.4s] really important right unless and until
+[485.4s - 489.4s] this is not done accurately and we don't
+[487.4s - 492.7s] get the right kind of context out of the
+[489.4s - 495.0s] directed database we will not be able to
+[492.7s - 498.9s] accurately give the output to the user
+[495.0s - 501.4s] right so in the retrieve component of
+[498.9s - 504.0s] lang chain you really need to be good at
+[501.4s - 506.2s] all the specific things when you go
+[504.0s - 507.6s] tomorrow to any companies to gen and if
+[506.2s - 510.1s] you're probably generating or developing
+[507.6s - 512.1s] a generative AI powered application you
+[510.1s - 514.0s] will be doing all the specific steps you
+[512.1s - 515.9s] need to parse the data you need to
+[514.0s - 517.7s] probably store the data in exact right
+[515.9s - 520.1s] format with respect to the document data
+[517.7s - 522.3s] type you need to make sure that you have
+[520.1s - 524.4s] to do this kind of chunking strategy so
+[522.3s - 525.8s] that you try to solve this context
+[524.4s - 527.6s] window size with respect to different
+[525.8s - 529.0s] different LLMs that you're using and
+[527.6s - 532.0s] finally you store all this particular
+[529.0s - 534.7s] data into the vector database. Okay. Now
+[532.0s - 536.3s] coming to the next important step after
+[534.7s - 538.7s] we probably complete this retrieve
+[536.3s - 541.4s] component. It is nothing but summarize.
+[538.7s - 542.8s] Now here is where you know and when we
+[541.4s - 544.3s] talk about summarize or when we talk
+[542.8s - 546.4s] about building generative AI
+[544.3s - 549.8s] applications uh with the help of lang
+[546.4s - 552.5s] chain here you specifically follow a
+[549.8s - 554.5s] sequential order. Okay, this is really
+[552.5s - 556.0s] important to understand and here you
+[554.5s - 557.5s] will definitely be understanding the
+[556.0s - 559.9s] differences between langin and lang
+[557.5s - 562.0s] graph. When we talk about sequential
+[559.9s - 565.1s] order, now what does this basically
+[562.0s - 568.0s] mean? In sequential order here, it
+[565.1s - 571.6s] basically means that the execution of
+[568.0s - 575.1s] any task will just happen
+[571.6s - 577.7s] sequentially. We cannot go back. Okay.
+[575.1s - 579.1s] So this entire langen the generative AI
+[577.7s - 582.7s] application that is developed with the
+[579.1s - 586.6s] help of langchen follows a DAG graph
+[582.7s - 588.2s] right directed a cyclic graph okay that
+[586.6s - 590.3s] basically means if my execution is
+[588.2s - 592.0s] basically started from this task it has
+[590.3s - 594.2s] to probably go to this task it has to go
+[592.0s - 597.2s] to this particular task only sequential
+[594.2s - 601.5s] I cannot come back this option is not
+[597.2s - 603.1s] there this option is not there right so
+[601.5s - 605.0s] when we talk about this summarize
+[603.1s - 608.5s] component here you'll be able to see
+[605.0s - 611.3s] that we create some kind of chaining
+[608.5s - 613.0s] concept. So in lang chain whenever a
+[611.3s - 616.2s] generative AI application is basically
+[613.0s - 618.5s] developed here we try to implement this
+[616.2s - 621.1s] chaining concept. Now in the chaining
+[618.5s - 622.8s] concept we first of all go ahead and
+[621.1s - 625.6s] write our prompt chain. So let's say
+[622.8s - 627.4s] this is my prompt chain right sorry this
+[625.6s - 629.2s] is my prompt. We basically go ahead and
+[627.4s - 631.9s] give a prompt. prompt is just like an
+[629.2s - 636.4s] instruction to an LLM right along with
+[631.9s - 639.0s] this we try to integrate this uh prompt
+[636.4s - 640.6s] with our LLM. So LLM will be my second
+[639.0s - 642.6s] thing in the chain right second
+[640.6s - 644.3s] important component in the chain and
+[642.6s - 646.2s] then the third important component can
+[644.3s - 648.6s] be my context the context that I'm
+[646.2s - 650.1s] supplying to the LLM. So this will
+[648.6s - 654.2s] basically be my
+[650.1s - 656.4s] prompt. This will be my llm and this
+[654.2s - 658.1s] will basically be my context and this
+[656.4s - 660.1s] context will be coming from the specific
+[658.1s - 661.9s] vector database. So internally you'll be
+[660.1s - 664.2s] able to see that this vector database
+[661.9s - 666.2s] will be comp connected to this
+[664.2s - 669.0s] particular chain itself wherein we will
+[666.2s - 673.0s] be providing the context and this
+[669.0s - 676.0s] execution takes place sequentially one
+[673.0s - 678.6s] after the other right and finally
+[676.0s - 681.0s] whatever output you basically get here
+[678.6s - 682.2s] we are basically going to use or here we
+[681.0s - 684.7s] are going to give the answer of the
+[682.2s - 686.7s] output here again we can use multiple
+[684.7s - 689.1s] components one component can be my
+[686.7s - 692.2s] memory right so here we can use some
+[689.1s - 694.2s] kind of persistent memory. So if you
+[692.2s - 697.4s] have been seeing my videos with respect
+[694.2s - 699.3s] to lang lang chain or lang lang graph I
+[697.4s - 701.2s] have covered all this specific thing
+[699.3s - 703.1s] right and next thing after this
+[701.2s - 705.2s] persisting memory I can also go ahead
+[703.1s - 707.8s] and probably combine prompt with a
+[705.2s - 709.7s] separate LLM over here prompt with a
+[707.8s - 711.8s] separate LLM over here so that we will
+[709.7s - 713.3s] be able to get the output right and
+[711.8s - 715.1s] finally here you can actually see that
+[713.3s - 717.1s] finally we generate this specific output
+[715.1s - 720.2s] so this can also be created in the form
+[717.1s - 722.6s] of chain but understand one thing
+[720.2s - 725.0s] everything is basically getting executed
+[722.6s - 727.8s] sequentially. This is the most important
+[725.0s - 729.8s] thing in the entire lang chain with
+[727.8s - 732.6s] respect to developing any generative AI
+[729.8s - 734.0s] powered applications. Okay. So here is
+[732.6s - 736.6s] what we basically do with the help of
+[734.0s - 738.2s] lang chain right and again I will again
+[736.6s - 739.6s] talk about the differences as we go
+[738.2s - 741.6s] ahead like what are the main exact
+[739.6s - 743.5s] differences and all here you saw that it
+[741.6s - 745.4s] is following a sequential order. It
+[743.5s - 747.5s] follows a directed earth cyclic graph.
+[745.4s - 749.6s] You know, uh here everything is in the
+[747.5s - 751.8s] form of chaining. Here we have these
+[749.6s - 753.4s] three important components. How each and
+[751.8s - 755.2s] every component is basically executed
+[753.4s - 758.5s] and how it proceeds to finally getting
+[755.2s - 762.8s] an output. Right? Now, similarly, if I
+[758.5s - 766.0s] talk about langraph, okay,
+[762.8s - 771.6s] langraph. Now when I talk about langraph
+[766.0s - 773.6s] here the main aim is basically to create
+[771.6s - 775.7s] stateful
+[773.6s - 779.4s] multi-
+[775.7s - 779.4s] AI agentic
+[780.5s - 786.9s] application agentic application or AI
+[784.2s - 791.0s] agents multi-state stateful multiAI
+[786.9s - 792.5s] agents itself right now here the main
+[791.0s - 794.1s] aim if I just want to probably break
+[792.5s - 797.7s] this down here you'll be able ble to see
+[794.1s - 800.6s] that we create AI agents and it's not
+[797.7s - 802.3s] like a simple a single AI agent it'll be
+[800.6s - 804.3s] multiple AI agents which will be doing
+[802.3s - 806.2s] separately different task and the best
+[804.3s - 810.7s] part about these AI agents is that they
+[806.2s - 813.1s] can communicate with each other to solve
+[810.7s - 816.6s] a complex
+[813.1s - 818.7s] workflow complex workflow I've already
+[816.6s - 820.4s] started my entire langraph playlist and
+[818.7s - 822.2s] I think if you're following them I've
+[820.4s - 824.5s] explained this entirely in a much more
+[822.2s - 826.2s] detailed manner uh you know in the live
+[824.5s - 830.1s] classes uh that I've actually taken in
+[826.2s - 831.6s] my YouTube channel right now here the
+[830.1s - 834.5s] main thing is that it need not be
+[831.6s - 837.4s] directed or cyclic graph it it even need
+[834.5s - 838.8s] not be sequential this can follow in a
+[837.4s - 841.0s] different ways okay so first of all
+[838.8s - 843.4s] we'll talk about what are the important
+[841.0s - 845.3s] components in lang graph okay some of
+[843.4s - 848.2s] the important components in lang graph
+[845.3s - 850.9s] are like tasks second important
+[848.2s - 852.8s] component we basically use as nodes
+[850.9s - 855.8s] third it'll be something called as
+[852.8s - 858.7s] edges. Fourth is nothing but graph. So
+[855.8s - 860.9s] that basically means my entire lang
+[858.7s - 863.1s] graph the complex workflows that is
+[860.9s - 866.2s] defined which will be it it'll be in the
+[863.1s - 867.4s] form of a graph and when you see a graph
+[866.2s - 870.1s] right if you probably have some
+[867.4s - 871.4s] knowledge about graph let's say uh here
+[870.1s - 875.4s] I will just go ahead and write this is
+[871.4s - 877.4s] my task A okay this is my task A right
+[875.4s - 881.2s] so let's say this is my task A this can
+[877.4s - 886.4s] be my task B this can be my task
+[881.2s - 889.8s] C this can be my task
+[886.4s - 891.6s] E and this can be my final task that is
+[889.8s - 895.4s] end let's
+[891.6s - 897.8s] say now each and every task over here so
+[895.4s - 901.1s] let's say if this is my task A this is
+[897.8s - 903.9s] my task B this is my task
+[901.1s - 906.5s] C this is my task
+[903.9s - 908.6s] D so when we talk about this kind of
+[906.5s - 910.9s] task we basically start from start over
+[908.6s - 913.4s] here there will be a conditional edge
+[910.9s - 914.7s] then we go to task D then finally we go
+[913.4s - 916.4s] to
+[914.7s - 918.6s] Now here also I'm showing sequential
+[916.4s - 921.5s] only but one important thing is that you
+[918.6s - 924.7s] can go back from task B to task A you
+[921.5s - 927.0s] can go back to task D to task C you can
+[924.7s - 928.6s] reexecute this and here you can come so
+[927.0s - 930.8s] that is the reason why I'm saying that
+[928.6s - 933.0s] this two important thing is basically
+[930.8s - 935.0s] happening that is communication within
+[933.0s - 938.8s] this particular task and each and every
+[935.0s - 940.6s] task is executed by a separate AI agent
+[938.8s - 942.6s] you can basically create a separate AI
+[940.6s - 945.0s] agent and perform that task similarly
+[942.6s - 947.3s] and the output of one task can be passed
+[945.0s - 949.6s] to the output of the other task. It can
+[947.3s - 952.8s] also be vice
+[949.6s - 955.2s] versa. Right? So here a feedback
+[952.8s - 957.3s] mechanism can also be generated and even
+[955.2s - 960.6s] human feedback mechanism can also be
+[957.3s - 964.1s] included. So this way you are able to
+[960.6s - 966.0s] solve a very complex workflow. In my
+[964.1s - 968.2s] recent uh live session, I gave a
+[966.0s - 969.6s] hackathon wherein you have to probably
+[968.2s - 972.6s] implement the entire software
+[969.6s - 973.6s] development life cycle with the help of
+[972.6s - 976.3s] human
+[973.6s - 979.0s] feedback with with the help of this
+[976.3s - 981.0s] entire complex workflow. So what is
+[979.0s - 983.0s] software development life cycle? First
+[981.0s - 985.8s] requirement gathering, then business
+[983.0s - 988.6s] understanding, then documentation, then
+[985.8s - 990.6s] code creation, then unit testing, then
+[988.6s - 993.0s] managers probably reviewing the sorry
+[990.6s - 995.5s] code peers reviewing the code review,
+[993.0s - 997.0s] providing the feedback, quality check,
+[995.5s - 998.2s] all those kind of check and finally
+[997.0s - 1000.2s] implementing the entire software
+[998.2s - 1002.1s] development life cycle and people
+[1000.2s - 1004.8s] implement it in a much more beautiful
+[1002.1s - 1007.3s] way. So here if you probably see we
+[1004.8s - 1009.8s] follow entire graph structure and this
+[1007.3s - 1012.6s] graph structure need not be a directed
+[1009.8s - 1014.3s] or cyclic graph because here my task can
+[1012.6s - 1017.8s] go from up and down it can go here and
+[1014.3s - 1020.3s] there right. So if you see some of the
+[1017.8s - 1022.2s] important differences with respect to
+[1020.3s - 1025.9s] the component here we use components
+[1022.2s - 1029.5s] like prompt lm context we use data
+[1025.9s - 1032.2s] injection we use persistent memory right
+[1029.5s - 1034.0s] here we specifically use nodes edges so
+[1032.2s - 1038.1s] these are nothing but these are
+[1034.0s - 1039.8s] nodes right these are edges edges is
+[1038.1s - 1043.1s] basically used for flow of the
+[1039.8s - 1045.5s] information and when I say stateful here
+[1043.1s - 1047.0s] the persistent memory is quite more
+[1045.5s - 1049.4s] efficient
+[1047.0s - 1051.4s] ient and the best part about this is
+[1049.4s - 1053.2s] that the memory is basically shared
+[1051.4s - 1056.2s] between each and every task any update
+[1053.2s - 1058.0s] that I'm doing in one variable this all
+[1056.2s - 1060.5s] nodes will be able to access those
+[1058.0s - 1063.4s] variables and the persistent memory is
+[1060.5s - 1065.5s] quite efficient in langraph right so if
+[1063.4s - 1067.0s] I talk about agentic AI application you
+[1065.5s - 1069.0s] may use some of the components that are
+[1067.0s - 1071.4s] available in the lang chain but at the
+[1069.0s - 1073.1s] end of the day you are building an
+[1071.4s - 1075.6s] amazing agentic application with the
+[1073.1s - 1077.8s] help of langraph
+[1075.6s - 1079.4s] Right. Other than that there are some
+[1077.8s - 1081.8s] more differences which you can probably
+[1079.4s - 1083.6s] find out over here. So these are some of
+[1081.8s - 1085.4s] the important components. As I said with
+[1083.6s - 1087.8s] respect to persistent memory this is
+[1085.4s - 1089.8s] much more sufficient efficient. Here we
+[1087.8s - 1091.8s] just use a sequential order. Here it
+[1089.8s - 1094.8s] need not be a sequential order to solve
+[1091.8s - 1096.3s] any kind of use cases. Right? And here
+[1094.8s - 1098.1s] we also understood what are the
+[1096.3s - 1101.2s] important components and here what are
+[1098.1s - 1103.0s] the important components. Right? Now the
+[1101.2s - 1105.0s] reason of making this specific video is
+[1103.0s - 1107.8s] to make your understanding very very
+[1105.0s - 1110.9s] strong. If I ask you a question, hey,
+[1107.8s - 1114.2s] when should we probably go ahead and use
+[1110.9s - 1116.5s] fine-tuning or when should we use rag or
+[1114.2s - 1118.2s] when should we probably go ahead and use
+[1116.5s - 1119.8s] uh let's say prompt engineering many
+[1118.2s - 1122.2s] people are not able to clearly say the
+[1119.8s - 1123.7s] differences right if this is the kind of
+[1122.2s - 1126.1s] question I have already made this kind
+[1123.7s - 1128.5s] of videos this videos like see in the
+[1126.1s - 1130.8s] companies now many people more than 80
+[1128.5s - 1132.8s] to 90%age of the people uh in the
+[1130.8s - 1135.1s] companies are implementing efficient rag
+[1132.8s - 1137.3s] systems so here also you'll be able to
+[1135.1s - 1139.3s] see that when we create these are like
+[1137.3s - 1141.4s] traditional rags okay I'll also talk
+[1139.3s - 1143.2s] about traditional rag and agentic rag so
+[1141.4s - 1147.5s] in the traditional rag you basically
+[1143.2s - 1150.1s] create an llm right this let's say this
+[1147.5s - 1153.2s] is my llm powered ai application this
+[1150.1s - 1155.5s] will be interacting with my rag
+[1153.2s - 1158.0s] database right so this will basically be
+[1155.5s - 1160.0s] my rag database and this rag database
+[1158.0s - 1162.8s] will provide the context to the lm to
+[1160.0s - 1165.5s] finally provide the output right here if
+[1162.8s - 1167.4s] my input is basically going on
+[1165.5s - 1170.4s] So this is what is basically happening
+[1167.4s - 1172.4s] in a traditional rag. In the case of
+[1170.4s - 1175.9s] agentic rag, we create
+[1172.4s - 1177.8s] agents. We create AI agents and this
+[1175.9s - 1179.9s] agent is responsible whether I have to
+[1177.8s - 1182.2s] make a call to my database, whether I
+[1179.9s - 1184.2s] have to make the call to my tools or
+[1182.2s - 1186.9s] whether I have to take any kind of other
+[1184.2s - 1188.9s] action. Automatically this AI agents
+[1186.9s - 1191.1s] will be able to take that particular
+[1188.9s - 1192.9s] decision and provide me the response.
+[1191.1s - 1194.6s] And then probably let's say that after
+[1192.9s - 1196.3s] getting this information I need to go
+[1194.6s - 1198.5s] ahead and hit the tool and provide the
+[1196.3s - 1200.8s] get the response. This entire thing is
+[1198.5s - 1202.4s] basically implemented in the form of a
+[1200.8s - 1205.0s] workflow.
+[1202.4s - 1206.6s] Right? So this is how things basically
+[1205.0s - 1208.7s] happen. I'm soon going to make a
+[1206.6s - 1210.2s] detailed video on different types of rag
+[1208.7s - 1211.9s] which is one of the most important
+[1210.2s - 1214.1s] component that is currently required
+[1211.9s - 1216.7s] right now. Right? So I hope you like
+[1214.1s - 1218.4s] this particular video and uh this was
+[1216.7s - 1220.4s] the basic differences between langin and
+[1218.4s - 1221.9s] langraph. In the upcoming videos I'm
+[1220.4s - 1225.7s] also going to discuss about other
+[1221.9s - 1226.9s] frameworks. let's say crew AI agno and
+[1225.7s - 1228.8s] I'm going to probably go ahead and
+[1226.9s - 1231.4s] explain you all the specific things and
+[1228.8s - 1233.7s] these all things we detail explain in
+[1231.4s - 1235.1s] our live batches all the information
+[1233.7s - 1236.4s] will be given in the description of this
+[1235.1s - 1239.0s] particular video you can go ahead and
+[1236.4s - 1240.5s] check it out so yes uh this was it for
+[1239.0s - 1241.9s] my side I'll see you in the next video
+[1240.5s - 1244.3s] have a great day thank you and all take
+[1241.9s - 1244.3s] care bye-bye
